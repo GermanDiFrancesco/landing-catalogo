@@ -1,0 +1,193 @@
+
+Guía del Proyecto y Plan de Arquitectura
+---
+
+### 1. Objetivos y Alcance
+* **Naturaleza del sitio:** Sitio web estático de catálogo institucional / productos para Tecnografic.
+* **Cero Base de Datos:** Los datos residen en un archivo estático estructurado (`data/products.json`).
+* **Estrategia de carga de datos:** Carga inicial ultrarrápida del HTML/CSS de la página. Una vez cargado el DOM (o vía `defer`/`requestIdleCallback`), un script JS obtiene de forma asíncrona `products.json` para alimentar el buscador y el catálogo dinámico.
+* **Fase inicial:** Configurar únicamente la **estructura principal de navegación** y las vistas macro (Inicio y Marcas) sin desarrollar todavía la página de detalle individual del producto.
+
+---
+
+### 2. Estructura de Navegación y Vistas
+
+#### **A. Header Global / Navbar**
+* **Logo corporativo:** Tecnografic (alineado a la izquierda).
+* **Enlaces del menú:**
+  1. `Inicio`
+  2. `Triunfante` (Marca 1)
+  3. `Tintoretto` (Marca 2)
+  4. `Potosi` (Marca 3)
+  5. `Mis hojas` (Marca 4)
+  6. `Puntos de venta`
+  7. `Contacto`
+* **Elemento de búsqueda con lupa:** Maquetado en el header (con el input preparado para escuchar eventos sobre el JSON en segundo plano, sin redirigir aún a detalles).
+
+#### **B. Vista de Inicio (`index.html`)**
+* **Carrusel Superior:** Banners/imágenes principales rotativas con controles previo/siguiente.
+* **Divisor de identidad:** Franja estilizada multicolor.
+* **Grilla 2x2 de Marcas:**
+  * Arriba: Triunfante (izq) | Tintoretto (der)
+  * Abajo: Potosí (izq) | Mis Hojas (der)
+  * Cada cuadrante contiene el logotipo/arte de la marca y enlaza a su respectiva página de marca.
+* **Espaciador.**
+* **Footer institucional:** Redes sociales, datos de contacto (Montevideo 73, teléfono, email) y enlaces secundarios.
+
+#### **C. Vistas de Marca (Ej. `marcas/triunfante.html`, `marcas/tintoretto.html`, etc.)**
+* **Navbar Global:** Idéntico y consistente.
+* **Hero Section de Marca:**
+  * Fondo con color distintivo de la marca.
+  * Izquierda: Logo oficial de la marca.
+  * Derecha: Eslogan ("Diferentes etapas la misma ACTITUD", "HAY EQUIPO. HAY IDEAS", etc.) + texto descriptivo/filosofía.
+* **Layout de Catálogo (2 columnas):**
+  * **Sidebar Izquierdo (Azul / tono de marca):** Lista vertical con los tipos/categorías de productos (Cuadernos Escolares, Repuestos, Mapas, etc.) con flechas `>`.
+  * **Main Content (Derecha):** Área de visualización de los productos filtrados por categoría (imágenes, selector de colores, botón *Ver Más*, tabla con especificaciones de empaque y controles de paginación `<` `>`).
+* **Footer corporativo.**
+
+---
+
+### 3. Modelo de Datos (`data/products.json`)
+Estructura JSON normalizada y limpia para los productos:
+```json
+[
+  {
+    "id": "triunfante-arana-48",
+    "brand": "Triunfante",
+    "brandSlug": "triunfante",
+    "category": "Cuadernos escolares",
+    "categorySlug": "cuadernos-escolares",
+    "name": "Tapa Cartón. Forrado Araña 48 hojas = 16x21cm (A5)",
+    "description": "48 Hojas rayadas. Cosido y pegado. Forro vinílico lavable. Gramaje: 90 grs",
+    "images": [
+      "/assets/img/products/triunfante-arana-1.png"
+    ],
+    "colors": ["#0000FF", "#FF0000", "#008000", "#FFC0CB", "#FFFF00", "#000000"],
+    "specs": {
+      "tamano": "16 x 21 (N°)",
+      "color": "AZUL",
+      "hojas": "48",
+      "estilo": "LIS-RAY-CUA",
+      "caja": "60",
+      "paquete": "10"
+    }
+  }
+]
+```
+
+---
+
+### 4. Propuesta de Stack Tecnológico y Organización de Archivos
+
+* **HTML5:** Semántico y modular.
+* **Tailwind CSS:** 
+  * ¿Prefieres compilar Tailwind mediante CLI local (`npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch`) o mediante un script de build mínimo con `npm` / CDN de Tailwind para desarrollo?
+* **JavaScript:** Vanilla JS modular (ES6), sin frameworks pesados, fácil de mantener por cualquier desarrollador:
+  * `js/main.js`: Lógica de navbar móvil y carrusel.
+  * `js/search.js`: Carga en segundo plano (`fetch('data/products.json')`) e indexación simple en memoria (filtro por nombre/categoría/marca).
+  * `js/catalog.js`: Manejo de tabs de categorías y selección de productos en las vistas de marca.
+
+**Estructura de carpetas propuesta:**
+```text
+tecnografic/
+├── index.html                  # Home
+├── marcas/
+│   ├── triunfante.html
+│   ├── tintoretto.html
+│   ├── potosi.html
+│   └── mis-hojas.html
+├── puntos-de-venta.html
+├── contacto.html
+├── data/
+│   └── products.json           # Base estática de productos
+├── assets/
+│   ├── css/                    # Tailwind / estilos
+│   ├── js/                     # Scripts Vanilla (carousel, search, catalog)
+│   └── img/                    # Logos, banners y fotos de productos
+```
+
+---
+
+¿Estás de acuerdo con estas guías y la estructura planteada? Dime si deseas ajustar algún detalle del stack o la arquitectura para dejarlo confirmado y comenzar de inmediato.
+
+
+Entendido perfectamente. Descartamos Astro por completo y planteamos un **sitio web estático clásico (HTML + Tailwind CSS + Vanilla JS)**, limpio, sin dependencias pesadas y con arquitectura modular.
+
+A continuación presento la **Guía de Arquitectura, Estructura y Navegación del Proyecto** para tu revisión y validación antes de escribir una sola línea de código:
+
+---
+
+### 1. Estructura de Navegación (Navbar Global)
+
+El encabezado contará con el logo oficial a la izquierda y la siguiente barra de navegación responsive:
+
+1. **Nosotros**: Sección/página institucional ("About Us") sobre Tecnografic, trayectoria y filosofía.
+2. **Triunfante**: Catálogo de la Marca 1 (Color primario azul).
+3. **Tintoretto**: Catálogo de la Marca 2 (Color primario rojo/multicolor escolar).
+4. **Potosí**: Catálogo de la Marca 3 (Color primario verde corporativo, tal como se ve en la tercera imagen).
+5. **Mis hojas**: Catálogo de la Marca 4 (Color primario lila/púrpura).
+6. **Puntos de venta**: Página con mapa interactivo de Google Maps API y listado de sucursales/librerías.
+7. **Descargas / Catálogos**: (Nombre propuesto: **"Catálogos"** o **"Descargas"**) espacio para visualizar y descargar PDFs oficiales de catálogos y listas.
+8. **Contacto**: Formulario de contacto, suscripción a newsletter y botón flotante/enlace directo a WhatsApp.
+9. **Buscador (Lupa)**: Input visual en el header con icono de lupa, preparado para conectarse al `products.json` mediante JS asíncrono.
+
+---
+
+### 2. Estructura de Páginas y Secciones
+
+#### A. Página de Inicio (`index.html`)
+- **Header & Navbar:** Logo + enlaces + buscador (preparado).
+- **Hero Carousel:** Carrusel de imágenes de banners principales con controles anterior/siguiente e indicadores.
+- **Divisor visual:** Franja multicolor degradada.
+- **Grilla 2x2 de Marcas:**
+  - 4 bloques de acceso rápido: Triunfante, Tintoretto, Potosí y Mis Hojas (imagen/logo, slogan y enlace a su sección).
+- **Espaciado y Footer:** Datos de contacto, dirección en La Tablada, redes sociales, horarios y créditos.
+
+#### B. Secciones de Marcas (Página de catálogo por marca)
+*(Basadas exactamente en las capturas 2 y 3)*
+- **Header Hero Action:**
+  - Fondo dinámico con el color distintivo de la marca (Azul para Triunfante, Verde para Potosí, Rojo para Tintoretto, Violeta para Mis Hojas).
+  - Lado izquierdo: Logo de la marca.
+  - Lado derecho: Slogan en tipografía destacada + texto de filosofía/descripción.
+- **Layout de Catálogo (2 columnas):**
+  - **Sidebar izquierdo:** Contenedor redondeado con el listado de categorías (ej. *Cuaderno con espiral*, *Block*, *Cuadernos*, *Repuestos*, *Libros Comerciales*, etc.).
+  - **Main Content (derecha):**
+    - Título del producto seleccionado (ej. *Tapa Cartón. Forrado Araña 48 hojas = 16x21cm (A5)*).
+    - Galería de 3 vistas del producto en tarjetas blancas.
+    - Selector/muestra de paleta de colores disponibles + botón "VER MÁS".
+    - Ficha técnica en tabla con columnas: **TAMAÑO | COLOR DE TAPAS | HOJAS | ESTILO | CAJA | PAQUETE**.
+    - Controles de paginación/navegación de productos (`<` y `>`).
+  - **Footer decorativo inferior:** Cenefa/guarda gráfica con el patrón de la marca (como se aprecia al pie de las imágenes 2 y 3).
+
+---
+
+### 3. Gestión de Datos y Buscador (`products.json`)
+
+- **Estrategia de carga diferida (Non-blocking):**
+  1. El HTML y CSS de la página cargan de inmediato para máxima velocidad inicial.
+  2. Mediante JavaScript nativo (`window.addEventListener('load', ...)` o `requestIdleCallback`), se hace un `fetch('./data/products.json')` en segundo plano.
+  3. El array de productos queda cacheado en memoria para alimentar la búsqueda por autocompletado en tiempo real sin congelar la interfaz.
+
+---
+
+### 4. Propuesta de Organización de Archivos
+
+```text
+tecnografic/
+├── index.html                  # Inicio
+├── nosotros.html               # About Us
+├── marca.html                  # Vista de marca reutilizable (o triunfante.html, potosi.html, etc.)
+├── puntos-de-venta.html        # Mapa Google Maps + puntos
+├── catalogos.html              # Sección descargas
+├── contacto.html               # Formulario, newsletter y WhatsApp
+├── assets/
+│   ├── css/
+│   │   └── tailwind.css        # Tailwind compilado o CDN configurado
+│   ├── js/
+│   │   ├── main.js             # Navbar móvil, carrusel y utilidades globales
+│   │   ├── search.js           # Fetch asíncrono de products.json y lógica de búsqueda
+│   │   └── catalog.js          # Lógica interactiva de categorías y ficha de marca
+│   ├── img/                    # Logos, banners y recursos visuales locales
+│   └── data/
+│       ├── products.json       # Datos unificados de catálogo
+│       └── points_of_sale.json # Sucursales / librerías

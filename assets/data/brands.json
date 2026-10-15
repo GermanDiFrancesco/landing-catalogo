@@ -1,0 +1,144 @@
+{
+  "triunfante": {
+    "id": "triunfante",
+    "name": "Triunfante",
+    "navTitle": "Triunfante",
+    "color": "#0062cc",
+    "colorClass": "bg-blue-600",
+    "borderClass": "border-blue-600",
+    "textClass": "text-blue-600",
+    "logo": "assets/img/triunfante-logo.png",
+    "slogan": "Diferentes etapas la misma ACTITUD.",
+    "description": "Nuestra filosofía se basa en un pilar fundamental: ofrecer excelente calidad a un precio justo y accesible para todos. Creemos que cada estudiante, profesional o amante de la escritura merece contar con las herramientas perfectas para plasmar sus metas, proyectos y creatividad.",
+    "categories": [
+      "Cuadernos Escolares",
+      "Repuestos",
+      "Mapas",
+      "Block",
+      "Resmitas",
+      "Cuaderno con espiral",
+      "Cuadernos Especiales",
+      "Línea de dibujo",
+      "Cuadernos con Indice"
+    ],
+    "sampleProduct": {
+      "title": "Tapa Cartón. Forrado Araña 48 hojas = 16x21cm (A5)",
+      "images": [
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
+      ],
+      "colors": ["#FFFF00", "#0000FF", "#800080", "#00FFFF", "#FFC0CB", "#000000", "#FFA500", "#FF0000", "#008000"],
+      "specs": {
+        "tamano": "N° 16x21",
+        "color": "AZUL",
+        "hojas": "48",
+        "estilo": "LIS-RAY-CUA",
+        "caja": "60",
+        "paquete": "10"
+      }
+    }
+  },
+  "tintoretto": {
+    "id": "tintoretto",
+    "name": "Tintoretto",
+    "navTitle": "Tintoretto",
+    "color": "#e02424",
+    "colorClass": "bg-red-600",
+    "borderClass": "border-red-600",
+    "textClass": "text-red-600",
+    "logo": "assets/img/tintoretto-logo.png",
+    "slogan": "HAY EQUIPO. HAY IDEAS.",
+    "description": "ADHESIVOS PLASTILINAS TÉMPERAS ESCOLARES. Nuestra línea creativa diseñada para acompañar a niños y jóvenes en el desarrollo de sus habilidades plásticas y proyectos escolares.",
+    "categories": [
+      "Adhesivos",
+      "Témperas",
+      "Plastilinas"
+    ],
+    "sampleProduct": {
+      "title": "Témperas Escolares en Pomo x 10 colores surtidos",
+      "images": [
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
+      ],
+      "colors": ["#FF0000", "#0000FF", "#FFFF00", "#008000", "#FFA500", "#000000", "#FFFFFF"],
+      "specs": {
+        "tamano": "250 ml",
+        "color": "SURTIDO",
+        "hojas": "—",
+        "estilo": "LAVABLE",
+        "caja": "24",
+        "paquete": "6"
+      }
+    }
+  },
+  "potosi": {
+    "id": "potosi",
+    "name": "Potosí",
+    "navTitle": "Potosi",
+    "color": "#76a41f",
+    "colorClass": "bg-lime-600",
+    "borderClass": "border-lime-600",
+    "textClass": "text-lime-600",
+    "logo": "assets/img/potosi-logo.png",
+    "slogan": "CUADERNOS | REPUESTOS | BLOCK | ACTAS",
+    "description": "Nuestra filosofía se basa en un pilar fundamental: ofrecer excelente calidad a un precio justo y accesible para todos. Creemos que cada estudiante, profesional o amante de la escritura merece contar con las herramientas perfectas para plasmar sus metas, proyectos y creatividad.",
+    "categories": [
+      "Cuaderno con espiral",
+      "Block",
+      "Cuadernos",
+      "Repuestos",
+      "Libros Comerciales"
+    ],
+    "sampleProduct": {
+      "title": "Tapa Cartón. Forrado Araña 48 hojas = 16x21cm (A5)",
+      "images": [
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
+      ],
+      "colors": ["#0000FF", "#FF0000", "#008000", "#FFFF00", "#FFA500", "#FFC0CB", "#00FFFF"],
+      "specs": {
+        "tamano": "N° 16x21",
+        "color": "AZUL",
+        "hojas": "48",
+        "estilo": "LIS-RAY-CUA",
+        "caja": "60",
+        "paquete": "10"
+      }
+    }
+  },
+  "mis-hojas": {
+    "id": "mis-hojas",
+    "name": "Mis Hojas",
+    "navTitle": "Mis hojas",
+    "color": "#8174b8",
+    "colorClass": "bg-purple-600",
+    "borderClass": "border-purple-600",
+    "textClass": "text-purple-600",
+    "logo": "assets/img/mishojas-logo.png",
+    "slogan": "#Estassonmishojas",
+    "description": "Papelería juvenil moderna, pensada para acompañar tus apuntes, notas y momentos con diseño alegre, fresco y la mayor resistencia.",
+    "categories": [
+      "Cuaderno con espiral"
+    ],
+    "sampleProduct": {
+      "title": "Cuaderno Espiral Universitario 84 hojas Rayado",
+      "images": [
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+        "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
+      ],
+      "colors": ["#8174b8", "#FF69B4", "#40E0D0", "#FFD700"],
+      "specs": {
+        "tamano": "A4 21x29.7",
+        "color": "SURTIDO",
+        "hojas": "84",
+        "estilo": "RAYADO",
+        "caja": "48",
+        "paquete": "8"
+      }
+    }
+  }
+}

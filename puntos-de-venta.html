@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puntos de Venta - Tecnografic</title>
+  <link rel="icon" href="https://www.tecnograficsa.com.ar/docs/5.1/assets/img/favicons/favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-white text-gray-800 flex flex-col min-h-screen">
+
+  <!-- NAVBAR GLOBAL -->
+  <header class="w-full bg-white border-b border-gray-100 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20 md:h-24 gap-4">
+        <a href="index.html" class="flex-shrink-0 flex items-center transition-transform hover:opacity-95" aria-label="Tecnografic Inicio">
+          <img src="https://www.tecnograficsa.com.ar/frontend/img/logo.png" alt="Tecnografic" class="h-10 sm:h-12 md:h-14 w-auto object-contain">
+        </a>
+        <nav class="hidden lg:flex items-center space-x-1 xl:space-x-2">
+          <a href="nosotros.html" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Nosotros</a>
+          <a href="marca.html?b=triunfante" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Triunfante</a>
+          <a href="marca.html?b=tintoretto" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Tintoretto</a>
+          <a href="marca.html?b=potosi" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Potosi</a>
+          <a href="marca.html?b=mis-hojas" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Mis hojas</a>
+          <a href="puntos-de-venta.html" class="px-2.5 py-2 text-sm font-extrabold text-[#0062cc] transition-colors">Puntos de venta</a>
+          <a href="catalogos.html" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Catálogos</a>
+          <a href="contacto.html" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Contacto</a>
+        <div class="flex lg:hidden">
+          <button type="button" id="mobile-menu-btn" class="p-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none" aria-label="Abrir menú">
+            <i class="fa-solid fa-bars text-2xl" id="mobile-menu-icon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Barra de búsqueda debajo del Navbar -->
+    <div class="border-t border-gray-100 bg-[#f8fafc] py-2 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto flex justify-end">
+        <div class="relative w-full sm:w-64 md:w-80">
+          <input type="text" id="global-search-input" placeholder="Buscar producto..." class="w-full bg-[#dbe2ea] text-gray-700 text-sm pl-4 pr-10 py-1.5 rounded-full outline-none focus:ring-2 focus:ring-blue-500 transition-all placeholder-gray-500 font-medium">
+          <button type="button" class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-blue-600 focus:outline-none" aria-label="Buscar">
+            <i class="fa-solid fa-magnifying-glass text-sm"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden lg:hidden border-t border-gray-100 bg-white shadow-lg" id="mobile-menu">
+      <div class="px-4 pt-3 pb-5 space-y-2">
+        <a href="nosotros.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Nosotros</a>
+        <a href="marca.html?b=triunfante" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Triunfante</a>
+        <a href="marca.html?b=tintoretto" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Tintoretto</a>
+        <a href="marca.html?b=potosi" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Potosi</a>
+        <a href="marca.html?b=mis-hojas" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Mis hojas</a>
+        <a href="puntos-de-venta.html" class="block px-3 py-2 rounded-lg text-base font-bold text-blue-600 bg-blue-50">Puntos de venta</a>
+        <a href="catalogos.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Catálogos</a>
+        <a href="contacto.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PUNTOS DE VENTA -->
+  <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <span class="text-xs uppercase tracking-wider text-blue-600 font-extrabold block mb-2">Presencia Federal</span>
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-[#0047a0] mb-4">Puntos de Venta</h1>
+      <p class="text-gray-600 leading-relaxed">
+        Encontrá nuestros cuadernos, repuestos y artículos escolares en librerías y comercios distribuidores de todo el país.
+      </p>
+    </div>
+
+    <!-- Contenedor del Mapa de Google API -->
+    <div class="bg-gray-50 border border-gray-200 rounded-3xl overflow-hidden shadow-sm">
+      <div class="p-8 text-center bg-blue-50/50 border-b border-gray-200">
+        <div class="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-3 text-2xl shadow-md">
+          <i class="fa-solid fa-map-location-dot"></i>
+        </div>
+        <h3 class="text-xl font-bold text-gray-900 mb-1">Mapa </h3>
+       
+      </div>
+      
+      <!-- Placeholder de mapa -->
+      <div class="h-96 w-full bg-gray-200 flex items-center justify-center text-gray-400">
+        <span class="flex items-center space-x-2 text-sm font-semibold">
+          <i class="fa-regular fa-map text-lg"></i>
+          <span>Contenedor de Google Maps </span>
+        </span>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#1b2a4a] text-gray-300 pt-12 pb-8 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-8 border-b border-gray-700/60">
+        <div class="md:col-span-4 flex flex-col justify-between">
+          <div class="mb-6">
+            <img src="https://www.tecnograficsa.com.ar/frontend/img/logo-footer.png" alt="Tecnografic" class="h-12 w-auto mb-4 brightness-110">
+            <p class="text-sm text-gray-400">Montevideo 73 | La Tablada Buenos Aires [B1766CPC]</p>
+          </div>
+          <div>
+            <span class="text-xs uppercase tracking-wider text-gray-400 font-semibold block mb-2">Seguinos</span>
+            <div class="flex space-x-3">
+              <a href="https://www.facebook.com/profile.php?id=61582312321217" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-blue-600/30 hover:bg-blue-600 flex items-center justify-center text-white"><i class="fa-brands fa-facebook-f text-sm"></i></a>
+              <a href="https://www.instagram.com/tecnografic.siempre/" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-pink-600/30 hover:bg-pink-600 flex items-center justify-center text-white"><i class="fa-brands fa-instagram text-sm"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-5">
+          <h3 class="text-white font-bold text-lg mb-4">Contáctenos</h3>
+          <ul class="space-y-3 text-sm text-gray-300">
+            <li class="flex items-center"><i class="fa-solid fa-phone text-[#00a3e0] mr-3 w-4"></i><span>+54 11 6076-0400</span></li>
+            <li class="flex items-center"><i class="fa-solid fa-envelope text-[#00a3e0] mr-3 w-4"></i><a href="mailto:info@tecnograficsa.com.ar" class="hover:text-white">info@tecnograficsa.com.ar</a></li>
+          </ul>
+        </div>
+        <div class="md:col-span-3">
+          <h3 class="text-white font-bold text-lg mb-4">Navegación</h3>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="nosotros.html" class="hover:text-white">Nosotros</a></li>
+            <li><a href="puntos-de-venta.html" class="hover:text-white">Puntos de venta</a></li>
+            <li><a href="catalogos.html" class="hover:text-white">Catálogos</a></li>
+            <li><a href="contacto.html" class="hover:text-white">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pt-6 text-center sm:text-left text-xs text-gray-400">
+        <p>© Copyright 2026 - Tecnografic® | Todos los Derechos Reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "p-1",
+    "name": "Cuaderno Tapa Cartón Forrado Araña 48 hojas A5",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuadernos Escolares",
+    "description": "48 Hojas rayadas. Cosido y pegado. Forro vinílico lavable. Gramaje 90 grs.",
+    "colors": ["#0000FF", "#FF0000", "#008000", "#FFFF00"],
+    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "specs": { "tamano": "N° 16x21", "hojas": "48", "caja": "60" }
+  },
+  {
+    "id": "p-2",
+    "name": "Repuesto Escolar N°3 96 hojas Rayado",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Repuestos",
+    "description": "Hojas de fibra seleccionada con margen reforzado.",
+    "colors": ["#FFFFFF"],
+    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "specs": { "tamano": "N° 3", "hojas": "96", "caja": "20" }
+  },
+  {
+    "id": "p-3",
+    "name": "Témperas Escolares Surtidas Pomo",
+    "brand": "tintoretto",
+    "brandName": "Tintoretto",
+    "category": "Témperas",
+    "description": "Colores vivos y lavables aptos para uso escolar.",
+    "colors": ["#FF0000", "#0000FF", "#FFFF00", "#008000"],
+    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "specs": { "tamano": "250 ml", "hojas": "—", "caja": "24" }
+  },
+  {
+    "id": "p-4",
+    "name": "Plastilina Escolar no tóxica x 10 barras",
+    "brand": "tintoretto",
+    "brandName": "Tintoretto",
+    "category": "Plastilinas",
+    "description": "Fórmula ultra suave que no mancha y mantiene la plasticidad.",
+    "colors": ["#FFA500", "#800080", "#008000"],
+    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "specs": { "tamano": "Estuche x 10", "hojas": "—", "caja": "36" }
+  },
+  {
+    "id": "p-5",
+    "name": "Cuaderno Potosí Tapa Dura Araña 48 hojas",
+    "brand": "potosi",
+    "brandName": "Potosí",
+    "category": "Cuadernos",
+    "description": "El clásico cuaderno Potosí de máxima durabilidad para la escuela y oficina.",
+    "colors": ["#FF0000", "#0000FF", "#008000"],
+    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "specs": { "tamano": "N° 16x21", "hojas": "48", "caja": "60" }
+  },
+  {
+    "id": "p-6",
+    "name": "Libro de Actas Comercial 200 folios",
+    "brand": "potosi",
+    "brandName": "Potosí",
+    "category": "Libros Comerciales",
+    "description": "Encuadernación cosida con tapas reforzadas y folios numerados.",
+    "colors": ["#000000"],
+    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "specs": { "tamano": "Oficio", "hojas": "200 folios", "caja": "10" }
+  },
+  {
+    "id": "p-7",
+    "name": "Cuaderno Espiral Universitario Mis Hojas 84 hojas",
+    "brand": "mis-hojas",
+    "brandName": "Mis Hojas",
+    "category": "Cuaderno con espiral",
+    "description": "Diseños modernos y hojas micropuntilladas con perforaciones.",
+    "colors": ["#8174b8", "#FF69B4", "#40E0D0"],
+    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "specs": { "tamano": "A4", "hojas": "84", "caja": "48" }
+  }
+]
