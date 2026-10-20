@@ -15,3 +15,14 @@ body {
   background-position: bottom center;
   background-size: contain;
 }
+.border-gold {
+  border-color: #d4a340;
+}
+
+.text-gold {
+  color: #d4a340;
+}
+
+.bg-hero-custom {
+  background-color: #14233c;
+}

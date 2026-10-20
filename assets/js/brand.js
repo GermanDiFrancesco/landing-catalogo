@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 function renderBrandPage(brand) {
-  // 1. Título de la página
-  document.title = `${brand.name} - Catálogo Tecnografic`;
+  // 1. Título de la página (siempre 'Tecnografic')
+  document.title = 'Tecnografic';
 
   // 2. Hero Action
   const heroContainer = document.getElementById('brand-hero-section');

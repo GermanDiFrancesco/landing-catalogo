@@ -7,7 +7,8 @@
     "colorClass": "bg-blue-600",
     "borderClass": "border-blue-600",
     "textClass": "text-blue-600",
-    "logo": "assets/img/triunfante-logo.png",
+    "logo": "assets/img/marcas-logos/Triunfante blanco logo.png",
+    "logoAzul": "assets/img/marcas-logos/Triunfante azul logo.png",
     "slogan": "Diferentes etapas la misma ACTITUD.",
     "description": "Nuestra filosofía se basa en un pilar fundamental: ofrecer excelente calidad a un precio justo y accesible para todos. Creemos que cada estudiante, profesional o amante de la escritura merece contar con las herramientas perfectas para plasmar sus metas, proyectos y creatividad.",
     "categories": [
@@ -47,7 +48,7 @@
     "colorClass": "bg-red-600",
     "borderClass": "border-red-600",
     "textClass": "text-red-600",
-    "logo": "assets/img/tintoretto-logo.png",
+    "logo": "assets/img/marcas-logos/Tintoretto logo.png",
     "slogan": "HAY EQUIPO. HAY IDEAS.",
     "description": "ADHESIVOS PLASTILINAS TÉMPERAS ESCOLARES. Nuestra línea creativa diseñada para acompañar a niños y jóvenes en el desarrollo de sus habilidades plásticas y proyectos escolares.",
     "categories": [
@@ -81,7 +82,7 @@
     "colorClass": "bg-lime-600",
     "borderClass": "border-lime-600",
     "textClass": "text-lime-600",
-    "logo": "assets/img/potosi-logo.png",
+    "logo": "assets/img/marcas-logos/Potosi logo.png",
     "slogan": "CUADERNOS | REPUESTOS | BLOCK | ACTAS",
     "description": "Nuestra filosofía se basa en un pilar fundamental: ofrecer excelente calidad a un precio justo y accesible para todos. Creemos que cada estudiante, profesional o amante de la escritura merece contar con las herramientas perfectas para plasmar sus metas, proyectos y creatividad.",
     "categories": [
@@ -117,7 +118,7 @@
     "colorClass": "bg-purple-600",
     "borderClass": "border-purple-600",
     "textClass": "text-purple-600",
-    "logo": "assets/img/mishojas-logo.png",
+    "logo": "assets/img/marcas-logos/Mis hojas logo.png",
     "slogan": "#Estassonmishojas",
     "description": "Papelería juvenil moderna, pensada para acompañar tus apuntes, notas y momentos con diseño alegre, fresco y la mayor resistencia.",
     "categories": [

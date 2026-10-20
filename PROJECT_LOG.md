@@ -49,4 +49,38 @@ Registro cronológico de tareas, decisiones técnicas, modificaciones y avances 
   - Se unió visualmente el sidebar al header hero (eliminando el padding superior de la sección que lo separaba).
   - El padding de la sección del catálogo ahora se aplica exclusivamente en el contenedor principal (`main content`).
 
+---
+
+## [2026-10-16] - Fase 1.2: Refactor de Header Desktop/Mobile, Logos de Marcas y Estilos de Home
+- [x] **Título unificado:** Se fijó el `<title>` como `'Tecnografic'` en todas las vistas (`index.html`, `marca.html`, `nosotros.html`, `puntos-de-venta.html`, `catalogos.html`, `contacto.html`) y en la lógica dinámica de `assets/js/brand.js`.
+- [x] **Header con buscador integrado en Desktop:**
+  - Logo Tecnografic a la izquierda (`assets/img/marcas-logos/Tecnografic logo.png`).
+  - Contenedor derecho con la barra de enlaces (`<nav>`) arriba y el buscador alineado a la derecha debajo, visible únicamente en pantallas grandes (`lg:flex`).
+  - El buscador inferior fuera del navbar se reservó y configuró solo para móviles (`lg:hidden`).
+- [x] **Carrusel Hero:** Se integró `assets/img/carousel-1.png` como primera diapositiva del carrusel de inicio.
+- [x] **Divisor Home:** Se reemplazó el gradiente CSS por la imagen oficial `assets/img/colours-div.png`.
+- [x] **Logos de marcas actualizados (`assets/img/marcas-logos/`):**
+  - Triunfante en Home: `Triunfante azul logo.png` (sobre fondo blanco).
+  - Triunfante en Marca: `Triunfante blanco logo.png` (sobre fondo azul corporativo).
+  - Tintoretto: `Tintoretto logo.png`.
+  - Potosí: `Potosi logo.png`.
+  - Mis Hojas: `Mis hojas logo.png`.
+- [x] **Grilla 2x2 de Marcas:**
+  - Se removieron los bordes redondeados (`rounded-none`).
+  - Se suavizó el hover (sombra sutil `shadow-[0_1px_3px_rgba(0,0,0,0.05)] hover:shadow-md` y ligera opacidad en el logo `group-hover:opacity-90`, sin desplazamientos bruscos).
+
+---
+
+## [2026-10-20] - Fase 1.3: Restauración del Buscador debajo del Navbar en Web y Mobile
+- [x] **Restauración del Navbar en una sola fila (Desktop):**
+  - Se retiró el contenedor anidado vertical del header en desktop.
+  - El logo y los enlaces de navegación vuelven a coexistir en una única fila horizontal limpia y espaciosa (`hidden lg:flex items-center space-x-1 xl:space-x-2`).
+- [x] **Buscador debajo del Navbar visible en todos los tamaños:**
+  - Se removió la clase `lg:hidden` de la franja de búsqueda inferior (`border-t border-gray-100 bg-[#f8fafc] py-2 px-4 sm:px-6 lg:px-8`).
+  - Ahora el buscador `#global-search-input` se ubica debajo del Navbar tanto en versión web/desktop como en móvil, alineado a la derecha.
+  - Aplicado de manera uniforme en: `index.html`, `marca.html`, `nosotros.html`, `puntos-de-venta.html`, `catalogos.html` y `contacto.html`.
+- [x] **Limpieza en scripts:**
+  - Se simplificó `initSearchInput()` en `assets/js/main.js` para enlazar directamente el evento del buscador `#global-search-input`.
+
+
 

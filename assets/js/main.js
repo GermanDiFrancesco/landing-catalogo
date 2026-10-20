@@ -89,15 +89,16 @@ function initHeroCarousel() {
 
 // 3. Buscador visual (Previsión para búsqueda con products.json)
 function initSearchInput() {
-  const searchInput = document.getElementById('global-search-input');
-  if (!searchInput) return;
+  const input = document.getElementById('global-search-input');
+  if (!input) return;
 
-  searchInput.addEventListener('keydown', (e) => {
+  input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
-      const term = searchInput.value.trim();
+      const term = input.value.trim();
       if (term) {
         console.log('Buscar producto:', term);
       }
     }
   });
 }
+

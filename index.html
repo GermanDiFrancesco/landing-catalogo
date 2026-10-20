@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tecnografic - Fabricante y Distribuidor de Artículos Escolares y Papelería</title>
+  <title>Tecnografic</title>
   <meta name="description" content="Tecnografic: Fabricante líder de cuadernos, repuestos y artículos escolares con marcas como Triunfante, Tintoretto, Potosí y Mis Hojas.">
   <link rel="icon" href="https://www.tecnograficsa.com.ar/docs/5.1/assets/img/favicons/favicon.ico">
   
@@ -18,28 +18,28 @@
 
   <!-- NAVBAR GLOBAL -->
   <header class="w-full bg-white border-b border-gray-100 sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-20 md:h-24 gap-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+      <div class="flex items-center justify-between gap-4">
         
-        <!-- Logo -->
-        <a href="index.html" class="flex-shrink-0 flex items-center transition-transform hover:opacity-95" aria-label="Tecnografic Inicio">
+        <!-- Logo Tecnografic (lado izquierdo) -->
+        <a href="index.html" class="flex-shrink-0 flex items-center transition-opacity hover:opacity-90" aria-label="Tecnografic Inicio">
           <img 
-            src="https://www.tecnograficsa.com.ar/frontend/img/logo.png" 
+            src="assets/img/marcas-logos/Tecnografic logo.png" 
             alt="Tecnografic" 
-            class="h-10 sm:h-12 md:h-14 w-auto object-contain"
+            class="h-12 md:h-14 lg:h-20 w-auto object-contain"
           >
         </a>
 
         <!-- Desktop Navigation Items -->
         <nav class="hidden lg:flex items-center space-x-1 xl:space-x-2">
-          <a href="nosotros.html" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Nosotros</a>
-          <a href="marca.html?b=triunfante" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Triunfante</a>
-          <a href="marca.html?b=tintoretto" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Tintoretto</a>
-          <a href="marca.html?b=potosi" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Potosi</a>
-          <a href="marca.html?b=mis-hojas" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Mis hojas</a>
-          <a href="puntos-de-venta.html" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Puntos de venta</a>
-          <a href="catalogos.html" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Catálogos</a>
-          <a href="contacto.html" class="px-2.5 py-2 text-sm font-bold text-[#1d3557] hover:text-[#0062cc] transition-colors">Contacto</a>
+          <a href="nosotros.html" class="px-2.5 py-1 text-sm font-bold text-[#0062cc] hover:text-[#1d3557] transition-colors">Nosotros</a>
+          <a href="marca.html?b=triunfante" class="px-2.5 py-1 text-sm font-bold text-[#0062cc] hover:text-[#1d3557] transition-colors">Triunfante</a>
+          <a href="marca.html?b=tintoretto" class="px-2.5 py-1 text-sm font-bold text-[#0062cc] hover:text-[#1d3557] transition-colors">Tintoretto</a>
+          <a href="marca.html?b=potosi" class="px-2.5 py-1 text-sm font-bold text-[#0062cc] hover:text-[#1d3557] transition-colors">Potosi</a>
+          <a href="marca.html?b=mis-hojas" class="px-2.5 py-1 text-sm font-bold text-[#0062cc] hover:text-[#1d3557] transition-colors">Mis hojas</a>
+          <a href="puntos-de-venta.html" class="px-2.5 py-1 text-sm font-bold text-[#0062cc] hover:text-[#1d3557] transition-colors">Puntos de venta</a>
+          <a href="catalogos.html" class="px-2.5 py-1 text-sm font-bold text-[#0062cc] hover:text-[#1d3557] transition-colors">Catálogos</a>
+          <a href="contacto.html" class="px-2.5 py-1 text-sm font-bold text-[#0062cc] hover:text-[#1d3557] transition-colors">Contacto</a>
         </nav>
 
         <!-- Botón Menú Móvil -->
@@ -60,7 +60,7 @@
     <!-- Barra de búsqueda debajo del Navbar -->
     <div class="border-t border-gray-100 bg-[#f8fafc] py-2 px-4 sm:px-6 lg:px-8">
       <div class="max-w-7xl mx-auto flex justify-end">
-        <div class="relative w-full sm:w-64 md:w-80">
+        <div class="relative w-full sm:w-64">
           <input 
             type="text" 
             id="global-search-input"
@@ -71,20 +71,19 @@
             <i class="fa-solid fa-magnifying-glass text-sm"></i>
           </button>
         </div>
-      </div>
     </div>
 
     <!-- Menú Desplegable Móvil -->
     <div class="hidden lg:hidden border-t border-gray-100 bg-white shadow-lg" id="mobile-menu">
       <div class="px-4 pt-3 pb-5 space-y-2">
-        <a href="nosotros.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Nosotros</a>
-        <a href="marca.html?b=triunfante" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Triunfante</a>
-        <a href="marca.html?b=tintoretto" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Tintoretto</a>
-        <a href="marca.html?b=potosi" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Potosi</a>
-        <a href="marca.html?b=mis-hojas" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Mis hojas</a>
-        <a href="puntos-de-venta.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Puntos de venta</a>
-        <a href="catalogos.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Catálogos</a>
-        <a href="contacto.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#1d3557] hover:bg-blue-50 hover:text-blue-600">Contacto</a>
+        <a href="nosotros.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:bg-blue-50 hover:text-blue-600">Nosotros</a>
+        <a href="marca.html?b=triunfante" class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:bg-blue-50 hover:text-blue-600">Triunfante</a>
+        <a href="marca.html?b=tintoretto" class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:bg-blue-50 hover:text-blue-600">Tintoretto</a>
+        <a href="marca.html?b=potosi" class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:bg-blue-50 hover:text-blue-600">Potosi</a>
+        <a href="marca.html?b=mis-hojas" class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:bg-blue-50 hover:text-blue-600">Mis hojas</a>
+        <a href="puntos-de-venta.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:bg-blue-50 hover:text-blue-600">Puntos de venta</a>
+        <a href="catalogos.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:bg-blue-50 hover:text-blue-600">Catálogos</a>
+        <a href="contacto.html" class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:bg-blue-50 hover:text-blue-600">Contacto</a>
       </div>
     </div>
   </header>
@@ -92,11 +91,11 @@
   <!-- CONTENIDO PRINCIPAL (MAIN) -->
   <main class="flex-grow">
     
-    <!-- 1. HERO CAROUSEL -->
+    <!-- 1. HERO CAROUSEL (carousel-1.png como primera imagen) -->
     <section class="w-full relative overflow-hidden bg-gray-100 group" id="hero-carousel">
       <div class="flex transition-transform duration-500 ease-in-out" id="carousel-track">
         <div class="min-w-full flex-shrink-0">
-          <img src="https://www.tecnograficsa.com.ar/img/banners/img_WxaWRmjU3uhgiEjnqeOzFedbEvkeAj45UvxNtdS6WPmoZVaoWQ.png" alt="Banner Tecnografic 1" class="w-full h-auto max-h-[500px] object-cover">
+          <img src="assets/img/carousel-1.png" alt="Banner Tecnografic 1" class="w-full h-auto max-h-[500px] object-cover">
         </div>
         <div class="min-w-full flex-shrink-0">
           <img src="https://www.tecnograficsa.com.ar/img/banners/img_cqZVlv3OIodINAUtwh21JwgxZvqUBg5fIzeky6tpwHhSH3eAqV.png" alt="Banner Tecnografic 2" class="w-full h-auto max-h-[500px] object-cover">
@@ -126,46 +125,46 @@
       </div>
     </section>
 
-    <!-- 2. DIVISOR MULTICOLOR -->
+    <!-- 2. DIVISOR DE HOME (colours-div.png) -->
     <div class="w-full flex justify-center py-6 sm:py-8">
-      <div class="h-1.5 w-80 sm:w-96 rounded-full bg-gradient-to-r from-emerald-400 via-pink-500 via-amber-400 to-blue-500"></div>
+      <img src="assets/img/colours-div.png" alt="Divisor multicolor" class="max-w-md sm:max-w-lg w-auto h-auto object-contain">
     </div>
 
-    <!-- 3. GRILLA 2x2 DE MARCAS -->
+    <!-- 3. GRILLA 2x2 DE MARCAS (Sin bordes redondeados y con hover sutil) -->
     <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
         
-        <!-- Marca 1: Triunfante -->
-        <a href="marca.html?b=triunfante" class="group bg-white rounded-3xl p-6 sm:p-10 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col items-center text-center hover:-translate-y-1">
+        <!-- Marca 1: Triunfante (Logo Azul en fondo blanco) -->
+        <a href="marca.html?b=triunfante" class="group bg-white rounded-none p-6 sm:p-10 border border-gray-100 shadow-[0_1px_3px_rgba(0,0,0,0.05)] hover:shadow-md transition-shadow duration-200 flex flex-col items-center text-center">
           <div class="h-36 sm:h-44 w-full flex items-center justify-center mb-6">
-            <img src="assets/img/triunfante-logo.png" alt="Triunfante" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300">
+            <img src="assets/img/marcas-logos/Triunfante azul logo.png" alt="Triunfante" class="max-h-full max-w-full object-contain transition-opacity duration-200 group-hover:opacity-90">
           </div>
           <p class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-blue-600 mb-2">Diferentes etapas la misma ACTITUD.</p>
           <span class="text-xs text-gray-400 font-bold group-hover:text-blue-600 transition-colors">Ver catálogo &rarr;</span>
         </a>
 
         <!-- Marca 2: Tintoretto -->
-        <a href="marca.html?b=tintoretto" class="group bg-white rounded-3xl p-6 sm:p-10 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col items-center text-center hover:-translate-y-1">
+        <a href="marca.html?b=tintoretto" class="group bg-white rounded-none p-6 sm:p-10 border border-gray-100 shadow-[0_1px_3px_rgba(0,0,0,0.05)] hover:shadow-md transition-shadow duration-200 flex flex-col items-center text-center">
           <div class="h-36 sm:h-44 w-full flex items-center justify-center mb-6">
-            <img src="assets/img/tintoretto-logo.png" alt="Tintoretto" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300">
+            <img src="assets/img/marcas-logos/Tintoretto logo.png" alt="Tintoretto" class="max-h-full max-w-full object-contain transition-opacity duration-200 group-hover:opacity-90">
           </div>
           <p class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-red-600 mb-2">HAY EQUIPO. HAY IDEAS.</p>
           <span class="text-xs text-gray-400 font-bold group-hover:text-red-600 transition-colors">Ver catálogo &rarr;</span>
         </a>
 
         <!-- Marca 3: Potosí -->
-        <a href="marca.html?b=potosi" class="group bg-white rounded-3xl p-6 sm:p-10 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col items-center text-center hover:-translate-y-1">
+        <a href="marca.html?b=potosi" class="group bg-white rounded-none p-6 sm:p-10 border border-gray-100 shadow-[0_1px_3px_rgba(0,0,0,0.05)] hover:shadow-md transition-shadow duration-200 flex flex-col items-center text-center">
           <div class="h-36 sm:h-44 w-full flex items-center justify-center mb-6">
-            <img src="assets/img/potosi-logo.png" alt="Potosí" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300">
+            <img src="assets/img/marcas-logos/Potosi logo.png" alt="Potosí" class="max-h-full max-w-full object-contain transition-opacity duration-200 group-hover:opacity-90">
           </div>
           <p class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-lime-600 mb-2">CUADERNOS | REPUESTOS | BLOCK | ACTAS</p>
           <span class="text-xs text-gray-400 font-bold group-hover:text-lime-600 transition-colors">Ver catálogo &rarr;</span>
         </a>
 
         <!-- Marca 4: Mis Hojas -->
-        <a href="marca.html?b=mis-hojas" class="group bg-white rounded-3xl p-6 sm:p-10 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col items-center text-center hover:-translate-y-1">
+        <a href="marca.html?b=mis-hojas" class="group bg-white rounded-none p-6 sm:p-10 border border-gray-100 shadow-[0_1px_3px_rgba(0,0,0,0.05)] hover:shadow-md transition-shadow duration-200 flex flex-col items-center text-center">
           <div class="h-36 sm:h-44 w-full flex items-center justify-center mb-6">
-            <img src="assets/img/mishojas-logo.png" alt="Mis Hojas" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300">
+            <img src="assets/img/marcas-logos/Mis hojas logo.png" alt="Mis Hojas" class="max-h-full max-w-full object-contain transition-opacity duration-200 group-hover:opacity-90">
           </div>
           <p class="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-purple-600 mb-2">#Estassonmishojas</p>
           <span class="text-xs text-gray-400 font-bold group-hover:text-purple-600 transition-colors">Ver catálogo &rarr;</span>
@@ -232,7 +231,7 @@
           <ul class="space-y-2 text-sm text-gray-400">
             <li><a href="nosotros.html" class="hover:text-white transition-colors">Nosotros</a></li>
             <li><a href="puntos-de-venta.html" class="hover:text-white transition-colors">Puntos de venta</a></li>
-            <li><a href="catalogos.html" class="hover:text-white transition-colors">Catálogos</a></li>
+            <li><a href="catalogos.html" class="hover:text-white transition-colors">Catalogos</a></li>
             <li><a href="contacto.html" class="hover:text-white transition-colors">Contacto</a></li>
           </ul>
         </div>
