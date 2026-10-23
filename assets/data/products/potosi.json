@@ -1,0 +1,1057 @@
+{
+  "brand": "potosi",
+  "brandName": "Potosí",
+  "categories": [
+    {
+      "id": "cuaderno-con-espiral",
+      "name": "Cuaderno con Espiral",
+      "products": [
+        {
+          "id": "linea-liso-tapa-flexible-con-espiral",
+          "name": "Línea Liso Tapa Flexible con Espiral",
+          "subcategory": "Tapa Flexible con Espiral",
+          "description": "Cuaderno con espiral y tapa cartulina en colores lisos, en formatos 29,7cm y A5.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_0MTPCDSq5gUqgspHzBpbYvd2ELBV2LZujpjxmLVLDXLbbyCPiy.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_0MTPCDSq5gUqgspHzBpbYvd2ELBV2LZujpjxmLVLDXLbbyCPiy.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_wsLMYSNV6AEVd3jAVTeVMLyje5uBc6xJNrwKTSrah6Y0u3l7Rg.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_0P8T1qiC2QtdQ8ZUXVTzAIcaX4FoPE6XtjJ05foS50lUowh4BY.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_fqVJG7YwwBSskePia47vtXa52YeWIpCSi7kiK5kmEReKaiCJoO.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "29,7cm",
+              "A5"
+            ],
+            "hojas": [
+              40,
+              80
+            ],
+            "tipos_hoja": [
+              "Rayado"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-ESP-LISO-40-R",
+              "tamano": "29,7cm",
+              "hojas": 40,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_0MTPCDSq5gUqgspHzBpbYvd2ELBV2LZujpjxmLVLDXLbbyCPiy.png",
+              "specs": {
+                "caja": "80 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos",
+                "gramaje": "57grs"
+              }
+            },
+            {
+              "sku": "POT-ESP-LISO-80-R",
+              "tamano": "29,7cm",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_wsLMYSNV6AEVd3jAVTeVMLyje5uBc6xJNrwKTSrah6Y0u3l7Rg.png",
+              "specs": {
+                "caja": "40 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "57grs"
+              }
+            },
+            {
+              "sku": "POT-ESP-LISO-40-R",
+              "tamano": "A5",
+              "hojas": 40,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_0P8T1qiC2QtdQ8ZUXVTzAIcaX4FoPE6XtjJ05foS50lUowh4BY.png",
+              "specs": {
+                "caja": "120 un.",
+                "paquete": "15 un.",
+                "palet": "50 bultos",
+                "gramaje": "57grs"
+              }
+            },
+            {
+              "sku": "POT-ESP-LISO-80-R",
+              "tamano": "A5",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_fqVJG7YwwBSskePia47vtXa52YeWIpCSi7kiK5kmEReKaiCJoO.png",
+              "specs": {
+                "caja": "80 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos",
+                "gramaje": "57grs"
+              }
+            }
+          ]
+        },
+        {
+          "id": "linea-degrade-tapa-flexible-con-espiral",
+          "name": "Línea Degradé Tapa Flexible con Espiral",
+          "subcategory": "Tapa Flexible con Espiral",
+          "description": "Cuaderno espiralado tapa cartulina diseño degradé 29,7cm de 80 hojas.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_0TPrfZ0kZGMJ0BVtvDvgUbxQADGgWlxYxi44jK0J6hSEiOVZg2.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_0TPrfZ0kZGMJ0BVtvDvgUbxQADGgWlxYxi44jK0J6hSEiOVZg2.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "29,7cm"
+            ],
+            "hojas": [
+              80
+            ],
+            "tipos_hoja": [
+              "Rayado"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-ESP-DEG-80-R",
+              "tamano": "29,7cm",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_0TPrfZ0kZGMJ0BVtvDvgUbxQADGgWlxYxi44jK0J6hSEiOVZg2.png",
+              "specs": {
+                "caja": "40 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "57grs"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blocks",
+      "name": "Blocks",
+      "products": [
+        {
+          "id": "block-oficio-perforado",
+          "name": "Block Oficio Perforado",
+          "subcategory": "Block Perforado",
+          "description": "Block perforado tamaño oficio de 40 y 80 hojas cuadriculadas, lisas y rayadas.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_gs2JvxdY7WU2EjKoFs1lHHH8NJzhvEnGudxAyALiQVRf63PmnW.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_gs2JvxdY7WU2EjKoFs1lHHH8NJzhvEnGudxAyALiQVRf63PmnW.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_C4XBcSQkOaIvqBnE2iAJjCmyyGrZo1qzxizfDUoeqY3Lbni17H.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "Oficio"
+            ],
+            "hojas": [
+              40,
+              80
+            ],
+            "tipos_hoja": [
+              "Rayado"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-BLK-OFI-40-R",
+              "tamano": "Oficio",
+              "hojas": 40,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_gs2JvxdY7WU2EjKoFs1lHHH8NJzhvEnGudxAyALiQVRf63PmnW.png",
+              "specs": {
+                "caja": "80 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos",
+                "gramaje": "57grs"
+              }
+            },
+            {
+              "sku": "POT-BLK-OFI-80-R",
+              "tamano": "Oficio",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_C4XBcSQkOaIvqBnE2iAJjCmyyGrZo1qzxizfDUoeqY3Lbni17H.png",
+              "specs": {
+                "caja": "50 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "57grs"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuadernos",
+      "name": "Cuadernos",
+      "products": [
+        {
+          "id": "cuaderno-tapa-flexible",
+          "name": "Cuaderno Tapa Flexible",
+          "subcategory": "Tapa Flexible",
+          "description": "Cuaderno escolar clásico de tapa flexible en 24, 48 y 84 hojas.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_fynMLxeIRauG71tm10eXfDTTIGcJOKHxyLx8OyDEvUhjwfF6il.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_fynMLxeIRauG71tm10eXfDTTIGcJOKHxyLx8OyDEvUhjwfF6il.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_FkRqYeEZCgVNvRTTEQFzyaofAxbfDOpJ7L1ZfsHuLNVmsQhgZj.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_eO7x0CYbZaPcTo8tFBqF4ulPEeAPDBzP6JVZYpPWLYADbFBKEU.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "16 x 21"
+            ],
+            "hojas": [
+              24,
+              48,
+              84
+            ],
+            "tipos_hoja": [
+              "Rayado"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-TF-24-R",
+              "tamano": "16 x 21",
+              "hojas": 24,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_fynMLxeIRauG71tm10eXfDTTIGcJOKHxyLx8OyDEvUhjwfF6il.png",
+              "specs": {
+                "caja": "300 un.",
+                "paquete": "30 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-TF-48-R",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_FkRqYeEZCgVNvRTTEQFzyaofAxbfDOpJ7L1ZfsHuLNVmsQhgZj.png",
+              "specs": {
+                "caja": "160 un.",
+                "paquete": "20 un.",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-TF-84-R",
+              "tamano": "16 x 21",
+              "hojas": 84,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_eO7x0CYbZaPcTo8tFBqF4ulPEeAPDBzP6JVZYpPWLYADbFBKEU.png",
+              "specs": {
+                "caja": "80 un.",
+                "paquete": "10 un.",
+                "palet": "72 bultos",
+                "gramaje": "55grs"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cuaderno-arana",
+          "name": "Cuaderno Tapa Cartón Araña",
+          "subcategory": "Tapa Cartón Araña",
+          "description": "Cuaderno escolar tapa dura papel araña plastificado con cosido y pegado resistente.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_YMavC2vKQiD0wVVhLlqN60MLlBnTcsWeek5k73EAESidt6Tv4j.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_YMavC2vKQiD0wVVhLlqN60MLlBnTcsWeek5k73EAESidt6Tv4j.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_p3EdbtQFwHRTaUkdSfdJYuoYQJkE3YtGfIcsJGqQ2GumQ3XxyW.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_7rPmrOWz8AF5g32MKS55mCT6HCYyM1M3G1wo0X0iAkPJ1jIOy5.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "16 x 21"
+            ],
+            "hojas": [
+              42,
+              84,
+              162
+            ],
+            "tipos_hoja": [
+              "Rayado"
+            ],
+            "colores": [
+              "Amarillo",
+              "Azul",
+              "Rojo",
+              "Rosa",
+              "Verde",
+              "Celeste",
+              "Naranja"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-ARA-42-R-AM",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Amarillo",
+              "colorHex": "#FFFF00",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_YMavC2vKQiD0wVVhLlqN60MLlBnTcsWeek5k73EAESidt6Tv4j.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-42-R-AZ",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Azul",
+              "colorHex": "#0000FF",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_YMavC2vKQiD0wVVhLlqN60MLlBnTcsWeek5k73EAESidt6Tv4j.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-42-R-RO",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Rojo",
+              "colorHex": "#FF0000",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_YMavC2vKQiD0wVVhLlqN60MLlBnTcsWeek5k73EAESidt6Tv4j.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-42-R-RS",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Rosa",
+              "colorHex": "#FFC0CB",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_YMavC2vKQiD0wVVhLlqN60MLlBnTcsWeek5k73EAESidt6Tv4j.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-42-R-VE",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Verde",
+              "colorHex": "#008000",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_YMavC2vKQiD0wVVhLlqN60MLlBnTcsWeek5k73EAESidt6Tv4j.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-42-R-CE",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Celeste",
+              "colorHex": "#ADD8E6",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_YMavC2vKQiD0wVVhLlqN60MLlBnTcsWeek5k73EAESidt6Tv4j.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-42-R-NA",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Naranja",
+              "colorHex": "#FFA500",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_YMavC2vKQiD0wVVhLlqN60MLlBnTcsWeek5k73EAESidt6Tv4j.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-84-R-AM",
+              "tamano": "16 x 21",
+              "hojas": 84,
+              "tipo_hoja": "Rayado",
+              "colorName": "Amarillo",
+              "colorHex": "#FFFF00",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_p3EdbtQFwHRTaUkdSfdJYuoYQJkE3YtGfIcsJGqQ2GumQ3XxyW.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-84-R-AZ",
+              "tamano": "16 x 21",
+              "hojas": 84,
+              "tipo_hoja": "Rayado",
+              "colorName": "Azul",
+              "colorHex": "#0000FF",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_p3EdbtQFwHRTaUkdSfdJYuoYQJkE3YtGfIcsJGqQ2GumQ3XxyW.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-84-R-CE",
+              "tamano": "16 x 21",
+              "hojas": 84,
+              "tipo_hoja": "Rayado",
+              "colorName": "Celeste",
+              "colorHex": "#ADD8E6",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_p3EdbtQFwHRTaUkdSfdJYuoYQJkE3YtGfIcsJGqQ2GumQ3XxyW.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-84-R-NA",
+              "tamano": "16 x 21",
+              "hojas": 84,
+              "tipo_hoja": "Rayado",
+              "colorName": "Naranja",
+              "colorHex": "#FFA500",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_p3EdbtQFwHRTaUkdSfdJYuoYQJkE3YtGfIcsJGqQ2GumQ3XxyW.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-84-R-RO",
+              "tamano": "16 x 21",
+              "hojas": 84,
+              "tipo_hoja": "Rayado",
+              "colorName": "Rojo",
+              "colorHex": "#FF0000",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_p3EdbtQFwHRTaUkdSfdJYuoYQJkE3YtGfIcsJGqQ2GumQ3XxyW.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-84-R-RS",
+              "tamano": "16 x 21",
+              "hojas": 84,
+              "tipo_hoja": "Rayado",
+              "colorName": "Rosa",
+              "colorHex": "#FFC0CB",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_p3EdbtQFwHRTaUkdSfdJYuoYQJkE3YtGfIcsJGqQ2GumQ3XxyW.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-84-R-VE",
+              "tamano": "16 x 21",
+              "hojas": 84,
+              "tipo_hoja": "Rayado",
+              "colorName": "Verde",
+              "colorHex": "#008000",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_p3EdbtQFwHRTaUkdSfdJYuoYQJkE3YtGfIcsJGqQ2GumQ3XxyW.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-162-R-AZ",
+              "tamano": "16 x 21",
+              "hojas": 162,
+              "tipo_hoja": "Rayado",
+              "colorName": "Azul",
+              "colorHex": "#0000FF",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_7rPmrOWz8AF5g32MKS55mCT6HCYyM1M3G1wo0X0iAkPJ1jIOy5.png",
+              "specs": {
+                "caja": "36 un.",
+                "paquete": "6 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-162-R-RO",
+              "tamano": "16 x 21",
+              "hojas": 162,
+              "tipo_hoja": "Rayado",
+              "colorName": "Rojo",
+              "colorHex": "#FF0000",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_7rPmrOWz8AF5g32MKS55mCT6HCYyM1M3G1wo0X0iAkPJ1jIOy5.png",
+              "specs": {
+                "caja": "36 un.",
+                "paquete": "6 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-ARA-162-R-VE",
+              "tamano": "16 x 21",
+              "hojas": 162,
+              "tipo_hoja": "Rayado",
+              "colorName": "Verde",
+              "colorHex": "#008000",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_7rPmrOWz8AF5g32MKS55mCT6HCYyM1M3G1wo0X0iAkPJ1jIOy5.png",
+              "specs": {
+                "caja": "36 un.",
+                "paquete": "6 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cuaderno-lunares",
+          "name": "Cuaderno Tapa Cartón Lunares",
+          "subcategory": "Tapa Cartón Lunares",
+          "description": "Cuaderno escolar con forro papel laqueado diseño lunares.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_jtr42BENrTFse4SsMSWJVLr5OZmcMFWw33yZ5UTw3xtduQCIpl.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "16 x 21",
+              "16 x 21 cm"
+            ],
+            "hojas": [
+              42,
+              84
+            ],
+            "tipos_hoja": [
+              "Rayado"
+            ],
+            "colores": [
+              "Amarillo",
+              "Azul",
+              "Celeste",
+              "Naranja",
+              "Rojo",
+              "Rosa",
+              "Verde",
+              "Blanco",
+              "Lila",
+              "Negro",
+              "Verde Manzana"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-LUN-42-R-AM",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Amarillo",
+              "colorHex": "#FFFF00",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-LUN-42-R-AZ",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Azul",
+              "colorHex": "#0000FF",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-LUN-42-R-CE",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Celeste",
+              "colorHex": "#ADD8E6",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-LUN-42-R-NA",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Naranja",
+              "colorHex": "#FFA500",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-LUN-42-R-RO",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Rojo",
+              "colorHex": "#FF0000",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-LUN-42-R-RS",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Rosa",
+              "colorHex": "#FFC0CB",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-LUN-42-R-VE",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Verde",
+              "colorHex": "#008000",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-LUN-42-R-BL",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Blanco",
+              "colorHex": "#FFFFFF",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-LUN-42-R-LI",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Lila",
+              "colorHex": "#C8A2C8",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-LUN-42-R-NE",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Negro",
+              "colorHex": "#000000",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-LUN-42-R-VM",
+              "tamano": "16 x 21",
+              "hojas": 42,
+              "tipo_hoja": "Rayado",
+              "colorName": "Verde Manzana",
+              "colorHex": "#48e120",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_WwlcEZKITTOV81B5ZSZSOtusViniIRKtQvElJaMImSBuTRXLP4.png",
+              "specs": {
+                "caja": "90 un.",
+                "paquete": "15 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-LUN-84-R",
+              "tamano": "16 x 21 cm",
+              "hojas": 84,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_jtr42BENrTFse4SsMSWJVLr5OZmcMFWw33yZ5UTw3xtduQCIpl.png",
+              "specs": {
+                "gramaje": "55/57grs"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repuestos",
+      "name": "Repuestos",
+      "products": [
+        {
+          "id": "repuestos-escolares-n3",
+          "name": "Repuestos Escolares N°3",
+          "subcategory": "Repuestos Escolares",
+          "description": "Repuestos escolares N°3 en presentaciones de 48, 96 y 400 hojas rayadas y cuadriculadas.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_5MUmBzQgvw5uMLhDN583lBRV8SXaIAY61i1vaIZKh01lKzwmlC.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_5MUmBzQgvw5uMLhDN583lBRV8SXaIAY61i1vaIZKh01lKzwmlC.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_ReWIyi5z8ReqG7l6ZgnRrdN4gGsFGIBQjnVQgkfqzfrIiUdzby.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_Yhe03nTpdMeTLjFpy3kqvBcnzkyyftO06FMariwlPgxAoxDd3x.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "19 x 24"
+            ],
+            "hojas": [
+              48,
+              96,
+              400
+            ],
+            "tipos_hoja": [
+              "Rayado"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-REP3-48-R",
+              "tamano": "19 x 24",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_5MUmBzQgvw5uMLhDN583lBRV8SXaIAY61i1vaIZKh01lKzwmlC.png",
+              "specs": {
+                "caja": "120 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-REP3-96-R",
+              "tamano": "19 x 24",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ReWIyi5z8ReqG7l6ZgnRrdN4gGsFGIBQjnVQgkfqzfrIiUdzby.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "5 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            },
+            {
+              "sku": "POT-REP3-400-R",
+              "tamano": "19 x 24",
+              "hojas": 400,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Yhe03nTpdMeTLjFpy3kqvBcnzkyyftO06FMariwlPgxAoxDd3x.png",
+              "specs": {
+                "caja": "16 un.",
+                "paquete": "1 un.",
+                "palet": "60 bultos",
+                "gramaje": "55/57grs"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "libros-comerciales",
+      "name": "Libros comerciales",
+      "products": [
+        {
+          "id": "libros-comerciales-actas-corona",
+          "name": "Libros Comerciales Actas Corona",
+          "subcategory": "Libros de Actas",
+          "description": "Libros comerciales de actas formato Corona en 2, 3 y 4 manos.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_SGd6ATHiQ1idmDwifxuz3jOhAWiyRH780e4YDDUCwCrbq3jGwK.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_SGd6ATHiQ1idmDwifxuz3jOhAWiyRH780e4YDDUCwCrbq3jGwK.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_oAxXDpKvc7EfjLQvR3iaGnzHPHRtbm3o8E4iV6gnH1Va0WG4dg.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_Q5NvHGxCtB0CMSIU5t4geKHFksj6qe4MfZNYdd4Vu3WiKhlCfL.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "2 Corona",
+              "3 Corona",
+              "Corona"
+            ],
+            "manos": [
+              2,
+              3,
+              4
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-ACT-COR-2M",
+              "tamano": "2 Corona",
+              "manos": 2,
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_SGd6ATHiQ1idmDwifxuz3jOhAWiyRH780e4YDDUCwCrbq3jGwK.png",
+              "specs": {
+                "caja": "20 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos",
+                "gramaje": "57grs"
+              }
+            },
+            {
+              "sku": "POT-ACT-COR-3M",
+              "tamano": "3 Corona",
+              "manos": 3,
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_oAxXDpKvc7EfjLQvR3iaGnzHPHRtbm3o8E4iV6gnH1Va0WG4dg.png",
+              "specs": {
+                "caja": "16 un.",
+                "paquete": "4 un.",
+                "palet": "72 bultos",
+                "gramaje": "57grs"
+              }
+            },
+            {
+              "sku": "POT-ACT-COR-4M",
+              "tamano": "Corona",
+              "manos": 4,
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Q5NvHGxCtB0CMSIU5t4geKHFksj6qe4MfZNYdd4Vu3WiKhlCfL.png",
+              "specs": {
+                "caja": "15 un.",
+                "paquete": "3 un.",
+                "palet": "60 bultos",
+                "gramaje": "57grs"
+              }
+            }
+          ]
+        },
+        {
+          "id": "libros-comerciales-actas-con-indice-corona",
+          "name": "Libros Comerciales Actas con Índice Corona",
+          "subcategory": "Libros de Actas con Índice",
+          "description": "Libros comerciales de actas con índice alfabético formato Corona en 2, 3 y 4 manos.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_OnDnduBsLeJpObhn6SE0eLpkv1IC07y41ng2a5qPGpYHF5JioX.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_OnDnduBsLeJpObhn6SE0eLpkv1IC07y41ng2a5qPGpYHF5JioX.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_tkKk0tsZ3A4hfoM3VbtJcLcLZp5QzWjCtmprzzpmzFgLPMLQ5M.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_rhxLJd76iIsh5eoInRyaH6LPS6BcqUbnmJ8VwNrInaUyvfdbUw.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "Corona"
+            ],
+            "manos": [
+              2,
+              3,
+              4
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-ACT-IND-COR-2M",
+              "tamano": "Corona",
+              "manos": 2,
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_OnDnduBsLeJpObhn6SE0eLpkv1IC07y41ng2a5qPGpYHF5JioX.png",
+              "specs": {
+                "caja": "20 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos",
+                "gramaje": "57grs"
+              }
+            },
+            {
+              "sku": "POT-ACT-IND-COR-3M",
+              "tamano": "Corona",
+              "manos": 3,
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_tkKk0tsZ3A4hfoM3VbtJcLcLZp5QzWjCtmprzzpmzFgLPMLQ5M.png",
+              "specs": {
+                "caja": "16 un.",
+                "paquete": "4 un.",
+                "palet": "72 bultos",
+                "gramaje": "57grs"
+              }
+            },
+            {
+              "sku": "POT-ACT-IND-COR-4M",
+              "tamano": "Corona",
+              "manos": 4,
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rhxLJd76iIsh5eoInRyaH6LPS6BcqUbnmJ8VwNrInaUyvfdbUw.png",
+              "specs": {
+                "caja": "15 un.",
+                "paquete": "3 un.",
+                "palet": "60 bultos",
+                "gramaje": "57grs"
+              }
+            }
+          ]
+        },
+        {
+          "id": "libros-comerciales-actas-clochet",
+          "name": "Libros Comerciales Actas Clochet",
+          "subcategory": "Libros de Actas Clochet",
+          "description": "Libros comerciales de actas Clochet 2 manos.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_0hEYfveUabkrwCQGe4UrB2IWsFyR0aURptgbAabh0wTfZrkrXj.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_0hEYfveUabkrwCQGe4UrB2IWsFyR0aURptgbAabh0wTfZrkrXj.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "Clochet"
+            ],
+            "manos": [
+              2
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-ACT-CLO-2M",
+              "tamano": "Clochet",
+              "manos": 2,
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_0hEYfveUabkrwCQGe4UrB2IWsFyR0aURptgbAabh0wTfZrkrXj.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "60 bultos",
+                "gramaje": "57grs"
+              }
+            }
+          ]
+        },
+        {
+          "id": "libros-comerciales-actas-con-indice-clochet",
+          "name": "Libros Comerciales Actas con Índice Clochet",
+          "subcategory": "Libros de Actas con Índice",
+          "description": "Libros de actas con índice alfabético Clochet 2 manos.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_MHLSrSLEWxEtIuIlGTr1dVw010S0mz0k3claQydoWhsSqPrdz0.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_MHLSrSLEWxEtIuIlGTr1dVw010S0mz0k3claQydoWhsSqPrdz0.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "Clochet"
+            ],
+            "manos": [
+              2
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-ACT-IND-CLO-2M",
+              "tamano": "Clochet",
+              "manos": 2,
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_MHLSrSLEWxEtIuIlGTr1dVw010S0mz0k3claQydoWhsSqPrdz0.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "60 bultos",
+                "gramaje": "57grs"
+              }
+            }
+          ]
+        },
+        {
+          "id": "libro-de-recibos-expediente",
+          "name": "Libro de Recibos Expediente",
+          "subcategory": "Libros de Recibos",
+          "description": "Libro comercial de recibos para expedientes de 2 manos.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_yIc5qgcd5dulKcAQWvmsRvfOWtO335VmwRKKoWqgNFuTvS6Qhy.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_yIc5qgcd5dulKcAQWvmsRvfOWtO335VmwRKKoWqgNFuTvS6Qhy.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "Expediente"
+            ],
+            "manos": [
+              2
+            ]
+          },
+          "variants": [
+            {
+              "sku": "POT-REC-EXP-2M",
+              "tamano": "Expediente",
+              "manos": 2,
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_yIc5qgcd5dulKcAQWvmsRvfOWtO335VmwRKKoWqgNFuTvS6Qhy.png",
+              "specs": {
+                "caja": "50 un.",
+                "paquete": "5 un.",
+                "palet": "60 bultos",
+                "gramaje": "57grs"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

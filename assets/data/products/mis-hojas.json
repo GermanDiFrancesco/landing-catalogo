@@ -1,0 +1,90 @@
+{
+  "brand": "mis-hojas",
+  "brandName": "Mis Hojas",
+  "categories": [
+    {
+      "id": "cuaderno-con-espiral",
+      "name": "Cuaderno con espiral",
+      "products": [
+        {
+          "id": "cuaderno-tapa-carton-con-espiral",
+          "name": "Cuaderno Tapa Cartón con Espiral",
+          "subcategory": "Tapa Cartón con Espiral",
+          "description": "Cuaderno espiralado con tapa cartón rígido en tamaño 21x27cm de 60 y 100 hojas rayadas y cuadriculadas.",
+          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_TshmvgvUUCudfloURQmwHXYTGsvzAQM246Et3cE8aB2g7ak4Q6.png",
+          "gallery": [
+            "https://www.tecnograficsa.com.ar/img/products_details/img_TshmvgvUUCudfloURQmwHXYTGsvzAQM246Et3cE8aB2g7ak4Q6.png",
+            "https://www.tecnograficsa.com.ar/img/products_details/img_dtGvpzW2nJ2ldSwW0yYVlswXzANGV4ndoRNsLZ7ZgMK6lzqv8q.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "21 x 27 cm"
+            ],
+            "hojas": [
+              60,
+              100
+            ],
+            "tipos_hoja": [
+              "Rayado",
+              "Cuadriculado"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "MH-ESP-60-R",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_TshmvgvUUCudfloURQmwHXYTGsvzAQM246Et3cE8aB2g7ak4Q6.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              }
+            },
+            {
+              "sku": "MH-ESP-60-C",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_TshmvgvUUCudfloURQmwHXYTGsvzAQM246Et3cE8aB2g7ak4Q6.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              }
+            },
+            {
+              "sku": "MH-ESP-100-R",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_dtGvpzW2nJ2ldSwW0yYVlswXzANGV4ndoRNsLZ7ZgMK6lzqv8q.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              }
+            },
+            {
+              "sku": "MH-ESP-100-C",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_dtGvpzW2nJ2ldSwW0yYVlswXzANGV4ndoRNsLZ7ZgMK6lzqv8q.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

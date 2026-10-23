@@ -2,19 +2,25 @@
  * main.js - Lógica global de navegación, menú móvil y carrusel de inicio
  */
 
+let heroCarouselInterval = null;
+
 document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
-  initHeroCarousel();
-  initSearchInput();
+  // initSearchInput es gestionado por search.js, pero también lo inicializamos aquí
+  // para el header persistente que ya está en el DOM desde el primer render.
+  if (typeof window.initSearchInput === 'function') {
+    window.initSearchInput();
+  }
 });
 
-// 1. Menú Móvil Hamburguesa
+// 1. Menú Móvil Hamburguesa (Header persistente)
 function initMobileMenu() {
   const toggleBtn = document.getElementById('mobile-menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
   const icon = document.getElementById('mobile-menu-icon');
 
-  if (!toggleBtn || !mobileMenu) return;
+  if (!toggleBtn || !mobileMenu || toggleBtn.dataset.initialized) return;
+  toggleBtn.dataset.initialized = 'true';
 
   toggleBtn.addEventListener('click', () => {
     const isHidden = mobileMenu.classList.toggle('hidden');
@@ -28,8 +34,13 @@ function initMobileMenu() {
   });
 }
 
-// 2. Carrusel Hero Inicio
+// 2. Carrusel Hero Inicio (Llamado dinámicamente cada vez que se carga la vista Home)
 function initHeroCarousel() {
+  if (heroCarouselInterval) {
+    clearInterval(heroCarouselInterval);
+    heroCarouselInterval = null;
+  }
+
   const track = document.getElementById('carousel-track');
   const prevBtn = document.getElementById('carousel-prev');
   const nextBtn = document.getElementById('carousel-next');
@@ -78,27 +89,72 @@ function initHeroCarousel() {
   });
 
   // Autoplay cada 5 segundos
-  let autoPlay = setInterval(nextSlide, 5000);
-  container?.addEventListener('mouseenter', () => clearInterval(autoPlay));
+  heroCarouselInterval = setInterval(nextSlide, 5000);
+  container?.addEventListener('mouseenter', () => {
+    if (heroCarouselInterval) clearInterval(heroCarouselInterval);
+  });
   container?.addEventListener('mouseleave', () => {
-    autoPlay = setInterval(nextSlide, 5000);
+    if (heroCarouselInterval) clearInterval(heroCarouselInterval);
+    heroCarouselInterval = setInterval(nextSlide, 5000);
   });
 
   updateSlide();
 }
+// Control de visibilidad fluido con bloqueo de animación para evitar titileos
+document.addEventListener("DOMContentLoaded", () => {
+  let lastScrollTop = 0;
+  const searchBarContainer = document.getElementById("search-bar-container");
+  const scrollThreshold = 8; // Sensibilidad para detectar el movimiento
+  let isHidden = false;
+  let isLocked = false; // Bloquea cambios mientras la animación está corriendo
 
-// 3. Buscador visual (Previsión para búsqueda con products.json)
-function initSearchInput() {
-  const input = document.getElementById('global-search-input');
-  if (!input) return;
+  if (searchBarContainer) {
+    window.addEventListener("scroll", () => {
+      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
 
-  input.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') {
-      const term = input.value.trim();
-      if (term) {
-        console.log('Buscar producto:', term);
+      // Si la animación está en curso, actualizamos la referencia pero ignoramos el cambio
+      if (isLocked) {
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+        return;
       }
-    }
-  });
-}
 
+      const scrollDifference = currentScroll - lastScrollTop;
+
+      // Ignorar movimientos muy cortos
+      if (Math.abs(scrollDifference) < scrollThreshold) {
+        return;
+      }
+
+      if (scrollDifference > 0 && currentScroll > 50 && !isHidden) {
+        // Scroller hacia abajo -> Ocultar
+        isHidden = true;
+        isLocked = true;
+        searchBarContainer.classList.remove("max-h-20", "opacity-100");
+        searchBarContainer.classList.add("max-h-0", "opacity-0", "pointer-events-none");
+
+        // Liberar el bloqueo cuando termine la transición (300ms)
+        setTimeout(() => {
+          isLocked = false;
+        }, 300);
+
+      } else if (scrollDifference < 0 && isHidden) {
+        // Scroller hacia arriba -> Mostrar
+        isHidden = false;
+        isLocked = true;
+        searchBarContainer.classList.remove("max-h-0", "opacity-0", "pointer-events-none");
+        searchBarContainer.classList.add("max-h-20", "opacity-100");
+
+        // Liberar el bloqueo cuando termine la transición (300ms)
+        setTimeout(() => {
+          isLocked = false;
+        }, 300);
+      }
+
+      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+    }, { passive: true });
+  }
+});
+// Exportar funciones globalmente para el router SPA
+// Nota: initSearchInput es definida y exportada por search.js
+window.initHeroCarousel = initHeroCarousel;
+window.initMobileMenu = initMobileMenu;

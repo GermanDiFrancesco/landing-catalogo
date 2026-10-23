@@ -82,5 +82,50 @@ Registro cronológico de tareas, decisiones técnicas, modificaciones y avances 
 - [x] **Limpieza en scripts:**
   - Se simplificó `initSearchInput()` en `assets/js/main.js` para enlazar directamente el evento del buscador `#global-search-input`.
 
+---
+
+## [2026-10-21] - Fase 2: Implementación del Árbol de Navegación y Display de Productos (Triunfante)
+- [x] **Estructuración del Catálogo por Marcas:**
+  - Creación del directorio [`assets/data/products/`](file:///c:/2026/tecnografic/assets/data/products) para independizar el árbol y variantes por marca.
+  - Generación de [`assets/data/products/triunfante.json`](file:///c:/2026/tecnografic/assets/data/products/triunfante.json) con las 9 categorías oficiales del PDF (Cuadernos Escolares, Repuestos, Mapas, Blocks, Resmitas, Cuaderno Con Espiral, Cuadernos Especiales, Línea De Dibujo, Cuaderno Con Indice).
+  - Agrupación por **familias de productos** con atributos globales (`tamanos`, `hojas`, `tipos_hoja`) y lista exhaustiva de **variantes SKU** (colorHex, colorName, imagen individual y ficha técnica).
+- [x] **Display Interactivo en `marca.html`:**
+  - Rediseño del card de producto: Columna izquierda con vista de familia / producto individual y miniaturas de galería; Columna derecha con selector de tamaño, cantidad de hojas, tipo de hoja y paleta de colores.
+  - Ficha técnica inferior dinámica que se sincroniza automáticamente con la variante seleccionada.
+- [x] **Lógica Dinámica en `assets/js/brand.js`:**
+  - **Inhabilitación reactiva (disabled/gris):** Al seleccionar un tamaño o cantidad de hojas, las opciones de hojas o tipos no compatibles pasan a estado inhabilitado con estilo tachado/gris.
+  - **Swap de imagen en hover:** Al pasar el cursor por los botones circulares de color, la imagen principal cambia instantáneamente a la foto del color específico, volviendo a la seleccionada al retirar el cursor.
+  - **Navegación fluida:** Botones de navegación Anterior / Siguiente e indicador de producto dentro de la categoría.
+
+---
+
+## [2026-10-21] - Fase 2.1: Integración Universal de los 4 JSON de Productos
+- [x] **Auditoría e Integración de los 4 JSON (`assets/data/products/`):**
+  - **Triunfante:** 9 categorías, 35 productos/familias con sus imágenes de producto oficiales, variantes y ficha técnica.
+  - **Tintoretto:** 3 categorías (Adhesivos, Témperas, Plastilinas), 11 productos con variantes de volumen (30g, 250g, 500g, 1000g, etc.), colores Fluo/Glitter y galerías.
+  - **Potosí:** 5 categorías (Cuaderno con Espiral, Blocks, Cuadernos, Repuestos, Libros comerciales), 12 productos con soporte para atributo `manos` en libros de actas y talonarios.
+  - **Mis Hojas:** 1 categoría (Cuaderno con espiral), 1 producto con variantes de espiral y rayado.
+- [x] **Ajuste del Visor de Producto en `marca.html` y `assets/js/brand.js`:**
+  - Ficha técnica universal responsive adaptada a los campos reales del JSON: **Tamaño, Color/Tipo, Caja, Paquete, Palet y Gramaje**.
+  - Inclusión dinámica de selector de **Manos** (activado automáticamente para libros de actas).
+  - Soporte para galerías de hasta 6 miniaturas con cambio en click.
+  - Sincronización automática de las categorías en `assets/data/brands.json`.
+
+---
+
+## [2026-10-22] - Fase 3: Migración a Formato Servidor (Node.js + Express) y SPA Vanilla JS con Grilla de Familia
+- [x] **Arquitectura Servidor (Node.js + Express):**
+  - Implementación de [`server.js`](file:///c:/2026/tecnografic/server.js) con Express para servir recursos estáticos (`/assets`, `/views`) y manejar URLs limpias sin `.html` (`/`, `/nosotros`, `/catalogos`, `/puntos-de-venta`, `/contacto`, `/marca`, `/marca/:brand`).
+  - Configuración de [`package.json`](file:///c:/2026/tecnografic/package.json) con scripts `npm start` y `npm run dev`.
+- [x] **Enrutador SPA en Vanilla JS Nativo (Sin librerías externas ni Swup):**
+  - Creación de [`assets/js/router.js`](file:///c:/2026/tecnografic/assets/js/router.js) utilizando únicamente `fetch()` y la History API nativa del navegador (`history.pushState` y evento `popstate`).
+  - El `<header>` (Navbar + Buscador) y el `<footer>` residen exclusivamente en [`index.html`](file:///c:/2026/tecnografic/index.html), manteniéndose fijos y sin recargar nunca al navegar entre páginas.
+  - Creación de vistas desacopladas en `views/`: `home.html`, `nosotros.html`, `catalogos.html`, `puntos-de-venta.html`, `contacto.html` y `marca.html`.
+- [x] **Desacoplamiento del Main Content de Marca (Grilla de Familia + Detalle de Producto):**
+  - **Sub-vista 1 (Grilla de la Categoría):** Al seleccionar una categoría en el sidebar, se despliega una grilla responsiva con las tarjetas de todos los productos pertenecientes a esa familia (imagen, nombre, subcategoría, badges de tamaños/hojas y muestras de color).
+  - **Sub-vista 2 (Detalle y Variantes):** Al hacer clic en cualquier tarjeta de producto, se pasa a la vista de detalle con botón *"Volver a [Categoría]"*, permitiendo seleccionar tamaño, hojas, tipo, manos, muestras de colores con swap hover y la ficha técnica sincronizada.
+  - Sincronización completa con URLs canónicas (`/marca/triunfante`, `/marca/tintoretto`, `/marca/potosi`, `/marca/mis-hojas`).
+
+
 
 

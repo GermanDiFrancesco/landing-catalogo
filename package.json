@@ -1,0 +1,21 @@
+{
+  "name": "tecnografic",
+  "version": "1.0.0",
+  "description": "Sitio web oficial de Tecnografic S.A. en Node.js + Express y Vanilla JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "tecnografic",
+    "express",
+    "vanilla-js",
+    "spa"
+  ],
+  "author": "Tecnografic S.A.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

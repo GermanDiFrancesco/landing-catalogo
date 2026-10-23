@@ -1,18 +1,15 @@
 [
   {
     "id": "p-1",
-    "name": "Cuaderno Tapa Cartón Forrado Araña 48 hojas A5",
+    "name": "Cuaderno Tapa Cartón Forrado Araña",
     "brand": "triunfante",
     "brandName": "Triunfante",
     "category": "Cuadernos Escolares",
-    "description": "48 Hojas rayadas. Cosido y pegado. Forro vinílico lavable. Gramaje 90 grs.",
-    "colors": ["#0000FF", "#FF0000", "#008000", "#FFFF00"],
-    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
-    "specs": { "tamano": "N° 16x21", "hojas": "48", "caja": "60" }
+    "image": ""
   },
   {
     "id": "p-2",
-    "name": "Repuesto Escolar N°3 96 hojas Rayado",
+    "name": "Repuesto Escolar Rayado",
     "brand": "triunfante",
     "brandName": "Triunfante",
     "category": "Repuestos",

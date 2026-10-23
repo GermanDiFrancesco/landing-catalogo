@@ -15,12 +15,12 @@
       "Cuadernos Escolares",
       "Repuestos",
       "Mapas",
-      "Block",
+      "Blocks",
       "Resmitas",
-      "Cuaderno con espiral",
+      "Cuaderno Con Espiral",
       "Cuadernos Especiales",
-      "Línea de dibujo",
-      "Cuadernos con Indice"
+      "Línea De Dibujo",
+      "Cuaderno Con Indice"
     ],
     "sampleProduct": {
       "title": "Tapa Cartón. Forrado Araña 48 hojas = 16x21cm (A5)",
@@ -29,7 +29,17 @@
         "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
         "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
       ],
-      "colors": ["#FFFF00", "#0000FF", "#800080", "#00FFFF", "#FFC0CB", "#000000", "#FFA500", "#FF0000", "#008000"],
+      "colors": [
+        "#FFFF00",
+        "#0000FF",
+        "#800080",
+        "#00FFFF",
+        "#FFC0CB",
+        "#000000",
+        "#FFA500",
+        "#FF0000",
+        "#008000"
+      ],
       "specs": {
         "tamano": "N° 16x21",
         "color": "AZUL",
@@ -44,7 +54,7 @@
     "id": "tintoretto",
     "name": "Tintoretto",
     "navTitle": "Tintoretto",
-    "color": "#e02424",
+    "color": "#00c6fd",
     "colorClass": "bg-red-600",
     "borderClass": "border-red-600",
     "textClass": "text-red-600",
@@ -63,7 +73,15 @@
         "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
         "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
       ],
-      "colors": ["#FF0000", "#0000FF", "#FFFF00", "#008000", "#FFA500", "#000000", "#FFFFFF"],
+      "colors": [
+        "#FF0000",
+        "#0000FF",
+        "#FFFF00",
+        "#008000",
+        "#FFA500",
+        "#000000",
+        "#FFFFFF"
+      ],
       "specs": {
         "tamano": "250 ml",
         "color": "SURTIDO",
@@ -86,11 +104,11 @@
     "slogan": "CUADERNOS | REPUESTOS | BLOCK | ACTAS",
     "description": "Nuestra filosofía se basa en un pilar fundamental: ofrecer excelente calidad a un precio justo y accesible para todos. Creemos que cada estudiante, profesional o amante de la escritura merece contar con las herramientas perfectas para plasmar sus metas, proyectos y creatividad.",
     "categories": [
-      "Cuaderno con espiral",
-      "Block",
+      "Cuaderno con Espiral",
+      "Blocks",
       "Cuadernos",
       "Repuestos",
-      "Libros Comerciales"
+      "Libros comerciales"
     ],
     "sampleProduct": {
       "title": "Tapa Cartón. Forrado Araña 48 hojas = 16x21cm (A5)",
@@ -99,7 +117,15 @@
         "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
         "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
       ],
-      "colors": ["#0000FF", "#FF0000", "#008000", "#FFFF00", "#FFA500", "#FFC0CB", "#00FFFF"],
+      "colors": [
+        "#0000FF",
+        "#FF0000",
+        "#008000",
+        "#FFFF00",
+        "#FFA500",
+        "#FFC0CB",
+        "#00FFFF"
+      ],
       "specs": {
         "tamano": "N° 16x21",
         "color": "AZUL",
@@ -131,7 +157,12 @@
         "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
         "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
       ],
-      "colors": ["#8174b8", "#FF69B4", "#40E0D0", "#FFD700"],
+      "colors": [
+        "#8174b8",
+        "#FF69B4",
+        "#40E0D0",
+        "#FFD700"
+      ],
       "specs": {
         "tamano": "A4 21x29.7",
         "color": "SURTIDO",
