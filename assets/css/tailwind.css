@@ -1,0 +1,9 @@
+/* =========================================================
+   assets/css/tailwind.css  –  Punto de entrada de Tailwind
+   Las directivas @tailwind inyectan las capas Base, Components
+   y Utilities a partir de las clases detectadas en los archivos
+   listados en tailwind.config.js → content.
+   ========================================================= */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

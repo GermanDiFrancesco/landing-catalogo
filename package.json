@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "tw:build": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --minify",
+    "tw:watch": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --watch",
+    "build": "npm run tw:build"
   },
   "keywords": [
     "tecnografic",
@@ -17,5 +20,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^3.4.19"
   }
 }
