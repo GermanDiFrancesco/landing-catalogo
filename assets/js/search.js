@@ -88,10 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
         floatingSearchBtn.classList.add("scale-0", "opacity-0", "pointer-events-none");
 
         // Subir suavemente la página y enfocar el input
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-        if (searchInput) {
-          setTimeout(() => searchInput.focus(), 250);
-        }
+        //window.scrollTo({ top: 0, behavior: 'smooth' });
+        if (searchInput){searchInput.focus()}
       });
     }
   }

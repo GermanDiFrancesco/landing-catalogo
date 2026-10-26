@@ -1,4 +1,4 @@
-{
+﻿{
   "brand": "tintoretto",
   "brandName": "Tintoretto",
   "categories": [
@@ -11,15 +11,7 @@
           "name": "Adhesivo Vinílico Lavable",
           "subcategory": "Adhesivos Vinílicos Blancos",
           "description": "Adhesivo vinílico blanco lavable no tóxico para pegar papel, cartón, cartulina, tela, corcho, madera y telgopor.",
-          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_kZr5kw2w3lI4vL1rgTLpGYXSvUBv3QKVukOsDEIqEMI1ORLKyt.png",
-          "gallery": [
-            "https://www.tecnograficsa.com.ar/img/products_details/img_kZr5kw2w3lI4vL1rgTLpGYXSvUBv3QKVukOsDEIqEMI1ORLKyt.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_r20F8wxP1XUXoQX6mfPLNACR72qX8oJVeVfCGLT40XRfK6hDaP.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_vVxuA7jr0zcOTbxknSThKRNKPFnRVBqq2pmsdiPrsQ5KZNKnPv.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_G3KAoJUlRMqKE7n7QudH4NlkPvzNNCdS0cOUJwwDLGQfDYSAWy.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_ez4aIJ4DFDvoVEWPxb3oBFI6yBDl1nP0Aqy8A8CaVYKzLDOtgE.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_o8QuL747bvTwplOZX2l43kdqUsyYptVVB0rTr8YNFXEFro13TN.png"
-          ],
+          "familyImage": "/assets/img/products/img_kZr5kw2w3lI4vL1rgTLpGYXSvUBv3QKVukOsDEIqEMI1ORLKyt.png",
           "attributes": {
             "tamanos": [
               "30 g",
@@ -34,7 +26,7 @@
             {
               "sku": "TIN-ADH-VIN-30g",
               "tamano": "30 g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_kZr5kw2w3lI4vL1rgTLpGYXSvUBv3QKVukOsDEIqEMI1ORLKyt.png",
+              "image": "/assets/img/products/img_kZr5kw2w3lI4vL1rgTLpGYXSvUBv3QKVukOsDEIqEMI1ORLKyt.png",
               "specs": {
                 "caja": "576 un.",
                 "paquete": "12 un."
@@ -43,7 +35,7 @@
             {
               "sku": "TIN-ADH-VIN-50g",
               "tamano": "50g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_r20F8wxP1XUXoQX6mfPLNACR72qX8oJVeVfCGLT40XRfK6hDaP.png",
+              "image": "/assets/img/products/img_r20F8wxP1XUXoQX6mfPLNACR72qX8oJVeVfCGLT40XRfK6hDaP.png",
               "specs": {
                 "caja": "48 un.",
                 "paquete": "1 un."
@@ -52,7 +44,7 @@
             {
               "sku": "TIN-ADH-VIN-100g",
               "tamano": "100g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_vVxuA7jr0zcOTbxknSThKRNKPFnRVBqq2pmsdiPrsQ5KZNKnPv.png",
+              "image": "/assets/img/products/img_vVxuA7jr0zcOTbxknSThKRNKPFnRVBqq2pmsdiPrsQ5KZNKnPv.png",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
@@ -61,7 +53,7 @@
             {
               "sku": "TIN-ADH-VIN-250g",
               "tamano": "250 g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_G3KAoJUlRMqKE7n7QudH4NlkPvzNNCdS0cOUJwwDLGQfDYSAWy.png",
+              "image": "/assets/img/products/img_G3KAoJUlRMqKE7n7QudH4NlkPvzNNCdS0cOUJwwDLGQfDYSAWy.png",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
@@ -70,7 +62,7 @@
             {
               "sku": "TIN-ADH-VIN-500g",
               "tamano": "500g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ez4aIJ4DFDvoVEWPxb3oBFI6yBDl1nP0Aqy8A8CaVYKzLDOtgE.png",
+              "image": "/assets/img/products/img_ez4aIJ4DFDvoVEWPxb3oBFI6yBDl1nP0Aqy8A8CaVYKzLDOtgE.png",
               "specs": {
                 "caja": "12 un.",
                 "paquete": "1 un."
@@ -79,7 +71,7 @@
             {
               "sku": "TIN-ADH-VIN-1000g",
               "tamano": "1000g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_o8QuL747bvTwplOZX2l43kdqUsyYptVVB0rTr8YNFXEFro13TN.png",
+              "image": "/assets/img/products/img_o8QuL747bvTwplOZX2l43kdqUsyYptVVB0rTr8YNFXEFro13TN.png",
               "specs": {
                 "caja": "6 un.",
                 "paquete": "1 un."
@@ -92,15 +84,7 @@
           "name": "Adhesivo Sintético Lavable",
           "subcategory": "Adhesivos Sintéticos Transparentes",
           "description": "Pegamento sintético transparente lavable de alta adherencia y secado rápido.",
-          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_8Dvp8fD0GTHFoJxbzUa0drA0OS40uZC4S6WDlGck7O3Nsv7wDN.png",
-          "gallery": [
-            "https://www.tecnograficsa.com.ar/img/products_details/img_8Dvp8fD0GTHFoJxbzUa0drA0OS40uZC4S6WDlGck7O3Nsv7wDN.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_B3B1etUjexBFdlliuLgEu5krPVPNOTWCh3gAyiq2Jmp8R7Q2Qj.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_qcKGLSRZsB5ropvkTK0D8ZtiZK7Yp8I477l2wWHU3IMS1URJuf.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_uerKjI3oPyoBK8kaEp0pwVst2F4Iiwqnyn8mabzzgmZKDIiZPC.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_5vtcpXgZy2oAD1gsj7BcDMFai8u5xSheI3BFCSgstNuKv3ka8a.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_RgFRZ8kyox04pbBhZJj8bKG5xHKcBJIQBunTZwvBwzb8rcbXd6.png"
-          ],
+          "familyImage": "/assets/img/products/img_8Dvp8fD0GTHFoJxbzUa0drA0OS40uZC4S6WDlGck7O3Nsv7wDN.png",
           "attributes": {
             "tamanos": [
               "30 g",
@@ -115,7 +99,7 @@
             {
               "sku": "TIN-ADH-SIN-30g",
               "tamano": "30 g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_8Dvp8fD0GTHFoJxbzUa0drA0OS40uZC4S6WDlGck7O3Nsv7wDN.png",
+              "image": "/assets/img/products/img_8Dvp8fD0GTHFoJxbzUa0drA0OS40uZC4S6WDlGck7O3Nsv7wDN.png",
               "specs": {
                 "caja": "576 un.",
                 "paquete": "12 un."
@@ -124,7 +108,7 @@
             {
               "sku": "TIN-ADH-SIN-50g",
               "tamano": "50g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_B3B1etUjexBFdlliuLgEu5krPVPNOTWCh3gAyiq2Jmp8R7Q2Qj.png",
+              "image": "/assets/img/products/img_B3B1etUjexBFdlliuLgEu5krPVPNOTWCh3gAyiq2Jmp8R7Q2Qj.png",
               "specs": {
                 "caja": "48 un.",
                 "paquete": "1 un."
@@ -133,7 +117,7 @@
             {
               "sku": "TIN-ADH-SIN-100g",
               "tamano": "100g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_qcKGLSRZsB5ropvkTK0D8ZtiZK7Yp8I477l2wWHU3IMS1URJuf.png",
+              "image": "/assets/img/products/img_qcKGLSRZsB5ropvkTK0D8ZtiZK7Yp8I477l2wWHU3IMS1URJuf.png",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
@@ -142,7 +126,7 @@
             {
               "sku": "TIN-ADH-SIN-250g",
               "tamano": "250g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_uerKjI3oPyoBK8kaEp0pwVst2F4Iiwqnyn8mabzzgmZKDIiZPC.png",
+              "image": "/assets/img/products/img_uerKjI3oPyoBK8kaEp0pwVst2F4Iiwqnyn8mabzzgmZKDIiZPC.png",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
@@ -151,7 +135,7 @@
             {
               "sku": "TIN-ADH-SIN-500g",
               "tamano": "500g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_5vtcpXgZy2oAD1gsj7BcDMFai8u5xSheI3BFCSgstNuKv3ka8a.png",
+              "image": "/assets/img/products/img_5vtcpXgZy2oAD1gsj7BcDMFai8u5xSheI3BFCSgstNuKv3ka8a.png",
               "specs": {
                 "caja": "12 un.",
                 "paquete": "1 un."
@@ -160,7 +144,7 @@
             {
               "sku": "TIN-ADH-SIN-1000g",
               "tamano": "1000g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_RgFRZ8kyox04pbBhZJj8bKG5xHKcBJIQBunTZwvBwzb8rcbXd6.png",
+              "image": "/assets/img/products/img_RgFRZ8kyox04pbBhZJj8bKG5xHKcBJIQBunTZwvBwzb8rcbXd6.png",
               "specs": {
                 "caja": "6 un.",
                 "paquete": "1 un."
@@ -173,11 +157,7 @@
           "name": "Adhesivo Vinílico Lavable Color",
           "subcategory": "Adhesivos de Color",
           "description": "Cola vinílica de color lavable en potes de 30gr y 250gr para manualidades y arte escolar.",
-          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
-          "gallery": [
-            "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_CRA1cK24zkDMmQ7p0HmDHKqvDVmTFIRqrvvz1zpL8Bl1BgTEMB.png"
-          ],
+          "familyImage": "/assets/img/products/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
           "attributes": {
             "tamanos": [
               "30g"
@@ -204,7 +184,7 @@
               "tamano": "30g",
               "colorName": "Amarillo",
               "colorHex": "#FFFF00",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
+              "image": "/assets/img/products/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -215,7 +195,7 @@
               "tamano": "30g",
               "colorName": "Azul",
               "colorHex": "#2271B3",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
+              "image": "/assets/img/products/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -226,7 +206,7 @@
               "tamano": "30g",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
+              "image": "/assets/img/products/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -237,7 +217,7 @@
               "tamano": "30g",
               "colorName": "Beige",
               "colorHex": "#eed09d",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
+              "image": "/assets/img/products/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -248,7 +228,7 @@
               "tamano": "30g",
               "colorName": "Negro",
               "colorHex": "#1F1B1C",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
+              "image": "/assets/img/products/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -259,7 +239,7 @@
               "tamano": "30g",
               "colorName": "Naranja",
               "colorHex": "#f4a020",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
+              "image": "/assets/img/products/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -270,7 +250,7 @@
               "tamano": "30g",
               "colorName": "Rojo",
               "colorHex": "#f80000",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
+              "image": "/assets/img/products/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -281,7 +261,7 @@
               "tamano": "30g",
               "colorName": "Rosa",
               "colorHex": "#FFC0CB",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
+              "image": "/assets/img/products/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -292,7 +272,7 @@
               "tamano": "30g",
               "colorName": "Violeta",
               "colorHex": "#572364",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
+              "image": "/assets/img/products/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -303,7 +283,7 @@
               "tamano": "30g",
               "colorName": "Blanco",
               "colorHex": "#FFFFFF",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
+              "image": "/assets/img/products/img_ospDU50kRzmCHyUCwbBOstI2fGrPyFx57bvOVEEAZJY2PKCTOw.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -314,7 +294,7 @@
               "tamano": "30g",
               "colorName": "Celeste",
               "colorHex": "#92C5FC",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_CRA1cK24zkDMmQ7p0HmDHKqvDVmTFIRqrvvz1zpL8Bl1BgTEMB.png",
+              "image": "/assets/img/products/img_CRA1cK24zkDMmQ7p0HmDHKqvDVmTFIRqrvvz1zpL8Bl1BgTEMB.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "98 bultos"
@@ -325,7 +305,7 @@
               "tamano": "30g",
               "colorName": "Marrón",
               "colorHex": "#804000",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_CRA1cK24zkDMmQ7p0HmDHKqvDVmTFIRqrvvz1zpL8Bl1BgTEMB.png",
+              "image": "/assets/img/products/img_CRA1cK24zkDMmQ7p0HmDHKqvDVmTFIRqrvvz1zpL8Bl1BgTEMB.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "98 bultos"
@@ -336,7 +316,7 @@
               "tamano": "30g",
               "colorName": "Verde Musgo",
               "colorHex": "#4f6247",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_CRA1cK24zkDMmQ7p0HmDHKqvDVmTFIRqrvvz1zpL8Bl1BgTEMB.png",
+              "image": "/assets/img/products/img_CRA1cK24zkDMmQ7p0HmDHKqvDVmTFIRqrvvz1zpL8Bl1BgTEMB.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "98 bultos"
@@ -349,11 +329,7 @@
           "name": "Adhesivo Vinílico Lavable Flúo",
           "subcategory": "Adhesivos Flúo",
           "description": "Adhesivo vinílico en colores fluorescentes brillantes de alto poder cubritivo.",
-          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_dZ27bXA7ct1QpriAdnFUfILSR5BTvgu6f7v4NZYJYrBtvfl7Z7.png",
-          "gallery": [
-            "https://www.tecnograficsa.com.ar/img/products_details/img_dZ27bXA7ct1QpriAdnFUfILSR5BTvgu6f7v4NZYJYrBtvfl7Z7.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_wHwH0lGCABLQPJFVTjOr3PoJehQ5MFZnIIV1GYNRsoqaT0XTh1.png"
-          ],
+          "familyImage": "/assets/img/products/img_dZ27bXA7ct1QpriAdnFUfILSR5BTvgu6f7v4NZYJYrBtvfl7Z7.png",
           "attributes": {
             "tamanos": [
               "30g"
@@ -371,7 +347,7 @@
               "tamano": "30g",
               "colorName": "Verde Flúo",
               "colorHex": "#CCFF00",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_dZ27bXA7ct1QpriAdnFUfILSR5BTvgu6f7v4NZYJYrBtvfl7Z7.png",
+              "image": "/assets/img/products/img_dZ27bXA7ct1QpriAdnFUfILSR5BTvgu6f7v4NZYJYrBtvfl7Z7.png",
               "specs": {
                 "caja": "144 un.",
                 "paquete": "12 un.",
@@ -383,7 +359,7 @@
               "tamano": "30g",
               "colorName": "Naranja Flúo",
               "colorHex": "#ffa420",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_dZ27bXA7ct1QpriAdnFUfILSR5BTvgu6f7v4NZYJYrBtvfl7Z7.png",
+              "image": "/assets/img/products/img_dZ27bXA7ct1QpriAdnFUfILSR5BTvgu6f7v4NZYJYrBtvfl7Z7.png",
               "specs": {
                 "caja": "144 un.",
                 "paquete": "12 un.",
@@ -395,7 +371,7 @@
               "tamano": "30g",
               "colorName": "Rosa Flúo",
               "colorHex": "#fc0176",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_dZ27bXA7ct1QpriAdnFUfILSR5BTvgu6f7v4NZYJYrBtvfl7Z7.png",
+              "image": "/assets/img/products/img_dZ27bXA7ct1QpriAdnFUfILSR5BTvgu6f7v4NZYJYrBtvfl7Z7.png",
               "specs": {
                 "caja": "144 un.",
                 "paquete": "12 un.",
@@ -407,7 +383,7 @@
               "tamano": "30g",
               "colorName": "Verde Musgo",
               "colorHex": "#4f6247",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_dZ27bXA7ct1QpriAdnFUfILSR5BTvgu6f7v4NZYJYrBtvfl7Z7.png",
+              "image": "/assets/img/products/img_dZ27bXA7ct1QpriAdnFUfILSR5BTvgu6f7v4NZYJYrBtvfl7Z7.png",
               "specs": {
                 "caja": "144 un.",
                 "paquete": "12 un.",
@@ -421,10 +397,7 @@
           "name": "Adhesivo Sintético Lavable Glitter",
           "subcategory": "Adhesivos Glitter",
           "description": "Adhesivo con brillantina y purpurina en colores metalizados para decoración.",
-          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
-          "gallery": [
-            "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png"
-          ],
+          "familyImage": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
           "attributes": {
             "tamanos": [
               "30g"
@@ -449,7 +422,7 @@
               "tamano": "30g",
               "colorName": "Celeste",
               "colorHex": "#87CEEB",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
+              "image": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -460,7 +433,7 @@
               "tamano": "30g",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
+              "image": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -471,7 +444,7 @@
               "tamano": "30g",
               "colorName": "Fucsia",
               "colorHex": "#e30052",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
+              "image": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -482,7 +455,7 @@
               "tamano": "30g",
               "colorName": "Terracota",
               "colorHex": "#cb6d51",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
+              "image": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -493,7 +466,7 @@
               "tamano": "30g",
               "colorName": "Negro",
               "colorHex": "#1F1B1C",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
+              "image": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -504,7 +477,7 @@
               "tamano": "30g",
               "colorName": "Dorado",
               "colorHex": "#FFD700",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
+              "image": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -515,7 +488,7 @@
               "tamano": "30g",
               "colorName": "Plateado",
               "colorHex": "#BEBEBE",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
+              "image": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -526,7 +499,7 @@
               "tamano": "30g",
               "colorName": "Rojo",
               "colorHex": "#f80000",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
+              "image": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -537,7 +510,7 @@
               "tamano": "30g",
               "colorName": "Violeta",
               "colorHex": "#572364",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
+              "image": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -548,7 +521,7 @@
               "tamano": "30g",
               "colorName": "Verde Musgo",
               "colorHex": "#4f6247",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
+              "image": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -559,7 +532,7 @@
               "tamano": "30g",
               "colorName": "Naranja",
               "colorHex": "#f4a020",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
+              "image": "/assets/img/products/img_XARiJJ22C2WVswGgZWkraTu2rHR4QqADIr0fW8ZLZdsOalECSX.png",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
@@ -578,11 +551,7 @@
           "name": "Témperas en Pomo",
           "subcategory": "Témperas Pomo",
           "description": "Témperas escolares en pomos de 8cm3 y 250gr de óptimo poder cubritivo y fácil mezcla.",
-          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
-          "gallery": [
-            "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_oiJKre4JyW0HEJgSaktbz7jfqbJNHpSgnAWFyW82mXBos28TzN.png"
-          ],
+          "familyImage": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
           "attributes": {
             "tamanos": [
               "8cm3"
@@ -608,7 +577,7 @@
               "tamano": "8cm3",
               "colorName": "Amarillo",
               "colorHex": "#FFFF00",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -620,7 +589,7 @@
               "tamano": "8cm3",
               "colorName": "Celeste",
               "colorHex": "#92C5FC",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -632,7 +601,7 @@
               "tamano": "8cm3",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -644,7 +613,7 @@
               "tamano": "8cm3",
               "colorName": "Blanco",
               "colorHex": "#FFFFFF",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -656,7 +625,7 @@
               "tamano": "8cm3",
               "colorName": "Marrón",
               "colorHex": "#804000",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -668,7 +637,7 @@
               "tamano": "8cm3",
               "colorName": "Negro",
               "colorHex": "#1F1B1C",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -680,7 +649,7 @@
               "tamano": "8cm3",
               "colorName": "Naranja",
               "colorHex": "#f4a020",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -692,7 +661,7 @@
               "tamano": "8cm3",
               "colorName": "Rojo",
               "colorHex": "#f80000",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -704,7 +673,7 @@
               "tamano": "8cm3",
               "colorName": "Rosa",
               "colorHex": "#FFC0CB",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -716,7 +685,7 @@
               "tamano": "8cm3",
               "colorName": "Violeta",
               "colorHex": "#572364",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -728,7 +697,7 @@
               "tamano": "8cm3",
               "colorName": "Verde Manzana",
               "colorHex": "#48e120",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -740,7 +709,7 @@
               "tamano": "8cm3",
               "colorName": "Verde Musgo",
               "colorHex": "#4f6247",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
+              "image": "/assets/img/products/img_Gj2NX42WVYqNUwPfxnrmRoT6u4lDMRCyg6kpjZqfNI70ZxXnBq.png",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
@@ -754,10 +723,7 @@
           "name": "Témperas en Pote Color",
           "subcategory": "Témperas Pote",
           "description": "Témperas en pote de 250gr con colores clásicos intensos y lavables.",
-          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
-          "gallery": [
-            "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png"
-          ],
+          "familyImage": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
           "attributes": {
             "tamanos": [
               "250gr"
@@ -783,7 +749,7 @@
               "tamano": "250gr",
               "colorName": "Amarillo",
               "colorHex": "#FFFF00",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -794,7 +760,7 @@
               "tamano": "250gr",
               "colorName": "Celeste",
               "colorHex": "#92C5FC",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -805,7 +771,7 @@
               "tamano": "250gr",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -816,7 +782,7 @@
               "tamano": "250gr",
               "colorName": "Blanco",
               "colorHex": "#FFFFFF",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -827,7 +793,7 @@
               "tamano": "250gr",
               "colorName": "Marrón",
               "colorHex": "#804000",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -838,7 +804,7 @@
               "tamano": "250gr",
               "colorName": "Negro",
               "colorHex": "#1F1B1C",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -849,7 +815,7 @@
               "tamano": "250gr",
               "colorName": "Naranja",
               "colorHex": "#f4a020",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -860,7 +826,7 @@
               "tamano": "250gr",
               "colorName": "Rojo",
               "colorHex": "#f80000",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -871,7 +837,7 @@
               "tamano": "250gr",
               "colorName": "Rosa",
               "colorHex": "#FFC0CB",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -882,7 +848,7 @@
               "tamano": "250gr",
               "colorName": "Violeta",
               "colorHex": "#572364",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -893,7 +859,7 @@
               "tamano": "250gr",
               "colorName": "Verde Manzana",
               "colorHex": "#48e120",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -904,7 +870,7 @@
               "tamano": "250gr",
               "colorName": "Verde Musgo",
               "colorHex": "#4f6247",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
+              "image": "/assets/img/products/img_pY0xy8NUsTcvwwXCAdnIxSCwzHZExCnydglHBiW8TQlnDFNae5.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -917,10 +883,7 @@
           "name": "Témperas en Pote Flúo",
           "subcategory": "Témperas Pote Flúo",
           "description": "Témperas en pote de 250gr en colores flúo ultra brillantes.",
-          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
-          "gallery": [
-            "https://www.tecnograficsa.com.ar/img/products_details/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png"
-          ],
+          "familyImage": "/assets/img/products/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
           "attributes": {
             "tamanos": [
               "250gr"
@@ -940,7 +903,7 @@
               "tamano": "250gr",
               "colorName": "Aguamarina Flúo",
               "colorHex": "#17f1cd",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
+              "image": "/assets/img/products/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -951,7 +914,7 @@
               "tamano": "250gr",
               "colorName": "Verde Flúo",
               "colorHex": "#CCFF00",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
+              "image": "/assets/img/products/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -962,7 +925,7 @@
               "tamano": "250gr",
               "colorName": "Rojo Flúo",
               "colorHex": "#ff2301",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
+              "image": "/assets/img/products/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -973,7 +936,7 @@
               "tamano": "250gr",
               "colorName": "Rosa Flúo",
               "colorHex": "#fc0176",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
+              "image": "/assets/img/products/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -984,7 +947,7 @@
               "tamano": "250gr",
               "colorName": "Naranja Flúo",
               "colorHex": "#f59622",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
+              "image": "/assets/img/products/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -995,7 +958,7 @@
               "tamano": "250gr",
               "colorName": "Verde Manzana",
               "colorHex": "#48e120",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
+              "image": "/assets/img/products/img_HVNA7YpOM6esDODqt0ujJgzfDVnqvY7FutiGxMYOd2f2z3AGPH.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -1008,10 +971,7 @@
           "name": "Témperas en Pote Metalizados",
           "subcategory": "Témperas Pote Metalizados",
           "description": "Témperas en pote de 250gr en tonos metalizados dorado, plateado, cobre y azul.",
-          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
-          "gallery": [
-            "https://www.tecnograficsa.com.ar/img/products_details/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png"
-          ],
+          "familyImage": "/assets/img/products/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
           "attributes": {
             "tamanos": [
               "250gr"
@@ -1031,7 +991,7 @@
               "tamano": "250gr",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
+              "image": "/assets/img/products/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -1042,7 +1002,7 @@
               "tamano": "250gr",
               "colorName": "Blanco",
               "colorHex": "#FFFFFF",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
+              "image": "/assets/img/products/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -1053,7 +1013,7 @@
               "tamano": "250gr",
               "colorName": "Dorado",
               "colorHex": "#efb810",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
+              "image": "/assets/img/products/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -1064,7 +1024,7 @@
               "tamano": "250gr",
               "colorName": "Plateado",
               "colorHex": "#C0C0C0",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
+              "image": "/assets/img/products/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -1075,7 +1035,7 @@
               "tamano": "250gr",
               "colorName": "Rojo",
               "colorHex": "#FF0000",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
+              "image": "/assets/img/products/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -1086,7 +1046,7 @@
               "tamano": "250gr",
               "colorName": "Verde Musgo",
               "colorHex": "#4f6247",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
+              "image": "/assets/img/products/img_nCvtFbu4uadGAbWasHXdhqHSoBg4b4wzSno6aXAu6rM0WkZiC7.png",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
@@ -1105,11 +1065,7 @@
           "name": "Plastilinas en Barritas",
           "subcategory": "Plastilinas Barritas",
           "description": "Plastilinas de fácil amasado y elasticidad garantizada en cajas de 6 y 10 unidades surtidas.",
-          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_YQAU0XHufqlXjhSHvBX5ugpcNGjhxzhINWUEao1EZaYuAhB7Xn.png",
-          "gallery": [
-            "https://www.tecnograficsa.com.ar/img/products_details/img_YQAU0XHufqlXjhSHvBX5ugpcNGjhxzhINWUEao1EZaYuAhB7Xn.png",
-            "https://www.tecnograficsa.com.ar/img/products_details/img_AfdYDEYGUIExuQapS3xcIqL6vdlkoKBKPptoMrGITy1pCQZ6mR.png"
-          ],
+          "familyImage": "/assets/img/products/img_YQAU0XHufqlXjhSHvBX5ugpcNGjhxzhINWUEao1EZaYuAhB7Xn.png",
           "attributes": {
             "tamanos": [
               "20g"
@@ -1119,7 +1075,7 @@
             {
               "sku": "TIN-PLA-BAR-20g",
               "tamano": "20g",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_YQAU0XHufqlXjhSHvBX5ugpcNGjhxzhINWUEao1EZaYuAhB7Xn.png",
+              "image": "/assets/img/products/img_YQAU0XHufqlXjhSHvBX5ugpcNGjhxzhINWUEao1EZaYuAhB7Xn.png",
               "specs": {
                 "caja": "60 un.",
                 "paquete": "6 un.",
@@ -1133,10 +1089,7 @@
           "name": "Plastilinas Pancitos",
           "subcategory": "Plastilinas Pancitos",
           "description": "Plastilinas en pancitos individuales de 25gr en 12 colores intensos.",
-          "familyImage": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
-          "gallery": [
-            "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png"
-          ],
+          "familyImage": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
           "attributes": {
             "tamanos": [
               "25g"
@@ -1162,7 +1115,7 @@
               "tamano": "25g",
               "colorName": "Amarillo",
               "colorHex": "#FFFF00",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
@@ -1174,7 +1127,7 @@
               "tamano": "25g",
               "colorName": "Celeste",
               "colorHex": "#92C5FC",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
@@ -1186,7 +1139,7 @@
               "tamano": "25g",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
@@ -1198,7 +1151,7 @@
               "tamano": "25g",
               "colorName": "Blanco",
               "colorHex": "#FFFFFF",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
@@ -1210,7 +1163,7 @@
               "tamano": "25g",
               "colorName": "Marrón",
               "colorHex": "#804000",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
@@ -1222,7 +1175,7 @@
               "tamano": "25g",
               "colorName": "Negro",
               "colorHex": "#000000",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
@@ -1234,7 +1187,7 @@
               "tamano": "25g",
               "colorName": "Naranja",
               "colorHex": "#FFA500",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
@@ -1246,7 +1199,7 @@
               "tamano": "25g",
               "colorName": "Rojo",
               "colorHex": "#f80000",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
@@ -1258,7 +1211,7 @@
               "tamano": "25g",
               "colorName": "Rosa",
               "colorHex": "#FFC0CB",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
@@ -1270,7 +1223,7 @@
               "tamano": "25g",
               "colorName": "Violeta",
               "colorHex": "#572364",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
@@ -1282,7 +1235,7 @@
               "tamano": "25g",
               "colorName": "Verde Manzana",
               "colorHex": "#48e120",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
@@ -1294,7 +1247,7 @@
               "tamano": "25g",
               "colorName": "Verde Musgo",
               "colorHex": "#4f6247",
-              "image": "https://www.tecnograficsa.com.ar/img/products_details/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
+              "image": "/assets/img/products/img_syo0xpGVdBW0JcgZDFUFJ0LbJOsumtrgAbyMRAQGCgCBPgsQzG.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",

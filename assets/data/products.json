@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "p-1",
     "name": "Cuaderno Tapa Cartón Forrado Araña",
@@ -15,7 +15,7 @@
     "category": "Repuestos",
     "description": "Hojas de fibra seleccionada con margen reforzado.",
     "colors": ["#FFFFFF"],
-    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "image": "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
     "specs": { "tamano": "N° 3", "hojas": "96", "caja": "20" }
   },
   {
@@ -26,7 +26,7 @@
     "category": "Témperas",
     "description": "Colores vivos y lavables aptos para uso escolar.",
     "colors": ["#FF0000", "#0000FF", "#FFFF00", "#008000"],
-    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "image": "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
     "specs": { "tamano": "250 ml", "hojas": "—", "caja": "24" }
   },
   {
@@ -37,7 +37,7 @@
     "category": "Plastilinas",
     "description": "Fórmula ultra suave que no mancha y mantiene la plasticidad.",
     "colors": ["#FFA500", "#800080", "#008000"],
-    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "image": "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
     "specs": { "tamano": "Estuche x 10", "hojas": "—", "caja": "36" }
   },
   {
@@ -48,7 +48,7 @@
     "category": "Cuadernos",
     "description": "El clásico cuaderno Potosí de máxima durabilidad para la escuela y oficina.",
     "colors": ["#FF0000", "#0000FF", "#008000"],
-    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "image": "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
     "specs": { "tamano": "N° 16x21", "hojas": "48", "caja": "60" }
   },
   {
@@ -59,7 +59,7 @@
     "category": "Libros Comerciales",
     "description": "Encuadernación cosida con tapas reforzadas y folios numerados.",
     "colors": ["#000000"],
-    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "image": "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
     "specs": { "tamano": "Oficio", "hojas": "200 folios", "caja": "10" }
   },
   {
@@ -70,7 +70,7 @@
     "category": "Cuaderno con espiral",
     "description": "Diseños modernos y hojas micropuntilladas con perforaciones.",
     "colors": ["#8174b8", "#FF69B4", "#40E0D0"],
-    "image": "https://www.tecnograficsa.com.ar/img/products_details/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
+    "image": "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
     "specs": { "tamano": "A4", "hojas": "84", "caja": "48" }
   }
 ]

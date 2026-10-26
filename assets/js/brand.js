@@ -183,7 +183,7 @@ function renderStructuredCatalog(brand, categories) {
     // Generar las tarjetas para cada producto de la familia
     prods.forEach((prod, pIdx) => {
       const card = document.createElement('div');
-      card.className = 'group transition-all duration-300 p-3 transform hover:-translate-y-1 flex flex-col cursor-pointer';
+      card.className = 'group transition-all duration-300 p-3 transform hover:-translate-y-1 flex flex-col justify-between cursor-pointer';
 
       const thumbImg = formatImgUrl(prod.familyImage || (prod.variants && prod.variants[0]?.image) || brand.logo);
       const attributes = prod.attributes || {};
@@ -200,7 +200,7 @@ function renderStructuredCatalog(brand, categories) {
      card.innerHTML = `
           <!-- Contenedor imagen -->
           <div class="w-full bg-gray-50/70 flex items-center justify-center h-48 mb-4 overflow-hidden relative">
-            <img src="${thumbImg}" alt="${prod.name}" class="max-h-full max-w-full object-contain scale-125 transition-transform duration-300 group-hover:scale-105">
+            <img src="${thumbImg}" alt="${prod.name}" style=""class="max-h-full object-contain scale-125 transition-transform duration-300 group-hover:scale-105">
           </div>
           <!-- Título del producto -->
           <h3 class="px-3 py-1.5 text-xs font-bold rounded-lg text-white shadow-sm transition-all transform scale-105 text-center" style="background-color: ${brand.color};">
@@ -322,28 +322,6 @@ function renderStructuredCatalog(brand, categories) {
     if (variantBadge) {
       variantBadge.textContent = 'Vista Familia';
     }
-
-    // Miniaturas de la galería
-    const galleryContainer = document.getElementById('sample-product-gallery');
-    if (galleryContainer) {
-      galleryContainer.innerHTML = '';
-      const imgs = (product.gallery && product.gallery.length > 0) 
-        ? product.gallery 
-        : [fallbackImage];
-      
-      imgs.slice(0, 6).forEach((imgUrl, i) => {
-        const fullImgUrl = formatImgUrl(imgUrl);
-        const thumb = document.createElement('div');
-        thumb.className = 'bg-white p-2 rounded-xl border border-gray-200/80 cursor-pointer hover:border-blue-500 transition-all flex items-center justify-center h-16 sm:h-20';
-        thumb.innerHTML = `<img src="${fullImgUrl}" alt="Vista ${i + 1}" class="max-h-full max-w-full object-contain">`;
-        thumb.addEventListener('click', () => {
-          if (mainImg) mainImg.src = fullImgUrl;
-          if (variantBadge) variantBadge.textContent = `Vista ${i + 1}`;
-        });
-        galleryContainer.appendChild(thumb);
-      });
-    }
-
     // GESTIÓN DE ATRIBUTOS Y VARIANTES
     const variants = product.variants || [];
     if (variants.length === 0) {
