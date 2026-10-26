@@ -10,6 +10,9 @@ app.use('/assets', express.static(path.join(__dirname, 'assets')));
 // Servir vistas parciales para el router de frontend
 app.use('/views', express.static(path.join(__dirname, 'views')));
 
+// Herramientas internas de desarrollo (Catalog Builder, etc.)
+app.use('/tools', express.static(path.join(__dirname, 'tools')));
+
 // Rutas explícitas con URLs limpias (sin .html)
 const pageRoutes = [
   '/',
@@ -37,9 +40,13 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(PORT, () => {
-  console.log(`=========================================`);
-  console.log(`🚀 Servidor Tecnografic iniciado con éxito`);
-  console.log(`🌐 Acceder en: http://localhost:${PORT}`);
-  console.log(`=========================================`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`=========================================`);
+    console.log(`🚀 Servidor Tecnografic iniciado con éxito`);
+    console.log(`🌐 Acceder en: http://localhost:${PORT}`);
+    console.log(`=========================================`);
+  });
+}
+
+module.exports = app;
