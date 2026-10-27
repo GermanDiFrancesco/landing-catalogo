@@ -262,15 +262,21 @@ function renderSuggestions(list, box, counter, items, query) {
       const subText = item.spec || item.description || (item.specs ? Object.values(item.specs).filter(v => v && v !== '—').join(' · ') : '');
       const highlightedName = highlightText(item.name, query);
       const highlightedSub  = subText ? highlightText(subText, query) : '';
+      const thumbUrl = item.image ? (item.image.startsWith('/') ? item.image : `/${item.image}`) : '/assets/img/marcas-logos/Tecnografic logo.png';
 
       const el = document.createElement('div');
-      el.className = 'search-suggestion-item px-4 py-2.5 cursor-pointer flex items-center justify-between gap-3 hover:bg-blue-50/70 transition-colors';
+      el.className = 'search-suggestion-item px-3 py-2 cursor-pointer flex items-center justify-between gap-3 hover:bg-blue-50/70 transition-colors';
       el.dataset.index = index;
 
       el.innerHTML = `
-        <div class="flex flex-col min-w-0">
-          <span class="text-sm font-semibold text-gray-800 truncate">${highlightedName}</span>
-          ${highlightedSub ? `<span class="text-xs text-gray-500 truncate mt-0.5">${highlightedSub}</span>` : ''}
+        <div class="flex items-center gap-3 min-w-0 flex-1">
+          <div class="w-10 h-10 rounded-lg bg-gray-50 border border-gray-200/80 p-1 flex items-center justify-center shrink-0 overflow-hidden">
+            <img src="${thumbUrl}" alt="${item.name}" class="max-h-full max-w-full object-contain" onerror="this.src='/assets/img/marcas-logos/Tecnografic logo.png'">
+          </div>
+          <div class="flex flex-col min-w-0 flex-1">
+            <span class="text-xs sm:text-sm font-semibold text-gray-800 truncate">${highlightedName}</span>
+            ${highlightedSub ? `<span class="text-[11px] text-gray-500 truncate mt-0.5">${highlightedSub}</span>` : ''}
+          </div>
         </div>
         <div class="shrink-0 flex flex-col items-end gap-1">
           <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 border border-gray-200 whitespace-nowrap">
@@ -320,9 +326,12 @@ function navigateToProduct(item, input, box, clearBtn) {
   if (clearBtn) clearBtn.classList.remove('hidden');
   hideSuggestions(box);
 
-  // Navegar a la página de la marca del producto si tiene brand slug
+  // Navegar a la marca con Deep Linking si cuenta con brand y id
   if (item.brand && typeof window.appNavigate === 'function') {
-    window.appNavigate(`/marca/${item.brand}`);
+    const targetUrl = item.id 
+      ? `/marca/${item.brand}?prod=${encodeURIComponent(item.id)}`
+      : `/marca/${item.brand}`;
+    window.appNavigate(targetUrl);
   }
 }
 

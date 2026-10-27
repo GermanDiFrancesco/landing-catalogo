@@ -140,8 +140,40 @@ function renderStructuredCatalog(brand, categories) {
     categoriesList.appendChild(li);
   });
 
-  // Mostrar la grilla de productos de la primera categoría
-  showCategoryGrid(categories[0]);
+  // Soporte de Deep Linking: si la URL contiene ?prod=id, abrir directamente ese producto
+  const urlParams = new URLSearchParams(window.location.search);
+  const targetProdId = urlParams.get('prod');
+  let deepLinkHandled = false;
+
+  if (targetProdId) {
+    for (let cIdx = 0; cIdx < categories.length; cIdx++) {
+      const prods = categories[cIdx].products || [];
+      const pIdx = prods.findIndex(p => p.id === targetProdId);
+      if (pIdx !== -1) {
+        // Activar el botón de categoría correspondiente en el sidebar
+        const catButtons = document.querySelectorAll('.brand-cat-btn');
+        catButtons.forEach((b, idx) => {
+          if (idx === cIdx) {
+            b.className = 'w-full text-left py-3 px-4 font-bold text-sm sm:text-base flex items-center justify-between transition-all duration-200 brand-cat-btn bg-white shadow-md';
+            b.style.color = brand.color;
+          } else {
+            b.className = 'w-full text-left py-3 px-4 font-bold text-sm sm:text-base flex items-center justify-between transition-all duration-200 brand-cat-btn text-white hover:bg-white/15';
+            b.style.color = '#ffffff';
+          }
+        });
+        currentCategoryIndex = cIdx;
+        currentProductIndex = pIdx;
+        openProductDetail(categories[cIdx], pIdx);
+        deepLinkHandled = true;
+        break;
+      }
+    }
+  }
+
+  // Si no hay parámetro de deep link o no coincidió, mostrar la primera categoría por defecto
+  if (!deepLinkHandled) {
+    showCategoryGrid(categories[0]);
+  }
 
   /**
    * VISTA 1: Muestra la grilla de los productos de la familia/categoría seleccionada
@@ -451,7 +483,7 @@ function renderStructuredCatalog(brand, categories) {
         return true;
       }) || variants[0];
     }
-
+    
     function renderAttributeOptions(containerId, wrapperId, optionsArray, currentValue, onSelect, isAvailableFn) {
       const container = document.getElementById(containerId);
       const wrapper = document.getElementById(wrapperId);
@@ -463,6 +495,18 @@ function renderStructuredCatalog(brand, categories) {
       }
       wrapper.classList.remove('hidden');
 
+      // Si es selector de tipo de hoja, adaptar título según el tipo de producto (ej. Mapas)
+      if (containerId === 'options-tipo-hoja') {
+        const label = wrapper.querySelector('label');
+        if (label) {
+          const isMapOrDidactic = optionsArray.some(opt => {
+            const low = String(opt).toLowerCase();
+            return low.includes('político') || low.includes('politico') || low.includes('contorno') || low.includes('físico') || low.includes('fisico');
+          });
+          label.textContent = isMapOrDidactic ? 'Tipo / Modelo' : 'Tipo de Hoja';
+        }
+      }
+
       container.innerHTML = '';
       optionsArray.forEach(opt => {
         const isSelected = String(opt) === String(currentValue);
@@ -470,25 +514,61 @@ function renderStructuredCatalog(brand, categories) {
 
         const btn = document.createElement('button');
         btn.type = 'button';
-        btn.textContent = (typeof opt === 'number' && containerId === 'options-hojas') 
-          ? `${opt} Hojas` 
-          : (containerId === 'options-manos' ? `${opt} Manos` : opt);
+
+        // Iconos disponibles conocidos
+        const iconMap = {
+          'rayado': 'rayado.png',
+          'cuadriculado': 'cuadriculado.png',
+          'lisas': 'lisas.png',
+          'liso': 'lisas.png'
+        };
+
+        const optKey = String(opt).toLowerCase().trim();
+        const hasIcon = (containerId === 'options-tipo-hoja') && iconMap[optKey];
+
+        // 1. Renderizado de contenido (Icono si existe, texto con nombre si es mapas u otros)
+        if (hasIcon) {
+          const img = document.createElement('img');
+          img.src = `/assets/img/icons/${iconMap[optKey]}`;
+          img.alt = opt;
+          img.className = 'w-full h-full object-cover rounded-full pointer-events-none';
+          btn.appendChild(img);
+          btn.title = opt; // Tooltip con el nombre (Rayado, Cuadriculado, Lisas)
+        } else {
+          btn.textContent = (typeof opt === 'number' && containerId === 'options-hojas') 
+            ? `${opt} Hojas` 
+            : (containerId === 'options-manos' ? `${opt} Manos` : opt);
+        }
+
+        // 2. Clases base (para tipo con icono: exactamente redondo w-7 h-7 p-0 como el selector de colores)
+        let baseClasses = '';
+        if (hasIcon) {
+          baseClasses = 'w-7 h-7 p-0 rounded-full border-2 border-black overflow-hidden flex items-center justify-center relative transition-all shadow-sm ';
+        } else {
+          baseClasses = 'px-3 py-1.5 text-xs font-semibold rounded-lg transition-all ';
+        }
 
         if (!isAvailable) {
           btn.disabled = true;
-          btn.className = 'px-3 py-1.5 text-xs font-semibold rounded-lg bg-gray-100 text-gray-300 border border-gray-200 cursor-not-allowed line-through opacity-60';
+          // Botones deshabilitados: fondo rojito tenue con baja opacidad y tachado
+          btn.className = baseClasses + 'bg-red-50 text-red-300 border border-red-200/60 cursor-not-allowed line-through opacity-40';
         } else if (isSelected) {
-          btn.className = 'px-3 py-1.5 text-xs font-bold rounded-lg text-white shadow-sm transition-all transform scale-105';
-          btn.style.backgroundColor = brand.color;
+          if (hasIcon) {
+            btn.className = baseClasses + 'ring-2 ring-offset-2 scale-110';
+            btn.style.boxShadow = `0 0 0 2px #fff, 0 0 0 4px ${brand.color}`;
+          } else {
+            btn.className = baseClasses + 'text-white font-bold shadow-sm transform scale-105';
+            btn.style.backgroundColor = brand.color;
+          }
         } else {
-          btn.className = 'px-3 py-1.5 text-xs font-semibold rounded-lg bg-white text-gray-700 border border-gray-300 hover:border-gray-400 hover:bg-gray-50 transition-colors';
+          const borderStyle = hasIcon ? 'bg-white hover:scale-110 opacity-90 hover:opacity-100' : 'bg-white text-gray-700 border border-gray-300 hover:border-gray-400 hover:bg-gray-50';
+          btn.className = baseClasses + borderStyle;
           btn.addEventListener('click', () => onSelect(opt));
         }
 
         container.appendChild(btn);
       });
     }
-
     function renderColorOptions() {
       const colorsContainer = document.getElementById('sample-product-colors');
       const colorLabel = document.getElementById('selected-color-name');
@@ -538,11 +618,13 @@ function renderStructuredCatalog(brand, categories) {
 
         const dot = document.createElement('button');
         dot.type = 'button';
-        dot.className = `w-7 h-7 rounded-full border-2 transition-all flex items-center justify-center relative shadow-sm ${
-          isSelected ? 'ring-2 ring-offset-2 scale-110' : 'hover:scale-110 border-white opacity-85 hover:opacity-100'
+        dot.className = `w-7 h-7 rounded-full border-2 border-black transition-all flex items-center justify-center relative shadow-sm ${
+          isSelected ? 'ring-2 ring-offset-2 scale-110' : 'hover:scale-110 opacity-90 hover:opacity-100'
         }`;
         dot.style.backgroundColor = variant.colorHex;
-        dot.style.borderColor = isSelected ? brand.color : '#ffffff';
+        if (isSelected) {
+          dot.style.boxShadow = `0 0 0 2px #fff, 0 0 0 4px ${brand.color}`;
+        }
         dot.setAttribute('title', variant.colorName || variant.sku);
 
         // Hover: Swap de imagen en el visor
@@ -589,6 +671,7 @@ function renderStructuredCatalog(brand, categories) {
 
     function updateSpecsTable(activeVariant) {
       const specTamano = document.getElementById('spec-tamano');
+      const specTipo = document.getElementById('spec-tipo');
       const specColor = document.getElementById('spec-color');
       const specCaja = document.getElementById('spec-caja');
       const specPaquete = document.getElementById('spec-paquete');
@@ -597,6 +680,7 @@ function renderStructuredCatalog(brand, categories) {
 
       if (!activeVariant) {
         if (specTamano) specTamano.textContent = '—';
+        if (specTipo) specTipo.textContent = '—';
         if (specColor) specColor.textContent = '—';
         if (specCaja) specCaja.textContent = '—';
         if (specPaquete) specPaquete.textContent = '—';
@@ -605,10 +689,20 @@ function renderStructuredCatalog(brand, categories) {
         return;
       }
 
+      // 1. Tamaño
       if (specTamano) specTamano.textContent = activeVariant.tamano || '—';
-      const colorDesc = activeVariant.colorName || activeVariant.tipo_hoja || (activeVariant.hojas ? `${activeVariant.hojas} Hojas` : '—');
-      if (specColor) specColor.textContent = colorDesc;
 
+      // 2. Tipo (separado de Color: Rayado, Cuadriculado, Político, etc.)
+      if (specTipo) {
+        specTipo.textContent = activeVariant.tipo_hoja || (activeVariant.manos ? `${activeVariant.manos} Manos` : '—');
+      }
+
+      // 3. Color (separado de Tipo: Amarillo, Azul, Rojo, o — si no aplica)
+      if (specColor) {
+        specColor.textContent = activeVariant.colorName || (activeVariant.colorHex ? activeVariant.colorHex : '—');
+      }
+
+      // 4. Specs de embalaje y gramaje del JSON
       const sp = activeVariant.specs || {};
       if (specCaja) specCaja.textContent = sp.caja || '—';
       if (specPaquete) specPaquete.textContent = sp.paquete || '—';
