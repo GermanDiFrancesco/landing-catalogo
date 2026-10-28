@@ -1,10 +1,11 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
   "outputDirectory": ".",
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/((?!assets/|views/|tools/).*)",
+      "source": "/((?!assets/|views/|old/).*)",
       "destination": "/index.html"
     }
   ]

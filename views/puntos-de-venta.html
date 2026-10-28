@@ -1,27 +1,91 @@
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-  <div class="max-w-3xl mx-auto text-center mb-12">
-    <h1 class="text-3xl sm:text-4xl font-extrabold text-[#0047a0] mb-4">Puntos de Venta</h1>
-    <p class="text-gray-600 leading-relaxed">
-      Encontrá nuestros cuadernos, repuestos y artículos escolares en librerías y comercios distribuidores de todo el país.
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+  <!-- Encabezado -->
+  <div class="max-w-3xl mx-auto text-center mb-10">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-[#0047a0] mb-4">Puntos de venta</h1>
+    <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
+      Si desea información acerca de dónde adquirir nuestros productos, por favor utilice nuestro sistema de búsqueda más abajo.<br>
+      Muchas Gracias.
     </p>
   </div>
 
-  <!-- Contenedor del Mapa de Google API -->
-  <div class="bg-gray-50 border border-gray-200 rounded-3xl overflow-hidden shadow-sm">
-    <div class="p-8 text-center bg-blue-50/50 border-b border-gray-200">
-      <div class="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-3 text-2xl shadow-md">
-        <i class="fa-solid fa-map-location-dot"></i>
-      </div>
-      <h3 class="text-xl font-bold text-gray-900 mb-1">Mapa de Distribución</h3>
-      <p class="text-xs text-gray-500">Próximamente red interactiva de comercios</p>
-    </div>
+  <!-- Contenedor Principal Mapa + Listado (Estructura original limpia) -->
+  <div id="box-map" class="border border-gray-200 rounded-2xl overflow-hidden bg-white shadow-sm flex flex-col lg:flex-row lg:h-[750px]">
     
-    <!-- Placeholder de mapa -->
-    <div class="h-96 w-full bg-gray-200 flex items-center justify-center text-gray-400">
-      <span class="flex items-center space-x-2 text-sm font-semibold">
-        <i class="fa-regular fa-map text-lg"></i>
-        <span>Contenedor de Google Maps</span>
-      </span>
+    <!-- Mapa Interactivo (Izquierda en Desktop, Arriba en Móvil) -->
+    <div id="map" class="w-full h-[400px] sm:h-[460px] lg:h-full lg:flex-1 bg-gray-100 relative">
+      <div class="w-full h-full flex items-center justify-center text-gray-400 text-sm">
+        <i class="fa-solid fa-spinner fa-spin mr-2"></i> Cargando mapa...
+      </div>
     </div>
+
+    <!-- Panel Derecho: Buscador, Tabs (Mayoristas / Minoristas) y Lista con Scroll -->
+    <div class="w-full lg:w-[450px] h-[520px] lg:h-full flex flex-col bg-white border-t lg:border-t-0 lg:border-l border-gray-200 shrink-0">
+      
+      <!-- Buscador de sucursales -->
+      <div class="px-6 py-4 border-b border-gray-200 bg-white">
+        <form id="pos-search-form" class="flex items-stretch">
+          <div class="relative flex-1">
+            <input
+              type="text"
+              id="pos-search-input"
+              placeholder="Buscar por nombre, calle, ciudad o provincia..."
+              class="w-full h-[43px] pl-3.5 pr-8 text-sm text-gray-700 border border-gray-300 rounded-l-lg focus:outline-none focus:border-gray-500 transition-colors"
+              autocomplete="off"
+            >
+            <button
+              type="button"
+              id="pos-search-clear"
+              class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 focus:outline-none"
+              aria-label="Limpiar búsqueda"
+            >
+              <i class="fa-solid fa-xmark text-xs"></i>
+            </button>
+          </div>
+          <button
+            type="submit"
+            class="w-28 bg-[#173d56] hover:bg-[#0047a0] text-white text-sm font-semibold rounded-r-full transition-colors flex items-center justify-center shrink-0"
+          >
+            <span>Buscar</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Pestañas MAYORISTAS | MINORISTAS -->
+      <div class="border-b border-gray-300 bg-gray-50/50 py-2">
+        <ul class="flex items-center justify-between text-center" role="tablist">
+          <li class="w-1/2 border-r border-gray-300">
+            <button
+              type="button"
+              id="tab-btn-mayoristas"
+              data-tab="mayoristas"
+              class="w-full py-1.5 px-3 text-sm font-bold tracking-wide transition-colors text-[#173d56]"
+              role="tab"
+              aria-selected="true"
+            >
+              MAYORISTAS <span id="count-mayoristas" class="text-xs font-normal text-gray-500 ml-1"></span>
+            </button>
+          </li>
+          <li class="w-1/2">
+            <button
+              type="button"
+              id="tab-btn-minoristas"
+              data-tab="minoristas"
+              class="w-full py-1.5 px-3 text-sm font-medium tracking-wide transition-colors text-gray-400 hover:text-gray-600"
+              role="tab"
+              aria-selected="false"
+            >
+              MINORISTAS <span id="count-minoristas" class="text-xs font-normal text-gray-400 ml-1"></span>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Lista desplazable de comercios -->
+      <div id="pos-list-container" class="flex-1 overflow-y-auto divide-y divide-gray-200">
+        <!-- Items inyectados dinámicamente por points-of-sale.js -->
+      </div>
+
+    </div>
+
   </div>
 </div>

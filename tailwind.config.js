@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // Escanear todos los HTML de vistas y el index para detectar clases usadas
+  // Escanear todos los HTML de vistas, el index y los scripts JS para detectar clases usadas
   content: [
     './index.html',
     './views/**/*.html',
+    './assets/js/**/*.js',
   ],
   theme: {
     extend: {
@@ -14,4 +15,3 @@ module.exports = {
   },
   plugins: [],
 }
-

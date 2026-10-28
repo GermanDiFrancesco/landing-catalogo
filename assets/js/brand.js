@@ -6,36 +6,61 @@
  * 2. Vista desacoplada de detalle del producto con variantes (tamaño, hojas, tipo, manos, colores) y ficha técnica.
  */
 
-async function initBrandPage(brandSlug) {
-  // Determinar marca activa (argumento > pathname > query param > fallback)
+let cachedBrandsData = null;
+const cachedBrandProducts = {};
+
+function extractHashSearch(searchOverride) {
+  if (typeof searchOverride === 'string' && searchOverride.length > 0) {
+    return searchOverride;
+  }
+  const hash = window.location.hash || '';
+  const qIndex = hash.indexOf('?');
+  if (qIndex !== -1) {
+    return hash.slice(qIndex);
+  }
+  return window.location.search || '';
+}
+
+async function initBrandPage(brandSlug, searchOverride) {
+  const activeSearch = extractHashSearch(searchOverride);
+
+  // Determinar marca activa (argumento > hash > pathname > query param > fallback)
   let brandKey = brandSlug;
   if (!brandKey) {
-    const match = window.location.pathname.match(/^\/marca\/([^\/?#]+)/);
-    if (match && match[1]) {
-      brandKey = match[1];
+    const hashMatch = (window.location.hash || '').match(/^#?\/marca\/([^\/?#]+)/);
+    const pathMatch = window.location.pathname.match(/^\/marca\/([^\/?#]+)/);
+    if (hashMatch && hashMatch[1]) {
+      brandKey = hashMatch[1];
+    } else if (pathMatch && pathMatch[1]) {
+      brandKey = pathMatch[1];
     } else {
-      const urlParams = new URLSearchParams(window.location.search);
+      const urlParams = new URLSearchParams(activeSearch);
       brandKey = urlParams.get('b') || 'triunfante';
     }
   }
 
   try {
-    const res = await fetch('/assets/data/brands.json');
-    const brandsData = await res.json();
-    const brand = brandsData[brandKey] || brandsData['triunfante'];
+    if (!cachedBrandsData) {
+      const res = await fetch('/assets/data/brands.json');
+      cachedBrandsData = await res.json();
+    }
+    const brand = cachedBrandsData[brandKey] || cachedBrandsData['triunfante'];
 
-    // Cargar el JSON de productos detallados de la marca
-    let brandProductsData = null;
-    try {
-      const prodRes = await fetch(`/assets/data/products/${brandKey}.json`);
-      if (prodRes.ok) {
-        brandProductsData = await prodRes.json();
+    // Cargar el JSON de productos detallados de la marca (con caché en memoria)
+    let brandProductsData = cachedBrandProducts[brandKey] || null;
+    if (!brandProductsData) {
+      try {
+        const prodRes = await fetch(`/assets/data/products/${brandKey}.json`);
+        if (prodRes.ok) {
+          brandProductsData = await prodRes.json();
+          cachedBrandProducts[brandKey] = brandProductsData;
+        }
+      } catch (e) {
+        console.warn(`No se pudo cargar JSON para ${brandKey}:`, e);
       }
-    } catch (e) {
-      console.warn(`No se pudo cargar JSON para ${brandKey}:`, e);
     }
 
-    renderBrandPage(brand, brandProductsData);
+    renderBrandPage(brand, brandProductsData, activeSearch);
   } catch (error) {
     console.error('Error al inicializar la página de marca:', error);
   }
@@ -49,7 +74,7 @@ function formatImgUrl(url) {
   return `/${url}`;
 }
 
-function renderBrandPage(brand, brandProductsData) {
+function renderBrandPage(brand, brandProductsData, activeSearch) {
   const heroContainer = document.getElementById('brand-hero-section');
   if (heroContainer) {
     heroContainer.style.backgroundColor = brand.color;
@@ -79,7 +104,7 @@ function renderBrandPage(brand, brandProductsData) {
   const categories = (brandProductsData && brandProductsData.categories) ? brandProductsData.categories : null;
 
   if (categories && categories.length > 0) {
-    renderStructuredCatalog(brand, categories);
+    renderStructuredCatalog(brand, categories, activeSearch);
   } else {
     renderLegacyCatalog(brand);
   }
@@ -88,7 +113,7 @@ function renderBrandPage(brand, brandProductsData) {
 /**
  * Renderiza el catálogo estructurado con Sidebar, Grilla de Familia y Detalle de Variantes
  */
-function renderStructuredCatalog(brand, categories) {
+function renderStructuredCatalog(brand, categories, activeSearch) {
   const sidebar = document.getElementById('brand-sidebar-container');
   if (sidebar) {
     sidebar.style.backgroundColor = brand.color;
@@ -140,8 +165,8 @@ function renderStructuredCatalog(brand, categories) {
     categoriesList.appendChild(li);
   });
 
-  // Soporte de Deep Linking: si la URL contiene ?prod=id, abrir directamente ese producto
-  const urlParams = new URLSearchParams(window.location.search);
+  // Soporte de Deep Linking: si la URL o el hash contiene ?prod=id, abrir directamente ese producto
+  const urlParams = new URLSearchParams(extractHashSearch(activeSearch));
   const targetProdId = urlParams.get('prod');
   let deepLinkHandled = false;
 

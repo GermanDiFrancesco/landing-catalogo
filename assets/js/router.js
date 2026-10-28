@@ -1,6 +1,8 @@
 /**
- * router.js - Enrutador SPA 100% Vanilla JS nativo para Tecnografic
- * Gestiona rutas limpias sin recargar el Navbar, Buscador ni Footer.
+ * router.js - Enrutador SPA Estático con URLs limpias (History API) 100% Vanilla JS
+ * - En Home deja la URL limpia en "/" (elimina /index.html o #/)
+ * - En secciones deja URLs limpias como "/contacto", "/nosotros", "/marca/triunfante"
+ * - Funciona sin servidor Node/Express gracias a los rewrites estáticos de vercel.json y Live Server
  */
 
 (function () {
@@ -13,8 +15,52 @@
     '/marca': '/views/marca.html'
   };
 
+  // Caché en memoria de vistas HTML para transiciones instantáneas
+  const viewCache = {};
+  let currentFullRoute = null;
+
   /**
-   * Resuelve la vista adecuada según la ruta solicitada
+   * Normaliza cualquier URL (/contacto, /index.html, #/contacto) a una ruta limpia (/contacto o /)
+   */
+  function parseCleanRoute(rawTarget) {
+    let clean = (rawTarget || '').trim();
+
+    // Si venía con hash (#/contacto), convertirlo a ruta limpia (/contacto)
+    if (clean.startsWith('#')) {
+      clean = clean.slice(1);
+    }
+
+    if (!clean || clean === '') {
+      clean = '/';
+    }
+
+    const parsed = new URL(clean, window.location.origin);
+    let pathname = parsed.pathname;
+
+    // Limpiar /index.html para que el Home quede siempre en "/"
+    if (pathname === '/index.html' || pathname === '') {
+      pathname = '/';
+    }
+
+    const search = parsed.search || '';
+    const fullRoute = pathname + search;
+
+    return { pathname, search, fullRoute };
+  }
+
+  /**
+   * Determina la ruta inicial al abrir o recargar la página
+   */
+  function getInitialRoute() {
+    // Si la URL tenía un hash residual (ej. /index.html#/contacto), migrarlo a URL limpia (/contacto)
+    if (window.location.hash && window.location.hash.startsWith('#/')) {
+      return window.location.hash.slice(1);
+    }
+    return window.location.pathname + window.location.search;
+  }
+
+  /**
+   * Resuelve el archivo de vista según el pathname
    */
   function resolveView(pathname) {
     if (pathname === '/' || pathname === '') {
@@ -36,32 +82,38 @@
     const app = document.getElementById('app');
     if (!app) return;
 
-    // Crear un objeto URL para parsear fácilmente pathname y search
-    const parsed = new URL(targetUrl, window.location.origin);
-    const pathname = parsed.pathname;
-    const search = parsed.search;
-    const fullRelativeUrl = pathname + search;
-
-    const { viewUrl, routeKey } = resolveView(pathname);
+    const { pathname, search, fullRoute } = parseCleanRoute(targetUrl);
+    const { viewUrl } = resolveView(pathname);
 
     try {
-      const response = await fetch(viewUrl);
-      if (!response.ok) {
-        throw new Error(`Error ${response.status} al cargar ${viewUrl}`);
+      let html = viewCache[viewUrl];
+      if (!html) {
+        const response = await fetch(viewUrl);
+        if (!response.ok) {
+          throw new Error(`Error ${response.status} al cargar ${viewUrl}`);
+        }
+        html = await response.text();
+        viewCache[viewUrl] = html;
       }
-      const html = await response.text();
-      app.innerHTML = html;
 
-      // Actualizar historial del navegador sin recarga
-      if (addToHistory && fullRelativeUrl !== (window.location.pathname + window.location.search)) {
-        window.history.pushState({ path: fullRelativeUrl }, '', fullRelativeUrl);
+      app.innerHTML = html;
+      currentFullRoute = fullRoute;
+
+      // Actualizar la barra de direcciones con URL limpia (sin /index.html ni #/)
+      const currentBrowserUrl = window.location.pathname + window.location.search + window.location.hash;
+      if (addToHistory) {
+        if (currentBrowserUrl !== fullRoute) {
+          window.history.pushState({ path: fullRoute }, '', fullRoute);
+        }
+      } else if (currentBrowserUrl !== fullRoute) {
+        window.history.replaceState({ path: fullRoute }, '', fullRoute);
       }
 
       // Scroll arriba instantáneo
       window.scrollTo(0, 0);
 
       // Actualizar clases activas en Navbar
-      updateActiveNavLinks(fullRelativeUrl);
+      updateActiveNavLinks(pathname);
 
       // Cerrar menú móvil si estuviera abierto
       closeMobileMenu();
@@ -93,7 +145,7 @@
       }
     }
 
-    // 2. Marca: inicializar catálogo de marca
+    // 2. Marca: inicializar catálogo de marca pasando brandSlug y search (?prod=id)
     if (pathname.startsWith('/marca')) {
       let brandSlug = null;
       const match = pathname.match(/^\/marca\/([^\/?#]+)/);
@@ -105,7 +157,14 @@
       }
 
       if (typeof window.initBrandPage === 'function') {
-        window.initBrandPage(brandSlug || 'triunfante');
+        window.initBrandPage(brandSlug || 'triunfante', search);
+      }
+    }
+
+    // 3. Puntos de Venta: inicializar mapa interactivo y listado de comercios
+    if (pathname === '/puntos-de-venta') {
+      if (typeof window.initPointsOfSalePage === 'function') {
+        window.initPointsOfSalePage();
       }
     }
   }
@@ -113,15 +172,17 @@
   /**
    * Resalta visualmente el enlace activo en la barra de navegación
    */
-  function updateActiveNavLinks(currentUrl) {
+  function updateActiveNavLinks(currentPathname) {
     const navLinks = document.querySelectorAll('header nav a, #mobile-menu a');
     navLinks.forEach(link => {
       const href = link.getAttribute('href');
       if (!href) return;
 
-      const isCurrent = (href === currentUrl) || 
-        (href === '/' && currentUrl === '/') ||
-        (href.startsWith('/marca') && currentUrl.startsWith(href));
+      const { pathname: linkPathname } = parseCleanRoute(href);
+
+      const isCurrent =
+        (linkPathname === currentPathname) ||
+        (linkPathname.startsWith('/marca/') && currentPathname.startsWith(linkPathname));
 
       if (isCurrent) {
         link.classList.add('text-blue-800', 'font-black');
@@ -147,7 +208,7 @@
     }
   }
 
-  // 1. Interceptar clics en enlaces locales (con URLs limpias)
+  // 1. Interceptar clics en enlaces locales
   document.addEventListener('click', (e) => {
     const anchor = e.target.closest('a');
     if (!anchor) return;
@@ -155,33 +216,43 @@
     const href = anchor.getAttribute('href');
     if (!href) return;
 
-    // Ignorar links externos, anclas o protocolos especiales
+    // Ignorar links vacíos placeholder (ej. href="#"), links externos, o protocolos especiales
     if (
+      href === '#' ||
       href.startsWith('http://') ||
       href.startsWith('https://') ||
       href.startsWith('mailto:') ||
       href.startsWith('tel:') ||
-      href.startsWith('#') ||
       href.startsWith('javascript:') ||
-      anchor.getAttribute('target') === '_blank'
+      anchor.getAttribute('target') === '_blank' ||
+      anchor.hasAttribute('download')
     ) {
+      if (href === '#') e.preventDefault();
       return;
     }
 
-    e.preventDefault();
-    navigate(href, true);
+    // Interceptar rutas internas (/... o #/...)
+    if (href.startsWith('/') || href.startsWith('#/')) {
+      e.preventDefault();
+      navigate(href, true);
+    }
   });
 
   // 2. Soporte para botones "Atrás" y "Adelante" del navegador
   window.addEventListener('popstate', () => {
-    navigate(window.location.pathname + window.location.search, false);
+    const target = window.location.pathname + window.location.search;
+    const { fullRoute } = parseCleanRoute(target);
+    if (fullRoute !== currentFullRoute) {
+      navigate(fullRoute, false);
+    }
   });
 
-  // 3. Cargar la vista inicial cuando carga la página
+  // 3. Cargar la vista inicial y limpiar /index.html de la barra de direcciones
   document.addEventListener('DOMContentLoaded', () => {
-    navigate(window.location.pathname + window.location.search, false);
+    const initialRoute = getInitialRoute();
+    navigate(initialRoute, false);
   });
 
-  // Exponer navigate globalmente si se necesita llamar programáticamente
+  // Exponer navigate globalmente
   window.appNavigate = navigate;
 })();

@@ -1,6 +1,7 @@
 /node_modules
 /old
 /PROJECT_LOG.md
-
+/.vscode
+/assets/img/products/
 # CSS generado por Tailwind CLI (regenerar con: npm run tw:build)
 /assets/css/output.css

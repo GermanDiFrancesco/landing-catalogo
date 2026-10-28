@@ -100,61 +100,8 @@ function initHeroCarousel() {
 
   updateSlide();
 }
-// Control de visibilidad fluido con bloqueo de animación para evitar titileos
-document.addEventListener("DOMContentLoaded", () => {
-  let lastScrollTop = 0;
-  const searchBarContainer = document.getElementById("search-bar-container");
-  const scrollThreshold = 8; // Sensibilidad para detectar el movimiento
-  let isHidden = false;
-  let isLocked = false; // Bloquea cambios mientras la animación está corriendo
 
-  if (searchBarContainer) {
-    window.addEventListener("scroll", () => {
-      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-
-      // Si la animación está en curso, actualizamos la referencia pero ignoramos el cambio
-      if (isLocked) {
-        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-        return;
-      }
-
-      const scrollDifference = currentScroll - lastScrollTop;
-
-      // Ignorar movimientos muy cortos
-      if (Math.abs(scrollDifference) < scrollThreshold) {
-        return;
-      }
-
-      if (scrollDifference > 0 && currentScroll > 50 && !isHidden) {
-        // Scroller hacia abajo -> Ocultar
-        isHidden = true;
-        isLocked = true;
-        searchBarContainer.classList.remove("max-h-20", "opacity-100");
-        searchBarContainer.classList.add("max-h-0", "opacity-0", "pointer-events-none");
-
-        // Liberar el bloqueo cuando termine la transición (300ms)
-        setTimeout(() => {
-          isLocked = false;
-        }, 300);
-
-      } else if (scrollDifference < 0 && isHidden) {
-        // Scroller hacia arriba -> Mostrar
-        isHidden = false;
-        isLocked = true;
-        searchBarContainer.classList.remove("max-h-0", "opacity-0", "pointer-events-none");
-        searchBarContainer.classList.add("max-h-20", "opacity-100");
-
-        // Liberar el bloqueo cuando termine la transición (300ms)
-        setTimeout(() => {
-          isLocked = false;
-        }, 300);
-      }
-
-      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-    }, { passive: true });
-  }
-});
 // Exportar funciones globalmente para el router SPA
-// Nota: initSearchInput es definida y exportada por search.js
+// Nota: initSearchInput y el control de scroll del buscador son gestionados por search.js
 window.initHeroCarousel = initHeroCarousel;
 window.initMobileMenu = initMobileMenu;

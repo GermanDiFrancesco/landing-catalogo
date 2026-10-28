@@ -3,7 +3,7 @@
  *
  * Funcionalidad integrada del buscador con:
  * - Carga asíncrona no bloqueante de products.json (no interrumpe el render inicial)
- * - Normalización de texto (insensible a acentos, mayúsculas/minúsculas)
+ * - Normalización de texto (insensible a acentos, mayúsculas/minúsculas) y búsqueda multipalabra
  * - Dropdown de sugerencias (máximo 12 resultados)
  * - Resaltado de texto coincidente (<mark>)
  * - Navegación por teclado (↑ ↓ Enter Escape)
@@ -13,17 +13,30 @@
 
 let productsCache = [];
 let isLoaded = false;
+let loadingPromise = null;
 let searchSelectedIndex = -1;
 let searchCurrentFiltered = [];
+
+const BRAND_COLORS = {
+  'triunfante': '#0062cc',
+  'tintoretto': '#00c6fd',
+  'potosi': '#76a41f',
+  'mis-hojas': '#8174b8'
+};
+
 // Control de visibilidad de la barra de búsqueda y botón flotante al hacer scroll
 document.addEventListener("DOMContentLoaded", () => {
   let lastScrollTop = 0;
   const searchBarContainer = document.getElementById("search-bar-container");
   const floatingSearchBtn = document.getElementById("floating-search-btn");
   const searchInput = document.getElementById("global-search-input");
+  const suggestionsBox = document.getElementById("search-suggestions-box");
   const scrollThreshold = 10;
   let isHidden = false;
   let isLocked = false;
+
+  // Iniciar precarga del catálogo en cuanto el DOM esté listo
+  loadProductsData();
 
   if (searchBarContainer) {
     window.addEventListener("scroll", () => {
@@ -40,13 +53,17 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
+      // No ocultar la barra si el usuario tiene el foco en el buscador o el dropdown abierto
+      const isDropdownOpen = suggestionsBox && !suggestionsBox.classList.contains("hidden");
+      const isInputFocused = document.activeElement === searchInput;
+
       // Scroll hacia abajo -> Ocultar barra y mostrar botón flotante
-      if (scrollDifference > 0 && currentScroll > 60 && !isHidden) {
+      if (scrollDifference > 0 && currentScroll > 60 && !isHidden && !isDropdownOpen && !isInputFocused) {
         isHidden = true;
         isLocked = true;
-        
-        searchBarContainer.classList.remove("max-h-20", "opacity-100");
-        searchBarContainer.classList.add("max-h-0", "opacity-0", "pointer-events-none");
+
+        searchBarContainer.classList.remove("max-h-20", "opacity-100", "overflow-visible");
+        searchBarContainer.classList.add("max-h-0", "opacity-0", "overflow-hidden", "pointer-events-none");
 
         if (floatingSearchBtn) {
           floatingSearchBtn.classList.remove("scale-0", "opacity-0", "pointer-events-none");
@@ -60,8 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
         isHidden = false;
         isLocked = true;
 
-        searchBarContainer.classList.remove("max-h-0", "opacity-0", "pointer-events-none");
-        searchBarContainer.classList.add("max-h-20", "opacity-100");
+        searchBarContainer.classList.remove("max-h-0", "opacity-0", "overflow-hidden", "pointer-events-none");
+        searchBarContainer.classList.add("max-h-20", "opacity-100", "overflow-visible");
 
         if (floatingSearchBtn) {
           floatingSearchBtn.classList.remove("scale-100", "opacity-100");
@@ -79,41 +96,44 @@ document.addEventListener("DOMContentLoaded", () => {
       floatingSearchBtn.addEventListener("click", () => {
         isHidden = false;
 
-        // Mostrar barra de búsqueda
-        searchBarContainer.classList.remove("max-h-0", "opacity-0", "pointer-events-none");
-        searchBarContainer.classList.add("max-h-20", "opacity-100");
+        // Mostrar barra de búsqueda permitiendo overflow para el dropdown
+        searchBarContainer.classList.remove("max-h-0", "opacity-0", "overflow-hidden", "pointer-events-none");
+        searchBarContainer.classList.add("max-h-20", "opacity-100", "overflow-visible");
 
         // Ocultar botón flotante
         floatingSearchBtn.classList.remove("scale-100", "opacity-100");
         floatingSearchBtn.classList.add("scale-0", "opacity-0", "pointer-events-none");
 
-        // Subir suavemente la página y enfocar el input
-        //window.scrollTo({ top: 0, behavior: 'smooth' });
-        if (searchInput){searchInput.focus()}
+        if (searchInput) {
+          searchInput.focus();
+        }
       });
     }
   }
 });
-// ─── Carga diferida no bloqueante del catálogo ───────────────────────────────
-window.addEventListener('load', () => {
-  if ('requestIdleCallback' in window) {
-    requestIdleCallback(loadProductsData);
-  } else {
-    setTimeout(loadProductsData, 100);
-  }
-});
 
+// ─── Carga asíncrona no bloqueante del catálogo ──────────────────────────────
 async function loadProductsData() {
-  try {
-    const res = await fetch('/assets/data/products.json');
-    if (res.ok) {
-      productsCache = await res.json();
-      isLoaded = true;
-      console.log('✅ Catálogo de productos precargado en segundo plano:', productsCache.length, 'artículos');
+  if (isLoaded) return productsCache;
+  if (loadingPromise) return loadingPromise;
+
+  loadingPromise = (async () => {
+    try {
+      const res = await fetch('/assets/data/products.json');
+      if (res.ok) {
+        productsCache = await res.json();
+        isLoaded = true;
+        console.log('✅ Catálogo de productos precargado en segundo plano:', productsCache.length, 'artículos');
+      }
+    } catch (err) {
+      console.warn('No se pudo precargar products.json:', err);
+    } finally {
+      loadingPromise = null;
     }
-  } catch (err) {
-    console.warn('No se pudo precargar products.json:', err);
-  }
+    return productsCache;
+  })();
+
+  return loadingPromise;
 }
 
 // ─── Normalización de texto para búsqueda insensible a acentos ────────────────
@@ -126,37 +146,55 @@ function normalizeText(text) {
     .replace(/[\u0300-\u036f]/g, '');
 }
 
-// ─── Función pública de búsqueda ──────────────────────────────────────────────
+// ─── Función pública de búsqueda (soporta múltiples palabras en cualquier orden)
 window.searchProducts = function (query) {
   if (!isLoaded || !query || query.trim() === '') return [];
   const q = normalizeText(query.trim());
+  const terms = q.split(/\s+/).filter(Boolean);
+  if (terms.length === 0) return [];
 
   return productsCache.filter(p => {
-    const name      = normalizeText(p.name);
-    const category  = normalizeText(p.category);
-    const brand     = normalizeText(p.brandName || '');
-    const spec      = normalizeText(p.spec || p.description || '');
-    const specs     = p.specs ? normalizeText(Object.values(p.specs).join(' ')) : '';
+    const searchable = [
+      p.name,
+      p.brandName,
+      p.brand,
+      p.category,
+      p.subcategory,
+      p.spec,
+      p.description,
+      p.colorNames ? p.colorNames.join(' ') : '',
+      p.specs ? Object.values(p.specs).join(' ') : ''
+    ]
+      .filter(Boolean)
+      .map(normalizeText)
+      .join(' ');
 
-    return name.includes(q) || category.includes(q) || brand.includes(q) || spec.includes(q) || specs.includes(q);
+    return terms.every(term => searchable.includes(term));
   });
 };
 
 // ─── Resaltado del texto coincidente ──────────────────────────────────────────
 function highlightText(text, query) {
-  if (!query.trim() || !text) return text;
-  const normalizedQuery = normalizeText(query.trim());
-  const normalizedText  = normalizeText(text);
+  if (!query || !query.trim() || !text) return text;
+  const terms = normalizeText(query.trim()).split(/\s+/).filter(Boolean);
+  if (terms.length === 0) return text;
 
-  const startIndex = normalizedText.indexOf(normalizedQuery);
-  if (startIndex === -1) return text;
+  const normalizedText = normalizeText(text);
 
-  const endIndex = startIndex + query.trim().length;
-  return (
-    text.substring(0, startIndex) +
-    `<mark style="background-color:#fef08a;color:#854d0e;font-weight:600;padding:0 2px;border-radius:2px;">${text.substring(startIndex, endIndex)}</mark>` +
-    text.substring(endIndex)
-  );
+  // Buscar el primer término que coincida en este fragmento de texto
+  for (const term of terms) {
+    const startIndex = normalizedText.indexOf(term);
+    if (startIndex !== -1) {
+      const endIndex = startIndex + term.length;
+      return (
+        text.substring(0, startIndex) +
+        `<mark style="background-color:#fef08a;color:#854d0e;font-weight:600;padding:0 2px;border-radius:2px;">${text.substring(startIndex, endIndex)}</mark>` +
+        text.substring(endIndex)
+      );
+    }
+  }
+
+  return text;
 }
 
 // ─── Inicialización del buscador (llamada tras el DOMContentLoaded del layout) ─
@@ -175,7 +213,7 @@ function initSearchInput() {
   input.dataset.searchInitialized = 'true';
 
   // ── Escribir en el input ──────────────────────────────────────────────────
-  input.addEventListener('input', (e) => {
+  input.addEventListener('input', async (e) => {
     const query = e.target.value;
 
     // Mostrar/ocultar botón X
@@ -188,15 +226,32 @@ function initSearchInput() {
       return;
     }
 
-    // Asegurar que si el usuario escribe, la barra de búsqueda permanezca abierta (por si estaba contraída por el scroll)
+    // Asegurar que si el usuario escribe, la barra de búsqueda permanezca abierta y con overflow-visible
     if (searchBarContainer) {
-      searchBarContainer.classList.remove("max-h-0", "opacity-0", "pointer-events-none");
-      searchBarContainer.classList.add("max-h-20", "opacity-100");
+      searchBarContainer.classList.remove("max-h-0", "opacity-0", "overflow-hidden", "pointer-events-none");
+      searchBarContainer.classList.add("max-h-20", "opacity-100", "overflow-visible");
+    }
+
+    // Si aún no terminó de cargar products.json, esperar su carga antes de filtrar
+    if (!isLoaded) {
+      await loadProductsData();
     }
 
     const results = window.searchProducts(query);
     searchCurrentFiltered = results.slice(0, 12);
     searchSelectedIndex = -1;
+    renderSuggestions(suggestionList, suggestionsBox, counter, searchCurrentFiltered, query);
+  });
+
+  // ── Mostrar sugerencias al volver a enfocar el input si ya hay texto ─────
+  input.addEventListener('focus', async () => {
+    const query = input.value;
+    if (!query.trim()) return;
+    if (!isLoaded) {
+      await loadProductsData();
+    }
+    const results = window.searchProducts(query);
+    searchCurrentFiltered = results.slice(0, 12);
     renderSuggestions(suggestionList, suggestionsBox, counter, searchCurrentFiltered, query);
   });
 
@@ -226,8 +281,9 @@ function initSearchInput() {
 
     } else if (e.key === 'Enter') {
       e.preventDefault();
-      if (searchSelectedIndex >= 0 && searchSelectedIndex < searchCurrentFiltered.length) {
-        navigateToProduct(searchCurrentFiltered[searchSelectedIndex], input, suggestionsBox, clearBtn);
+      const targetIndex = searchSelectedIndex >= 0 ? searchSelectedIndex : 0;
+      if (searchCurrentFiltered[targetIndex]) {
+        navigateToProduct(searchCurrentFiltered[targetIndex], input, suggestionsBox, clearBtn);
       }
 
     } else if (e.key === 'Escape') {
@@ -259,13 +315,27 @@ function renderSuggestions(list, box, counter, items, query) {
     if (counter) counter.textContent = '0 resultados';
   } else {
     items.forEach((item, index) => {
-      const subText = item.spec || item.description || (item.specs ? Object.values(item.specs).filter(v => v && v !== '—').join(' · ') : '');
       const highlightedName = highlightText(item.name, query);
-      const highlightedSub  = subText ? highlightText(subText, query) : '';
       const thumbUrl = item.image ? (item.image.startsWith('/') ? item.image : `/${item.image}`) : '/assets/img/marcas-logos/Tecnografic logo.png';
+      const brandColor = item.brandColor || BRAND_COLORS[item.brand] || '#0062cc';
+
+      // Renderizar muestras de colores del producto si tiene colores disponibles
+      let colorsHtml = '';
+      if (Array.isArray(item.colors) && item.colors.length > 0) {
+        const maxDots = 7;
+        const visibleColors = item.colors.slice(0, maxDots);
+        const extraCount = item.colors.length - visibleColors.length;
+        const dots = visibleColors
+          .map(hex => `<span class="w-3 h-3 rounded-full border border-gray-300 inline-block shrink-0" style="background-color: ${hex};"></span>`)
+          .join('');
+        const extraBadge = extraCount > 0
+          ? `<span class="text-[10px] font-semibold text-gray-400 ml-0.5">+${extraCount}</span>`
+          : '';
+        colorsHtml = `<div class="flex items-center gap-1 mt-1">${dots}${extraBadge}</div>`;
+      }
 
       const el = document.createElement('div');
-      el.className = 'search-suggestion-item px-3 py-2 cursor-pointer flex items-center justify-between gap-3 hover:bg-blue-50/70 transition-colors';
+      el.className = 'search-suggestion-item px-3 py-2.5 cursor-pointer flex items-center justify-between gap-3 hover:bg-blue-50/70 transition-colors';
       el.dataset.index = index;
 
       el.innerHTML = `
@@ -275,14 +345,11 @@ function renderSuggestions(list, box, counter, items, query) {
           </div>
           <div class="flex flex-col min-w-0 flex-1">
             <span class="text-xs sm:text-sm font-semibold text-gray-800 truncate">${highlightedName}</span>
-            ${highlightedSub ? `<span class="text-[11px] text-gray-500 truncate mt-0.5">${highlightedSub}</span>` : ''}
+            ${colorsHtml}
           </div>
         </div>
-        <div class="shrink-0 flex flex-col items-end gap-1">
-          <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 border border-gray-200 whitespace-nowrap">
-            ${item.category}
-          </span>
-          ${item.brandName ? `<span class="text-[10px] text-gray-400">${item.brandName}</span>` : ''}
+        <div class="shrink-0 flex items-center">
+          ${item.brandName ? `<span class="text-xs font-extrabold whitespace-nowrap" style="color: ${brandColor};">${item.brandName}</span>` : ''}
         </div>
       `;
 
@@ -326,7 +393,7 @@ function navigateToProduct(item, input, box, clearBtn) {
   if (clearBtn) clearBtn.classList.remove('hidden');
   hideSuggestions(box);
 
-  // Navegar a la marca con Deep Linking si cuenta con brand y id
+  // Navegar a la marca con Deep Linking (URL limpia) si cuenta con brand y id
   if (item.brand && typeof window.appNavigate === 'function') {
     const targetUrl = item.id 
       ? `/marca/${item.brand}?prod=${encodeURIComponent(item.id)}`

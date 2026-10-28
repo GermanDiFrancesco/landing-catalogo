@@ -1,26 +1,21 @@
 {
   "name": "tecnografic",
   "version": "1.0.0",
-  "description": "Sitio web oficial de Tecnografic S.A. en Node.js + Express y Vanilla JS",
-  "main": "server.js",
+  "description": "Sitio web oficial estático de Tecnografic S.A. (SPA Vanilla JS con Hash Router)",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js",
     "tw:build": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --minify",
     "tw:watch": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --watch",
     "build": "npm run tw:build"
   },
   "keywords": [
     "tecnografic",
-    "express",
+    "static",
     "vanilla-js",
-    "spa"
+    "spa",
+    "hash-router"
   ],
   "author": "Tecnografic S.A.",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.2"
-  },
   "devDependencies": {
     "autoprefixer": "^10.6.1",
     "postcss": "^8.5.31",

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -8,8 +8,8 @@
   <meta name="description"
     content="Tecnografic: Fabricante líder de cuadernos, repuestos y artículos escolares con marcas como Triunfante, Tintoretto, Potosí y Mis Hojas.">
   <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Tailwind CSS Compilado -->
+  <link rel="stylesheet" href="/assets/css/output.css">
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <!-- Estilos base -->
@@ -63,48 +63,48 @@
       </div>
     </div>
 
-  <!-- Contenedor animado para la barra de búsqueda persistente -->
-<div id="search-bar-container" class="transition-all duration-300 ease-in-out overflow-hidden max-h-20 opacity-100">
-  <div class="border-t border-gray-100 bg-[#f8fafc] py-2 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-7xl mx-auto flex justify-end">
-      <!-- Contenedor con posición relativa para anclar el dropdown -->
-      <div class="relative w-full sm:w-72" id="search-wrapper">
-        <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xs pointer-events-none"></i>
-        <input 
-          type="text" 
-          id="global-search-input"
-          placeholder="Buscar producto..." 
-          class="w-full bg-[#dbe2ea] text-gray-700 text-sm pl-9 pr-8 py-1.5 rounded-full outline-none focus:ring-2 focus:ring-blue-500 transition-all placeholder-gray-500 font-medium"
-          autocomplete="off"
-        >
-        <!-- Botón limpiar búsqueda -->
-        <button
-          type="button"
-          id="search-clear-btn"
-          class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 focus:outline-none"
-          aria-label="Limpiar búsqueda"
-        >
-          <i class="fa-solid fa-xmark text-xs"></i>
-        </button>
+    <!-- Contenedor animado para la barra de búsqueda persistente -->
+    <div id="search-bar-container" class="transition-all duration-300 ease-in-out overflow-visible max-h-20 opacity-100">
+      <div class="border-t border-gray-100 bg-[#f8fafc] py-2 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto flex justify-end">
+          <!-- Contenedor con posición relativa para anclar el dropdown -->
+          <div class="relative w-full sm:w-72" id="search-wrapper">
+            <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xs pointer-events-none"></i>
+            <input 
+              type="text" 
+              id="global-search-input"
+              placeholder="Buscar producto..." 
+              class="w-full bg-[#dbe2ea] text-gray-700 text-sm pl-9 pr-8 py-1.5 rounded-full outline-none focus:ring-2 focus:ring-blue-500 transition-all placeholder-gray-500 font-medium"
+              autocomplete="off"
+            >
+            <!-- Botón limpiar búsqueda -->
+            <button
+              type="button"
+              id="search-clear-btn"
+              class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 focus:outline-none"
+              aria-label="Limpiar búsqueda"
+            >
+              <i class="fa-solid fa-xmark text-xs"></i>
+            </button>
 
-        <!-- Dropdown de sugerencias con autocompletado -->
-        <div
-          id="search-suggestions-box"
-          class="hidden absolute left-0 right-0 top-full mt-2 bg-white rounded-xl shadow-2xl border border-gray-100 overflow-hidden z-[999] max-h-[420px] overflow-y-auto"
-          style="min-width: 320px;"
-        >
-          <div id="search-suggestions-list" class="divide-y divide-gray-100">
-            <!-- Sugerencias generadas dinámicamente por search.js -->
-          </div>
-          <!-- Footer del dropdown -->
-          <div class="px-3 py-1.5 bg-gray-50 border-t border-gray-100 flex items-center justify-between">
-            <span id="search-result-counter" class="text-[10px] font-semibold text-gray-500"></span>
+            <!-- Dropdown de sugerencias con autocompletado -->
+            <div
+              id="search-suggestions-box"
+              class="hidden absolute left-0 sm:left-auto right-0 sm:w-96 top-full mt-2 bg-white rounded-xl shadow-2xl border border-gray-100 overflow-hidden z-[999] max-h-[420px] overflow-y-auto"
+              style="min-width: 320px;"
+            >
+              <div id="search-suggestions-list" class="divide-y divide-gray-100">
+                <!-- Sugerencias generadas dinámicamente por search.js -->
+              </div>
+              <!-- Footer del dropdown -->
+              <div class="px-3 py-1.5 bg-gray-50 border-t border-gray-100 flex items-center justify-between">
+                <span id="search-result-counter" class="text-[10px] font-semibold text-gray-500"></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
     <!-- Menú Desplegable Móvil -->
     <div class="hidden lg:hidden border-t border-gray-100 bg-white shadow-lg" id="mobile-menu">
@@ -118,7 +118,7 @@
         <a href="/marca/potosi"
           class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:bg-blue-50 hover:text-blue-600">Potosi</a>
         <a href="/marca/mis-hojas"
-          class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:text-blue-600">Mis hojas</a>
+          class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:bg-blue-50 hover:text-blue-600">Mis hojas</a>
         <a href="/puntos-de-venta"
           class="block px-3 py-2 rounded-lg text-base font-bold text-[#0062cc] hover:bg-blue-50 hover:text-blue-600">Puntos
           de venta</a>
@@ -213,16 +213,17 @@
   <script src="/assets/js/search.js"></script>
   <script src="/assets/js/main.js"></script>
   <script src="/assets/js/brand.js"></script>
+  <script src="/assets/js/points-of-sale.js"></script>
   <script src="/assets/js/router.js"></script>
   <!-- Botón flotante de lupa (aparece cuando la barra de búsqueda está oculta) -->
-<button 
-  type="button" 
-  id="floating-search-btn"
-  class="fixed top-20 right-6 z-50 w-12 h-12 bg-gray-400 hover:bg-gray-700 text-white rounded-full shadow-xl flex items-center justify-center transition-all duration-300 transform scale-0 opacity-0 pointer-events-none"
-  aria-label="Abrir buscador"
->
-  <i class="fa-solid fa-magnifying-glass text-lg"></i>
-</button>
+  <button 
+    type="button" 
+    id="floating-search-btn"
+    class="fixed top-20 right-6 z-50 w-12 h-12 bg-gray-400 hover:bg-gray-700 text-white rounded-full shadow-xl flex items-center justify-center transition-all duration-300 transform scale-0 opacity-0 pointer-events-none"
+    aria-label="Abrir buscador"
+  >
+    <i class="fa-solid fa-magnifying-glass text-lg"></i>
+  </button>
 </body>
 
 </html>

@@ -7,47 +7,10 @@
     </p>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-5xl mx-auto items-start">
-    
-    <!-- Información & WhatsApp -->
-    <div class="lg:col-span-5 space-y-6">
-      <div class="bg-gray-50 border border-gray-200 rounded-3xl p-8">
-        <h3 class="text-xl font-bold text-gray-900 mb-6">Oficina Central</h3>
-        <ul class="space-y-4 text-sm text-gray-600">
-          <li class="flex items-start">
-            <i class="fa-solid fa-location-dot text-blue-600 mr-3 mt-1 w-4"></i>
-            <span>Montevideo 73 | La Tablada, Buenos Aires, Argentina</span>
-          </li>
-          <li class="flex items-center">
-            <i class="fa-solid fa-phone text-blue-600 mr-3 w-4"></i>
-            <span>+54 11 6076-0400</span>
-          </li>
-          <li class="flex items-center">
-            <i class="fa-solid fa-envelope text-blue-600 mr-3 w-4"></i>
-            <a href="mailto:info@tecnograficsa.com.ar" class="hover:text-blue-600">info@tecnograficsa.com.ar</a>
-          </li>
-          <li class="flex items-center">
-            <i class="fa-solid fa-clock text-blue-600 mr-3 w-4"></i>
-            <span>Lunes a viernes 09:00Hs a 18:00Hs</span>
-          </li>
-        </ul>
-      </div>
+  <div class="max-w-3xl mx-auto space-y-8">
 
-      <!-- Bloque Newsletter -->
-      <div class="bg-blue-50 border border-blue-100 rounded-3xl p-6">
-        <h4 class="font-bold text-[#0047a0] text-base mb-1">Suscribite a nuestro Newsletter</h4>
-        <p class="text-xs text-gray-600 mb-3">Conocé antes que nadie nuevos lanzamientos y promociones escolares.</p>
-        <form class="flex gap-2" onsubmit="event.preventDefault(); alert('¡Gracias por suscribirte!');">
-          <input type="email" placeholder="Tu correo electrónico" required class="flex-grow px-3 py-2 text-xs rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
-          <button type="submit" class="bg-[#0062cc] hover:bg-[#0047a0] text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors">
-            Suscribirme
-          </button>
-        </form>
-      </div>
-    </div>
-
-    <!-- Formulario de Contacto -->
-    <div class="lg:col-span-7 bg-white border border-gray-200 rounded-3xl p-8 sm:p-10 shadow-sm">
+    <!-- 1. Formulario de Contacto (Principal) -->
+    <div class="bg-white border border-gray-200 rounded-3xl p-8 sm:p-10 shadow-sm">
       <h3 class="text-2xl font-bold text-gray-900 mb-6">Envianos tu mensaje</h3>
       <form class="space-y-4" onsubmit="event.preventDefault(); alert('Mensaje enviado correctamente.');">
         
@@ -63,16 +26,16 @@
           </div>
         </div>
 
-        <!-- Correo Electrónico -->
-        <div>
-          <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Correo Electrónico</label>
-          <input type="email" required class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="juan@ejemplo.com">
-        </div>
-
-        <!-- Teléfono -->
-        <div>
-          <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Teléfono</label>
-          <input type="tel" class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="+54 11 ...">
+        <!-- Correo Electrónico y Teléfono -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Correo Electrónico</label>
+            <input type="email" required class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="juan@ejemplo.com">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Teléfono</label>
+            <input type="tel" class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="+54 11 ...">
+          </div>
         </div>
 
         <!-- Consulta / Mensaje -->
@@ -86,6 +49,29 @@
           Enviar Mensaje
         </button>
       </form>
+    </div>
+
+    <!-- 2. Datos de Atención / Oficina Central (Debajo del formulario) -->
+    <div class="bg-gray-50 border border-gray-200 rounded-3xl p-8">
+      <h3 class="text-xl font-bold text-gray-900 mb-6 text-center sm:text-left">Oficina Central y Datos de Atención</h3>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-5 text-sm text-gray-600">
+        <li class="flex items-start">
+          <i class="fa-solid fa-location-dot text-blue-600 mr-3 mt-1 w-4 flex-shrink-0"></i>
+          <span>Montevideo 73 | La Tablada, Buenos Aires, Argentina</span>
+        </li>
+        <li class="flex items-center">
+          <i class="fa-solid fa-phone text-blue-600 mr-3 w-4 flex-shrink-0"></i>
+          <span>+54 11 6076-0400</span>
+        </li>
+        <li class="flex items-center">
+          <i class="fa-solid fa-envelope text-blue-600 mr-3 w-4 flex-shrink-0"></i>
+          <a href="mailto:info@tecnograficsa.com.ar" class="hover:text-blue-600 transition-colors">info@tecnograficsa.com.ar</a>
+        </li>
+        <li class="flex items-center">
+          <i class="fa-solid fa-clock text-blue-600 mr-3 w-4 flex-shrink-0"></i>
+          <span>Lunes a viernes 09:00Hs a 18:00Hs</span>
+        </li>
+      </ul>
     </div>
 
   </div>
