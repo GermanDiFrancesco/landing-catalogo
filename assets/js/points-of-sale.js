@@ -56,10 +56,10 @@
   }
 
   /**
-   * Carga el script de Google Maps API de forma asíncrona si aún no está disponible
+   * Carga el script de Google Maps API de forma asíncrona (loading=async) si aún no está disponible
    */
   function ensureGoogleMapsLoaded() {
-    if (window.google && window.google.maps) {
+    if (window.google && window.google.maps && window.google.maps.Map && window.google.maps.OverlayView) {
       return Promise.resolve();
     }
     if (googleMapsPromise) {
@@ -67,11 +67,18 @@
     }
 
     googleMapsPromise = new Promise((resolve, reject) => {
-      window.__onTecnograficGoogleMapsReady = () => {
-        resolve();
+      window.__onTecnograficGoogleMapsReady = async () => {
+        try {
+          if (window.google && window.google.maps && typeof window.google.maps.importLibrary === 'function') {
+            await window.google.maps.importLibrary('maps');
+          }
+          resolve();
+        } catch (err) {
+          reject(err);
+        }
       };
       const script = document.createElement('script');
-      script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAAFmSUZqHI6l6p41rSC4-W0bEwtK0aIbg&callback=__onTecnograficGoogleMapsReady';
+      script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAAFmSUZqHI6l6p41rSC4-W0bEwtK0aIbg&loading=async&callback=__onTecnograficGoogleMapsReady';
       script.async = true;
       script.defer = true;
       script.onerror = (err) => {
@@ -82,6 +89,73 @@
     });
 
     return googleMapsPromise;
+  }
+
+  /**
+   * Crea un marcador personalizado basado en google.maps.OverlayView
+   * Evita el uso de google.maps.Marker (deprecado) y permite conservar MAP_STYLES sin requerir mapId
+   */
+  function createCustomPinOverlay(loc, map, onClick) {
+    const position = new google.maps.LatLng(loc.latitude, loc.longitude);
+    const overlay = new google.maps.OverlayView();
+    let div = null;
+
+    overlay.onAdd = function () {
+      div = document.createElement('div');
+      div.style.position = 'absolute';
+      div.style.cursor = 'pointer';
+      div.style.width = '22px';
+      div.style.height = '29px';
+      div.style.transform = 'translate(-50%, -100%)';
+      div.style.userSelect = 'none';
+      div.title = loc.name || 'Tecnografic';
+
+      const img = document.createElement('img');
+      img.src = '/assets/img/icons/market-pin.png';
+      img.alt = loc.name || 'Tecnografic';
+      img.style.width = '22px';
+      img.style.height = '29px';
+      img.style.display = 'block';
+      img.draggable = false;
+      div.appendChild(img);
+
+      div.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (typeof onClick === 'function') {
+          onClick();
+        }
+      });
+
+      const panes = this.getPanes();
+      if (panes && panes.overlayMouseTarget) {
+        panes.overlayMouseTarget.appendChild(div);
+      }
+    };
+
+    overlay.draw = function () {
+      if (!div) return;
+      const projection = this.getProjection();
+      if (!projection) return;
+      const point = projection.fromLatLngToDivPixel(position);
+      if (point) {
+        div.style.left = `${point.x}px`;
+        div.style.top = `${point.y}px`;
+      }
+    };
+
+    overlay.onRemove = function () {
+      if (div && div.parentNode) {
+        div.parentNode.removeChild(div);
+      }
+      div = null;
+    };
+
+    overlay.getPosition = function () {
+      return position;
+    };
+
+    overlay.setMap(map);
+    return overlay;
   }
 
   /**
@@ -148,23 +222,21 @@
       streetViewControl: false
     });
 
-    infoWindowInstance = new google.maps.InfoWindow();
+    infoWindowInstance = new google.maps.InfoWindow({
+      pixelOffset: new google.maps.Size(0, -29)
+    });
     markersById.clear();
 
     locations.forEach((loc) => {
       if (typeof loc.latitude !== 'number' || typeof loc.longitude !== 'number') return;
 
-      const marker = new google.maps.Marker({
-        position: { lat: loc.latitude, lng: loc.longitude },
-        map: mapInstance,
-        icon: '/assets/img/icons/market-pin.png',
-        title: loc.name || 'Tecnografic'
-      });
-
-      marker.addListener('click', () => {
+      const openLocInfo = () => {
         infoWindowInstance.setContent(buildInfoWindowHtml(loc));
-        infoWindowInstance.open(mapInstance, marker);
-      });
+        infoWindowInstance.setPosition(new google.maps.LatLng(loc.latitude, loc.longitude));
+        infoWindowInstance.open(mapInstance);
+      };
+
+      const marker = createCustomPinOverlay(loc, mapInstance, openLocInfo);
 
       markersById.set(loc.id, { marker, loc });
     });
@@ -183,7 +255,8 @@
     const entry = markersById.get(loc.id);
     if (entry && infoWindowInstance) {
       infoWindowInstance.setContent(buildInfoWindowHtml(loc));
-      infoWindowInstance.open(mapInstance, entry.marker);
+      infoWindowInstance.setPosition(latLng);
+      infoWindowInstance.open(mapInstance);
     }
 
     // En pantallas móviles, hacer scroll suave hacia el mapa para que el usuario vea el pin

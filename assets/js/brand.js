@@ -9,6 +9,27 @@
 let cachedBrandsData = null;
 const cachedBrandProducts = {};
 
+// Base URL absoluta de la raíz del proyecto calculada a partir del script actual (/assets/js/brand.js)
+const BRAND_SCRIPT_SRC = (typeof document !== 'undefined' && document.currentScript && document.currentScript.src)
+  ? document.currentScript.src
+  : '';
+const SITE_ROOT_URL = BRAND_SCRIPT_SRC
+  ? new URL('../../', BRAND_SCRIPT_SRC).href
+  : (typeof window !== 'undefined' ? window.location.origin + '/' : '/');
+
+// Fallbacks vectoriales embebidos por si falla la carga de algún ícono de tipo de hoja
+const SHEET_TYPE_SVG_FALLBACKS = {
+  'rayado.png': 'data:image/svg+xml;utf8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#ffffff" stroke="#1f1f1f" stroke-width="6"/><line x1="12" y1="26" x2="88" y2="26" stroke="#1f1f1f" stroke-width="3.5"/><line x1="5" y1="50" x2="95" y2="50" stroke="#1f1f1f" stroke-width="3.5"/><line x1="12" y1="74" x2="88" y2="74" stroke="#1f1f1f" stroke-width="3.5"/></svg>'
+  ),
+  'cuadriculado.png': 'data:image/svg+xml;utf8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#ffffff" stroke="#1f1f1f" stroke-width="6"/><line x1="15" y1="20" x2="85" y2="20" stroke="#1f1f1f" stroke-width="2.5"/><line x1="6" y1="35" x2="94" y2="35" stroke="#1f1f1f" stroke-width="2.5"/><line x1="4" y1="50" x2="96" y2="50" stroke="#1f1f1f" stroke-width="2.5"/><line x1="6" y1="65" x2="94" y2="65" stroke="#1f1f1f" stroke-width="2.5"/><line x1="15" y1="80" x2="85" y2="80" stroke="#1f1f1f" stroke-width="2.5"/><line x1="20" y1="15" x2="20" y2="85" stroke="#1f1f1f" stroke-width="2.5"/><line x1="35" y1="6" x2="35" y2="94" stroke="#1f1f1f" stroke-width="2.5"/><line x1="50" y1="4" x2="50" y2="96" stroke="#1f1f1f" stroke-width="2.5"/><line x1="65" y1="6" x2="65" y2="94" stroke="#1f1f1f" stroke-width="2.5"/><line x1="80" y1="15" x2="80" y2="85" stroke="#1f1f1f" stroke-width="2.5"/></svg>'
+  ),
+  'lisas.png': 'data:image/svg+xml;utf8,' + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#ffffff" stroke="#1f1f1f" stroke-width="6"/></svg>'
+  )
+};
+
 function extractHashSearch(searchOverride) {
   if (typeof searchOverride === 'string' && searchOverride.length > 0) {
     return searchOverride;
@@ -68,13 +89,105 @@ async function initBrandPage(brandSlug, searchOverride) {
 
 function formatImgUrl(url) {
   if (!url) return '';
-  if (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('/')) {
+  if (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('data:')) {
     return url;
   }
-  return `/${url}`;
+  const cleanPath = url.replace(/^\/+/, '');
+  try {
+    return new URL(cleanPath, SITE_ROOT_URL).href;
+  } catch (e) {
+    return `/${cleanPath}`;
+  }
+}
+
+function setSafeProductImage(imgEl, primaryUrl, fallbackUrl) {
+  if (!imgEl) return;
+  const resolvedPrimary = formatImgUrl(primaryUrl || fallbackUrl);
+  const resolvedFallback = formatImgUrl(fallbackUrl);
+
+  imgEl.onerror = () => {
+    if (resolvedFallback && imgEl.src !== resolvedFallback) {
+      imgEl.onerror = null;
+      imgEl.src = resolvedFallback;
+    }
+  };
+  imgEl.src = resolvedPrimary;
+}
+
+function initProductZoomModal() {
+  const trigger = document.getElementById('product-image-zoom-trigger');
+  const mainImg = document.getElementById('product-main-image');
+  const modal = document.getElementById('product-zoom-modal');
+  const modalContent = document.getElementById('product-zoom-content');
+  const closeBtn = document.getElementById('product-zoom-close');
+  const zoomImg = document.getElementById('product-zoom-image');
+  const zoomCaption = document.getElementById('product-zoom-caption');
+
+  if (!trigger || !mainImg || !modal || !zoomImg) return;
+  if (trigger.dataset.zoomBound === 'true') return;
+  trigger.dataset.zoomBound = 'true';
+
+  const openModal = () => {
+    if (!mainImg.src) return;
+    zoomImg.src = mainImg.src;
+    zoomImg.alt = mainImg.alt || 'Vista ampliada';
+
+    if (zoomCaption) {
+      const prodTitle = document.getElementById('sample-product-title');
+      const variantBadge = document.getElementById('product-variant-badge');
+      const titleText = prodTitle ? prodTitle.textContent.trim() : (mainImg.alt || '');
+      const badgeText = variantBadge ? variantBadge.textContent.trim() : '';
+      zoomCaption.textContent = badgeText && badgeText !== 'Vista Familia'
+        ? `${titleText} (${badgeText})`
+        : titleText;
+    }
+
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeModal = () => {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    document.body.style.overflow = '';
+  };
+
+  trigger.addEventListener('click', openModal);
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      closeModal();
+    });
+  }
+
+  // Cerrar al hacer clic fuera del cuadro de contenido (sobre el fondo oscuro)
+  modal.addEventListener('click', (e) => {
+    if (!modalContent || !modalContent.contains(e.target)) {
+      closeModal();
+    }
+  });
+
+  // Cerrar también con la tecla Escape
+  if (!window.__tecnograficZoomEscBound) {
+    window.__tecnograficZoomEscBound = true;
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const activeModal = document.getElementById('product-zoom-modal');
+        if (activeModal && !activeModal.classList.contains('hidden')) {
+          activeModal.classList.add('hidden');
+          activeModal.classList.remove('flex');
+          document.body.style.overflow = '';
+        }
+      }
+    });
+  }
 }
 
 function renderBrandPage(brand, brandProductsData, activeSearch) {
+  initProductZoomModal();
+
   const heroContainer = document.getElementById('brand-hero-section');
   if (heroContainer) {
     heroContainer.style.backgroundColor = brand.color;
@@ -373,7 +486,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
     const fallbackImage = formatImgUrl(product.familyImage || (product.variants && product.variants[0]?.image) || brand.logo);
 
     if (mainImg) {
-      mainImg.src = fallbackImage;
+      setSafeProductImage(mainImg, fallbackImage, brand.logo);
       mainImg.alt = product.name;
     }
     if (variantBadge) {
@@ -540,21 +653,42 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         const btn = document.createElement('button');
         btn.type = 'button';
 
-        // Iconos disponibles conocidos
+        // Iconos disponibles conocidos (soporta singular/plural y sin acentos)
         const iconMap = {
           'rayado': 'rayado.png',
+          'rayada': 'rayado.png',
+          'rayados': 'rayado.png',
+          'rayadas': 'rayado.png',
           'cuadriculado': 'cuadriculado.png',
+          'cuadriculada': 'cuadriculado.png',
+          'cuadriculados': 'cuadriculado.png',
+          'cuadriculadas': 'cuadriculado.png',
           'lisas': 'lisas.png',
-          'liso': 'lisas.png'
+          'lisa': 'lisas.png',
+          'liso': 'lisas.png',
+          'lisos': 'lisas.png'
         };
 
-        const optKey = String(opt).toLowerCase().trim();
-        const hasIcon = (containerId === 'options-tipo-hoja') && iconMap[optKey];
+        const optKey = String(opt)
+          .toLowerCase()
+          .normalize('NFD')
+          .replace(/[\u0300-\u036f]/g, '')
+          .trim();
+        const iconFileName = iconMap[optKey];
+        const hasIcon = (containerId === 'options-tipo-hoja') && Boolean(iconFileName);
 
         // 1. Renderizado de contenido (Icono si existe, texto con nombre si es mapas u otros)
         if (hasIcon) {
           const img = document.createElement('img');
-          img.src = `/assets/img/icons/${iconMap[optKey]}`;
+          const iconPath = formatImgUrl(`/assets/img/icons/${iconFileName}`);
+          const svgFallback = SHEET_TYPE_SVG_FALLBACKS[iconFileName];
+          img.onerror = () => {
+            if (svgFallback && img.src !== svgFallback) {
+              img.onerror = null;
+              img.src = svgFallback;
+            }
+          };
+          img.src = iconPath;
           img.alt = opt;
           img.className = 'w-full h-full object-cover rounded-full pointer-events-none';
           btn.appendChild(img);
@@ -655,7 +789,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         // Hover: Swap de imagen en el visor
         dot.addEventListener('mouseenter', () => {
           if (mainImg && variant.image) {
-            mainImg.src = formatImgUrl(variant.image);
+            setSafeProductImage(mainImg, variant.image, fallbackImage);
           }
           if (variantBadge) {
             variantBadge.textContent = variant.colorName || 'Color seleccionado';
@@ -669,7 +803,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         dot.addEventListener('mouseleave', () => {
           const currentVariant = findActiveVariant();
           if (mainImg) {
-            mainImg.src = formatImgUrl(currentVariant.image || fallbackImage);
+            setSafeProductImage(mainImg, currentVariant?.image, fallbackImage);
           }
           if (variantBadge) {
             variantBadge.textContent = currentVariant.colorName || 'Seleccionado';
@@ -684,7 +818,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
           selectedState.colorHex = variant.colorHex;
           selectedState.colorName = variant.colorName;
           if (variant.image && mainImg) {
-            mainImg.src = formatImgUrl(variant.image);
+            setSafeProductImage(mainImg, variant.image, fallbackImage);
           }
           renderColorOptions();
           updateSpecsTable(variant);
@@ -735,7 +869,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
       if (specGramaje) specGramaje.textContent = sp.gramaje || '—';
 
       if (mainImg && activeVariant.image) {
-        mainImg.src = activeVariant.image;
+        setSafeProductImage(mainImg, activeVariant.image, fallbackImage);
       }
       if (variantBadge && activeVariant.sku) {
         variantBadge.textContent = activeVariant.colorName || activeVariant.tipo_hoja || 'Modelo';
