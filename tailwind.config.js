@@ -8,6 +8,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'mis-hojas': 'var(--color-lila-mis-hojas, #7477b9)',
+        'potosi': 'var(--color-verde-potosi, #9fba30)',
+        'tintoretto': 'var(--color-celeste-tintoretto, #009fe3)',
+        'triunfante': 'var(--color-azul-triunfante, #0059e5)',
+      },
       fontFamily: {
         montserrat: ['Montserrat', 'system-ui', 'sans-serif'],
       },

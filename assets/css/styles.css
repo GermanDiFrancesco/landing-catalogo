@@ -1,12 +1,93 @@
 /* Estilos complementarios a Tailwind CSS para Tecnografic */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Montserrat:wght@400;600;700;800;900&display=swap');
 
+:root {
+  --color-lila-mis-hojas: #7477b9;
+  --color-verde-potosi: #9fba30;
+  --color-celeste-tintoretto: #009fe3;
+  --color-azul-triunfante: #0059e5;
+}
+
+/* Clases de utilidad vinculadas a las variables de color */
+.text-mis-hojas { color: var(--color-lila-mis-hojas); }
+.bg-mis-hojas { background-color: var(--color-lila-mis-hojas); }
+.border-mis-hojas { border-color: var(--color-lila-mis-hojas); }
+
+.text-potosi { color: var(--color-verde-potosi); }
+.bg-potosi { background-color: var(--color-verde-potosi); }
+.border-potosi { border-color: var(--color-verde-potosi); }
+
+.text-tintoretto { color: var(--color-celeste-tintoretto); }
+.bg-tintoretto { background-color: var(--color-celeste-tintoretto); }
+.border-tintoretto { border-color: var(--color-celeste-tintoretto); }
+
+.text-triunfante { color: var(--color-azul-triunfante); }
+.bg-triunfante { background-color: var(--color-azul-triunfante); }
+.border-triunfante { border-color: var(--color-azul-triunfante); }
+
+.group:hover .group-hover\:text-mis-hojas { color: var(--color-lila-mis-hojas); }
+.group:hover .group-hover\:text-potosi { color: var(--color-verde-potosi); }
+.group:hover .group-hover\:text-tintoretto { color: var(--color-celeste-tintoretto); }
+.group:hover .group-hover\:text-triunfante { color: var(--color-azul-triunfante); }
+
 body {
   font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 .font-montserrat {
   font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+/* Alto fijo y consistente del banner hero de marca */
+#brand-hero-section {
+  height: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  box-sizing: border-box;
+}
+
+/* Contenedor independiente de la imagen: ocupa todo el ancho de su columna */
+#brand-hero-logo-container {
+  height: 100%;
+}
+
+#brand-hero-section .brand-hero-logo-box {
+  width: 100%;
+  height: 140px;
+  max-height: 140px;
+}
+
+#brand-hero-section #brand-hero-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Contenedor independiente del slogan y descripción con su propio padding */
+#brand-hero-content-container {
+  height: 100%;
+  padding: 1rem 1.5rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1023px) {
+  #brand-hero-section {
+    height: auto;
+    min-height: 190px;
+    max-height: none;
+    padding: 1.5rem 0;
+  }
+  #brand-hero-logo-container {
+    height: auto;
+  }
+  #brand-hero-section .brand-hero-logo-box {
+    height: 90px;
+    max-height: 90px;
+  }
+  #brand-hero-content-container {
+    height: auto;
+    padding: 0.5rem 1rem;
+  }
 }
 
 /* Cenefa decorativa inferior para marcas */

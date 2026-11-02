@@ -18,10 +18,10 @@ let searchSelectedIndex = -1;
 let searchCurrentFiltered = [];
 
 const BRAND_COLORS = {
-  'triunfante': '#0062cc',
-  'tintoretto': '#00c6fd',
-  'potosi': '#76a41f',
-  'mis-hojas': '#8174b8'
+  'triunfante': '#0059e5',
+  'tintoretto': '#009fe3',
+  'potosi': '#9fba30',
+  'mis-hojas': '#7477b9'
 };
 
 // Control de visibilidad de la barra de búsqueda y botón flotante al hacer scroll
@@ -251,7 +251,7 @@ function initSearchInput() {
       await loadProductsData();
     }
     const results = window.searchProducts(query);
-    searchCurrentFiltered = results.slice(0, 12);
+    searchCurrentFiltered = results.slice(0, 20);
     renderSuggestions(suggestionList, suggestionsBox, counter, searchCurrentFiltered, query);
   });
 
@@ -341,7 +341,7 @@ function renderSuggestions(list, box, counter, items, query) {
       el.innerHTML = `
         <div class="flex items-center gap-3 min-w-0 flex-1">
           <div class="w-10 h-10 rounded-lg bg-gray-50 border border-gray-200/80 p-1 flex items-center justify-center shrink-0 overflow-hidden">
-            <img src="${thumbUrl}" alt="${item.name}" class="max-h-full max-w-full object-contain" onerror="this.src='/assets/img/marcas-logos/Tecnografic logo.png'">
+            <img src="${thumbUrl}" alt="${item.name}" loading="lazy" decoding="async" class="max-h-full max-w-full object-contain" onerror="this.src='/assets/img/marcas-logos/Tecnografic logo.png'">
           </div>
           <div class="flex flex-col min-w-0 flex-1">
             <span class="text-xs sm:text-sm font-semibold text-gray-800 truncate">${highlightedName}</span>

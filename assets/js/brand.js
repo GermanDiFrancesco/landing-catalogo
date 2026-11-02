@@ -207,6 +207,17 @@ function renderBrandPage(brand, brandProductsData, activeSearch) {
     brandDesc.textContent = brand.description || '';
   }
 
+  // Sello de calidad ISO 9001 (triunfante, potosi, mis-hojas)
+  const isoBadge = document.getElementById('brand-iso-badge');
+  if (isoBadge) {
+    const brandsWithIso = ['triunfante', 'potosi', 'mis-hojas'];
+    if (brandsWithIso.includes(brand.id)) {
+      isoBadge.classList.remove('hidden');
+    } else {
+      isoBadge.classList.add('hidden');
+    }
+  }
+
   // Color del encabezado de la ficha técnica
   const specsHead = document.getElementById('specs-header');
   if (specsHead) {
@@ -370,7 +381,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
      card.innerHTML = `
           <!-- Contenedor imagen -->
           <div class="w-full bg-gray-50/70 flex items-center justify-center h-48 mb-4 overflow-hidden relative">
-            <img src="${thumbImg}" alt="${prod.name}" style=""class="max-h-full object-contain scale-125 transition-transform duration-300 group-hover:scale-105">
+            <img src="${thumbImg}" alt="${prod.name}" loading="lazy" decoding="async" class="max-h-full object-contain scale-125 transition-transform duration-300 group-hover:scale-105">
           </div>
           <!-- Título del producto -->
           <h3 class="px-3 py-1.5 text-xs font-bold rounded-lg text-white shadow-sm transition-all transform scale-105 text-center" style="background-color: ${brand.color};">

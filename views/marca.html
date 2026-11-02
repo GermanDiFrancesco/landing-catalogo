@@ -1,25 +1,32 @@
 <!-- 1. HERO ACTION DE MARCA (Mantiene su estilo original, alineado con el sidebar) -->
-<section class="w-full text-white py-8 md:py-12 shadow-inner relative overflow-hidden" id="brand-hero-section">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-10">
+<section class="w-full text-white shadow-inner relative overflow-hidden" id="brand-hero-section">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full h-full relative">
+    <div class="flex flex-col lg:flex-row items-stretch gap-6 lg:gap-10 w-full h-full">
       
-      <!-- Logo a la izquierda (Alineado exactamente al ancho del sidebar: lg:w-72 xl:w-80) -->
-      <div class="w-full lg:w-72 xl:w-80 flex-shrink-0 flex justify-center lg:justify-start">
-        <div class="max-h-full max-w-full object-contain flex items-center justify-center">
-          <img id="brand-hero-logo" src="" alt="Marca" class="max-h-full max-w-full object-contain">
+      <!-- Contenedor independiente de la Imagen (Alineado al sidebar: lg:w-72 xl:w-80) -->
+      <div id="brand-hero-logo-container" class="w-full lg:w-72 xl:w-80 flex-shrink-0 flex items-center justify-center lg:justify-start">
+        <div class="brand-hero-logo-box w-full flex items-center justify-center lg:justify-start">
+          <img id="brand-hero-logo" src="" alt="Marca" class="w-full max-h-full object-contain">
         </div>
       </div>
 
-      <!-- Slogan y texto descriptivo a la derecha (Ocupa el resto del espacio igual que el main content: flex-1) -->
-      <div class="flex-1 w-full text-center">
-        <h2 id="brand-hero-slogan" class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight mb-3 uppercase italic drop-shadow-sm font-montserrat">
-          <!-- Slogan inyectado por JS -->
-        </h2>
-        <p id="brand-hero-desc" class="text-sm sm:text-base text-white/95 leading-relaxed max-w-2xl mx-auto text-center">
-          <!-- Descripción inyectada por JS -->
-        </p>
+      <!-- Contenedor independiente del Slogan y Descripción (Maneja su propio padding y flujo sin afectar a la imagen) -->
+      <div id="brand-hero-content-container" class="flex-1 w-full flex flex-col justify-center items-center text-center min-w-0">
+        <div class="w-full max-w-2xl mx-auto">
+          <h2 id="brand-hero-slogan" class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight mb-2 uppercase italic drop-shadow-sm font-montserrat">
+            <!-- Slogan inyectado por JS -->
+          </h2>
+          <p id="brand-hero-desc" class="text-xs sm:text-sm lg:text-base text-white/95 leading-relaxed text-center line-clamp-3">
+            <!-- Descripción inyectada por JS -->
+          </p>
+        </div>
       </div>
 
+    </div>
+
+    <!-- Sello de Calidad ISO 9001 (Fijo en esquina inferior derecha para marcas certificadas) -->
+    <div id="brand-iso-badge" class="hidden absolute bottom-3 right-4 sm:right-6 lg:right-8 z-10 pointer-events-none">
+      <img src="/assets/img/icons/calidad-iso-9001_l.svg" alt="Certificado ISO 9001" class="h-10 sm:h-12 w-auto object-contain drop-shadow-sm">
     </div>
   </div>
 </section>
