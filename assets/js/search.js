@@ -147,21 +147,39 @@ function normalizeText(text) {
 }
 
 // ─── Función pública de búsqueda (soporta múltiples palabras en cualquier orden)
+// ─── Función pública de búsqueda con prioridades de coincidencia ─────────────
+// Prioridades:
+// 1. Coincide con el inicio de alguna palabra en el título/nombre (prefijo de palabra).
+// 2. Coincide con el inicio de alguna palabra en la descripción (prefijo de palabra).
+// 3. Coincide en cualquier parte del título/nombre (subcadena interna).
+// 4. Coincide en cualquier parte de la descripción (subcadena interna).
+// 5. Coincide en otros campos (marca, categoría, especificaciones, etc.).
 window.searchProducts = function (query) {
   if (!isLoaded || !query || query.trim() === '') return [];
   const q = normalizeText(query.trim());
   const terms = q.split(/\s+/).filter(Boolean);
   if (terms.length === 0) return [];
 
-  return productsCache.filter(p => {
-    const searchable = [
-      p.name,
+  // Función auxiliar para determinar si un texto contiene un término al inicio de una palabra
+  const startsWord = (textNorm, term) => {
+    if (!textNorm || !term) return false;
+    // Coincide al inicio del texto o tras un espacio o signo de puntuación
+    const words = textNorm.split(/[\s,./\-#()_]+/);
+    return words.some(w => w.startsWith(term));
+  };
+
+  const scoredProducts = [];
+
+  for (const p of productsCache) {
+    const nameNorm = normalizeText(p.name || '');
+    const descNorm = normalizeText(p.description || '');
+
+    const otherSearchable = [
       p.brandName,
       p.brand,
       p.category,
       p.subcategory,
       p.spec,
-      p.description,
       p.colorNames ? p.colorNames.join(' ') : '',
       p.specs ? Object.values(p.specs).join(' ') : ''
     ]
@@ -169,8 +187,57 @@ window.searchProducts = function (query) {
       .map(normalizeText)
       .join(' ');
 
-    return terms.every(term => searchable.includes(term));
+    const fullSearchable = `${nameNorm} ${descNorm} ${otherSearchable}`;
+
+    // Todos los términos de búsqueda deben estar presentes en algún campo
+    const matchesAllTerms = terms.every(t => fullSearchable.includes(t));
+    if (!matchesAllTerms) continue;
+
+    // Calcular nivel de prioridad (1 es mayor prioridad)
+    let priority = 5;
+
+    // ¿Todos los términos inician alguna palabra en el título? (o al menos el primer término)
+    const nameWordsStart = terms.every(t => startsWord(nameNorm, t));
+    const descWordsStart = terms.every(t => startsWord(descNorm, t));
+    const nameContains   = terms.every(t => nameNorm.includes(t));
+    const descContains   = terms.every(t => descNorm.includes(t));
+
+    if (nameWordsStart) {
+      priority = 1; // 1: Coincide desde el inicio de palabra en el título
+    } else if (descWordsStart) {
+      priority = 2; // 2: Coincide desde el inicio de palabra en la descripción
+    } else if (nameContains) {
+      priority = 3; // 3: Coincide dentro del título (aunque no empiece desde el principio de palabra)
+    } else if (descContains) {
+      priority = 4; // 4: Coincide dentro de la descripción
+    } else {
+      priority = 5; // 5: Coincide en otros atributos
+    }
+
+    // Índice de posición en el nombre para desempatar (más al principio = mejor)
+    const nameIndex = nameNorm.indexOf(terms[0]);
+    const posScore = nameIndex === -1 ? 999 : nameIndex;
+
+    scoredProducts.push({
+      product: p,
+      priority,
+      posScore,
+      nameLength: nameNorm.length
+    });
+  }
+
+  // Ordenar por prioridad (ascendente), luego por posición y longitud de nombre
+  scoredProducts.sort((a, b) => {
+    if (a.priority !== b.priority) {
+      return a.priority - b.priority;
+    }
+    if (a.posScore !== b.posScore) {
+      return a.posScore - b.posScore;
+    }
+    return a.nameLength - b.nameLength;
   });
+
+  return scoredProducts.map(sp => sp.product);
 };
 
 // ─── Resaltado del texto coincidente ──────────────────────────────────────────
@@ -317,39 +384,17 @@ function renderSuggestions(list, box, counter, items, query) {
     items.forEach((item, index) => {
       const highlightedName = highlightText(item.name, query);
       const thumbUrl = item.image ? (item.image.startsWith('/') ? item.image : `/${item.image}`) : '/assets/img/marcas-logos/Tecnografic logo.png';
-      const brandColor = item.brandColor || BRAND_COLORS[item.brand] || '#0062cc';
-
-      // Renderizar muestras de colores del producto si tiene colores disponibles
-      let colorsHtml = '';
-      if (Array.isArray(item.colors) && item.colors.length > 0) {
-        const maxDots = 7;
-        const visibleColors = item.colors.slice(0, maxDots);
-        const extraCount = item.colors.length - visibleColors.length;
-        const dots = visibleColors
-          .map(hex => `<span class="w-3 h-3 rounded-full border border-gray-300 inline-block shrink-0" style="background-color: ${hex};"></span>`)
-          .join('');
-        const extraBadge = extraCount > 0
-          ? `<span class="text-[10px] font-semibold text-gray-400 ml-0.5">+${extraCount}</span>`
-          : '';
-        colorsHtml = `<div class="flex items-center gap-1 mt-1">${dots}${extraBadge}</div>`;
-      }
 
       const el = document.createElement('div');
-      el.className = 'search-suggestion-item px-3 py-2.5 cursor-pointer flex items-center justify-between gap-3 hover:bg-blue-50/70 transition-colors';
+      el.className = 'search-suggestion-item px-3.5 py-1 cursor-pointer flex items-center gap-3.5 hover:bg-blue-50/70 transition-colors';
       el.dataset.index = index;
 
       el.innerHTML = `
-        <div class="flex items-center gap-3 min-w-0 flex-1">
-          <div class="w-10 h-10 rounded-lg bg-gray-50 border border-gray-200/80 p-1 flex items-center justify-center shrink-0 overflow-hidden">
-            <img src="${thumbUrl}" alt="${item.name}" loading="lazy" decoding="async" class="max-h-full max-w-full object-contain" onerror="this.src='/assets/img/marcas-logos/Tecnografic logo.png'">
-          </div>
-          <div class="flex flex-col min-w-0 flex-1">
-            <span class="text-xs sm:text-sm font-semibold text-gray-800 truncate">${highlightedName}</span>
-            ${colorsHtml}
-          </div>
+        <div class="w-14 h-14 rounded-xl bg-gray-50 border border-gray-200/80 p-1.5 flex items-center justify-center shrink-0 overflow-hidden shadow-xs">
+          <img src="${thumbUrl}" alt="${item.name}" loading="lazy" decoding="async" class="max-h-full max-w-full object-contain" onerror="this.src='/assets/img/marcas-logos/Tecnografic logo.png'">
         </div>
-        <div class="shrink-0 flex items-center">
-          ${item.brandName ? `<span class="text-xs font-extrabold whitespace-nowrap" style="color: ${brandColor};">${item.brandName}</span>` : ''}
+        <div class="flex flex-col justify-center min-w-0 flex-1">
+          <span class="text-sm font-semibold text-gray-800 leading-snug line-clamp-2">${highlightedName}</span>
         </div>
       `;
 
