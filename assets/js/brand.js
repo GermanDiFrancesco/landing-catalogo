@@ -250,6 +250,14 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
 
   let currentCategoryIndex = 0;
   let currentProductIndex = 0;
+  let activeGridSliderCleanups = [];
+
+  function cleanupGridSliders() {
+    activeGridSliderCleanups.forEach(fn => {
+      try { fn(); } catch (_) {}
+    });
+    activeGridSliderCleanups = [];
+  }
 
   // Construir categorías en el sidebar
   categories.forEach((cat, index) => {
@@ -336,6 +344,8 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
 
     if (!gridView || !detailView || !gridContainer) return;
 
+    cleanupGridSliders();
+
     // Asegurar visibilidad de la Grilla y ocultar el Detalle
     gridView.classList.remove('hidden');
     detailView.classList.add('hidden');
@@ -368,17 +378,161 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
 
       const thumbImg = formatImgUrl(prod.familyImage || (prod.variants && prod.variants[0]?.image) || brand.logo);
       const attributes = prod.attributes || {};
-      const tamanosStr = (attributes.tamanos || []).slice(0, 3).join(', ');
-      const hojasStr = (attributes.hojas || []).slice(0, 3).map(h => `${h}h`).join(' · ');
 
-      // Colores de muestra para la tarjeta
-      const sampleColors = (prod.variants || [])
-        .filter(v => v.colorHex)
-        .slice(0, 5)
-        .map(v => `<span class="w-3.5 h-3.5 rounded-full border border-gray-200 shadow-xs inline-block" style="background-color: ${v.colorHex};"></span>`)
-        .join('');
+      // Detectar si la familia cuenta con múltiples portadas / motivos (ej. 4 modelos de diseño)
+      const hasMotivos = (attributes.motivos && attributes.motivos.length > 1) || (prod.coverImages && prod.coverImages.length > 1);
+      let coverSlides = [];
 
-     card.innerHTML = `
+      if (hasMotivos) {
+        if (Array.isArray(prod.coverImages) && prod.coverImages.length > 1) {
+          coverSlides = prod.coverImages.slice(0, 4).map((imgUrl, idx) => ({
+            image: formatImgUrl(imgUrl || prod.familyImage || brand.logo),
+            label: (attributes.motivos && attributes.motivos[idx]) || `Motivo ${idx + 1}`
+          }));
+        } else {
+          const seenMotivos = new Set();
+          (prod.variants || []).forEach(v => {
+            if (v.motivo && !seenMotivos.has(v.motivo) && coverSlides.length < 4) {
+              seenMotivos.add(v.motivo);
+              coverSlides.push({
+                image: formatImgUrl(v.image || prod.familyImage || brand.logo),
+                label: v.motivo
+              });
+            }
+          });
+        }
+        while (coverSlides.length > 0 && coverSlides.length < 4) {
+          const nextIdx = coverSlides.length;
+          coverSlides.push({
+            image: thumbImg,
+            label: (attributes.motivos && attributes.motivos[nextIdx]) || `Motivo ${nextIdx + 1}`
+          });
+        }
+      }
+
+      if (coverSlides.length > 1) {
+        const slidesHtml = coverSlides.map((slide, sIdx) => `
+          <div class="w-full h-full flex-shrink-0 flex items-center justify-center relative select-none" data-slide-index="${sIdx}">
+            <img src="${slide.image}" alt="${prod.name} - ${slide.label}" loading="lazy" decoding="async" class="max-h-full object-contain scale-125 transition-transform duration-300 group-hover:scale-105">
+          </div>
+        `).join('');
+
+        const dotsHtml = coverSlides.map((slide, sIdx) => `
+          <button type="button" data-dot-index="${sIdx}" title="${slide.label}" aria-label="Ver ${slide.label}"
+            class="h-1.5 rounded-full transition-all duration-300 ${sIdx === 0 ? 'w-5 opacity-100' : 'w-1.5 bg-gray-400/60 hover:bg-gray-500 opacity-80'}"
+            style="${sIdx === 0 ? `background-color: ${brand.color};` : ''}"></button>
+        `).join('');
+
+        card.innerHTML = `
+          <!-- Contenedor carrusel 4 portadas -->
+          <div class="w-full bg-gray-50/70 h-48 mb-4 overflow-hidden relative rounded-lg">
+            <!-- Badge indicador de modelos -->
+            <div class="absolute top-2 right-2 z-10 bg-white/90 backdrop-blur-xs px-2 py-0.5 rounded-full shadow-xs border border-gray-200/80 flex items-center gap-1 pointer-events-none">
+              <span class="w-1.5 h-1.5 rounded-full animate-pulse" style="background-color: ${brand.color};"></span>
+              <span data-slide-badge class="text-[10px] font-bold text-gray-700 tracking-tight">${coverSlides.length} motivos</span>
+            </div>
+            <!-- Track horizontal -->
+            <div data-slider-track class="flex w-full h-full transition-transform duration-500 ease-out" style="transform: translateX(0%);">
+              ${slidesHtml}
+            </div>
+            <!-- Indicadores inferiores (dots) -->
+            <div class="absolute bottom-2 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1.5 bg-white/85 backdrop-blur-xs px-2.5 py-1 rounded-full shadow-xs border border-gray-200/60">
+              ${dotsHtml}
+            </div>
+          </div>
+          <!-- Título del producto -->
+          <h3 class="px-3 py-1.5 text-xs font-bold rounded-lg text-white shadow-sm transition-all transform scale-105 text-center" style="background-color: ${brand.color};">
+            ${prod.name}
+          </h3>
+        `;
+
+        const track = card.querySelector('[data-slider-track]');
+        const badgeEl = card.querySelector('[data-slide-badge]');
+        const dotBtns = Array.from(card.querySelectorAll('[data-dot-index]'));
+        let currentSlide = 0;
+        let slideInterval = null;
+
+        const goToSlide = (idx, showLabel = false) => {
+          currentSlide = ((idx % coverSlides.length) + coverSlides.length) % coverSlides.length;
+          if (track) {
+            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+          }
+          if (badgeEl) {
+            badgeEl.textContent = showLabel ? coverSlides[currentSlide].label : `${coverSlides.length} motivos`;
+          }
+          dotBtns.forEach((btn, bIdx) => {
+            if (bIdx === currentSlide) {
+              btn.className = 'h-1.5 w-5 rounded-full transition-all duration-300 opacity-100';
+              btn.style.backgroundColor = brand.color;
+            } else {
+              btn.className = 'h-1.5 w-1.5 rounded-full bg-gray-400/60 hover:bg-gray-500 transition-all duration-300 opacity-80';
+              btn.style.backgroundColor = '';
+            }
+          });
+        };
+
+        const startAutoSlide = (immediateAdvance = false) => {
+          if (slideInterval) clearInterval(slideInterval);
+          if (immediateAdvance) {
+            goToSlide(currentSlide + 1, true);
+          }
+          slideInterval = setInterval(() => {
+            goToSlide(currentSlide + 1, true);
+          }, 1100);
+        };
+
+        const stopAutoSlide = (resetToFirst = true) => {
+          if (slideInterval) {
+            clearInterval(slideInterval);
+            slideInterval = null;
+          }
+          if (resetToFirst) {
+            goToSlide(0, false);
+          }
+        };
+
+        // Desktop: onhover avanza las portadas y al salir vuelve a la primera
+        card.addEventListener('mouseenter', () => {
+          startAutoSlide(true);
+        });
+        card.addEventListener('mouseleave', () => {
+          stopAutoSlide(true);
+        });
+
+        // Click en los indicadores para cambiar de portada sin abrir todavía el detalle
+        dotBtns.forEach((btn, bIdx) => {
+          btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (slideInterval) {
+              clearInterval(slideInterval);
+              slideInterval = null;
+            }
+            goToSlide(bIdx, true);
+          });
+        });
+
+        // Mobile / Touch: reproducir transición automáticamente al entrar en pantalla
+        let observer = null;
+        const isMobileOrTouch = window.matchMedia && window.matchMedia('(hover: none), (pointer: coarse), (max-width: 1023px)').matches;
+        if (isMobileOrTouch && 'IntersectionObserver' in window) {
+          observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                startAutoSlide(false);
+              } else {
+                stopAutoSlide(true);
+              }
+            });
+          }, { threshold: 0.65 });
+          observer.observe(card);
+        }
+
+        activeGridSliderCleanups.push(() => {
+          if (slideInterval) clearInterval(slideInterval);
+          if (observer) observer.disconnect();
+        });
+      } else {
+        card.innerHTML = `
           <!-- Contenedor imagen -->
           <div class="w-full bg-gray-50/70 flex items-center justify-center h-48 mb-4 overflow-hidden relative">
             <img src="${thumbImg}" alt="${prod.name}" loading="lazy" decoding="async" class="max-h-full object-contain scale-125 transition-transform duration-300 group-hover:scale-105">
@@ -387,7 +541,9 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
           <h3 class="px-3 py-1.5 text-xs font-bold rounded-lg text-white shadow-sm transition-all transform scale-105 text-center" style="background-color: ${brand.color};">
             ${prod.name}
           </h3>
-      `;
+        `;
+      }
+
       // Al hacer clic en la tarjeta, abre el detalle del producto
       card.addEventListener('click', () => {
         currentProductIndex = pIdx;
@@ -408,6 +564,8 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
     const backBtnText = document.getElementById('btn-back-to-grid-text');
 
     if (!gridView || !detailView) return;
+
+    cleanupGridSliders();
 
     // Cambiar a la vista de detalle
     gridView.classList.add('hidden');
@@ -519,7 +677,8 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
       tipo_hoja: variants[0].tipo_hoja || null,
       manos: variants[0].manos !== undefined ? variants[0].manos : null,
       colorHex: variants[0].colorHex || null,
-      colorName: variants[0].colorName || null
+      colorName: variants[0].colorName || null,
+      motivo: variants[0].motivo || null
     };
 
     renderInteractiveSelectors();
@@ -594,6 +753,9 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
       // 5. Colores Disponibles
       renderColorOptions();
 
+      // 5b. Motivos Disponibles (para líneas de diseño con 4 modelos)
+      renderMotivoOptions();
+
       // 6. Actualizar Ficha Técnica
       const currentActiveVariant = findActiveVariant();
       updateSpecsTable(currentActiveVariant);
@@ -615,6 +777,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
           if (fallback.manos !== undefined) selectedState.manos = fallback.manos;
           if (fallback.colorHex !== undefined) selectedState.colorHex = fallback.colorHex;
           if (fallback.colorName !== undefined) selectedState.colorName = fallback.colorName;
+          if (fallback.motivo !== undefined) selectedState.motivo = fallback.motivo;
         }
       }
     }
@@ -626,6 +789,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         if (selectedState.tipo_hoja && v.tipo_hoja && v.tipo_hoja !== selectedState.tipo_hoja) return false;
         if (selectedState.manos !== null && v.manos !== undefined && String(v.manos) !== String(selectedState.manos)) return false;
         if (selectedState.colorHex && v.colorHex && v.colorHex !== selectedState.colorHex) return false;
+        if (selectedState.motivo && v.motivo && v.motivo !== selectedState.motivo) return false;
         return true;
       }) || variants.find(v => {
         if (selectedState.tamano && v.tamano && v.tamano !== selectedState.tamano) return false;
@@ -839,6 +1003,125 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
       });
     }
 
+    function renderMotivoOptions() {
+      const motivosContainer = document.getElementById('sample-product-motivos');
+      const motivoLabel = document.getElementById('selected-motivo-name');
+      const motivoWrapper = document.getElementById('selector-motivos-wrapper');
+      if (!motivosContainer || !motivoWrapper) return;
+
+      const motivoVariants = variants.filter(v => v.motivo);
+      if (motivoVariants.length === 0) {
+        motivoWrapper.classList.add('hidden');
+        return;
+      }
+
+      const compatibleVariants = motivoVariants.filter(v => {
+        if (selectedState.tamano && v.tamano && v.tamano !== selectedState.tamano) return false;
+        if (selectedState.hojas !== null && v.hojas !== undefined && String(v.hojas) !== String(selectedState.hojas)) return false;
+        if (selectedState.tipo_hoja && v.tipo_hoja && v.tipo_hoja !== selectedState.tipo_hoja) return false;
+        if (selectedState.manos !== null && v.manos !== undefined && String(v.manos) !== String(selectedState.manos)) return false;
+        return true;
+      });
+
+      const sourceList = compatibleVariants.length > 0 ? compatibleVariants : motivoVariants;
+
+      // Deduplicar por nombre de motivo
+      const seenMotivos = new Set();
+      const uniqueMotivoVariants = [];
+      sourceList.forEach(v => {
+        const key = (v.motivo || '').trim();
+        if (key && !seenMotivos.has(key)) {
+          seenMotivos.add(key);
+          uniqueMotivoVariants.push(v);
+        }
+      });
+
+      if (uniqueMotivoVariants.length === 0) {
+        motivoWrapper.classList.add('hidden');
+        return;
+      }
+      motivoWrapper.classList.remove('hidden');
+
+      if (!selectedState.motivo && uniqueMotivoVariants[0]?.motivo) {
+        selectedState.motivo = uniqueMotivoVariants[0].motivo;
+      }
+
+      const formatMotivoNumber = (val, idx) => {
+        if (!val) return `${idx + 1}`;
+        const stripped = String(val).replace(/^motivo\s*/i, '').trim();
+        return stripped || `${idx + 1}`;
+      };
+
+      if (motivoLabel) {
+        const activeIdx = uniqueMotivoVariants.findIndex(v => String(v.motivo) === String(selectedState.motivo));
+        motivoLabel.textContent = formatMotivoNumber(
+          selectedState.motivo || uniqueMotivoVariants[0]?.motivo,
+          activeIdx !== -1 ? activeIdx : 0
+        );
+      }
+
+      motivosContainer.innerHTML = '';
+      uniqueMotivoVariants.forEach((variant, mIdx) => {
+        const isSelected = String(variant.motivo) === String(selectedState.motivo);
+        const motivoShort = formatMotivoNumber(variant.motivo, mIdx);
+
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = `w-8 h-8 p-0.5 rounded-md border-2 border-black bg-white overflow-hidden transition-all flex items-center justify-center relative shadow-sm ${
+          isSelected ? 'ring-2 ring-offset-2 scale-110' : 'hover:scale-110 opacity-90 hover:opacity-100'
+        }`;
+        if (isSelected) {
+          btn.style.boxShadow = `0 0 0 2px #fff, 0 0 0 4px ${brand.color}`;
+        }
+        btn.setAttribute('title', `Motivo ${motivoShort}`);
+
+        const thumbUrl = formatImgUrl(variant.image || fallbackImage);
+        btn.innerHTML = `
+          <img src="${thumbUrl}" alt="Motivo ${motivoShort}" class="w-full h-full object-contain pointer-events-none">
+        `;
+
+        // Hover: previsualizar portada del motivo
+        btn.addEventListener('mouseenter', () => {
+          if (mainImg && variant.image) {
+            setSafeProductImage(mainImg, variant.image, fallbackImage);
+          }
+          if (variantBadge) {
+            variantBadge.textContent = `Motivo ${motivoShort}`;
+          }
+          if (motivoLabel) {
+            motivoLabel.textContent = motivoShort;
+          }
+        });
+
+        // Mouseleave: retornar al motivo activo
+        btn.addEventListener('mouseleave', () => {
+          const currentVariant = findActiveVariant();
+          if (mainImg) {
+            setSafeProductImage(mainImg, currentVariant?.image, fallbackImage);
+          }
+          if (variantBadge) {
+            variantBadge.textContent = currentVariant?.motivo || currentVariant?.colorName || currentVariant?.tipo_hoja || 'Seleccionado';
+          }
+          if (motivoLabel) {
+            const activeIdx = uniqueMotivoVariants.findIndex(v => String(v.motivo) === String(selectedState.motivo));
+            motivoLabel.textContent = formatMotivoNumber(selectedState.motivo, activeIdx !== -1 ? activeIdx : 0);
+          }
+        });
+
+        // Click: fijar motivo seleccionado
+        btn.addEventListener('click', () => {
+          selectedState.motivo = variant.motivo;
+          if (variant.image && mainImg) {
+            setSafeProductImage(mainImg, variant.image, fallbackImage);
+          }
+          renderMotivoOptions();
+          updateSpecsTable(findActiveVariant());
+        });
+
+        motivosContainer.appendChild(btn);
+      });
+    }
+
     function updateSpecsTable(activeVariant) {
       const specTamano = document.getElementById('spec-tamano');
       const specTipo = document.getElementById('spec-tipo');
@@ -867,9 +1150,9 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         specTipo.textContent = activeVariant.tipo_hoja || (activeVariant.manos ? `${activeVariant.manos} Manos` : '—');
       }
 
-      // 3. Color (separado de Tipo: Amarillo, Azul, Rojo, o — si no aplica)
+      // 3. Color / Motivo (separado de Tipo: Amarillo, Azul, Motivo 1, o — si no aplica)
       if (specColor) {
-        specColor.textContent = activeVariant.colorName || (activeVariant.colorHex ? activeVariant.colorHex : '—');
+        specColor.textContent = activeVariant.colorName || activeVariant.motivo || (activeVariant.colorHex ? activeVariant.colorHex : '—');
       }
 
       // 4. Specs de embalaje y gramaje del JSON
@@ -883,12 +1166,12 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         setSafeProductImage(mainImg, activeVariant.image, fallbackImage);
       }
       if (variantBadge && activeVariant.sku) {
-        variantBadge.textContent = activeVariant.colorName || activeVariant.tipo_hoja || 'Modelo';
+        variantBadge.textContent = activeVariant.colorName || activeVariant.motivo || activeVariant.tipo_hoja || 'Modelo';
       }
     }
 
     function hideAllAttributeWrappers() {
-      ['selector-tamano-wrapper', 'selector-hojas-wrapper', 'selector-tipo-hoja-wrapper', 'selector-manos-wrapper', 'selector-colores-wrapper'].forEach(id => {
+      ['selector-tamano-wrapper', 'selector-hojas-wrapper', 'selector-tipo-hoja-wrapper', 'selector-manos-wrapper', 'selector-colores-wrapper', 'selector-motivos-wrapper'].forEach(id => {
         const el = document.getElementById(id);
         if (el) el.classList.add('hidden');
       });
