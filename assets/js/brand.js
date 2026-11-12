@@ -427,7 +427,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
           <!-- Contenedor carrusel 4 portadas -->
           <div class="w-full bg-gray-50/70 h-48 mb-4 overflow-hidden relative rounded-lg">
             <!-- Badge indicador de modelos -->
-            <div class="absolute top-2 right-2 z-10 bg-white/90 backdrop-blur-xs px-2 py-0.5 rounded-full shadow-xs border border-gray-200/80 flex items-center gap-1 pointer-events-none">
+            <div style="z-index:10;" class="absolute top-2 right-2 bg-white/90 backdrop-blur-xs px-2 py-0.5 rounded-full shadow-xs border border-gray-200/80 flex items-center gap-1 pointer-events-none">
               <span class="w-1.5 h-1.5 rounded-full animate-pulse" style="background-color: ${brand.color};"></span>
               <span data-slide-badge class="text-[10px] font-bold text-gray-700 tracking-tight">${coverSlides.length} motivos</span>
             </div>
