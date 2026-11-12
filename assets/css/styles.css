@@ -70,6 +70,11 @@ body {
   box-sizing: border-box;
 }
 
+#brand-iso-badge {
+  top: auto;
+  bottom: 0.75rem;
+}
+
 @media (max-width: 1023px) {
   #brand-hero-section {
     height: auto;
@@ -87,6 +92,10 @@ body {
   #brand-hero-content-container {
     height: auto;
     padding: 0.5rem 1rem;
+  }
+  #brand-iso-badge {
+    top: 0.75rem;
+    bottom: auto;
   }
 }
 
