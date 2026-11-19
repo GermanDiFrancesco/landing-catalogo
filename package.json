@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Sitio web oficial estático de Tecnografic S.A. (SPA Vanilla JS con Hash Router)",
   "scripts": {
+    "dev": "node dev-server.js",
+    "start": "node dev-server.js",
     "tw:build": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --minify",
     "tw:watch": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --watch",
     "build": "npm run tw:build"

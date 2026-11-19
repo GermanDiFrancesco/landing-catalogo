@@ -40,6 +40,8 @@
     // Limpiar /index.html para que el Home quede siempre en "/"
     if (pathname === '/index.html' || pathname === '') {
       pathname = '/';
+    } else if (pathname.length > 1 && pathname.endsWith('/')) {
+      pathname = pathname.slice(0, -1);
     }
 
     const search = parsed.search || '';

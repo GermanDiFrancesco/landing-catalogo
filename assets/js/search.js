@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let isHidden = false;
   let isLocked = false;
 
-  // Iniciar precarga del catálogo en cuanto el DOM esté listo
+  // Iniciar del catálogo en cuanto el DOM esté listo
   loadProductsData();
 
   if (searchBarContainer) {
@@ -123,10 +123,10 @@ async function loadProductsData() {
       if (res.ok) {
         productsCache = await res.json();
         isLoaded = true;
-        console.log('✅ Catálogo de productos precargado en segundo plano:', productsCache.length, 'artículos');
+        console.log('productos cargados:', productsCache.length);
       }
     } catch (err) {
-      console.warn('No se pudo precargar products.json:', err);
+      console.warn('No se pudo cargar products.json:', err);
     } finally {
       loadingPromise = null;
     }
