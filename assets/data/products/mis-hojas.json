@@ -1,90 +1,3045 @@
-﻿{
-    "brand":  "mis-hojas",
-    "brandName":  "Mis Hojas",
-    "categories":  [
-                       {
-                           "id":  "cuaderno-con-espiral",
-                           "name":  "Cuaderno con espiral",
-                           "products":  [
-                                            {
-                                                "id":  "cuaderno-tapa-carton-con-espiral",
-                                                "name":  "Cuaderno Tapa Cartón con Espiral",
-                                                "subcategory":  "Tapa Cartón con Espiral",
-                                                "description":  "Cuaderno espiralado con tapa cartón rígido en tamaño 21x27cm de 60 y 100 hojas rayadas y cuadriculadas.",
-                                                "familyImage":  "/assets/img/products/img_TshmvgvUUCudfloURQmwHXYTGsvzAQM246Et3cE8aB2g7ak4Q6.png",
-                                                "attributes":  {
-                                                                   "tamanos":  [
-                                                                                   "21 x 27 cm"
-                                                                               ],
-                                                                   "hojas":  [
-                                                                                 60,
-                                                                                 100
-                                                                             ],
-                                                                   "tipos_hoja":  [
-                                                                                      "Rayado",
-                                                                                      "Cuadriculado"
-                                                                                  ]
-                                                               },
-                                                "variants":  [
-                                                                 {
-                                                                     "sku":  "MH-ESP-60-R",
-                                                                     "tamano":  "21 x 27 cm",
-                                                                     "hojas":  60,
-                                                                     "tipo_hoja":  "Rayado",
-                                                                     "image":  "/assets/img/products/mis-hojas-cuaderno-tapa-carton-con-espiral-21-x-27-cm-60h-rayado.png",
-                                                                     "specs":  {
-                                                                                   "caja":  "35 un.",
-                                                                                   "paquete":  "5 un.",
-                                                                                   "palet":  "50 bultos",
-                                                                                   "gramaje":  "70Grs"
-                                                                               },
-                                                                     "imageClean":  "/assets/img/products/mis-hojas-cuaderno-tapa-carton-con-espiral-21-x-27-cm-60h-rayado.png"
-                                                                 },
-                                                                 {
-                                                                     "sku":  "MH-ESP-60-C",
-                                                                     "tamano":  "21 x 27 cm",
-                                                                     "hojas":  60,
-                                                                     "tipo_hoja":  "Cuadriculado",
-                                                                     "image":  "/assets/img/products/mis-hojas-cuaderno-tapa-carton-con-espiral-21-x-27-cm-60h-cuadriculado.png",
-                                                                     "specs":  {
-                                                                                   "caja":  "35 un.",
-                                                                                   "paquete":  "5 un.",
-                                                                                   "palet":  "50 bultos",
-                                                                                   "gramaje":  "70Grs"
-                                                                               },
-                                                                     "imageClean":  "/assets/img/products/mis-hojas-cuaderno-tapa-carton-con-espiral-21-x-27-cm-60h-cuadriculado.png"
-                                                                 },
-                                                                 {
-                                                                     "sku":  "MH-ESP-100-R",
-                                                                     "tamano":  "21 x 27 cm",
-                                                                     "hojas":  100,
-                                                                     "tipo_hoja":  "Rayado",
-                                                                     "image":  "/assets/img/products/mis-hojas-cuaderno-tapa-carton-con-espiral-21-x-27-cm-100h-rayado.png",
-                                                                     "specs":  {
-                                                                                   "caja":  "24 un.",
-                                                                                   "paquete":  "4 un.",
-                                                                                   "palet":  "50 bultos",
-                                                                                   "gramaje":  "70Grs"
-                                                                               },
-                                                                     "imageClean":  "/assets/img/products/mis-hojas-cuaderno-tapa-carton-con-espiral-21-x-27-cm-100h-rayado.png"
-                                                                 },
-                                                                 {
-                                                                     "sku":  "MH-ESP-100-C",
-                                                                     "tamano":  "21 x 27 cm",
-                                                                     "hojas":  100,
-                                                                     "tipo_hoja":  "Cuadriculado",
-                                                                     "image":  "/assets/img/products/mis-hojas-cuaderno-tapa-carton-con-espiral-21-x-27-cm-100h-cuadriculado.png",
-                                                                     "specs":  {
-                                                                                   "caja":  "24 un.",
-                                                                                   "paquete":  "4 un.",
-                                                                                   "palet":  "50 bultos",
-                                                                                   "gramaje":  "70Grs"
-                                                                               },
-                                                                     "imageClean":  "/assets/img/products/mis-hojas-cuaderno-tapa-carton-con-espiral-21-x-27-cm-100h-cuadriculado.png"
-                                                                 }
-                                                             ]
-                                            }
-                                        ]
-                       }
-                   ]
+{
+  "brand": "mis-hojas",
+  "brandName": "Mis Hojas",
+  "categories": [
+    {
+      "id": "cuadernos-escolares",
+      "name": "Cuadernos Escolares",
+      "products": [
+        {
+          "id": "tapa-carton-forrado-arana",
+          "name": "Tapa Cartón Forrado Araña",
+          "subcategory": "Tapa Cartón Forrado Araña",
+          "description": "Cuaderno escolar de tapa cartón forrado araña en 48 y 96 hojas. Disponible en 9 colores en rayado y 3 colores en cuadriculado.",
+          "familyImage": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-familia.png",
+          "attributes": {
+            "tamanos": [
+              "16 x 21"
+            ],
+            "hojas": [
+              48,
+              96
+            ],
+            "tipos_hoja": [
+              "Rayado",
+              "Cuadriculado"
+            ],
+            "colores": [
+              "Amarillo",
+              "Azul",
+              "Celeste",
+              "Lila",
+              "Naranja",
+              "Rojo",
+              "Rosa",
+              "Verde",
+              "Verde Manzana"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "MH-ARA-48-R-AM",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "colorName": "Amarillo",
+              "colorHex": "#FFFF00",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-amarillo.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-amarillo.png"
+            },
+            {
+              "sku": "MH-ARA-48-R-AZ",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "colorName": "Azul",
+              "colorHex": "#0000FF",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-azul.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-azul.png"
+            },
+            {
+              "sku": "MH-ARA-48-R-CE",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "colorName": "Celeste",
+              "colorHex": "#ADD8E6",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-celeste.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-celeste.png"
+            },
+            {
+              "sku": "MH-ARA-48-R-LI",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "colorName": "Lila",
+              "colorHex": "#C8A2C8",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-lila.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-lila.png"
+            },
+            {
+              "sku": "MH-ARA-48-R-NA",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "colorName": "Naranja",
+              "colorHex": "#FFA500",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-naranja.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-naranja.png"
+            },
+            {
+              "sku": "MH-ARA-48-R-RO",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "colorName": "Rojo",
+              "colorHex": "#FF0000",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-rojo.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-rojo.png"
+            },
+            {
+              "sku": "MH-ARA-48-R-RS",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "colorName": "Rosa",
+              "colorHex": "#FFC0CB",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-rosa.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-rosa.png"
+            },
+            {
+              "sku": "MH-ARA-48-R-VE",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "colorName": "Verde",
+              "colorHex": "#008000",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-verde.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-verde.png"
+            },
+            {
+              "sku": "MH-ARA-48-R-VM",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "colorName": "Verde Manzana",
+              "colorHex": "#48e120",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-verde-manzana.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-rayado-verde-manzana.png"
+            },
+            {
+              "sku": "MH-ARA-48-C-AZ",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Azul",
+              "colorHex": "#0000FF",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-cuadriculado-azul.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-cuadriculado-azul.png"
+            },
+            {
+              "sku": "MH-ARA-48-C-RO",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Rojo",
+              "colorHex": "#FF0000",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-cuadriculado-rojo.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-cuadriculado-rojo.png"
+            },
+            {
+              "sku": "MH-ARA-48-C-VE",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Verde",
+              "colorHex": "#008000",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-cuadriculado-verde.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-48h-cuadriculado-verde.png"
+            },
+            {
+              "sku": "MH-ARA-96-R-AM",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "colorName": "Amarillo",
+              "colorHex": "#FFFF00",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-amarillo.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-amarillo.png"
+            },
+            {
+              "sku": "MH-ARA-96-R-AZ",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "colorName": "Azul",
+              "colorHex": "#0000FF",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-azul.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-azul.png"
+            },
+            {
+              "sku": "MH-ARA-96-R-CE",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "colorName": "Celeste",
+              "colorHex": "#ADD8E6",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-celeste.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-celeste.png"
+            },
+            {
+              "sku": "MH-ARA-96-R-LI",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "colorName": "Lila",
+              "colorHex": "#C8A2C8",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-lila.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-lila.png"
+            },
+            {
+              "sku": "MH-ARA-96-R-NA",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "colorName": "Naranja",
+              "colorHex": "#FFA500",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-naranja.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-naranja.png"
+            },
+            {
+              "sku": "MH-ARA-96-R-RO",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "colorName": "Rojo",
+              "colorHex": "#FF0000",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-rojo.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-rojo.png"
+            },
+            {
+              "sku": "MH-ARA-96-R-RS",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "colorName": "Rosa",
+              "colorHex": "#FFC0CB",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-rosa.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-rosa.png"
+            },
+            {
+              "sku": "MH-ARA-96-R-VE",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "colorName": "Verde",
+              "colorHex": "#008000",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-verde.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-verde.png"
+            },
+            {
+              "sku": "MH-ARA-96-R-VM",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "colorName": "Verde Manzana",
+              "colorHex": "#48e120",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-verde-manzana.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-rayado-verde-manzana.png"
+            },
+            {
+              "sku": "MH-ARA-96-C-AZ",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Azul",
+              "colorHex": "#0000FF",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-cuadriculado-azul.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-cuadriculado-azul.png"
+            },
+            {
+              "sku": "MH-ARA-96-C-RO",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Rojo",
+              "colorHex": "#FF0000",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-cuadriculado-rojo.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-cuadriculado-rojo.png"
+            },
+            {
+              "sku": "MH-ARA-96-C-VE",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Verde",
+              "colorHex": "#008000",
+              "image": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-cuadriculado-verde.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "72 bultos"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-16x21-96h-cuadriculado-verde.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuaderno-con-espiral",
+      "name": "Cuaderno con espiral",
+      "products": [
+        {
+          "id": "papercut-espiral",
+          "name": "Cuaderno con Espiral Papercut",
+          "subcategory": "Papercut",
+          "description": "Cuaderno con espiral línea Papercut en formato 29,7 cm de 70 hojas rayadas y cuadriculadas con 8 diseños exclusivos.",
+          "familyImage": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-familia.png",
+          "coverImages": [
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-1.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-2.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-3.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-4.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-5.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-6.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-7.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-8.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "29,7 cm"
+            ],
+            "hojas": [
+              70
+            ],
+            "tipos_hoja": [
+              "Rayado",
+              "Cuadriculado"
+            ],
+            "motivos": [
+              "Motivo 1",
+              "Motivo 2",
+              "Motivo 3",
+              "Motivo 4",
+              "Motivo 5",
+              "Motivo 6",
+              "Motivo 7",
+              "Motivo 8"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "MH-PAP-297CM-70-R-M1",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-R-M2",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-R-M3",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-R-M4",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-R-M5",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 5",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-5.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-5.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-R-M6",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 6",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-6.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-6.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-R-M7",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 7",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-7.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-7.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-R-M8",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 8",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-8.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-rayado-motivo-8.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-C-M1",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-C-M2",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-C-M3",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-C-M4",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-4.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-C-M5",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 5",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-5.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-5.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-C-M6",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 6",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-6.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-6.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-C-M7",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 7",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-7.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-7.png"
+            },
+            {
+              "sku": "MH-PAP-297CM-70-C-M8",
+              "tamano": "29,7 cm",
+              "hojas": 70,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 8",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-8.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-29-7cm-70h-cuadriculado-motivo-8.png"
+            }
+          ]
+        },
+        {
+          "id": "tapa-carton-espiral-chill",
+          "name": "Tapa Cartón con Espiral Línea Chill",
+          "subcategory": "Tapa Cartón con Espiral 21x27",
+          "description": "Cuaderno espiralado con tapa cartón rígido línea Chill en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 4 motivos.",
+          "familyImage": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-familia.png",
+          "coverImages": [
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-1.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-2.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-3.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-4.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "21 x 27 cm"
+            ],
+            "hojas": [
+              60,
+              100
+            ],
+            "tipos_hoja": [
+              "Rayado",
+              "Cuadriculado"
+            ],
+            "motivos": [
+              "Motivo 1",
+              "Motivo 2",
+              "Motivo 3",
+              "Motivo 4"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "MH-CHI-21X27CM-60-R-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-60-R-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-60-R-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-60-R-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-60-C-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-60-C-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-60-C-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-60-C-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-60h-cuadriculado-motivo-4.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-100-R-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-100-R-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-100-R-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-100-R-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-100-C-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-100-C-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-100-C-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-CHI-21X27CM-100-C-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-21x27cm-100h-cuadriculado-motivo-4.png"
+            }
+          ]
+        },
+        {
+          "id": "tapa-carton-espiral-plane",
+          "name": "Tapa Cartón con Espiral Línea Plane",
+          "subcategory": "Tapa Cartón con Espiral 21x27",
+          "description": "Cuaderno espiralado con tapa cartón rígido línea Plane en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 4 motivos.",
+          "familyImage": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-familia.png",
+          "coverImages": [
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-1.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-2.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-3.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-4.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "21 x 27 cm"
+            ],
+            "hojas": [
+              60,
+              100
+            ],
+            "tipos_hoja": [
+              "Rayado",
+              "Cuadriculado"
+            ],
+            "motivos": [
+              "Motivo 1",
+              "Motivo 2",
+              "Motivo 3",
+              "Motivo 4"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "MH-PLA-21X27CM-60-R-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-60-R-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-60-R-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-60-R-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-60-C-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-60-C-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-60-C-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-60-C-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-60h-cuadriculado-motivo-4.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-100-R-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-100-R-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-100-R-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-100-R-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-100-C-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-100-C-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-100-C-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-PLA-21X27CM-100-C-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-21x27cm-100h-cuadriculado-motivo-4.png"
+            }
+          ]
+        },
+        {
+          "id": "tapa-carton-espiral-multicolor",
+          "name": "Tapa Cartón con Espiral Línea Multicolor",
+          "subcategory": "Tapa Cartón con Espiral 21x27",
+          "description": "Cuaderno espiralado con tapa cartón rígido línea Multicolor en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 8 motivos.",
+          "familyImage": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-familia.png",
+          "coverImages": [
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-1.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-2.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-3.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-4.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-5.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-6.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-7.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-8.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "21 x 27 cm"
+            ],
+            "hojas": [
+              60,
+              100
+            ],
+            "tipos_hoja": [
+              "Rayado",
+              "Cuadriculado"
+            ],
+            "motivos": [
+              "Motivo 1",
+              "Motivo 2",
+              "Motivo 3",
+              "Motivo 4",
+              "Motivo 5",
+              "Motivo 6",
+              "Motivo 7",
+              "Motivo 8"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "MH-MUL-21X27CM-60-R-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-R-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-R-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-R-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-R-M5",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 5",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-5.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-5.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-R-M6",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 6",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-6.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-6.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-R-M7",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 7",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-7.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-7.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-R-M8",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 8",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-8.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-rayado-motivo-8.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-C-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-C-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-C-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-C-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-4.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-C-M5",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 5",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-5.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-5.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-C-M6",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 6",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-6.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-6.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-C-M7",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 7",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-7.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-7.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-60-C-M8",
+              "tamano": "21 x 27 cm",
+              "hojas": 60,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 8",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-8.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-60h-cuadriculado-motivo-8.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-R-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-R-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-R-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-R-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-R-M5",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 5",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-5.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-5.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-R-M6",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 6",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-6.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-6.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-R-M7",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 7",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-7.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-7.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-R-M8",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 8",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-8.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-rayado-motivo-8.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-C-M1",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-C-M2",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-C-M3",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-C-M4",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-4.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-C-M5",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 5",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-5.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-5.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-C-M6",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 6",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-6.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-6.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-C-M7",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 7",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-7.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-7.png"
+            },
+            {
+              "sku": "MH-MUL-21X27CM-100-C-M8",
+              "tamano": "21 x 27 cm",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 8",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-8.png",
+              "specs": {
+                "caja": "24 un.",
+                "paquete": "4 un.",
+                "palet": "50 bultos",
+                "gramaje": "70Grs"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-21x27cm-100h-cuadriculado-motivo-8.png"
+            }
+          ]
+        },
+        {
+          "id": "tapa-carton-espiral-campo",
+          "name": "Tapa Cartón con Espiral Línea Campo",
+          "subcategory": "Tapa Cartón con Espiral A4 / A5",
+          "description": "Cuaderno espiralado con tapa cartón línea Campo en formatos A4 y A5 de 80 hojas rayadas y cuadriculadas con 4 motivos.",
+          "familyImage": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-familia.png",
+          "coverImages": [
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-1.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-2.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-3.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-4.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "A4",
+              "A5"
+            ],
+            "hojas": [
+              80
+            ],
+            "tipos_hoja": [
+              "Rayado",
+              "Cuadriculado"
+            ],
+            "motivos": [
+              "Motivo 1",
+              "Motivo 2",
+              "Motivo 3",
+              "Motivo 4"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "MH-CAM-A4-80-R-M1",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-CAM-A4-80-R-M2",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-CAM-A4-80-R-M3",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-CAM-A4-80-R-M4",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-CAM-A4-80-C-M1",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-CAM-A4-80-C-M2",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-CAM-A4-80-C-M3",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-CAM-A4-80-C-M4",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a4-80h-cuadriculado-motivo-4.png"
+            },
+            {
+              "sku": "MH-CAM-A5-80-R-M1",
+              "tamano": "A5",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-CAM-A5-80-R-M2",
+              "tamano": "A5",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-CAM-A5-80-R-M3",
+              "tamano": "A5",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-CAM-A5-80-R-M4",
+              "tamano": "A5",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-CAM-A5-80-C-M1",
+              "tamano": "A5",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-CAM-A5-80-C-M2",
+              "tamano": "A5",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-CAM-A5-80-C-M3",
+              "tamano": "A5",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-CAM-A5-80-C-M4",
+              "tamano": "A5",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-a5-80h-cuadriculado-motivo-4.png"
+            }
+          ]
+        },
+        {
+          "id": "tapa-carton-espiral-pasteles",
+          "name": "Tapa Cartón con Espiral Línea Pasteles",
+          "subcategory": "Tapa Cartón con Espiral A4 / A5",
+          "description": "Cuaderno espiralado con tapa cartón línea Pasteles en formatos A4 y A5 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
+          "familyImage": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-familia.png",
+          "coverImages": [
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-1.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-2.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-3.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-4.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "A4",
+              "A5"
+            ],
+            "hojas": [
+              100
+            ],
+            "tipos_hoja": [
+              "Rayado",
+              "Cuadriculado"
+            ],
+            "motivos": [
+              "Motivo 1",
+              "Motivo 2",
+              "Motivo 3",
+              "Motivo 4"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "MH-PAS-A4-100-R-M1",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-PAS-A4-100-R-M2",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-PAS-A4-100-R-M3",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-PAS-A4-100-R-M4",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-PAS-A4-100-C-M1",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-PAS-A4-100-C-M2",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-PAS-A4-100-C-M3",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-PAS-A4-100-C-M4",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a4-100h-cuadriculado-motivo-4.png"
+            },
+            {
+              "sku": "MH-PAS-A5-100-R-M1",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-PAS-A5-100-R-M2",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-PAS-A5-100-R-M3",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-PAS-A5-100-R-M4",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-PAS-A5-100-C-M1",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-PAS-A5-100-C-M2",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-PAS-A5-100-C-M3",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-PAS-A5-100-C-M4",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-a5-100h-cuadriculado-motivo-4.png"
+            }
+          ]
+        },
+        {
+          "id": "tapa-carton-espiral-spring",
+          "name": "Tapa Cartón con Espiral Línea Spring",
+          "subcategory": "Tapa Cartón con Espiral A4 / A5",
+          "description": "Cuaderno espiralado con tapa cartón línea Spring en formatos A4 y A5 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
+          "familyImage": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-familia.png",
+          "coverImages": [
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-1.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-2.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-3.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-4.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "A4",
+              "A5"
+            ],
+            "hojas": [
+              100
+            ],
+            "tipos_hoja": [
+              "Rayado",
+              "Cuadriculado"
+            ],
+            "motivos": [
+              "Motivo 1",
+              "Motivo 2",
+              "Motivo 3",
+              "Motivo 4"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "MH-SPR-A4-100-R-M1",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-SPR-A4-100-R-M2",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-SPR-A4-100-R-M3",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-SPR-A4-100-R-M4",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-SPR-A4-100-C-M1",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-SPR-A4-100-C-M2",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-SPR-A4-100-C-M3",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-SPR-A4-100-C-M4",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a4-100h-cuadriculado-motivo-4.png"
+            },
+            {
+              "sku": "MH-SPR-A5-100-R-M1",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-SPR-A5-100-R-M2",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-SPR-A5-100-R-M3",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-SPR-A5-100-R-M4",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-SPR-A5-100-C-M1",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-SPR-A5-100-C-M2",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-SPR-A5-100-C-M3",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-SPR-A5-100-C-M4",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-a5-100h-cuadriculado-motivo-4.png"
+            }
+          ]
+        },
+        {
+          "id": "tapa-carton-espiral-neon",
+          "name": "Tapa Cartón con Espiral Línea Neon",
+          "subcategory": "Tapa Cartón con Espiral A4 / A5",
+          "description": "Cuaderno espiralado con tapa cartón línea Neon en formatos A4 y A5 de 120 hojas rayadas y cuadriculadas con 4 motivos.",
+          "familyImage": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-familia.png",
+          "coverImages": [
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-1.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-2.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-3.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-4.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "A4",
+              "A5"
+            ],
+            "hojas": [
+              120
+            ],
+            "tipos_hoja": [
+              "Rayado",
+              "Cuadriculado"
+            ],
+            "motivos": [
+              "Motivo 1",
+              "Motivo 2",
+              "Motivo 3",
+              "Motivo 4"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "MH-NEO-A4-120-R-M1",
+              "tamano": "A4",
+              "hojas": 120,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-NEO-A4-120-R-M2",
+              "tamano": "A4",
+              "hojas": 120,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-NEO-A4-120-R-M3",
+              "tamano": "A4",
+              "hojas": 120,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-NEO-A4-120-R-M4",
+              "tamano": "A4",
+              "hojas": 120,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-NEO-A4-120-C-M1",
+              "tamano": "A4",
+              "hojas": 120,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-NEO-A4-120-C-M2",
+              "tamano": "A4",
+              "hojas": 120,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-NEO-A4-120-C-M3",
+              "tamano": "A4",
+              "hojas": 120,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-NEO-A4-120-C-M4",
+              "tamano": "A4",
+              "hojas": 120,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a4-120h-cuadriculado-motivo-4.png"
+            },
+            {
+              "sku": "MH-NEO-A5-120-R-M1",
+              "tamano": "A5",
+              "hojas": 120,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-NEO-A5-120-R-M2",
+              "tamano": "A5",
+              "hojas": 120,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-NEO-A5-120-R-M3",
+              "tamano": "A5",
+              "hojas": 120,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-NEO-A5-120-R-M4",
+              "tamano": "A5",
+              "hojas": 120,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-NEO-A5-120-C-M1",
+              "tamano": "A5",
+              "hojas": 120,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-NEO-A5-120-C-M2",
+              "tamano": "A5",
+              "hojas": 120,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-NEO-A5-120-C-M3",
+              "tamano": "A5",
+              "hojas": 120,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-NEO-A5-120-C-M4",
+              "tamano": "A5",
+              "hojas": 120,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-a5-120h-cuadriculado-motivo-4.png"
+            }
+          ]
+        },
+        {
+          "id": "tapa-carton-espiral-tinto",
+          "name": "Tapa Cartón con Espiral Línea Tinto",
+          "subcategory": "Tapa Cartón con Espiral A4 / A5 / A6",
+          "description": "Cuaderno espiralado con tapa cartón línea Tinto en formatos A4, A5 y A6 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
+          "familyImage": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-familia.png",
+          "coverImages": [
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-1.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-2.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-3.png",
+            "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-4.png"
+          ],
+          "attributes": {
+            "tamanos": [
+              "A4",
+              "A5",
+              "A6"
+            ],
+            "hojas": [
+              100
+            ],
+            "tipos_hoja": [
+              "Rayado",
+              "Cuadriculado"
+            ],
+            "motivos": [
+              "Motivo 1",
+              "Motivo 2",
+              "Motivo 3",
+              "Motivo 4"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "MH-TIN-A4-100-R-M1",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-TIN-A4-100-R-M2",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-TIN-A4-100-R-M3",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-TIN-A4-100-R-M4",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-TIN-A4-100-C-M1",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-TIN-A4-100-C-M2",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-TIN-A4-100-C-M3",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-TIN-A4-100-C-M4",
+              "tamano": "A4",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a4-100h-cuadriculado-motivo-4.png"
+            },
+            {
+              "sku": "MH-TIN-A5-100-R-M1",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-TIN-A5-100-R-M2",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-TIN-A5-100-R-M3",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-TIN-A5-100-R-M4",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-TIN-A5-100-C-M1",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-TIN-A5-100-C-M2",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-TIN-A5-100-C-M3",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-TIN-A5-100-C-M4",
+              "tamano": "A5",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a5-100h-cuadriculado-motivo-4.png"
+            },
+            {
+              "sku": "MH-TIN-A6-100-R-M1",
+              "tamano": "A6",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-rayado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-rayado-motivo-1.png"
+            },
+            {
+              "sku": "MH-TIN-A6-100-R-M2",
+              "tamano": "A6",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-rayado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-rayado-motivo-2.png"
+            },
+            {
+              "sku": "MH-TIN-A6-100-R-M3",
+              "tamano": "A6",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-rayado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-rayado-motivo-3.png"
+            },
+            {
+              "sku": "MH-TIN-A6-100-R-M4",
+              "tamano": "A6",
+              "hojas": 100,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-rayado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-rayado-motivo-4.png"
+            },
+            {
+              "sku": "MH-TIN-A6-100-C-M1",
+              "tamano": "A6",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-cuadriculado-motivo-1.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-cuadriculado-motivo-1.png"
+            },
+            {
+              "sku": "MH-TIN-A6-100-C-M2",
+              "tamano": "A6",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-cuadriculado-motivo-2.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-cuadriculado-motivo-2.png"
+            },
+            {
+              "sku": "MH-TIN-A6-100-C-M3",
+              "tamano": "A6",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-cuadriculado-motivo-3.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-cuadriculado-motivo-3.png"
+            },
+            {
+              "sku": "MH-TIN-A6-100-C-M4",
+              "tamano": "A6",
+              "hojas": 100,
+              "tipo_hoja": "Cuadriculado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-cuadriculado-motivo-4.png",
+              "specs": {
+                "caja": "-",
+                "paquete": "-"
+              },
+              "imageClean": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-a6-100h-cuadriculado-motivo-4.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

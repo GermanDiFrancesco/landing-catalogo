@@ -169,6 +169,13 @@
         window.initPointsOfSalePage();
       }
     }
+
+    // 4. Contacto: inicializar formulario de envío de consultas
+    if (pathname === '/contacto') {
+      if (typeof window.initContactPage === 'function') {
+        window.initContactPage();
+      }
+    }
   }
 
   /**

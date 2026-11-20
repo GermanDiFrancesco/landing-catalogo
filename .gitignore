@@ -8,3 +8,7 @@
 /reports
 /scripts
 /dev-server.js
+/.env
+/.env.local
+# Consultas privadas del formulario de contacto en la raíz (NO afecta a /assets/data/)
+/data/

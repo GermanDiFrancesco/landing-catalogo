@@ -12,40 +12,48 @@
     <!-- 1. Formulario de Contacto (Principal) -->
     <div class="bg-white border border-gray-200 rounded-3xl p-8 sm:p-10 shadow-sm">
       <h3 class="text-2xl font-bold text-gray-900 mb-6">Envianos tu mensaje</h3>
-      <form class="space-y-4" onsubmit="event.preventDefault(); alert('Mensaje enviado correctamente.');">
-        
+      <form id="contact-form" class="space-y-4" novalidate>
+        <!-- Campo honeypot anti-spam (oculto para usuarios reales) -->
+        <div class="hidden" aria-hidden="true">
+          <label for="contact-website">Sitio web</label>
+          <input type="text" id="contact-website" name="website" tabindex="-1" autocomplete="off">
+        </div>
+
         <!-- Nombre y Apellido en el mismo renglón -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Nombre</label>
-            <input type="text" required class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ej: Juan">
+            <label for="contact-nombre" class="block text-xs font-bold text-gray-700 uppercase mb-1">Nombre</label>
+            <input type="text" id="contact-nombre" name="nombre" required maxlength="100" autocomplete="given-name" class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ej: Juan">
           </div>
           <div>
-            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Apellido</label>
-            <input type="text" required class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ej: Pérez">
+            <label for="contact-apellido" class="block text-xs font-bold text-gray-700 uppercase mb-1">Apellido</label>
+            <input type="text" id="contact-apellido" name="apellido" required maxlength="100" autocomplete="family-name" class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ej: Pérez">
           </div>
         </div>
 
         <!-- Correo Electrónico y Teléfono -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Correo Electrónico</label>
-            <input type="email" required class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="juan@ejemplo.com">
+            <label for="contact-email" class="block text-xs font-bold text-gray-700 uppercase mb-1">Correo Electrónico</label>
+            <input type="email" id="contact-email" name="email" required maxlength="150" autocomplete="email" class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="juan@ejemplo.com">
           </div>
           <div>
-            <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Teléfono</label>
-            <input type="tel" class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="+54 11 ...">
+            <label for="contact-telefono" class="block text-xs font-bold text-gray-700 uppercase mb-1">Teléfono</label>
+            <input type="tel" id="contact-telefono" name="telefono" maxlength="50" autocomplete="tel" class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="+54 11 ...">
           </div>
         </div>
 
         <!-- Consulta / Mensaje -->
         <div>
-          <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Consulta o Mensaje</label>
-          <textarea rows="4" required class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Escribí aquí tu mensaje..."></textarea>
+          <label for="contact-mensaje" class="block text-xs font-bold text-gray-700 uppercase mb-1">Consulta o Mensaje</label>
+          <textarea id="contact-mensaje" name="mensaje" rows="4" required minlength="5" maxlength="3000" class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Escribí aquí tu mensaje..."></textarea>
         </div>
 
+        <!-- Feedback de envío -->
+        <div id="contact-feedback" class="hidden" role="status" aria-live="polite"></div>
+
         <!-- Botón Enviar -->
-        <button type="submit" class="w-full bg-[#0062cc] hover:bg-[#0047a0] text-white font-bold py-3 px-6 rounded-xl text-sm uppercase tracking-wider transition-colors shadow-sm">
+        <button id="contact-submit-btn" type="submit" class="w-full bg-[#0062cc] hover:bg-[#0047a0] text-white font-bold py-3 px-6 rounded-xl text-sm uppercase tracking-wider transition-colors shadow-sm">
           Enviar Mensaje
         </button>
       </form>

@@ -12,6 +12,49 @@
   let currentSearchQuery = '';
   let activeLocationId = null;
   let googleMapsPromise = null;
+  let cachedGoogleMapsApiKey = null;
+
+  /**
+   * Muestra un estado amigable en el contenedor del mapa cuando la API Key falta o falla la autenticación
+   */
+  function showMapFallback(title, subtitle) {
+    const mapContainer = document.getElementById('map');
+    if (!mapContainer) return;
+    mapContainer.innerHTML = `
+      <div class="w-full h-full flex flex-col items-center justify-center p-8 text-center bg-gray-50 text-gray-600">
+        <div class="w-14 h-14 rounded-full bg-blue-50 text-[#0047a0] flex items-center justify-center mb-4 text-2xl">
+          <i class="fa-solid fa-map-location-dot"></i>
+        </div>
+        <p class="font-bold text-gray-800 text-base mb-1">${title}</p>
+        <p class="text-xs sm:text-sm text-gray-500 max-w-md">${subtitle}</p>
+      </div>
+    `;
+  }
+
+  /**
+   * Obtiene la Google Maps API Key desde /api/config (definida en .env del servidor)
+   */
+  async function getGoogleMapsApiKey() {
+    if (cachedGoogleMapsApiKey) return cachedGoogleMapsApiKey;
+
+    if (window.TECNOGRAFIC_CONFIG && window.TECNOGRAFIC_CONFIG.googleMapsApiKey) {
+      cachedGoogleMapsApiKey = String(window.TECNOGRAFIC_CONFIG.googleMapsApiKey).trim();
+      return cachedGoogleMapsApiKey;
+    }
+
+    try {
+      const res = await fetch('/api/config', { cache: 'no-store' });
+      if (res.ok) {
+        const data = await res.json();
+        cachedGoogleMapsApiKey = String(data.googleMapsApiKey || '').trim();
+        return cachedGoogleMapsApiKey;
+      }
+    } catch (err) {
+      console.warn('No se pudo obtener /api/config para Google Maps:', err);
+    }
+
+    return '';
+  }
 
   // Estilo claro/plateado original de Tecnografic para Google Maps
   const MAP_STYLES = [
@@ -56,17 +99,34 @@
   }
 
   /**
-   * Carga el script de Google Maps API de forma asíncrona (loading=async) si aún no está disponible
+   * Carga el script de Google Maps API de forma asíncrona (loading=async) usando la clave de /api/config
    */
-  function ensureGoogleMapsLoaded() {
+  async function ensureGoogleMapsLoaded() {
     if (window.google && window.google.maps && window.google.maps.Map && window.google.maps.OverlayView) {
-      return Promise.resolve();
+      return;
     }
     if (googleMapsPromise) {
       return googleMapsPromise;
     }
 
+    const apiKey = await getGoogleMapsApiKey();
+    if (!apiKey) {
+      const missingErr = new Error('GOOGLE_MAPS_API_KEY_MISSING');
+      missingErr.code = 'GOOGLE_MAPS_API_KEY_MISSING';
+      throw missingErr;
+    }
+
     googleMapsPromise = new Promise((resolve, reject) => {
+      window.gm_authFailure = () => {
+        console.error(
+          '[Puntos de Venta] Error de autenticación en Google Maps. Verificá la API Key, facturación en Google Cloud, API "Maps JavaScript API" habilitada y restricciones de dominio HTTP.'
+        );
+        showMapFallback(
+          'Mapa temporalmente no disponible',
+          'Podés consultar todas las direcciones y buscar comercios en el listado.'
+        );
+      };
+
       window.__onTecnograficGoogleMapsReady = async () => {
         try {
           if (window.google && window.google.maps && typeof window.google.maps.importLibrary === 'function') {
@@ -77,8 +137,9 @@
           reject(err);
         }
       };
+
       const script = document.createElement('script');
-      script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAAFmSUZqHI6l6p41rSC4-W0bEwtK0aIbg&loading=async&callback=__onTecnograficGoogleMapsReady';
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&loading=async&callback=__onTecnograficGoogleMapsReady`;
       script.async = true;
       script.defer = true;
       script.onerror = (err) => {
@@ -452,8 +513,26 @@
       });
 
       // Inicializar el mapa de Google
-      await ensureGoogleMapsLoaded();
-      initGoogleMap(locations);
+      try {
+        await ensureGoogleMapsLoaded();
+        initGoogleMap(locations);
+      } catch (mapErr) {
+        if (mapErr && mapErr.code === 'GOOGLE_MAPS_API_KEY_MISSING') {
+          console.warn(
+            '[Puntos de Venta] GOOGLE_MAPS_API_KEY no configurada en .env. El listado sigue funcionando normalmente.'
+          );
+          showMapFallback(
+            'Mapa pendiente de configuración',
+            'Todavía podés buscar comercios en el listado y abrir su ubicación en Google Maps.'
+          );
+        } else {
+          console.error('Error al cargar Google Maps:', mapErr);
+          showMapFallback(
+            'No pudimos cargar el mapa interactivo',
+            'Podés continuar buscando puntos de venta en el listado lateral.'
+          );
+        }
+      }
 
     } catch (err) {
       console.error('Error al inicializar Puntos de Venta:', err);

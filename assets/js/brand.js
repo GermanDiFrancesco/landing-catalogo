@@ -379,20 +379,20 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
       const thumbImg = formatImgUrl(prod.familyImage || (prod.variants && prod.variants[0]?.image) || brand.logo);
       const attributes = prod.attributes || {};
 
-      // Detectar si la familia cuenta con múltiples portadas / motivos (ej. 4 modelos de diseño)
+      // Detectar si la familia cuenta con múltiples portadas / motivos (4, 8 o N modelos de diseño, para todas las marcas)
       const hasMotivos = (attributes.motivos && attributes.motivos.length > 1) || (prod.coverImages && prod.coverImages.length > 1);
       let coverSlides = [];
 
       if (hasMotivos) {
         if (Array.isArray(prod.coverImages) && prod.coverImages.length > 1) {
-          coverSlides = prod.coverImages.slice(0, 4).map((imgUrl, idx) => ({
+          coverSlides = prod.coverImages.map((imgUrl, idx) => ({
             image: formatImgUrl(imgUrl || prod.familyImage || brand.logo),
             label: (attributes.motivos && attributes.motivos[idx]) || `Motivo ${idx + 1}`
           }));
         } else {
           const seenMotivos = new Set();
           (prod.variants || []).forEach(v => {
-            if (v.motivo && !seenMotivos.has(v.motivo) && coverSlides.length < 4) {
+            if (v.motivo && !seenMotivos.has(v.motivo)) {
               seenMotivos.add(v.motivo);
               coverSlides.push({
                 image: formatImgUrl(v.image || prod.familyImage || brand.logo),
@@ -401,7 +401,8 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
             }
           });
         }
-        while (coverSlides.length > 0 && coverSlides.length < 4) {
+        const expectedMotivosCount = Array.isArray(attributes.motivos) ? attributes.motivos.length : 0;
+        while (coverSlides.length > 0 && coverSlides.length < expectedMotivosCount) {
           const nextIdx = coverSlides.length;
           coverSlides.push({
             image: thumbImg,

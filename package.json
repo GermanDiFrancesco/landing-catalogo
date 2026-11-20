@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Sitio web oficial estático de Tecnografic S.A. (SPA Vanilla JS con Hash Router)",
   "scripts": {
-    "dev": "node dev-server.js",
-    "start": "node dev-server.js",
+    "dev": "node server.js",
+    "start": "node server.js",
+    "smtp:verify": "node server.js --verify-smtp",
+    "smtp:test": "node server.js --send-test",
     "tw:build": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --minify",
     "tw:watch": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --watch",
     "build": "npm run tw:build"
@@ -22,5 +24,9 @@
     "autoprefixer": "^10.6.1",
     "postcss": "^8.5.31",
     "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "nodemailer": "^10.6.1"
   }
 }
