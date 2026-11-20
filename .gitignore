@@ -2,7 +2,6 @@
 /old
 /PROJECT_LOG.md
 /.vscode
-/assets/img/products/
 # CSS generado por Tailwind CLI (regenerar con: npm run tw:build)
 /assets/css/output.css
 /reports
@@ -10,5 +9,4 @@
 /dev-server.js
 /.env
 /.env.local
-# Consultas privadas del formulario de contacto en la raíz (NO afecta a /assets/data/)
 /data/
