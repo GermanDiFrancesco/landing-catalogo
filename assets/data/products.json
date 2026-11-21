@@ -367,7 +367,7 @@
     "categoryId": "resmitas",
     "subcategory": "Resmas",
     "description": "Resmas de papel multifunción en colores surtidos para oficina y hogar.",
-    "image": "/assets/img/products/img_K82cuIMNNpEx3Hoa5xFRaCEI7ugfuHdkBPLyEvxf65gPPyrDCV.png",
+    "image": "/assets/img/products/triunfante/resmitas/triunfante-resmas-de-papel-familia.png",
     "spec": "A4, Oficio · 100 hojas",
     "brandColor": "#0062cc"
   },
@@ -380,7 +380,7 @@
     "categoryId": "resmitas",
     "subcategory": "Tacos de Papel",
     "description": "Tacos de notas para escritorio 9x9 cm de 400 hojas blancas y multicolor.",
-    "image": "/assets/img/products/img_GXWRBYlRc8Wzh2KdtQ7srQKSUhYdtiNWtwRFxjnHtWzpV55W2D.png",
+    "image": "/assets/img/products/triunfante/resmitas/triunfante-tacos-de-papel-familia.png",
     "spec": "9 x 9 cm · 400 hojas",
     "brandColor": "#0062cc"
   },
@@ -398,45 +398,6 @@
     "brandColor": "#0062cc"
   },
   {
-    "id": "linea-dividido-tapa-flexible",
-    "name": "Línea Dividido Tapa Flexible con Espiral",
-    "brand": "triunfante",
-    "brandName": "Triunfante",
-    "category": "Cuaderno Con Espiral",
-    "categoryId": "cuaderno-con-espiral",
-    "subcategory": "Tapa Flexible con Espiral",
-    "description": "Cuadernos espiralados tapa flexible diseño dividido moderno.",
-    "image": "/assets/img/products/img_dDYBJWOrEw4tm3VpUS7fsMJ7kh1kH5g2Fd65e0x65mJcyG8uA6.png",
-    "spec": "29,7cm, A5 · 40, 80 hojas · Rayado",
-    "brandColor": "#0062cc"
-  },
-  {
-    "id": "linea-raya-tapa-flexible",
-    "name": "Línea Raya Tapa Flexible con Espiral",
-    "brand": "triunfante",
-    "brandName": "Triunfante",
-    "category": "Cuaderno Con Espiral",
-    "categoryId": "cuaderno-con-espiral",
-    "subcategory": "Tapa Flexible con Espiral",
-    "description": "Cuaderno espiralado 29,7cm con tapa cartulina diseño a rayas.",
-    "image": "/assets/img/products/img_GNMCuj0z6Ny1zLbbHjJJRtBsoyuEjv5ULJNdIx8IBh6hg2Jz8g.png",
-    "spec": "29,7cm · 80 hojas · Rayado",
-    "brandColor": "#0062cc"
-  },
-  {
-    "id": "cuaderno-espiral-tapa-carton-disenos",
-    "name": "Cuadernos con Espiral Tapa Cartón Diseños de Colección",
-    "brand": "triunfante",
-    "brandName": "Triunfante",
-    "category": "Cuaderno Con Espiral",
-    "categoryId": "cuaderno-con-espiral",
-    "subcategory": "Tapa Cartón con Espiral",
-    "description": "Línea de cuadernos con espiral en tapa cartón rígido con motivos exclusivos: Floral, Geométrico, Bitono, Diva, Fresh, Coquette, Brujitas, Gamer, Monstruos, Sirenas y Clásico Cuadros.",
-    "image": "/assets/img/products/img_y1ImDXBf2DQVpYkqmdQO3vEOQdK8nYBHTUgqDGzgGTvhPIPr32.png",
-    "spec": "A4, A5, 21x27cm · 60, 80, 100 hojas · Rayado",
-    "brandColor": "#0062cc"
-  },
-  {
     "id": "cuaderno-123-espiral-tapa-carton-vinilico",
     "name": "Cuaderno 123 con Espiral Tapa Cartón Vinílico",
     "brand": "triunfante",
@@ -444,35 +405,385 @@
     "category": "Cuaderno Con Espiral",
     "categoryId": "cuaderno-con-espiral",
     "subcategory": "Tapa Cartón Vinílico con Espiral",
-    "description": "Cuaderno serie 123 con espiral, forro vinílico lavable en amplia gama de colores.",
-    "image": "/assets/img/products/img_3nbJnNQVZDs4hrEaKRawfYqlcgKCGJdK4SzDlKGngrrMRp1spU.png",
-    "spec": "21 x 27 · 60, 100 hojas · Rayado",
+    "description": "Cuaderno 123 espiralado de tapa cartón con forro vinílico lavable en 60 y 100 hojas rayadas y cuadriculadas.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-cuaderno-123-espiral-tapa-carton-vinilico-familia.png",
+    "spec": "21 x 27 · 60, 100 hojas · Rayado, Cuadriculado",
     "colors": [
-      "#0000FF",
-      "#FF0000",
-      "#008000",
-      "#FFC0CB",
       "#FFFF00",
+      "#0000FF",
+      "#641C34",
       "#ADD8E6",
-      "#FFA500",
       "#C8A2C8",
-      "#48e120",
+      "#FFA500",
       "#000000",
-      "#641C34"
+      "#FF0000",
+      "#FFC0CB",
+      "#008000",
+      "#48e120"
     ],
     "colorNames": [
-      "Azul",
-      "Rojo",
-      "Verde",
-      "Rosa",
       "Amarillo",
+      "Azul",
+      "Bordó",
       "Celeste",
-      "Naranja",
       "Lila",
-      "Verde Manzana",
+      "Naranja",
       "Negro",
-      "Bordó"
+      "Rojo",
+      "Rosa",
+      "Verde",
+      "Verde Manzana"
     ],
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "cuaderno-a4-a5-espiral-tapa-carton-vinilico",
+    "name": "Cuaderno Tapa Cartón con Espiral Vinílico A4 y A5",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón Vinílico con Espiral",
+    "description": "Cuaderno espiralado con tapa cartón vinílico en formatos A4 y A5 de 120 hojas rayadas y cuadriculadas.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-cuaderno-a4-a5-espiral-tapa-carton-vinilico-familia.png",
+    "spec": "A4, A5 · 120 hojas · Rayado, Cuadriculado",
+    "colors": [
+      "#ADD8E6",
+      "#C8A2C8",
+      "#000000",
+      "#008000"
+    ],
+    "colorNames": [
+      "Celeste",
+      "Lila",
+      "Negro",
+      "Verde"
+    ],
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "123-tapa-carton-espiral-caleidoscopio",
+    "name": "123 Tapa Cartón con Espiral Línea Caleidoscopio",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "123 Tapa Cartón con Espiral",
+    "description": "Cuaderno 123 espiralado con tapa cartón línea Caleidoscopio en 60 y 100 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-123-tapa-carton-espiral-caleidoscopio-familia.png",
+    "spec": "21 x 27 · 60, 100 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "123-tapa-carton-espiral-diva",
+    "name": "123 Tapa Cartón con Espiral Línea Diva",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "123 Tapa Cartón con Espiral",
+    "description": "Cuaderno 123 espiralado con tapa cartón línea Diva en 60 y 100 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-123-tapa-carton-espiral-diva-familia.png",
+    "spec": "21 x 27 · 60, 100 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "123-tapa-carton-espiral-fresh",
+    "name": "123 Tapa Cartón con Espiral Línea Fresh",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "123 Tapa Cartón con Espiral",
+    "description": "Cuaderno 123 espiralado con tapa cartón línea Fresh en 60 y 100 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-123-tapa-carton-espiral-fresh-motivo-1.png",
+    "spec": "21 x 27 · 60, 100 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "espiral-29-7-linea-bitono",
+    "name": "Cuaderno con Espiral 29,7 Línea Bitono",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Espiral 29,7 cm",
+    "description": "Cuaderno espiralado formato 29,7 cm línea Bitono en 42 y 80 hojas rayadas y cuadriculadas con 8 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-espiral-29-7-linea-bitono-familia.png",
+    "spec": "29,7 cm · 42, 80 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "espiral-29-7-linea-raya",
+    "name": "Cuaderno con Espiral 29,7 Línea Raya",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Espiral 29,7 cm",
+    "description": "Cuaderno espiralado formato 29,7 cm línea Raya de 80 hojas rayadas y cuadriculadas con 8 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-espiral-29-7-linea-raya-motivo-1.png",
+    "spec": "29,7 cm · 80 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "espiral-a5-linea-bitono",
+    "name": "Cuaderno con Espiral A5 Línea Bitono",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tamaño A5 línea Bitono en 42 y 80 hojas rayadas y cuadriculadas con 8 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-espiral-a5-linea-bitono-familia.png",
+    "spec": "A5 · 40, 80 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-rugby",
+    "name": "Tapa Cartón con Espiral Línea Rugby",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Rugby en formatos A4 y A5 de 80 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-rugby-motivo-1.png",
+    "spec": "A4, A5 · 80 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-diva",
+    "name": "Tapa Cartón con Espiral Línea Diva",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Diva en formatos A4 y A5 de 80 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-diva-familia.png",
+    "spec": "A4, A5 · 80 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-floral",
+    "name": "Tapa Cartón con Espiral Línea Floral",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Floral en formatos A4 y A5 de 80 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-floral-familia.png",
+    "spec": "A4, A5 · 80 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-fresh",
+    "name": "Tapa Cartón con Espiral Línea Fresh",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Fresh en formatos A4 y A5 de 80 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-fresh-familia.png",
+    "spec": "A4, A5 · 80 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-bitono-trama",
+    "name": "Tapa Cartón con Espiral Línea Bitono Trama",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Bitono Trama en formatos A4 y A5 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-bitono-trama-familia.png",
+    "spec": "A4, A5 · 100 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-geometrica",
+    "name": "Tapa Cartón con Espiral Línea Geométrica",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Geométrica en formatos A4 y A5 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-geometrica-familia.png",
+    "spec": "A4, A5 · 100 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-waves",
+    "name": "Tapa Cartón con Espiral Línea Waves",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Waves en formatos A4 y A5 de 120 hojas rayadas y cuadriculadas con 2 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-waves-familia.png",
+    "spec": "A4, A5 · 120 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-dorado",
+    "name": "Tapa Cartón con Espiral Línea Dorado",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Dorado en formatos A4 y A5 de 120 hojas rayadas con 2 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-dorado-familia.png",
+    "spec": "A4, A5 · 120 hojas · Rayado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-hippie",
+    "name": "Tapa Cartón con Espiral Línea Hippie",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Hippie en formatos A4, A5 y A6 de 80 hojas rayadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-hippie-familia.png",
+    "spec": "A4, A5, A6 · 80 hojas · Rayado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-curvy",
+    "name": "Tapa Cartón con Espiral Línea Curvy",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Curvy en formatos A4, A5 y A6 de 100 hojas rayadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-curvy-familia.png",
+    "spec": "A4, A5, A6 · 100 hojas · Rayado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-fem",
+    "name": "Tapa Cartón con Espiral Línea Fem",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Fem en formatos A4, A5 y A6 de 100 hojas rayadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-fem-familia.png",
+    "spec": "A4, A5, A6 · 100 hojas · Rayado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-brujitas",
+    "name": "Tapa Cartón con Espiral Línea Brujitas",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Brujitas en tamaño A5 de 80 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-brujitas-familia.png",
+    "spec": "A5 · 80 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-coquette",
+    "name": "Tapa Cartón con Espiral Línea Coquette",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Coquette en tamaño A5 de 80 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-coquette-familia.png",
+    "spec": "A5 · 80 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-ondas",
+    "name": "Tapa Cartón con Espiral Línea Ondas",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Ondas en tamaños A5 y A6 de 80 hojas rayadas y cuadriculadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-ondas-familia.png",
+    "spec": "A5, A6 · 80 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-libre",
+    "name": "Tapa Cartón con Espiral Línea Libre",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Libre en tamaños A5 y A6 de 80 hojas rayadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-libre-familia.png",
+    "spec": "A5, A6 · 80 hojas · Rayado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-forma",
+    "name": "Tapa Cartón con Espiral Línea Forma",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Forma en tamaños A5 y A6 de 100 hojas rayadas con 2 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-forma-familia.png",
+    "spec": "A5, A6 · 100 hojas · Rayado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-carton-espiral-cuadros",
+    "name": "Tapa Cartón con Espiral Línea Cuadros",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Cartón con Espiral",
+    "description": "Cuaderno espiralado tapa cartón línea Clásico Cuadros en tamaño A5 de 80 hojas rayadas con 4 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-carton-espiral-cuadros-familia.png",
+    "spec": "A5 · 80 hojas · Rayado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-flexible-espiral-clean-1",
+    "name": "Cuaderno con Espiral Línea Clean 1",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Flexible con Espiral",
+    "description": "Cuaderno espiralado tapa flexible línea Clean 1 en formatos A4 y A5 de 40 y 80 hojas rayadas y cuadriculadas con 8 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-flexible-espiral-clean-1-motivo-1.png",
+    "spec": "A4, A5 · 40, 80 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "tapa-flexible-espiral-clean-2",
+    "name": "Cuaderno con Espiral Línea Clean 2",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Cuaderno Con Espiral",
+    "categoryId": "cuaderno-con-espiral",
+    "subcategory": "Tapa Flexible con Espiral",
+    "description": "Cuaderno espiralado tapa flexible línea Clean 2 en formatos A4 y A5 de 40 y 80 hojas rayadas y cuadriculadas con 8 motivos.",
+    "image": "/assets/img/products/triunfante/cuaderno-con-espiral/triunfante-tapa-flexible-espiral-clean-2-familia.png",
+    "spec": "A4, A5 · 40, 80 hojas · Rayado, Cuadriculado",
     "brandColor": "#0062cc"
   },
   {
@@ -549,7 +860,7 @@
     "categoryId": "linea-de-dibujo",
     "subcategory": "Blocks de Dibujo",
     "description": "Blocks para dibujo N°5 y N°6 de 20 hojas en versiones color, blanco y negro.",
-    "image": "/assets/img/products/img_vKRP7qzrP2cCf3qsMslza4aWxTactSezFZ8jZZ8LTpbJEnhuau.png",
+    "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-blocks-para-dibujo-familia.png",
     "spec": "N°5, N°6 · 20 hojas",
     "colors": [
       "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
@@ -572,7 +883,7 @@
     "categoryId": "linea-de-dibujo",
     "subcategory": "Repuestos de Dibujo",
     "description": "Repuestos para dibujo N°3, N°5 y N°6 en hojas color (6h), blanco (8h) y negro (8h), en formatos apaisado y alto.",
-    "image": "/assets/img/products/img_Ujgk2QIQKd26xtLD3mIjbm7VqyWSxmBEAHZqu4aSvLPSmyRa3D.png",
+    "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-familia.png",
     "spec": "N°3, N°5, N°6 · 6, 8 hojas · Apaisado, Alto",
     "colors": [
       "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
@@ -649,7 +960,7 @@
     "description": "Cuaderno con espiral y tapa cartulina en colores lisos, en formatos 29,7cm y A5.",
     "image": "/assets/img/products/img_0MTPCDSq5gUqgspHzBpbYvd2ELBV2LZujpjxmLVLDXLbbyCPiy.png",
     "spec": "29,7cm, A5 · 40, 80 hojas · Rayado, Cuadriculado",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "linea-degrade-tapa-flexible-con-espiral",
@@ -662,7 +973,7 @@
     "description": "Cuaderno espiralado tapa cartulina diseño degradé 29,7cm de 80 hojas.",
     "image": "/assets/img/products/img_0TPrfZ0kZGMJ0BVtvDvgUbxQADGgWlxYxi44jK0J6hSEiOVZg2.png",
     "spec": "29,7cm · 80 hojas · Rayado",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "block-oficio-perforado",
@@ -675,7 +986,7 @@
     "description": "Block perforado tamaño oficio de 40 y 80 hojas cuadriculadas, lisas y rayadas.",
     "image": "/assets/img/products/img_gs2JvxdY7WU2EjKoFs1lHHH8NJzhvEnGudxAyALiQVRf63PmnW.png",
     "spec": "Oficio · 40, 80 hojas · Rayado",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "cuaderno-tapa-flexible",
@@ -688,7 +999,7 @@
     "description": "Cuaderno escolar clásico de tapa flexible en 24, 48 y 84 hojas.",
     "image": "/assets/img/products/img_fynMLxeIRauG71tm10eXfDTTIGcJOKHxyLx8OyDEvUhjwfF6il.png",
     "spec": "16 x 21 · 24, 48, 84 hojas · Rayado",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "cuaderno-arana",
@@ -719,7 +1030,7 @@
       "Celeste",
       "Naranja"
     ],
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "cuaderno-lunares",
@@ -758,7 +1069,7 @@
       "Negro",
       "Verde Manzana"
     ],
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "repuestos-escolares-n3",
@@ -771,7 +1082,7 @@
     "description": "Repuestos escolares N°3 en presentaciones de 48, 96 y 400 hojas rayadas y cuadriculadas.",
     "image": "/assets/img/products/img_5MUmBzQgvw5uMLhDN583lBRV8SXaIAY61i1vaIZKh01lKzwmlC.png",
     "spec": "19 x 24 · 48, 96, 400 hojas · Rayado",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "libros-comerciales-actas-corona",
@@ -784,7 +1095,7 @@
     "description": "Libros comerciales de actas formato Corona en 2, 3 y 4 manos.",
     "image": "/assets/img/products/img_SGd6ATHiQ1idmDwifxuz3jOhAWiyRH780e4YDDUCwCrbq3jGwK.png",
     "spec": "2 Corona, 3 Corona, Corona · 2, 3, 4 manos",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "libros-comerciales-actas-con-indice-corona",
@@ -797,7 +1108,7 @@
     "description": "Libros comerciales de actas con índice alfabético formato Corona en 2, 3 y 4 manos.",
     "image": "/assets/img/products/img_OnDnduBsLeJpObhn6SE0eLpkv1IC07y41ng2a5qPGpYHF5JioX.png",
     "spec": "Corona · 2, 3, 4 manos",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "libros-comerciales-actas-clochet",
@@ -810,7 +1121,7 @@
     "description": "Libros comerciales de actas Clochet 2 manos.",
     "image": "/assets/img/products/img_0hEYfveUabkrwCQGe4UrB2IWsFyR0aURptgbAabh0wTfZrkrXj.png",
     "spec": "Clochet · 2 manos",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "libros-comerciales-actas-con-indice-clochet",
@@ -823,7 +1134,7 @@
     "description": "Libros de actas con índice alfabético Clochet 2 manos.",
     "image": "/assets/img/products/img_MHLSrSLEWxEtIuIlGTr1dVw010S0mz0k3claQydoWhsSqPrdz0.png",
     "spec": "Clochet · 2 manos",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "libro-de-recibos-expediente",
@@ -836,7 +1147,7 @@
     "description": "Libro comercial de recibos para expedientes de 2 manos.",
     "image": "/assets/img/products/img_yIc5qgcd5dulKcAQWvmsRvfOWtO335VmwRKKoWqgNFuTvS6Qhy.png",
     "spec": "Expediente · 2 manos",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "adhesivo-vinilico-lavable",
@@ -849,7 +1160,7 @@
     "description": "Adhesivo vinílico blanco lavable no tóxico para pegar papel, cartón, cartulina, tela, corcho, madera y telgopor.",
     "image": "/assets/img/products/img_kZr5kw2w3lI4vL1rgTLpGYXSvUBv3QKVukOsDEIqEMI1ORLKyt.png",
     "spec": "30 g, 50g, 100g, 250 g, 500g, 1000g",
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "adhesivo-sintetico-lavable",
@@ -862,7 +1173,7 @@
     "description": "Pegamento sintético transparente lavable de alta adherencia y secado rápido.",
     "image": "/assets/img/products/img_8Dvp8fD0GTHFoJxbzUa0drA0OS40uZC4S6WDlGck7O3Nsv7wDN.png",
     "spec": "30 g, 50g, 100g, 250g, 500g, 1000g",
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "adhesivo-vinilico-lavable-color",
@@ -905,7 +1216,7 @@
       "Marrón",
       "Verde Musgo"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "adhesivo-vinilico-lavable-fluo",
@@ -930,7 +1241,7 @@
       "Rosa Flúo",
       "Verde Musgo"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "adhesivo-sintetico-lavable-glitter",
@@ -969,7 +1280,7 @@
       "Verde Musgo",
       "Naranja"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "temperas-pomo-color",
@@ -1010,7 +1321,7 @@
       "Verde Manzana",
       "Verde Musgo"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "temperas-pote-color",
@@ -1051,7 +1362,7 @@
       "Verde Manzana",
       "Verde Musgo"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "temperas-pote-fluo",
@@ -1080,7 +1391,7 @@
       "Naranja Flúo",
       "Verde Manzana"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "temperas-pote-metalizados",
@@ -1109,7 +1420,7 @@
       "Rojo",
       "Verde Musgo"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "plastilinas-barritas",
@@ -1122,7 +1433,7 @@
     "description": "Plastilinas de fácil amasado y elasticidad garantizada en cajas de 6 y 10 unidades surtidas.",
     "image": "/assets/img/products/img_YQAU0XHufqlXjhSHvBX5ugpcNGjhxzhINWUEao1EZaYuAhB7Xn.png",
     "spec": "20g",
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "plastilinas-pancitos",
@@ -1163,7 +1474,7 @@
       "Verde Manzana",
       "Verde Musgo"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "tapa-carton-forrado-arana",
@@ -1198,7 +1509,7 @@
       "Verde",
       "Verde Manzana"
     ],
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "papercut-espiral",
@@ -1211,7 +1522,7 @@
     "description": "Cuaderno con espiral línea Papercut en formato 29,7 cm de 70 hojas rayadas y cuadriculadas con 8 diseños exclusivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-familia.png",
     "spec": "29,7 cm · 70 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-chill",
@@ -1224,7 +1535,7 @@
     "description": "Cuaderno espiralado con tapa cartón rígido línea Chill en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-familia.png",
     "spec": "21 x 27 cm · 60, 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-plane",
@@ -1237,7 +1548,7 @@
     "description": "Cuaderno espiralado con tapa cartón rígido línea Plane en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-familia.png",
     "spec": "21 x 27 cm · 60, 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-multicolor",
@@ -1250,7 +1561,7 @@
     "description": "Cuaderno espiralado con tapa cartón rígido línea Multicolor en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 8 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-familia.png",
     "spec": "21 x 27 cm · 60, 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-campo",
@@ -1263,7 +1574,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Campo en formatos A4 y A5 de 80 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-familia.png",
     "spec": "A4, A5 · 80 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-pasteles",
@@ -1276,7 +1587,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Pasteles en formatos A4 y A5 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-familia.png",
     "spec": "A4, A5 · 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-spring",
@@ -1289,7 +1600,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Spring en formatos A4 y A5 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-familia.png",
     "spec": "A4, A5 · 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-neon",
@@ -1302,7 +1613,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Neon en formatos A4 y A5 de 120 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-familia.png",
     "spec": "A4, A5 · 120 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-tinto",
@@ -1315,6 +1626,6 @@
     "description": "Cuaderno espiralado con tapa cartón línea Tinto en formatos A4, A5 y A6 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-familia.png",
     "spec": "A4, A5, A6 · 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   }
 ]
