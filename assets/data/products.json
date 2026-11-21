@@ -251,34 +251,47 @@
     "categoryId": "repuestos",
     "subcategory": "Repuestos Escolares",
     "description": "Repuestos de hojas escolares N°3 con banda de refuerzo y perforaciones estándar.",
-    "image": "/assets/img/products/img_VY5TRhJ7zhIP2sATTvyKaZOdFie56ucicWnxDon5YwcFBTfsJt.png",
+    "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-familia.png",
     "spec": "N°3 · 24, 48, 96, 288, 480 hojas · Rayado, Cuadriculado, Lisas",
     "brandColor": "#0062cc"
   },
   {
-    "id": "repuestos-a4-oficio-5-perforaciones",
-    "name": "Repuestos A4 y Oficio Con 5 Perforaciones",
-    "brand": "triunfante",
-    "brandName": "Triunfante",
-    "category": "Repuestos",
-    "categoryId": "repuestos",
-    "subcategory": "Repuestos A4 y Oficio",
-    "description": "Hojas tamaño A4 y Oficio con 5 perforaciones universales para carpetas de oficina y estudio.",
-    "image": "/assets/img/products/img_Bkr8Jp0BY1ql0TM7XVp1oho2qI6aSqv8tMsqWSotenaA22oniq.png",
-    "spec": "Oficio, A4 · 48, 96 hojas · Rayado, Cuadriculado",
-    "brandColor": "#0062cc"
-  },
-  {
     "id": "repuestos-especiales-tecnicos",
-    "name": "Repuestos Especiales Técnicos N°3 y N°5",
+    "name": "Repuestos Especiales N°3",
     "brand": "triunfante",
     "brandName": "Triunfante",
     "category": "Repuestos",
     "categoryId": "repuestos",
     "subcategory": "Repuestos Especiales",
-    "description": "Hojas técnicas para contabilidad, milimetrado, caligrafía diagonal y pentagramado musical.",
-    "image": "/assets/img/products/img_WuCdar6JjpHK08PASrhnqBNrdF7i7rQ47YV6ck1gXqacldfEyO.png",
-    "spec": "N° 3, N°5, N° 5 · 8 hojas · Contabilidad, Caligrafía, Rayado, Cuadriculado, Milimetrado, Pentagramado",
+    "description": "Repuestos especiales escolares N°3 de 8 hojas: caligrafía, contabilidad, milimetradas naranjas y pentagramadas.",
+    "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-familia.png",
+    "spec": "N°3 · 8 hojas · Caligrafía Diagonal, Caligrafía 2 Rayas, Contabilidad 2 Columnas, Contabilidad 3 Columnas, Contabilidad 4 Columnas, Contabilidad Mayor, Milimetradas Naranjas, Pentagramadas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "repuestos-a4",
+    "name": "Repuestos A4",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Repuestos",
+    "categoryId": "repuestos",
+    "subcategory": "Repuestos A4",
+    "description": "Repuestos universitarios tamaño A4 con perforaciones, en presentaciones de 48 y 96 hojas rayadas y cuadriculadas.",
+    "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-a4-familia.png",
+    "spec": "A4 · 48, 96 hojas · Rayado, Cuadriculado",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "repuestos-oficio",
+    "name": "Repuestos Oficio",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Repuestos",
+    "categoryId": "repuestos",
+    "subcategory": "Repuestos Oficio",
+    "description": "Repuestos tamaño Oficio de 48 hojas en versiones rayadas, cuadriculadas y lisas.",
+    "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-oficio-familia.png",
+    "spec": "Oficio · 48 hojas · Rayado, Cuadriculado, Lisas",
     "brandColor": "#0062cc"
   },
   {
@@ -295,19 +308,6 @@
     "brandColor": "#0062cc"
   },
   {
-    "id": "blocks-emblocados-encolados",
-    "name": "Blocks Emblocados Encolados",
-    "brand": "triunfante",
-    "brandName": "Triunfante",
-    "category": "Blocks",
-    "categoryId": "blocks",
-    "subcategory": "Blocks Emblocados",
-    "description": "Blocks con encuadernación encolada de fácil desprendimiento para oficina y escuela.",
-    "image": "/assets/img/products/img_oDoPSy5Z1T48PeWvy2sNILQTatppUSQea5FkRYxUYrVUySgqnF.png",
-    "spec": "A4, Oficio · 40, 80 hojas · Rayado",
-    "brandColor": "#0062cc"
-  },
-  {
     "id": "blocks-emblocados-perforados-light",
     "name": "Blocks Emblocados Perforados LIGHT",
     "brand": "triunfante",
@@ -315,9 +315,34 @@
     "category": "Blocks",
     "categoryId": "blocks",
     "subcategory": "Blocks Perforados",
-    "description": "Blocks con hojas perforadas para archivo rápido en carpetas.",
-    "image": "/assets/img/products/img_N0XGSHuPaEZaa8gwX1V2YnwNctzNbSj3hkARdn442nzL5hQ8lq.png",
-    "spec": "A4, Oficio · 80 hojas · Rayado",
+    "description": "Blocks perforados línea LIGHT de 80 hojas en formatos A4 y Oficio con tapas de color.",
+    "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-familia.png",
+    "spec": "A4, Oficio · 80 hojas · Cuadriculado, Rayado",
+    "colors": [
+      "#000000",
+      "#008000",
+      "#800080",
+      "#0000FF"
+    ],
+    "colorNames": [
+      "Negro",
+      "Verde",
+      "Violeta",
+      "Azul"
+    ],
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "blocks-perforados",
+    "name": "Blocks Emblocados Perforados",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Blocks",
+    "categoryId": "blocks",
+    "subcategory": "Blocks Emblocados Perforados",
+    "description": "Blocks perforados en tamaños A4 y Oficio de 40 y 80 hojas rayadas, cuadriculadas y lisas.",
+    "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-familia.png",
+    "spec": "A4, Oficio · 40, 80 hojas · Rayado, Cuadriculado, Lisas",
     "brandColor": "#0062cc"
   },
   {
@@ -329,8 +354,8 @@
     "categoryId": "blocks",
     "subcategory": "Blocks Espiralados",
     "description": "Blocks con espiral metálico superior y hojas microperforadas para arranque prolijo.",
-    "image": "/assets/img/products/img_pHSfpWYEItLQpw5QcmGmNNGQAFXwTI3ilM3a3xJkFWLRoMwSNm.png",
-    "spec": "A4, A5, A6 · 80 hojas · Rayado",
+    "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-familia.png",
+    "spec": "A4, A5, A6 · 80 hojas · Rayado, Cuadriculado, Lisas",
     "brandColor": "#0062cc"
   },
   {
@@ -523,9 +548,19 @@
     "category": "Línea De Dibujo",
     "categoryId": "linea-de-dibujo",
     "subcategory": "Blocks de Dibujo",
-    "description": "Blocks de hojas para dibujo artístico y técnico en papel blanco, color y negro.",
+    "description": "Blocks para dibujo N°5 y N°6 de 20 hojas en versiones color, blanco y negro.",
     "image": "/assets/img/products/img_vKRP7qzrP2cCf3qsMslza4aWxTactSezFZ8jZZ8LTpbJEnhuau.png",
-    "spec": "n°5, n°6 · 20 hojas",
+    "spec": "N°5, N°6 · 20 hojas",
+    "colors": [
+      "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
+      "#FFFFFF",
+      "#000000"
+    ],
+    "colorNames": [
+      "Color",
+      "Blanco",
+      "Negro"
+    ],
     "brandColor": "#0062cc"
   },
   {
@@ -536,9 +571,19 @@
     "category": "Línea De Dibujo",
     "categoryId": "linea-de-dibujo",
     "subcategory": "Repuestos de Dibujo",
-    "description": "Hojas de dibujo artístico de alto gramaje en hojas blancas, de color y negras.",
+    "description": "Repuestos para dibujo N°3, N°5 y N°6 en hojas color (6h), blanco (8h) y negro (8h), en formatos apaisado y alto.",
     "image": "/assets/img/products/img_Ujgk2QIQKd26xtLD3mIjbm7VqyWSxmBEAHZqu4aSvLPSmyRa3D.png",
-    "spec": "N°3, N° 5, N°6, N°5 · 5, 6, 8 hojas",
+    "spec": "N°3, N°5, N°6 · 6, 8 hojas · Apaisado, Alto",
+    "colors": [
+      "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
+      "#FFFFFF",
+      "#000000"
+    ],
+    "colorNames": [
+      "Color",
+      "Blanco",
+      "Negro"
+    ],
     "brandColor": "#0062cc"
   },
   {
@@ -550,7 +595,7 @@
     "categoryId": "cuaderno-con-indice",
     "subcategory": "Índice Tapa Flexible",
     "description": "Cuaderno con pestañas alfabéticas plastificadas en tapa flexible.",
-    "image": "/assets/img/products/img_hRdGz2nVfAKQBzDzq4o8dGO6UIZdkiRd3RWYlTGjkWgjskjrul.png",
+    "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-familia.png",
     "spec": "16 x 21 · 48, 96 hojas · Rayado",
     "brandColor": "#0062cc"
   },
@@ -563,7 +608,7 @@
     "categoryId": "cuaderno-con-indice",
     "subcategory": "Índice Espiralado",
     "description": "Cuaderno anillado con índice alfabético y tapa flexible.",
-    "image": "/assets/img/products/img_eHgSWVsf4YBvOS5o1TcFqCivj8MKYTjt7VAaE6UaAR3OMHTXls.png",
+    "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-familia.png",
     "spec": "16 x 21 · 48, 96 hojas · Rayado",
     "brandColor": "#0062cc"
   },
@@ -576,7 +621,7 @@
     "categoryId": "cuaderno-con-indice",
     "subcategory": "Índice Tapa Cartón",
     "description": "Cuaderno con índice alfabético y encuadernación en tapa dura.",
-    "image": "/assets/img/products/img_5RDzGCIZzXyqWdnMVof1s7zznkGJllDbCD6CIxZoo2Iiqfk8cM.png",
+    "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-carton-familia.png",
     "spec": "16 x 21 · 100 hojas · Rayado",
     "brandColor": "#0062cc"
   },
@@ -604,7 +649,7 @@
     "description": "Cuaderno con espiral y tapa cartulina en colores lisos, en formatos 29,7cm y A5.",
     "image": "/assets/img/products/img_0MTPCDSq5gUqgspHzBpbYvd2ELBV2LZujpjxmLVLDXLbbyCPiy.png",
     "spec": "29,7cm, A5 · 40, 80 hojas · Rayado, Cuadriculado",
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "linea-degrade-tapa-flexible-con-espiral",
@@ -617,7 +662,7 @@
     "description": "Cuaderno espiralado tapa cartulina diseño degradé 29,7cm de 80 hojas.",
     "image": "/assets/img/products/img_0TPrfZ0kZGMJ0BVtvDvgUbxQADGgWlxYxi44jK0J6hSEiOVZg2.png",
     "spec": "29,7cm · 80 hojas · Rayado",
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "block-oficio-perforado",
@@ -630,7 +675,7 @@
     "description": "Block perforado tamaño oficio de 40 y 80 hojas cuadriculadas, lisas y rayadas.",
     "image": "/assets/img/products/img_gs2JvxdY7WU2EjKoFs1lHHH8NJzhvEnGudxAyALiQVRf63PmnW.png",
     "spec": "Oficio · 40, 80 hojas · Rayado",
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "cuaderno-tapa-flexible",
@@ -643,7 +688,7 @@
     "description": "Cuaderno escolar clásico de tapa flexible en 24, 48 y 84 hojas.",
     "image": "/assets/img/products/img_fynMLxeIRauG71tm10eXfDTTIGcJOKHxyLx8OyDEvUhjwfF6il.png",
     "spec": "16 x 21 · 24, 48, 84 hojas · Rayado",
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "cuaderno-arana",
@@ -674,7 +719,7 @@
       "Celeste",
       "Naranja"
     ],
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "cuaderno-lunares",
@@ -713,7 +758,7 @@
       "Negro",
       "Verde Manzana"
     ],
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "repuestos-escolares-n3",
@@ -726,7 +771,7 @@
     "description": "Repuestos escolares N°3 en presentaciones de 48, 96 y 400 hojas rayadas y cuadriculadas.",
     "image": "/assets/img/products/img_5MUmBzQgvw5uMLhDN583lBRV8SXaIAY61i1vaIZKh01lKzwmlC.png",
     "spec": "19 x 24 · 48, 96, 400 hojas · Rayado",
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "libros-comerciales-actas-corona",
@@ -739,7 +784,7 @@
     "description": "Libros comerciales de actas formato Corona en 2, 3 y 4 manos.",
     "image": "/assets/img/products/img_SGd6ATHiQ1idmDwifxuz3jOhAWiyRH780e4YDDUCwCrbq3jGwK.png",
     "spec": "2 Corona, 3 Corona, Corona · 2, 3, 4 manos",
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "libros-comerciales-actas-con-indice-corona",
@@ -752,7 +797,7 @@
     "description": "Libros comerciales de actas con índice alfabético formato Corona en 2, 3 y 4 manos.",
     "image": "/assets/img/products/img_OnDnduBsLeJpObhn6SE0eLpkv1IC07y41ng2a5qPGpYHF5JioX.png",
     "spec": "Corona · 2, 3, 4 manos",
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "libros-comerciales-actas-clochet",
@@ -765,7 +810,7 @@
     "description": "Libros comerciales de actas Clochet 2 manos.",
     "image": "/assets/img/products/img_0hEYfveUabkrwCQGe4UrB2IWsFyR0aURptgbAabh0wTfZrkrXj.png",
     "spec": "Clochet · 2 manos",
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "libros-comerciales-actas-con-indice-clochet",
@@ -778,7 +823,7 @@
     "description": "Libros de actas con índice alfabético Clochet 2 manos.",
     "image": "/assets/img/products/img_MHLSrSLEWxEtIuIlGTr1dVw010S0mz0k3claQydoWhsSqPrdz0.png",
     "spec": "Clochet · 2 manos",
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "libro-de-recibos-expediente",
@@ -791,7 +836,7 @@
     "description": "Libro comercial de recibos para expedientes de 2 manos.",
     "image": "/assets/img/products/img_yIc5qgcd5dulKcAQWvmsRvfOWtO335VmwRKKoWqgNFuTvS6Qhy.png",
     "spec": "Expediente · 2 manos",
-    "brandColor": "#76a41f"
+    "brandColor": "#84cc16"
   },
   {
     "id": "adhesivo-vinilico-lavable",
@@ -804,7 +849,7 @@
     "description": "Adhesivo vinílico blanco lavable no tóxico para pegar papel, cartón, cartulina, tela, corcho, madera y telgopor.",
     "image": "/assets/img/products/img_kZr5kw2w3lI4vL1rgTLpGYXSvUBv3QKVukOsDEIqEMI1ORLKyt.png",
     "spec": "30 g, 50g, 100g, 250 g, 500g, 1000g",
-    "brandColor": "#00c6fd"
+    "brandColor": "#009fe3"
   },
   {
     "id": "adhesivo-sintetico-lavable",
@@ -817,7 +862,7 @@
     "description": "Pegamento sintético transparente lavable de alta adherencia y secado rápido.",
     "image": "/assets/img/products/img_8Dvp8fD0GTHFoJxbzUa0drA0OS40uZC4S6WDlGck7O3Nsv7wDN.png",
     "spec": "30 g, 50g, 100g, 250g, 500g, 1000g",
-    "brandColor": "#00c6fd"
+    "brandColor": "#009fe3"
   },
   {
     "id": "adhesivo-vinilico-lavable-color",
@@ -860,7 +905,7 @@
       "Marrón",
       "Verde Musgo"
     ],
-    "brandColor": "#00c6fd"
+    "brandColor": "#009fe3"
   },
   {
     "id": "adhesivo-vinilico-lavable-fluo",
@@ -885,7 +930,7 @@
       "Rosa Flúo",
       "Verde Musgo"
     ],
-    "brandColor": "#00c6fd"
+    "brandColor": "#009fe3"
   },
   {
     "id": "adhesivo-sintetico-lavable-glitter",
@@ -924,7 +969,7 @@
       "Verde Musgo",
       "Naranja"
     ],
-    "brandColor": "#00c6fd"
+    "brandColor": "#009fe3"
   },
   {
     "id": "temperas-pomo-color",
@@ -965,7 +1010,7 @@
       "Verde Manzana",
       "Verde Musgo"
     ],
-    "brandColor": "#00c6fd"
+    "brandColor": "#009fe3"
   },
   {
     "id": "temperas-pote-color",
@@ -1006,7 +1051,7 @@
       "Verde Manzana",
       "Verde Musgo"
     ],
-    "brandColor": "#00c6fd"
+    "brandColor": "#009fe3"
   },
   {
     "id": "temperas-pote-fluo",
@@ -1035,7 +1080,7 @@
       "Naranja Flúo",
       "Verde Manzana"
     ],
-    "brandColor": "#00c6fd"
+    "brandColor": "#009fe3"
   },
   {
     "id": "temperas-pote-metalizados",
@@ -1064,7 +1109,7 @@
       "Rojo",
       "Verde Musgo"
     ],
-    "brandColor": "#00c6fd"
+    "brandColor": "#009fe3"
   },
   {
     "id": "plastilinas-barritas",
@@ -1077,7 +1122,7 @@
     "description": "Plastilinas de fácil amasado y elasticidad garantizada en cajas de 6 y 10 unidades surtidas.",
     "image": "/assets/img/products/img_YQAU0XHufqlXjhSHvBX5ugpcNGjhxzhINWUEao1EZaYuAhB7Xn.png",
     "spec": "20g",
-    "brandColor": "#00c6fd"
+    "brandColor": "#009fe3"
   },
   {
     "id": "plastilinas-pancitos",
@@ -1118,7 +1163,7 @@
       "Verde Manzana",
       "Verde Musgo"
     ],
-    "brandColor": "#00c6fd"
+    "brandColor": "#009fe3"
   },
   {
     "id": "tapa-carton-forrado-arana",
@@ -1153,7 +1198,7 @@
       "Verde",
       "Verde Manzana"
     ],
-    "brandColor": "#8174b8"
+    "brandColor": "#7477b9"
   },
   {
     "id": "papercut-espiral",
@@ -1166,7 +1211,7 @@
     "description": "Cuaderno con espiral línea Papercut en formato 29,7 cm de 70 hojas rayadas y cuadriculadas con 8 diseños exclusivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-familia.png",
     "spec": "29,7 cm · 70 hojas · Rayado, Cuadriculado",
-    "brandColor": "#8174b8"
+    "brandColor": "#7477b9"
   },
   {
     "id": "tapa-carton-espiral-chill",
@@ -1179,7 +1224,7 @@
     "description": "Cuaderno espiralado con tapa cartón rígido línea Chill en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-familia.png",
     "spec": "21 x 27 cm · 60, 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#8174b8"
+    "brandColor": "#7477b9"
   },
   {
     "id": "tapa-carton-espiral-plane",
@@ -1192,7 +1237,7 @@
     "description": "Cuaderno espiralado con tapa cartón rígido línea Plane en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-familia.png",
     "spec": "21 x 27 cm · 60, 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#8174b8"
+    "brandColor": "#7477b9"
   },
   {
     "id": "tapa-carton-espiral-multicolor",
@@ -1205,7 +1250,7 @@
     "description": "Cuaderno espiralado con tapa cartón rígido línea Multicolor en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 8 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-familia.png",
     "spec": "21 x 27 cm · 60, 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#8174b8"
+    "brandColor": "#7477b9"
   },
   {
     "id": "tapa-carton-espiral-campo",
@@ -1218,7 +1263,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Campo en formatos A4 y A5 de 80 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-familia.png",
     "spec": "A4, A5 · 80 hojas · Rayado, Cuadriculado",
-    "brandColor": "#8174b8"
+    "brandColor": "#7477b9"
   },
   {
     "id": "tapa-carton-espiral-pasteles",
@@ -1231,7 +1276,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Pasteles en formatos A4 y A5 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-familia.png",
     "spec": "A4, A5 · 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#8174b8"
+    "brandColor": "#7477b9"
   },
   {
     "id": "tapa-carton-espiral-spring",
@@ -1244,7 +1289,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Spring en formatos A4 y A5 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-familia.png",
     "spec": "A4, A5 · 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#8174b8"
+    "brandColor": "#7477b9"
   },
   {
     "id": "tapa-carton-espiral-neon",
@@ -1257,7 +1302,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Neon en formatos A4 y A5 de 120 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-familia.png",
     "spec": "A4, A5 · 120 hojas · Rayado, Cuadriculado",
-    "brandColor": "#8174b8"
+    "brandColor": "#7477b9"
   },
   {
     "id": "tapa-carton-espiral-tinto",
@@ -1270,6 +1315,6 @@
     "description": "Cuaderno espiralado con tapa cartón línea Tinto en formatos A4, A5 y A6 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-familia.png",
     "spec": "A4, A5, A6 · 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#8174b8"
+    "brandColor": "#7477b9"
   }
 ]

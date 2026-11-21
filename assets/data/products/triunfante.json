@@ -31,54 +31,55 @@
               "tamano": "16x21cm (A5)",
               "hojas": 24,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible-16x21cm-a5-24h-rayado.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible.png",
               "specs": {
                 "caja": "160 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible-16x21cm-a5-24h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible.png"
             },
             {
               "sku": "TR-TF-24-C",
               "tamano": "16x21cm (A5)",
               "hojas": 24,
               "tipo_hoja": "Cuadriculado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible-16x21cm-a5-24h-cuadriculado.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible.png",
               "specs": {
                 "caja": "160 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible-16x21cm-a5-24h-cuadriculado.png"
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible.png"
             },
             {
               "sku": "TR-TF-48-R",
               "tamano": "16x21cm (A5)",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible-16x21cm-a5-48h-rayado.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible.png",
               "specs": {
                 "caja": "80 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible-16x21cm-a5-48h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible.png"
             },
             {
               "sku": "TR-TF-48-C",
               "tamano": "16x21cm (A5)",
               "hojas": 48,
               "tipo_hoja": "Cuadriculado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible-16x21cm-a5-48h-cuadriculado.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible.png",
               "specs": {
                 "caja": "80 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible-16x21cm-a5-48h-cuadriculado.png"
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible.png"
             }
-          ]
+          ],
+          "sharedAllVariants": true
         },
         {
           "id": "tapa-carton-forrado-arana",
@@ -3867,14 +3868,14 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-1.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-1.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-1.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-1.png",
               "motivo": "Motivo 1"
             },
             {
@@ -3882,14 +3883,14 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-2.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-2.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-2.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-2.png",
               "motivo": "Motivo 2"
             },
             {
@@ -3897,14 +3898,14 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-3.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-3.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-3.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-3.png",
               "motivo": "Motivo 3"
             },
             {
@@ -3912,14 +3913,14 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-4.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-4.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-4.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-4.png",
               "motivo": "Motivo 4"
             },
             {
@@ -3927,14 +3928,14 @@
               "tamano": "19x24cm",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-96h-rayado-motivo-1.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-1.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-96h-rayado-motivo-1.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-1.png",
               "motivo": "Motivo 1"
             },
             {
@@ -3942,14 +3943,14 @@
               "tamano": "19x24cm",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-96h-rayado-motivo-2.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-2.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-96h-rayado-motivo-2.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-2.png",
               "motivo": "Motivo 2"
             },
             {
@@ -3957,14 +3958,14 @@
               "tamano": "19x24cm",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-96h-rayado-motivo-3.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-3.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-96h-rayado-motivo-3.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-3.png",
               "motivo": "Motivo 3"
             },
             {
@@ -3972,23 +3973,30 @@
               "tamano": "19x24cm",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-96h-rayado-motivo-4.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-4.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-96h-rayado-motivo-4.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-4.png",
               "motivo": "Motivo 4"
             }
           ],
           "coverImages": [
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-1.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-2.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-3.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-19x24cm-48h-rayado-motivo-4.png"
-          ]
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-1.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-2.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-3.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-4.png"
+          ],
+          "sharedMotivoImages": true,
+          "motivoImages": {
+            "Motivo 1": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-1.png",
+            "Motivo 2": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-2.png",
+            "Motivo 3": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-3.png",
+            "Motivo 4": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-coquette-motivo-4.png"
+          }
         },
         {
           "id": "linea-brujitas",
@@ -4020,14 +4028,14 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-1.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-1.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-1.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-1.png",
               "motivo": "Motivo 1"
             },
             {
@@ -4035,14 +4043,14 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-2.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-2.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-2.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-2.png",
               "motivo": "Motivo 2"
             },
             {
@@ -4050,14 +4058,14 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-3.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-3.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-3.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-3.png",
               "motivo": "Motivo 3"
             },
             {
@@ -4065,14 +4073,14 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-4.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-4.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-4.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-4.png",
               "motivo": "Motivo 4"
             },
             {
@@ -4080,14 +4088,14 @@
               "tamano": "19x24cm",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-96h-rayado-motivo-1.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-1.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-96h-rayado-motivo-1.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-1.png",
               "motivo": "Motivo 1"
             },
             {
@@ -4095,14 +4103,14 @@
               "tamano": "19x24cm",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-96h-rayado-motivo-2.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-2.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-96h-rayado-motivo-2.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-2.png",
               "motivo": "Motivo 2"
             },
             {
@@ -4110,14 +4118,14 @@
               "tamano": "19x24cm",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-96h-rayado-motivo-3.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-3.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-96h-rayado-motivo-3.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-3.png",
               "motivo": "Motivo 3"
             },
             {
@@ -4125,23 +4133,30 @@
               "tamano": "19x24cm",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-96h-rayado-motivo-4.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-4.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-96h-rayado-motivo-4.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-4.png",
               "motivo": "Motivo 4"
             }
           ],
           "coverImages": [
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-1.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-2.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-3.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-19x24cm-48h-rayado-motivo-4.png"
-          ]
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-1.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-2.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-3.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-4.png"
+          ],
+          "sharedMotivoImages": true,
+          "motivoImages": {
+            "Motivo 1": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-1.png",
+            "Motivo 2": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-2.png",
+            "Motivo 3": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-3.png",
+            "Motivo 4": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-brujitas-motivo-4.png"
+          }
         },
         {
           "id": "linea-gamer-urbano",
@@ -4173,14 +4188,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-1.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-1.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-1.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-1.png",
               "motivo": "Motivo 1"
             },
             {
@@ -4188,14 +4203,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-2.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-2.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-2.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-2.png",
               "motivo": "Motivo 2"
             },
             {
@@ -4203,14 +4218,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-3.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-3.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-3.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-3.png",
               "motivo": "Motivo 3"
             },
             {
@@ -4218,14 +4233,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-4.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-4.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-4.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-4.png",
               "motivo": "Motivo 4"
             },
             {
@@ -4233,14 +4248,14 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-96h-rayado-motivo-1.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-1.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-96h-rayado-motivo-1.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-1.png",
               "motivo": "Motivo 1"
             },
             {
@@ -4248,14 +4263,14 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-96h-rayado-motivo-2.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-2.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-96h-rayado-motivo-2.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-2.png",
               "motivo": "Motivo 2"
             },
             {
@@ -4263,14 +4278,14 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-96h-rayado-motivo-3.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-3.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-96h-rayado-motivo-3.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-3.png",
               "motivo": "Motivo 3"
             },
             {
@@ -4278,23 +4293,30 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-96h-rayado-motivo-4.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-4.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-96h-rayado-motivo-4.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-4.png",
               "motivo": "Motivo 4"
             }
           ],
           "coverImages": [
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-1.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-2.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-3.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-19x24-48h-rayado-motivo-4.png"
-          ]
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-1.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-2.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-3.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-4.png"
+          ],
+          "sharedMotivoImages": true,
+          "motivoImages": {
+            "Motivo 1": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-1.png",
+            "Motivo 2": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-2.png",
+            "Motivo 3": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-3.png",
+            "Motivo 4": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-gamer-urbano-motivo-4.png"
+          }
         },
         {
           "id": "linea-monstruos",
@@ -4326,14 +4348,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-1.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-1.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-1.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-1.png",
               "motivo": "Motivo 1"
             },
             {
@@ -4341,14 +4363,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-2.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-2.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-2.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-2.png",
               "motivo": "Motivo 2"
             },
             {
@@ -4356,14 +4378,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-3.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-3.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-3.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-3.png",
               "motivo": "Motivo 3"
             },
             {
@@ -4371,14 +4393,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-4.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-4.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-4.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-4.png",
               "motivo": "Motivo 4"
             },
             {
@@ -4386,14 +4408,14 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-96h-rayado-motivo-1.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-1.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-96h-rayado-motivo-1.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-1.png",
               "motivo": "Motivo 1"
             },
             {
@@ -4401,14 +4423,14 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-96h-rayado-motivo-2.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-2.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-96h-rayado-motivo-2.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-2.png",
               "motivo": "Motivo 2"
             },
             {
@@ -4416,14 +4438,14 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-96h-rayado-motivo-3.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-3.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-96h-rayado-motivo-3.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-3.png",
               "motivo": "Motivo 3"
             },
             {
@@ -4431,23 +4453,30 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-96h-rayado-motivo-4.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-4.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-96h-rayado-motivo-4.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-4.png",
               "motivo": "Motivo 4"
             }
           ],
           "coverImages": [
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-1.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-2.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-3.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-19x24-48h-rayado-motivo-4.png"
-          ]
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-1.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-2.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-3.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-4.png"
+          ],
+          "sharedMotivoImages": true,
+          "motivoImages": {
+            "Motivo 1": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-1.png",
+            "Motivo 2": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-2.png",
+            "Motivo 3": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-3.png",
+            "Motivo 4": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-monstruos-motivo-4.png"
+          }
         },
         {
           "id": "linea-sirenas",
@@ -4479,14 +4508,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-1.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-1.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-1.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-1.png",
               "motivo": "Motivo 1"
             },
             {
@@ -4494,14 +4523,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-2.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-2.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-2.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-2.png",
               "motivo": "Motivo 2"
             },
             {
@@ -4509,14 +4538,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-3.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-3.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-3.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-3.png",
               "motivo": "Motivo 3"
             },
             {
@@ -4524,14 +4553,14 @@
               "tamano": "19 x 24",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-4.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-4.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-4.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-4.png",
               "motivo": "Motivo 4"
             },
             {
@@ -4539,14 +4568,14 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-96h-rayado-motivo-1.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-1.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-96h-rayado-motivo-1.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-1.png",
               "motivo": "Motivo 1"
             },
             {
@@ -4554,14 +4583,14 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-96h-rayado-motivo-2.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-2.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-96h-rayado-motivo-2.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-2.png",
               "motivo": "Motivo 2"
             },
             {
@@ -4569,14 +4598,14 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-96h-rayado-motivo-3.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-3.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-96h-rayado-motivo-3.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-3.png",
               "motivo": "Motivo 3"
             },
             {
@@ -4584,23 +4613,30 @@
               "tamano": "19 x 24",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-96h-rayado-motivo-4.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-4.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-96h-rayado-motivo-4.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-4.png",
               "motivo": "Motivo 4"
             }
           ],
           "coverImages": [
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-1.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-2.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-3.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-19x24-48h-rayado-motivo-4.png"
-          ]
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-1.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-2.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-3.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-4.png"
+          ],
+          "sharedMotivoImages": true,
+          "motivoImages": {
+            "Motivo 1": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-1.png",
+            "Motivo 2": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-2.png",
+            "Motivo 3": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-3.png",
+            "Motivo 4": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-sirenas-motivo-4.png"
+          }
         },
         {
           "id": "linea-doodle-color",
@@ -4631,14 +4667,14 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-1.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-1.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-1.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-1.png",
               "motivo": "Motivo 1"
             },
             {
@@ -4646,14 +4682,14 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-2.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-2.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-2.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-2.png",
               "motivo": "Motivo 2"
             },
             {
@@ -4661,14 +4697,14 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-3.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-3.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-3.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-3.png",
               "motivo": "Motivo 3"
             },
             {
@@ -4676,23 +4712,30 @@
               "tamano": "19x24cm",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-4.png",
+              "image": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-4.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "60 bultos",
                 "gramaje": "90grs"
               },
-              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-4.png",
+              "imageClean": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-4.png",
               "motivo": "Motivo 4"
             }
           ],
           "coverImages": [
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-1.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-2.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-3.png",
-            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-19x24cm-48h-rayado-motivo-4.png"
-          ]
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-1.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-2.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-3.png",
+            "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-4.png"
+          ],
+          "sharedMotivoImages": true,
+          "motivoImages": {
+            "Motivo 1": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-1.png",
+            "Motivo 2": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-2.png",
+            "Motivo 3": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-3.png",
+            "Motivo 4": "/assets/img/products/triunfante/cuadernos-escolares/triunfante-linea-doodle-color-motivo-4.png"
+          }
         }
       ]
     },
@@ -4705,7 +4748,7 @@
           "name": "Repuestos Escolares N°3",
           "subcategory": "Repuestos Escolares",
           "description": "Repuestos de hojas escolares N°3 con banda de refuerzo y perforaciones estándar.",
-          "familyImage": "/assets/img/products/img_VY5TRhJ7zhIP2sATTvyKaZOdFie56ucicWnxDon5YwcFBTfsJt.png",
+          "familyImage": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-familia.png",
           "attributes": {
             "tamanos": [
               "N°3"
@@ -4729,166 +4772,304 @@
               "tamano": "N°3",
               "hojas": 24,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-24h-rayado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-24h-rayado.png",
               "specs": {
                 "caja": "180 un.",
                 "paquete": "10 un.",
                 "palet": "50 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-24h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-24h-rayado.png"
             },
             {
               "sku": "TR-REP3-24-C",
               "tamano": "N°3",
               "hojas": 24,
               "tipo_hoja": "Cuadriculado",
-              "image": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-24h-cuadriculado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-24h-cuadriculado.png",
               "specs": {
                 "caja": "180 un.",
                 "paquete": "10 un.",
                 "palet": "50 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-24h-cuadriculado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-24h-cuadriculado.png"
             },
             {
               "sku": "TR-REP3-48-R",
               "tamano": "N°3",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-48h-rayado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-48h-rayado.png",
               "specs": {
                 "caja": "100 un.",
                 "paquete": "10 un.",
                 "palet": "50 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-48h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-48h-rayado.png"
             },
             {
               "sku": "TR-REP3-48-C",
               "tamano": "N°3",
               "hojas": 48,
               "tipo_hoja": "Cuadriculado",
-              "image": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-48h-cuadriculado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-48h-cuadriculado.png",
               "specs": {
                 "caja": "100 un.",
                 "paquete": "10 un.",
                 "palet": "50 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-48h-cuadriculado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-48h-cuadriculado.png"
             },
             {
               "sku": "TR-REP3-48-L",
               "tamano": "N°3",
               "hojas": 48,
               "tipo_hoja": "Lisas",
-              "image": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-48h-lisas.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-48h-lisas.png",
               "specs": {
                 "caja": "100 un.",
                 "paquete": "10 un.",
                 "palet": "50 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-48h-lisas.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-48h-lisas.png"
             },
             {
               "sku": "TR-REP3-96-R",
               "tamano": "N°3",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-96h-rayado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-96h-rayado.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "50 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-96h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-96h-rayado.png"
             },
             {
               "sku": "TR-REP3-96-C",
               "tamano": "N°3",
               "hojas": 96,
               "tipo_hoja": "Cuadriculado",
-              "image": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-96h-cuadriculado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-96h-cuadriculado.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "50 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-96h-cuadriculado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-96h-cuadriculado.png"
             },
             {
               "sku": "TR-REP3-288-R",
               "tamano": "N°3",
               "hojas": 288,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-288h-rayado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-288h-rayado.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "1 un.",
                 "palet": "50 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-288h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-288h-rayado.png"
             },
             {
               "sku": "TR-REP3-288-C",
               "tamano": "N°3",
               "hojas": 288,
               "tipo_hoja": "Cuadriculado",
-              "image": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-288h-cuadriculado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-288h-cuadriculado.png",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "1 un.",
                 "palet": "50 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-288h-cuadriculado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-288h-cuadriculado.png"
             },
             {
               "sku": "TR-REP3-480-R",
               "tamano": "N°3",
               "hojas": 480,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-480h-rayado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-480h-rayado.png",
               "specs": {
                 "caja": "6 un.",
                 "paquete": "1 un.",
                 "palet": "80 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-480h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-480h-rayado.png"
             },
             {
               "sku": "TR-REP3-480-C",
               "tamano": "N°3",
               "hojas": 480,
               "tipo_hoja": "Cuadriculado",
-              "image": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-480h-cuadriculado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-480h-cuadriculado.png",
               "specs": {
                 "caja": "6 un.",
                 "paquete": "1 un.",
                 "palet": "80 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-escolares-n3-n-3-480h-cuadriculado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-escolares-n3-480h-cuadriculado.png"
             }
           ]
         },
         {
-          "id": "repuestos-a4-oficio-5-perforaciones",
-          "name": "Repuestos A4 y Oficio Con 5 Perforaciones",
-          "subcategory": "Repuestos A4 y Oficio",
-          "description": "Hojas tamaño A4 y Oficio con 5 perforaciones universales para carpetas de oficina y estudio.",
-          "familyImage": "/assets/img/products/img_Bkr8Jp0BY1ql0TM7XVp1oho2qI6aSqv8tMsqWSotenaA22oniq.png",
+          "id": "repuestos-especiales-tecnicos",
+          "name": "Repuestos Especiales N°3",
+          "subcategory": "Repuestos Especiales",
+          "description": "Repuestos especiales escolares N°3 de 8 hojas: caligrafía, contabilidad, milimetradas naranjas y pentagramadas.",
+          "familyImage": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-familia.png",
           "attributes": {
             "tamanos": [
-              "Oficio",
+              "N°3"
+            ],
+            "hojas": [
+              8
+            ],
+            "tipos_hoja": [
+              "Caligrafía Diagonal",
+              "Caligrafía 2 Rayas",
+              "Contabilidad 2 Columnas",
+              "Contabilidad 3 Columnas",
+              "Contabilidad 4 Columnas",
+              "Contabilidad Mayor",
+              "Milimetradas Naranjas",
+              "Pentagramadas"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "TR-REPESP-8-CAL-DIAG",
+              "tamano": "N°3",
+              "hojas": 8,
+              "tipo_hoja": "Caligrafía Diagonal",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-caligrafia-diagonal.png",
+              "specs": {
+                "caja": "500 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "90 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-caligrafia-diagonal.png"
+            },
+            {
+              "sku": "TR-REPESP-8-CAL-2R",
+              "tamano": "N°3",
+              "hojas": 8,
+              "tipo_hoja": "Caligrafía 2 Rayas",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-caligrafia-2-rayas.png",
+              "specs": {
+                "caja": "500 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "90 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-caligrafia-2-rayas.png"
+            },
+            {
+              "sku": "TR-REPESP-8-CONT-2C",
+              "tamano": "N°3",
+              "hojas": 8,
+              "tipo_hoja": "Contabilidad 2 Columnas",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-contabilidad-2-columnas.png",
+              "specs": {
+                "caja": "500 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "90 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-contabilidad-2-columnas.png"
+            },
+            {
+              "sku": "TR-REPESP-8-CONT-3C",
+              "tamano": "N°3",
+              "hojas": 8,
+              "tipo_hoja": "Contabilidad 3 Columnas",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-contabilidad-3-columnas.png",
+              "specs": {
+                "caja": "500 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "90 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-contabilidad-3-columnas.png"
+            },
+            {
+              "sku": "TR-REPESP-8-CONT-4C",
+              "tamano": "N°3",
+              "hojas": 8,
+              "tipo_hoja": "Contabilidad 4 Columnas",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-contabilidad-4-columnas.png",
+              "specs": {
+                "caja": "500 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "90 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-contabilidad-4-columnas.png"
+            },
+            {
+              "sku": "TR-REPESP-8-CONT-MAY",
+              "tamano": "N°3",
+              "hojas": 8,
+              "tipo_hoja": "Contabilidad Mayor",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-contabilidad-mayor.png",
+              "specs": {
+                "caja": "500 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "90 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-contabilidad-mayor.png"
+            },
+            {
+              "sku": "TR-REPESP-8-MILI-NAR",
+              "tamano": "N°3",
+              "hojas": 8,
+              "tipo_hoja": "Milimetradas Naranjas",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-milimetradas-naranjas.png",
+              "specs": {
+                "caja": "500 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "90 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-milimetradas-naranjas.png"
+            },
+            {
+              "sku": "TR-REPESP-8-PENT",
+              "tamano": "N°3",
+              "hojas": 8,
+              "tipo_hoja": "Pentagramadas",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-pentagramadas.png",
+              "specs": {
+                "caja": "500 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "90 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-especiales-tecnicos-n3-8h-pentagramadas.png"
+            }
+          ]
+        },
+        {
+          "id": "repuestos-a4",
+          "name": "Repuestos A4",
+          "subcategory": "Repuestos A4",
+          "description": "Repuestos universitarios tamaño A4 con perforaciones, en presentaciones de 48 y 96 hojas rayadas y cuadriculadas.",
+          "familyImage": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-a4-familia.png",
+          "attributes": {
+            "tamanos": [
               "A4"
             ],
             "hojas": [
@@ -4902,227 +5083,124 @@
           },
           "variants": [
             {
-              "sku": "TR-REP5P-48-R",
-              "tamano": "Oficio",
-              "hojas": 48,
-              "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-repuestos-a4-oficio-5-perforaciones-oficio-48h-rayado.png",
-              "specs": {
-                "caja": "50 un.",
-                "paquete": "10 un.",
-                "palet": "60 bultos",
-                "gramaje": "90 grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-repuestos-a4-oficio-5-perforaciones-oficio-48h-rayado.png"
-            },
-            {
-              "sku": "TR-REP5P-48-R",
+              "sku": "TR-REPA4-48-R",
               "tamano": "A4",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-repuestos-a4-oficio-5-perforaciones-a4-48h-rayado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-a4-48h-rayado.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "10 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-a4-oficio-5-perforaciones-a4-48h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-a4-48h-rayado.png"
             },
             {
-              "sku": "TR-REP5P-48-C",
+              "sku": "TR-REPA4-48-C",
               "tamano": "A4",
               "hojas": 48,
               "tipo_hoja": "Cuadriculado",
-              "image": "/assets/img/products/triunfante-repuestos-a4-oficio-5-perforaciones-a4-48h-cuadriculado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-a4-48h-cuadriculado.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "10 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-a4-oficio-5-perforaciones-a4-48h-cuadriculado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-a4-48h-cuadriculado.png"
             },
             {
-              "sku": "TR-REP5P-96-R",
+              "sku": "TR-REPA4-96-R",
               "tamano": "A4",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-repuestos-a4-oficio-5-perforaciones-a4-96h-rayado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-a4-96h-rayado.png",
               "specs": {
                 "caja": "25 un.",
                 "paquete": "10 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-a4-oficio-5-perforaciones-a4-96h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-a4-96h-rayado.png"
             },
             {
-              "sku": "TR-REP5P-96-C",
+              "sku": "TR-REPA4-96-C",
               "tamano": "A4",
               "hojas": 96,
               "tipo_hoja": "Cuadriculado",
-              "image": "/assets/img/products/triunfante-repuestos-a4-oficio-5-perforaciones-a4-96h-cuadriculado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-a4-96h-cuadriculado.png",
               "specs": {
                 "caja": "25 un.",
                 "paquete": "10 un.",
                 "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-a4-oficio-5-perforaciones-a4-96h-cuadriculado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-a4-96h-cuadriculado.png"
             }
           ]
         },
         {
-          "id": "repuestos-especiales-tecnicos",
-          "name": "Repuestos Especiales Técnicos N°3 y N°5",
-          "subcategory": "Repuestos Especiales",
-          "description": "Hojas técnicas para contabilidad, milimetrado, caligrafía diagonal y pentagramado musical.",
-          "familyImage": "/assets/img/products/img_WuCdar6JjpHK08PASrhnqBNrdF7i7rQ47YV6ck1gXqacldfEyO.png",
+          "id": "repuestos-oficio",
+          "name": "Repuestos Oficio",
+          "subcategory": "Repuestos Oficio",
+          "description": "Repuestos tamaño Oficio de 48 hojas en versiones rayadas, cuadriculadas y lisas.",
+          "familyImage": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-oficio-familia.png",
           "attributes": {
             "tamanos": [
-              "N° 3",
-              "N°5",
-              "N° 5"
+              "Oficio"
             ],
             "hojas": [
-              8
+              48
             ],
             "tipos_hoja": [
-              "Contabilidad",
-              "Caligrafía",
               "Rayado",
               "Cuadriculado",
-              "Milimetrado",
-              "Pentagramado"
+              "Lisas"
             ]
           },
           "variants": [
             {
-              "sku": "TR-REPESP-8-CONT",
-              "tamano": "N° 3",
-              "hojas": 8,
-              "tipo_hoja": "Contabilidad",
-              "image": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-3-8h-contabilidad.png",
-              "specs": {
-                "caja": "500 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
-                "gramaje": "90 grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-3-8h-contabilidad.png"
-            },
-            {
-              "sku": "TR-REPESP-8-CONT",
-              "tamano": "N°5",
-              "hojas": 8,
-              "tipo_hoja": "Contabilidad",
-              "image": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-5-8h-contabilidad.png",
-              "specs": {
-                "caja": "250 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
-                "gramaje": "90 grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-5-8h-contabilidad.png"
-            },
-            {
-              "sku": "TR-REPESP-8-CONT",
-              "tamano": "N° 5",
-              "hojas": 8,
-              "tipo_hoja": "Contabilidad",
-              "image": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-5-8h-contabilidad.png",
-              "specs": {
-                "caja": "250 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
-                "gramaje": "90 grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-5-8h-contabilidad.png"
-            },
-            {
-              "sku": "TR-REPESP-8-CAL",
-              "tamano": "N° 3",
-              "hojas": 8,
-              "tipo_hoja": "Caligrafía",
-              "image": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-3-8h-caligrafia.png",
-              "specs": {
-                "caja": "500 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
-                "gramaje": "90 grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-3-8h-caligrafia.png"
-            },
-            {
-              "sku": "TR-REPESP-8-R",
-              "tamano": "N°5",
-              "hojas": 8,
+              "sku": "TR-REPOF-48-R",
+              "tamano": "Oficio",
+              "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-5-8h-rayado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-oficio-48h-rayado.png",
               "specs": {
-                "caja": "250 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
+                "caja": "50 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-5-8h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-oficio-48h-rayado.png"
             },
             {
-              "sku": "TR-REPESP-8-C",
-              "tamano": "N°5",
-              "hojas": 8,
+              "sku": "TR-REPOF-48-C",
+              "tamano": "Oficio",
+              "hojas": 48,
               "tipo_hoja": "Cuadriculado",
-              "image": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-5-8h-cuadriculado.png",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-oficio-48h-cuadriculado.png",
               "specs": {
-                "caja": "250 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
+                "caja": "50 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-5-8h-cuadriculado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-oficio-48h-cuadriculado.png"
             },
             {
-              "sku": "TR-REPESP-8-MILI",
-              "tamano": "N° 3",
-              "hojas": 8,
-              "tipo_hoja": "Milimetrado",
-              "image": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-3-8h-milimetrado.png",
+              "sku": "TR-REPOF-48-L",
+              "tamano": "Oficio",
+              "hojas": 48,
+              "tipo_hoja": "Lisas",
+              "image": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-oficio-48h-lisas.png",
               "specs": {
-                "caja": "500 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
+                "caja": "50 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
                 "gramaje": "90 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-3-8h-milimetrado.png"
-            },
-            {
-              "sku": "TR-REPESP-8-MILI",
-              "tamano": "N°5",
-              "hojas": 8,
-              "tipo_hoja": "Milimetrado",
-              "image": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-5-8h-milimetrado.png",
-              "specs": {
-                "caja": "250 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
-                "gramaje": "90 grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-5-8h-milimetrado.png"
-            },
-            {
-              "sku": "TR-REPESP-8-PENT",
-              "tamano": "N° 3",
-              "hojas": 8,
-              "tipo_hoja": "Pentagramado",
-              "image": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-3-8h-pentagramado.png",
-              "specs": {
-                "caja": "500 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
-                "gramaje": "90 grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-repuestos-especiales-tecnicos-n-3-8h-pentagramado.png"
+              "imageClean": "/assets/img/products/triunfante/repuestos/triunfante-repuestos-oficio-48h-lisas.png"
             }
           ]
         }
@@ -5219,11 +5297,183 @@
       "name": "Blocks",
       "products": [
         {
-          "id": "blocks-emblocados-encolados",
-          "name": "Blocks Emblocados Encolados",
-          "subcategory": "Blocks Emblocados",
-          "description": "Blocks con encuadernación encolada de fácil desprendimiento para oficina y escuela.",
-          "familyImage": "/assets/img/products/img_oDoPSy5Z1T48PeWvy2sNILQTatppUSQea5FkRYxUYrVUySgqnF.png",
+          "id": "blocks-emblocados-perforados-light",
+          "name": "Blocks Emblocados Perforados LIGHT",
+          "subcategory": "Blocks Perforados",
+          "description": "Blocks perforados línea LIGHT de 80 hojas en formatos A4 y Oficio con tapas de color.",
+          "familyImage": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-familia.png",
+          "attributes": {
+            "tamanos": [
+              "A4",
+              "Oficio"
+            ],
+            "hojas": [
+              80
+            ],
+            "tipos_hoja": [
+              "Cuadriculado",
+              "Rayado"
+            ],
+            "colores": [
+              "Negro",
+              "Verde",
+              "Violeta",
+              "Azul"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "TR-BLK-LIGHT-A4-80-C-NE",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Negro",
+              "colorHex": "#000000",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-a4-80h-cuadriculado-negro.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "63grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-a4-80h-cuadriculado-negro.png"
+            },
+            {
+              "sku": "TR-BLK-LIGHT-A4-80-C-VE",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Verde",
+              "colorHex": "#008000",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-a4-80h-cuadriculado-verde.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "63grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-a4-80h-cuadriculado-verde.png"
+            },
+            {
+              "sku": "TR-BLK-LIGHT-A4-80-C-VI",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Violeta",
+              "colorHex": "#800080",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-a4-80h-cuadriculado-violeta.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "63grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-a4-80h-cuadriculado-violeta.png"
+            },
+            {
+              "sku": "TR-BLK-LIGHT-A4-80-C-AZ",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Azul",
+              "colorHex": "#0000FF",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-a4-80h-cuadriculado-azul.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "63grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-a4-80h-cuadriculado-azul.png"
+            },
+            {
+              "sku": "TR-BLK-LIGHT-OF-80-C-VI",
+              "tamano": "Oficio",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Violeta",
+              "colorHex": "#800080",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-oficio-80h-cuadriculado-violeta.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "63grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-oficio-80h-cuadriculado-violeta.png"
+            },
+            {
+              "sku": "TR-BLK-LIGHT-OF-80-C-VE",
+              "tamano": "Oficio",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Verde",
+              "colorHex": "#008000",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-oficio-80h-cuadriculado-verde.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "63grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-oficio-80h-cuadriculado-verde.png"
+            },
+            {
+              "sku": "TR-BLK-LIGHT-OF-80-C-NE",
+              "tamano": "Oficio",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "colorName": "Negro",
+              "colorHex": "#000000",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-oficio-80h-cuadriculado-negro.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "63grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-oficio-80h-cuadriculado-negro.png"
+            },
+            {
+              "sku": "TR-BLK-LIGHT-OF-80-R-AZ",
+              "tamano": "Oficio",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "colorName": "Azul",
+              "colorHex": "#0000FF",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-oficio-80h-rayado-azul.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "63grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-oficio-80h-rayado-azul.png"
+            },
+            {
+              "sku": "TR-BLK-LIGHT-OF-80-R-NE",
+              "tamano": "Oficio",
+              "hojas": 80,
+              "tipo_hoja": "Rayado",
+              "colorName": "Negro",
+              "colorHex": "#000000",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-oficio-80h-rayado-negro.png",
+              "specs": {
+                "caja": "35 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "63grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-emblocados-perforados-light-oficio-80h-rayado-negro.png"
+            }
+          ]
+        },
+        {
+          "id": "blocks-perforados",
+          "name": "Blocks Emblocados Perforados",
+          "subcategory": "Blocks Emblocados Perforados",
+          "description": "Blocks perforados en tamaños A4 y Oficio de 40 y 80 hojas rayadas, cuadriculadas y lisas.",
+          "familyImage": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-familia.png",
           "attributes": {
             "tamanos": [
               "A4",
@@ -5234,114 +5484,179 @@
               80
             ],
             "tipos_hoja": [
-              "Rayado"
+              "Rayado",
+              "Cuadriculado",
+              "Lisas"
             ]
           },
           "variants": [
             {
-              "sku": "TR-BLK-ENC-40-R",
+              "sku": "TR-BLK-PERF-A4-40-R",
               "tamano": "A4",
               "hojas": 40,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-blocks-emblocados-encolados-a4-40h-rayado.png",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-40h-rayado.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "10 un.",
                 "palet": "50 bultos",
                 "gramaje": "80grs"
               },
-              "imageClean": "/assets/img/products/triunfante-blocks-emblocados-encolados-a4-40h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-40h-rayado.png"
             },
             {
-              "sku": "TR-BLK-ENC-80-R",
+              "sku": "TR-BLK-PERF-A4-40-C",
               "tamano": "A4",
-              "hojas": 80,
-              "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-blocks-emblocados-encolados-a4-80h-rayado.png",
-              "specs": {
-                "caja": "30 un.",
-                "paquete": "5 un.",
-                "palet": "50 bultos",
-                "gramaje": "80grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-blocks-emblocados-encolados-a4-80h-rayado.png"
-            },
-            {
-              "sku": "TR-BLK-ENC-40-R",
-              "tamano": "Oficio",
               "hojas": 40,
-              "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-blocks-emblocados-encolados-oficio-40h-rayado.png",
+              "tipo_hoja": "Cuadriculado",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-40h-cuadriculado.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "10 un.",
                 "palet": "50 bultos",
                 "gramaje": "80grs"
               },
-              "imageClean": "/assets/img/products/triunfante-blocks-emblocados-encolados-oficio-40h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-40h-cuadriculado.png"
             },
             {
-              "sku": "TR-BLK-ENC-80-R",
-              "tamano": "Oficio",
+              "sku": "TR-BLK-PERF-A4-40-L",
+              "tamano": "A4",
+              "hojas": 40,
+              "tipo_hoja": "Lisas",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-40h-lisas.png",
+              "specs": {
+                "caja": "50 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos",
+                "gramaje": "80grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-40h-lisas.png"
+            },
+            {
+              "sku": "TR-BLK-PERF-A4-80-R",
+              "tamano": "A4",
               "hojas": 80,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-blocks-emblocados-encolados-oficio-80h-rayado.png",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-80h-rayado.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "50 bultos",
                 "gramaje": "80grs"
               },
-              "imageClean": "/assets/img/products/triunfante-blocks-emblocados-encolados-oficio-80h-rayado.png"
-            }
-          ]
-        },
-        {
-          "id": "blocks-emblocados-perforados-light",
-          "name": "Blocks Emblocados Perforados LIGHT",
-          "subcategory": "Blocks Perforados",
-          "description": "Blocks con hojas perforadas para archivo rápido en carpetas.",
-          "familyImage": "/assets/img/products/img_N0XGSHuPaEZaa8gwX1V2YnwNctzNbSj3hkARdn442nzL5hQ8lq.png",
-          "attributes": {
-            "tamanos": [
-              "A4",
-              "Oficio"
-            ],
-            "hojas": [
-              80
-            ],
-            "tipos_hoja": [
-              "Rayado"
-            ]
-          },
-          "variants": [
-            {
-              "sku": "TR-BLK-LIGHT-80-R",
-              "tamano": "A4",
-              "hojas": 80,
-              "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-blocks-emblocados-perforados-light-a4-80h-rayado.png",
-              "specs": {
-                "caja": "35 un.",
-                "paquete": "5 un.",
-                "palet": "50 bultos",
-                "gramaje": "63grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-blocks-emblocados-perforados-light-a4-80h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-80h-rayado.png"
             },
             {
-              "sku": "TR-BLK-LIGHT-80-R",
+              "sku": "TR-BLK-PERF-A4-80-C",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-80h-cuadriculado.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "80grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-80h-cuadriculado.png"
+            },
+            {
+              "sku": "TR-BLK-PERF-A4-80-L",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Lisas",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-80h-lisas.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "80grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-a4-80h-lisas.png"
+            },
+            {
+              "sku": "TR-BLK-PERF-OF-40-R",
+              "tamano": "Oficio",
+              "hojas": 40,
+              "tipo_hoja": "Rayado",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-40h-rayado.png",
+              "specs": {
+                "caja": "50 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos",
+                "gramaje": "80grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-40h-rayado.png"
+            },
+            {
+              "sku": "TR-BLK-PERF-OF-40-C",
+              "tamano": "Oficio",
+              "hojas": 40,
+              "tipo_hoja": "Cuadriculado",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-40h-cuadriculado.png",
+              "specs": {
+                "caja": "50 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos",
+                "gramaje": "80grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-40h-cuadriculado.png"
+            },
+            {
+              "sku": "TR-BLK-PERF-OF-40-L",
+              "tamano": "Oficio",
+              "hojas": 40,
+              "tipo_hoja": "Lisas",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-40h-lisas.png",
+              "specs": {
+                "caja": "50 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos",
+                "gramaje": "80grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-40h-lisas.png"
+            },
+            {
+              "sku": "TR-BLK-PERF-OF-80-R",
               "tamano": "Oficio",
               "hojas": 80,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-blocks-emblocados-perforados-light-oficio-80h-rayado.png",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-80h-rayado.png",
               "specs": {
-                "caja": "35 un.",
+                "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "50 bultos",
-                "gramaje": "63grs"
+                "gramaje": "80grs"
               },
-              "imageClean": "/assets/img/products/triunfante-blocks-emblocados-perforados-light-oficio-80h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-80h-rayado.png"
+            },
+            {
+              "sku": "TR-BLK-PERF-OF-80-C",
+              "tamano": "Oficio",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-80h-cuadriculado.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "80grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-80h-cuadriculado.png"
+            },
+            {
+              "sku": "TR-BLK-PERF-OF-80-L",
+              "tamano": "Oficio",
+              "hojas": 80,
+              "tipo_hoja": "Lisas",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-80h-lisas.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos",
+                "gramaje": "80grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-perforados-oficio-80h-lisas.png"
             }
           ]
         },
@@ -5350,7 +5665,7 @@
           "name": "Blocks Espiralados",
           "subcategory": "Blocks Espiralados",
           "description": "Blocks con espiral metálico superior y hojas microperforadas para arranque prolijo.",
-          "familyImage": "/assets/img/products/img_pHSfpWYEItLQpw5QcmGmNNGQAFXwTI3ilM3a3xJkFWLRoMwSNm.png",
+          "familyImage": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-familia.png",
           "attributes": {
             "tamanos": [
               "A4",
@@ -5361,48 +5676,128 @@
               80
             ],
             "tipos_hoja": [
-              "Rayado"
+              "Rayado",
+              "Cuadriculado",
+              "Lisas"
             ]
           },
           "variants": [
             {
-              "sku": "TR-BLK-ESP-80-R",
+              "sku": "TR-BLK-ESP-A4-80-R",
               "tamano": "A4",
               "hojas": 80,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-blocks-espiralados-a4-80h-rayado.png",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a4-80h-rayado.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "50 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante-blocks-espiralados-a4-80h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a4-80h-rayado.png"
             },
             {
-              "sku": "TR-BLK-ESP-80-R",
+              "sku": "TR-BLK-ESP-A4-80-C",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a4-80h-cuadriculado.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a4-80h-cuadriculado.png"
+            },
+            {
+              "sku": "TR-BLK-ESP-A4-80-L",
+              "tamano": "A4",
+              "hojas": 80,
+              "tipo_hoja": "Lisas",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a4-80h-lisas.png",
+              "specs": {
+                "caja": "30 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a4-80h-lisas.png"
+            },
+            {
+              "sku": "TR-BLK-ESP-A5-80-R",
               "tamano": "A5",
               "hojas": 80,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-blocks-espiralados-a5-80h-rayado.png",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a5-80h-rayado.png",
               "specs": {
                 "caja": "70 un.",
                 "paquete": "5 un.",
                 "palet": "50 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante-blocks-espiralados-a5-80h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a5-80h-rayado.png"
             },
             {
-              "sku": "TR-BLK-ESP-80-R",
+              "sku": "TR-BLK-ESP-A5-80-C",
+              "tamano": "A5",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a5-80h-cuadriculado.png",
+              "specs": {
+                "caja": "70 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a5-80h-cuadriculado.png"
+            },
+            {
+              "sku": "TR-BLK-ESP-A5-80-L",
+              "tamano": "A5",
+              "hojas": 80,
+              "tipo_hoja": "Lisas",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a5-80h-lisas.png",
+              "specs": {
+                "caja": "70 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a5-80h-lisas.png"
+            },
+            {
+              "sku": "TR-BLK-ESP-A6-80-R",
               "tamano": "A6",
               "hojas": 80,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-blocks-espiralados-a6-80h-rayado.png",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a6-80h-rayado.png",
               "specs": {
                 "caja": "140 un.",
                 "paquete": "5 un.",
                 "palet": "50 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante-blocks-espiralados-a6-80h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a6-80h-rayado.png"
+            },
+            {
+              "sku": "TR-BLK-ESP-A6-80-C",
+              "tamano": "A6",
+              "hojas": 80,
+              "tipo_hoja": "Cuadriculado",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a6-80h-cuadriculado.png",
+              "specs": {
+                "caja": "140 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a6-80h-cuadriculado.png"
+            },
+            {
+              "sku": "TR-BLK-ESP-A6-80-L",
+              "tamano": "A6",
+              "hojas": 80,
+              "tipo_hoja": "Lisas",
+              "image": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a6-80h-lisas.png",
+              "specs": {
+                "caja": "140 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/blocks/triunfante-blocks-espiralados-a6-80h-lisas.png"
             }
           ]
         }
@@ -6062,7 +6457,8 @@
             "/assets/img/products/img_y1ImDXBf2DQVpYkqmdQO3vEOQdK8nYBHTUgqDGzgGTvhPIPr32.png",
             "/assets/img/products/img_y1ImDXBf2DQVpYkqmdQO3vEOQdK8nYBHTUgqDGzgGTvhPIPr32.png",
             "/assets/img/products/img_y1ImDXBf2DQVpYkqmdQO3vEOQdK8nYBHTUgqDGzgGTvhPIPr32.png"
-          ]
+          ],
+          "sharedMotivoImages": true
         },
         {
           "id": "cuaderno-123-espiral-tapa-carton-vinilico",
@@ -6634,12 +7030,17 @@
           "id": "blocks-para-dibujo",
           "name": "Blocks para Dibujo N°5 y N°6",
           "subcategory": "Blocks de Dibujo",
-          "description": "Blocks de hojas para dibujo artístico y técnico en papel blanco, color y negro.",
+          "description": "Blocks para dibujo N°5 y N°6 de 20 hojas en versiones color, blanco y negro.",
           "familyImage": "/assets/img/products/img_vKRP7qzrP2cCf3qsMslza4aWxTactSezFZ8jZZ8LTpbJEnhuau.png",
           "attributes": {
             "tamanos": [
-              "n°5",
-              "n°6"
+              "N°5",
+              "N°6"
+            ],
+            "colores": [
+              "Color",
+              "Blanco",
+              "Negro"
             ],
             "hojas": [
               20
@@ -6647,171 +7048,272 @@
           },
           "variants": [
             {
-              "sku": "TR-DIB-BLK-20",
-              "tamano": "n°5",
+              "sku": "TR-DIB-BLK-N5-20-COL",
+              "tamano": "N°5",
               "hojas": 20,
-              "image": "/assets/img/products/triunfante-blocks-para-dibujo-n-5-20h.png",
+              "colorName": "Color",
+              "colorHex": "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-blocks-para-dibujo-n5-20h-color.png",
               "specs": {
                 "caja": "60 un.",
                 "paquete": "10 un.",
                 "palet": "60 bultos",
                 "gramaje": "118grs"
               },
-              "imageClean": "/assets/img/products/triunfante-blocks-para-dibujo-n-5-20h.png"
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-blocks-para-dibujo-n5-20h-color.png"
             },
             {
-              "sku": "TR-DIB-BLK-20",
-              "tamano": "n°6",
+              "sku": "TR-DIB-BLK-N5-20-BLA",
+              "tamano": "N°5",
               "hojas": 20,
-              "image": "/assets/img/products/triunfante-blocks-para-dibujo-n-6-20h.png",
+              "colorName": "Blanco",
+              "colorHex": "#FFFFFF",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-blocks-para-dibujo-n5-20h-blanco.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
+                "gramaje": "118grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-blocks-para-dibujo-n5-20h-blanco.png"
+            },
+            {
+              "sku": "TR-DIB-BLK-N5-20-NEG",
+              "tamano": "N°5",
+              "hojas": 20,
+              "colorName": "Negro",
+              "colorHex": "#000000",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-blocks-para-dibujo-n5-20h-negro.png",
+              "specs": {
+                "caja": "60 un.",
+                "paquete": "10 un.",
+                "palet": "60 bultos",
+                "gramaje": "118grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-blocks-para-dibujo-n5-20h-negro.png"
+            },
+            {
+              "sku": "TR-DIB-BLK-N6-20-COL",
+              "tamano": "N°6",
+              "hojas": 20,
+              "colorName": "Color",
+              "colorHex": "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-blocks-para-dibujo-n6-20h-color.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "49 bultos",
                 "gramaje": "118grs"
               },
-              "imageClean": "/assets/img/products/triunfante-blocks-para-dibujo-n-6-20h.png"
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-blocks-para-dibujo-n6-20h-color.png"
+            },
+            {
+              "sku": "TR-DIB-BLK-N6-20-BLA",
+              "tamano": "N°6",
+              "hojas": 20,
+              "colorName": "Blanco",
+              "colorHex": "#FFFFFF",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-blocks-para-dibujo-n6-20h-blanco.png",
+              "specs": {
+                "caja": "50 un.",
+                "paquete": "5 un.",
+                "palet": "49 bultos",
+                "gramaje": "118grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-blocks-para-dibujo-n6-20h-blanco.png"
             }
-          ]
+          ],
+          "selectorOrder": "color-first"
         },
         {
           "id": "repuestos-para-dibujo",
           "name": "Repuestos para Dibujo N°3, N°5 y N°6",
           "subcategory": "Repuestos de Dibujo",
-          "description": "Hojas de dibujo artístico de alto gramaje en hojas blancas, de color y negras.",
+          "description": "Repuestos para dibujo N°3, N°5 y N°6 en hojas color (6h), blanco (8h) y negro (8h), en formatos apaisado y alto.",
           "familyImage": "/assets/img/products/img_Ujgk2QIQKd26xtLD3mIjbm7VqyWSxmBEAHZqu4aSvLPSmyRa3D.png",
           "attributes": {
             "tamanos": [
               "N°3",
-              "N° 5",
-              "N°6",
-              "N°5"
+              "N°5",
+              "N°6"
+            ],
+            "colores": [
+              "Color",
+              "Blanco",
+              "Negro"
+            ],
+            "tipos_hoja": [
+              "Apaisado",
+              "Alto"
             ],
             "hojas": [
-              5,
               6,
               8
             ]
           },
           "variants": [
             {
-              "sku": "TR-DIB-REP-6",
+              "sku": "TR-DIB-REP-N3-6-COL",
               "tamano": "N°3",
               "hojas": 6,
-              "image": "/assets/img/products/triunfante-repuestos-para-dibujo-n-3-6h.png",
+              "tipo_hoja": "Apaisado",
+              "colorName": "Color",
+              "colorHex": "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n3-6h-color.png",
               "specs": {
                 "caja": "300 un.",
                 "paquete": "25 un.",
                 "palet": "50 bultos",
                 "gramaje": "118 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-para-dibujo-n-3-6h.png"
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n3-6h-color.png"
             },
             {
-              "sku": "TR-DIB-REP-6",
-              "tamano": "N° 5",
+              "sku": "TR-DIB-REP-N3-8-BLA",
+              "tamano": "N°3",
+              "hojas": 8,
+              "tipo_hoja": "Apaisado",
+              "colorName": "Blanco",
+              "colorHex": "#FFFFFF",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n3-8h-blanco.png",
+              "specs": {
+                "caja": "300 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "118 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n3-8h-blanco.png"
+            },
+            {
+              "sku": "TR-DIB-REP-N3-8-NEG",
+              "tamano": "N°3",
+              "hojas": 8,
+              "tipo_hoja": "Apaisado",
+              "colorName": "Negro",
+              "colorHex": "#000000",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n3-8h-negro.png",
+              "specs": {
+                "caja": "300 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "118 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n3-8h-negro.png"
+            },
+            {
+              "sku": "TR-DIB-REP-N5-6-COL-APA",
+              "tamano": "N°5",
               "hojas": 6,
-              "image": "/assets/img/products/triunfante-repuestos-para-dibujo-n-5-6h.png",
+              "tipo_hoja": "Apaisado",
+              "colorName": "Color",
+              "colorHex": "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n5-6h-color-apaisado.png",
               "specs": {
                 "caja": "200 un.",
                 "paquete": "25 un.",
                 "palet": "50 bultos",
                 "gramaje": "118 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-para-dibujo-n-5-6h.png"
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n5-6h-color-apaisado.png"
             },
             {
-              "sku": "TR-DIB-REP-6",
+              "sku": "TR-DIB-REP-N5-6-COL-ALT",
+              "tamano": "N°5",
+              "hojas": 6,
+              "tipo_hoja": "Alto",
+              "colorName": "Color",
+              "colorHex": "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n5-6h-color-alto.png",
+              "specs": {
+                "caja": "200 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "118 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n5-6h-color-alto.png"
+            },
+            {
+              "sku": "TR-DIB-REP-N5-8-BLA-APA",
+              "tamano": "N°5",
+              "hojas": 8,
+              "tipo_hoja": "Apaisado",
+              "colorName": "Blanco",
+              "colorHex": "#FFFFFF",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n5-8h-blanco-apaisado.png",
+              "specs": {
+                "caja": "200 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "118 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n5-8h-blanco-apaisado.png"
+            },
+            {
+              "sku": "TR-DIB-REP-N5-8-NEG-APA",
+              "tamano": "N°5",
+              "hojas": 8,
+              "tipo_hoja": "Apaisado",
+              "colorName": "Negro",
+              "colorHex": "#000000",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n5-8h-negro-apaisado.png",
+              "specs": {
+                "caja": "200 un.",
+                "paquete": "25 un.",
+                "palet": "50 bultos",
+                "gramaje": "118 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n5-8h-negro-apaisado.png"
+            },
+            {
+              "sku": "TR-DIB-REP-N6-6-COL-APA",
               "tamano": "N°6",
               "hojas": 6,
-              "image": "/assets/img/products/triunfante-repuestos-para-dibujo-n-6-6h.png",
+              "tipo_hoja": "Apaisado",
+              "colorName": "Color",
+              "colorHex": "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n6-6h-color-apaisado.png",
               "specs": {
                 "caja": "125 un.",
                 "paquete": "5 un.",
                 "palet": "56 bultos",
                 "gramaje": "118 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-para-dibujo-n-6-6h.png"
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n6-6h-color-apaisado.png"
             },
             {
-              "sku": "TR-DIB-REP-8",
-              "tamano": "N°3",
-              "hojas": 8,
-              "image": "/assets/img/products/triunfante-repuestos-para-dibujo-n-3-8h.png",
-              "specs": {
-                "caja": "300 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
-                "gramaje": "118 grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-repuestos-para-dibujo-n-3-8h.png"
-            },
-            {
-              "sku": "TR-DIB-REP-8",
-              "tamano": "N°5",
-              "hojas": 8,
-              "image": "/assets/img/products/triunfante-repuestos-para-dibujo-n-5-8h.png",
-              "specs": {
-                "caja": "200 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
-                "gramaje": "118 grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-repuestos-para-dibujo-n-5-8h.png"
-            },
-            {
-              "sku": "TR-DIB-REP-8",
+              "sku": "TR-DIB-REP-N6-8-BLA-APA",
               "tamano": "N°6",
               "hojas": 8,
-              "image": "/assets/img/products/triunfante-repuestos-para-dibujo-n-6-8h.png",
+              "tipo_hoja": "Apaisado",
+              "colorName": "Blanco",
+              "colorHex": "#FFFFFF",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n6-8h-blanco-apaisado.png",
               "specs": {
                 "caja": "125 un.",
-                "paquete": "25 un.",
+                "paquete": "5 un.",
                 "palet": "56 bultos",
                 "gramaje": "118 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-para-dibujo-n-6-8h.png"
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n6-8h-blanco-apaisado.png"
             },
             {
-              "sku": "TR-DIB-REP-5",
-              "tamano": "N°3",
-              "hojas": 5,
-              "image": "/assets/img/products/triunfante-repuestos-para-dibujo-n-3-5h.png",
-              "specs": {
-                "caja": "300 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
-                "gramaje": "118 grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-repuestos-para-dibujo-n-3-5h.png"
-            },
-            {
-              "sku": "TR-DIB-REP-5",
-              "tamano": "N°5",
-              "hojas": 5,
-              "image": "/assets/img/products/triunfante-repuestos-para-dibujo-n-5-5h.png",
-              "specs": {
-                "caja": "200 un.",
-                "paquete": "25 un.",
-                "palet": "50 bultos",
-                "gramaje": "118 grs"
-              },
-              "imageClean": "/assets/img/products/triunfante-repuestos-para-dibujo-n-5-5h.png"
-            },
-            {
-              "sku": "TR-DIB-REP-5",
+              "sku": "TR-DIB-REP-N6-8-NEG-APA",
               "tamano": "N°6",
-              "hojas": 5,
-              "image": "/assets/img/products/triunfante-repuestos-para-dibujo-n-6-5h.png",
+              "hojas": 8,
+              "tipo_hoja": "Apaisado",
+              "colorName": "Negro",
+              "colorHex": "#000000",
+              "image": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n6-8h-negro-apaisado.png",
               "specs": {
                 "caja": "125 un.",
-                "paquete": "25 un.",
+                "paquete": "5 un.",
                 "palet": "56 bultos",
                 "gramaje": "118 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-repuestos-para-dibujo-n-6-5h.png"
+              "imageClean": "/assets/img/products/triunfante/linea-de-dibujo/triunfante-repuestos-para-dibujo-n6-8h-negro-apaisado.png"
             }
-          ]
+          ],
+          "selectorOrder": "color-first"
         }
       ]
     },
@@ -6824,7 +7326,7 @@
           "name": "Cuaderno con Índice Tapa Flexible",
           "subcategory": "Índice Tapa Flexible",
           "description": "Cuaderno con pestañas alfabéticas plastificadas en tapa flexible.",
-          "familyImage": "/assets/img/products/img_hRdGz2nVfAKQBzDzq4o8dGO6UIZdkiRd3RWYlTGjkWgjskjrul.png",
+          "familyImage": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-familia.png",
           "attributes": {
             "tamanos": [
               "16 x 21"
@@ -6835,43 +7337,148 @@
             ],
             "tipos_hoja": [
               "Rayado"
+            ],
+            "motivos": [
+              "Motivo 1",
+              "Motivo 2",
+              "Motivo 3",
+              "Motivo 4"
             ]
           },
           "variants": [
             {
-              "sku": "TR-IND-TF-48-R",
+              "sku": "TR-IND-TF-48-R-M1",
               "tamano": "16 x 21",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-cuaderno-con-indice-tapa-flexible-16-x-21-48h-rayado.png",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-1.png",
               "specs": {
                 "caja": "120 un.",
                 "paquete": "20 un.",
                 "palet": "50 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante-cuaderno-con-indice-tapa-flexible-16-x-21-48h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-1.png"
             },
             {
-              "sku": "TR-IND-TF-96-R",
+              "sku": "TR-IND-TF-48-R-M2",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-2.png",
+              "specs": {
+                "caja": "120 un.",
+                "paquete": "20 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-2.png"
+            },
+            {
+              "sku": "TR-IND-TF-48-R-M3",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-3.png",
+              "specs": {
+                "caja": "120 un.",
+                "paquete": "20 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-3.png"
+            },
+            {
+              "sku": "TR-IND-TF-48-R-M4",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-4.png",
+              "specs": {
+                "caja": "120 un.",
+                "paquete": "20 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-4.png"
+            },
+            {
+              "sku": "TR-IND-TF-96-R-M1",
               "tamano": "16 x 21",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-cuaderno-con-indice-tapa-flexible-16-x-21-96h-rayado.png",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-1.png",
               "specs": {
                 "caja": "80 un.",
                 "paquete": "5 un.",
                 "palet": "50 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante-cuaderno-con-indice-tapa-flexible-16-x-21-96h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-1.png"
+            },
+            {
+              "sku": "TR-IND-TF-96-R-M2",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-2.png",
+              "specs": {
+                "caja": "80 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-2.png"
+            },
+            {
+              "sku": "TR-IND-TF-96-R-M3",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-3.png",
+              "specs": {
+                "caja": "80 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-3.png"
+            },
+            {
+              "sku": "TR-IND-TF-96-R-M4",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-4.png",
+              "specs": {
+                "caja": "80 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-4.png"
             }
-          ]
+          ],
+          "coverImages": [
+            "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-1.png",
+            "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-2.png",
+            "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-3.png",
+            "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-4.png"
+          ],
+          "sharedMotivoImages": true,
+          "motivoImages": {
+            "Motivo 1": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-1.png",
+            "Motivo 2": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-2.png",
+            "Motivo 3": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-3.png",
+            "Motivo 4": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-motivo-4.png"
+          }
         },
         {
           "id": "cuaderno-con-indice-tapa-flexible-con-espiral",
           "name": "Cuaderno con Índice Tapa Flexible con Espiral",
           "subcategory": "Índice Espiralado",
           "description": "Cuaderno anillado con índice alfabético y tapa flexible.",
-          "familyImage": "/assets/img/products/img_eHgSWVsf4YBvOS5o1TcFqCivj8MKYTjt7VAaE6UaAR3OMHTXls.png",
+          "familyImage": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-familia.png",
           "attributes": {
             "tamanos": [
               "16 x 21"
@@ -6882,43 +7489,148 @@
             ],
             "tipos_hoja": [
               "Rayado"
+            ],
+            "motivos": [
+              "Motivo 1",
+              "Motivo 2",
+              "Motivo 3",
+              "Motivo 4"
             ]
           },
           "variants": [
             {
-              "sku": "TR-IND-ESP-48-R",
+              "sku": "TR-IND-ESP-48-R-M1",
               "tamano": "16 x 21",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-16-x-21-48h-rayado.png",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-1.png",
               "specs": {
                 "caja": "80 un.",
                 "paquete": "10 un.",
                 "palet": "50 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-16-x-21-48h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-1.png"
             },
             {
-              "sku": "TR-IND-ESP-96-R",
+              "sku": "TR-IND-ESP-48-R-M2",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-2.png",
+              "specs": {
+                "caja": "80 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-2.png"
+            },
+            {
+              "sku": "TR-IND-ESP-48-R-M3",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-3.png",
+              "specs": {
+                "caja": "80 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-3.png"
+            },
+            {
+              "sku": "TR-IND-ESP-48-R-M4",
+              "tamano": "16 x 21",
+              "hojas": 48,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-4.png",
+              "specs": {
+                "caja": "80 un.",
+                "paquete": "10 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-4.png"
+            },
+            {
+              "sku": "TR-IND-ESP-96-R-M1",
               "tamano": "16 x 21",
               "hojas": 96,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-16-x-21-96h-rayado.png",
+              "motivo": "Motivo 1",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-1.png",
               "specs": {
                 "caja": "50 un.",
                 "paquete": "5 un.",
                 "palet": "50 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-16-x-21-96h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-1.png"
+            },
+            {
+              "sku": "TR-IND-ESP-96-R-M2",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 2",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-2.png",
+              "specs": {
+                "caja": "50 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-2.png"
+            },
+            {
+              "sku": "TR-IND-ESP-96-R-M3",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 3",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-3.png",
+              "specs": {
+                "caja": "50 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-3.png"
+            },
+            {
+              "sku": "TR-IND-ESP-96-R-M4",
+              "tamano": "16 x 21",
+              "hojas": 96,
+              "tipo_hoja": "Rayado",
+              "motivo": "Motivo 4",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-4.png",
+              "specs": {
+                "caja": "50 un.",
+                "paquete": "5 un.",
+                "palet": "50 bultos"
+              },
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-4.png"
             }
-          ]
+          ],
+          "coverImages": [
+            "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-1.png",
+            "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-2.png",
+            "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-3.png",
+            "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-4.png"
+          ],
+          "sharedMotivoImages": true,
+          "motivoImages": {
+            "Motivo 1": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-1.png",
+            "Motivo 2": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-2.png",
+            "Motivo 3": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-3.png",
+            "Motivo 4": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-flexible-con-espiral-motivo-4.png"
+          }
         },
         {
           "id": "cuaderno-con-indice-tapa-carton",
           "name": "Cuaderno con Índice Tapa Cartón",
           "subcategory": "Índice Tapa Cartón",
           "description": "Cuaderno con índice alfabético y encuadernación en tapa dura.",
-          "familyImage": "/assets/img/products/img_5RDzGCIZzXyqWdnMVof1s7zznkGJllDbCD6CIxZoo2Iiqfk8cM.png",
+          "familyImage": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-carton-familia.png",
           "attributes": {
             "tamanos": [
               "16 x 21"
@@ -6936,13 +7648,13 @@
               "tamano": "16 x 21",
               "hojas": 100,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante-cuaderno-con-indice-tapa-carton-16-x-21-100h-rayado.png",
+              "image": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-carton-16x21-100h-rayado.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "5 un.",
                 "palet": "50 bultos"
               },
-              "imageClean": "/assets/img/products/triunfante-cuaderno-con-indice-tapa-carton-16-x-21-100h-rayado.png"
+              "imageClean": "/assets/img/products/triunfante/cuaderno-con-indice/triunfante-cuaderno-con-indice-tapa-carton-16x21-100h-rayado.png"
             }
           ]
         }

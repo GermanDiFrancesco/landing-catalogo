@@ -411,6 +411,19 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         }
       }
 
+      const motivosCount = coverSlides.length;
+
+      // Anteponer la imagen de familia como primera diapositiva del carrusel
+      if (coverSlides.length > 1 && prod.familyImage) {
+        const familyUrl = formatImgUrl(prod.familyImage);
+        if (familyUrl && coverSlides[0]?.image !== familyUrl) {
+          coverSlides.unshift({
+            image: familyUrl,
+            label: 'Familia'
+          });
+        }
+      }
+
       if (coverSlides.length > 1) {
         const slidesHtml = coverSlides.map((slide, sIdx) => `
           <div class="w-full h-full flex-shrink-0 flex items-center justify-center relative select-none" data-slide-index="${sIdx}">
@@ -425,12 +438,12 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         `).join('');
 
         card.innerHTML = `
-          <!-- Contenedor carrusel 4 portadas -->
+          <!-- Contenedor carrusel portadas (familia + motivos) -->
           <div class="w-full bg-gray-50/70 h-48 mb-4 overflow-hidden relative rounded-lg">
             <!-- Badge indicador de modelos -->
             <div style="z-index:10;" class="absolute top-2 right-2 bg-white/90 backdrop-blur-xs px-2 py-0.5 rounded-full shadow-xs border border-gray-200/80 flex items-center gap-1 pointer-events-none">
               <span class="w-1.5 h-1.5 rounded-full animate-pulse" style="background-color: ${brand.color};"></span>
-              <span data-slide-badge class="text-[10px] font-bold text-gray-700 tracking-tight">${coverSlides.length} motivos</span>
+              <span data-slide-badge class="text-[10px] font-bold text-gray-700 tracking-tight">${motivosCount} motivos</span>
             </div>
             <!-- Track horizontal -->
             <div data-slider-track class="flex w-full h-full transition-transform duration-500 ease-out" style="transform: translateX(0%);">
@@ -459,7 +472,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
             track.style.transform = `translateX(-${currentSlide * 100}%)`;
           }
           if (badgeEl) {
-            badgeEl.textContent = showLabel ? coverSlides[currentSlide].label : `${coverSlides.length} motivos`;
+            badgeEl.textContent = showLabel ? coverSlides[currentSlide].label : `${motivosCount} motivos`;
           }
           dotBtns.forEach((btn, bIdx) => {
             if (bIdx === currentSlide) {
@@ -671,6 +684,28 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
     }
 
     const attributes = product.attributes || {};
+    const isColorFirst = product.selectorOrder === 'color-first';
+
+    // Ajustar orden visual de los selectores (normal vs color-first para Línea de Dibujo)
+    const setWrapperOrder = (id, orderVal) => {
+      const el = document.getElementById(id);
+      if (el) el.style.order = orderVal;
+    };
+    if (isColorFirst) {
+      setWrapperOrder('selector-tamano-wrapper', '1');
+      setWrapperOrder('selector-colores-wrapper', '2');
+      setWrapperOrder('selector-tipo-hoja-wrapper', '3');
+      setWrapperOrder('selector-hojas-wrapper', '4');
+      setWrapperOrder('selector-manos-wrapper', '5');
+      setWrapperOrder('selector-motivos-wrapper', '6');
+    } else {
+      setWrapperOrder('selector-tamano-wrapper', '');
+      setWrapperOrder('selector-hojas-wrapper', '');
+      setWrapperOrder('selector-tipo-hoja-wrapper', '');
+      setWrapperOrder('selector-manos-wrapper', '');
+      setWrapperOrder('selector-colores-wrapper', '');
+      setWrapperOrder('selector-motivos-wrapper', '');
+    }
 
     let selectedState = {
       tamano: variants[0].tamano || null,
@@ -693,7 +728,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         selectedState.tamano,
         (val) => {
           selectedState.tamano = val;
-          ensureValidSelection();
+          ensureValidSelection('tamano');
           renderInteractiveSelectors();
         },
         (val) => variants.some(v => v.tamano === val)
@@ -707,11 +742,15 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         selectedState.hojas,
         (val) => {
           selectedState.hojas = isNaN(Number(val)) ? val : Number(val);
-          ensureValidSelection();
+          ensureValidSelection('hojas');
           renderInteractiveSelectors();
         },
         (val) => variants.some(v => {
           const matchTam = !selectedState.tamano || v.tamano === selectedState.tamano;
+          if (isColorFirst) {
+            const matchColor = !selectedState.colorHex || (v.colorHex || '').toUpperCase() === (selectedState.colorHex || '').toUpperCase();
+            return matchTam && matchColor && (String(v.hojas) === String(val));
+          }
           return matchTam && (String(v.hojas) === String(val));
         })
       );
@@ -724,11 +763,15 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         selectedState.tipo_hoja,
         (val) => {
           selectedState.tipo_hoja = val;
-          ensureValidSelection();
+          ensureValidSelection('tipo_hoja');
           renderInteractiveSelectors();
         },
         (val) => variants.some(v => {
           const matchTam = !selectedState.tamano || v.tamano === selectedState.tamano;
+          if (isColorFirst) {
+            const matchColor = !selectedState.colorHex || (v.colorHex || '').toUpperCase() === (selectedState.colorHex || '').toUpperCase();
+            return matchTam && matchColor && v.tipo_hoja === val;
+          }
           const matchHojas = selectedState.hojas === null || String(v.hojas) === String(selectedState.hojas);
           return matchTam && matchHojas && v.tipo_hoja === val;
         })
@@ -742,7 +785,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         selectedState.manos,
         (val) => {
           selectedState.manos = isNaN(Number(val)) ? val : Number(val);
-          ensureValidSelection();
+          ensureValidSelection('manos');
           renderInteractiveSelectors();
         },
         (val) => variants.some(v => {
@@ -754,7 +797,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
       // 5. Colores Disponibles
       renderColorOptions();
 
-      // 5b. Motivos Disponibles (para líneas de diseño con 4 modelos)
+      // 5b. Motivos Disponibles (para líneas de diseño con múltiples modelos)
       renderMotivoOptions();
 
       // 6. Actualizar Ficha Técnica
@@ -762,13 +805,24 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
       updateSpecsTable(currentActiveVariant);
     }
 
-    function ensureValidSelection() {
+    function ensureValidSelection(priority) {
       let match = findActiveVariant();
       if (!match) {
-        const compatible = variants.filter(v => {
+        let compatible = variants.filter(v => {
           if (selectedState.tamano && v.tamano && v.tamano !== selectedState.tamano) return false;
           return true;
         });
+
+        if (isColorFirst && priority === 'color' && selectedState.colorHex) {
+          const byColor = compatible.filter(v => (v.colorHex || '').toUpperCase() === (selectedState.colorHex || '').toUpperCase());
+          if (byColor.length > 0) {
+            const keepTipo = selectedState.tipo_hoja ? byColor.find(v => v.tipo_hoja === selectedState.tipo_hoja) : null;
+            compatible = keepTipo ? [keepTipo] : byColor;
+          }
+        } else if (isColorFirst && priority === 'tamano' && selectedState.colorHex) {
+          const keepColor = compatible.filter(v => (v.colorHex || '').toUpperCase() === (selectedState.colorHex || '').toUpperCase());
+          if (keepColor.length > 0) compatible = keepColor;
+        }
 
         const fallback = compatible[0] || variants[0];
         if (fallback) {
@@ -809,7 +863,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
       }
       wrapper.classList.remove('hidden');
 
-      // Si es selector de tipo de hoja, adaptar título según el tipo de producto (ej. Mapas)
+      // Si es selector de tipo de hoja, adaptar título según el tipo de producto (ej. Mapas, Orientación)
       if (containerId === 'options-tipo-hoja') {
         const label = wrapper.querySelector('label');
         if (label) {
@@ -817,7 +871,11 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
             const low = String(opt).toLowerCase();
             return low.includes('político') || low.includes('politico') || low.includes('contorno') || low.includes('físico') || low.includes('fisico');
           });
-          label.textContent = isMapOrDidactic ? 'Tipo / Modelo' : 'Tipo de Hoja';
+          const isOrientation = optionsArray.every(opt => {
+            const low = String(opt).toLowerCase();
+            return low === 'apaisado' || low === 'alto';
+          });
+          label.textContent = isMapOrDidactic ? 'Tipo / Modelo' : (isOrientation ? 'Orientación' : 'Tipo de Hoja');
         }
       }
 
@@ -918,9 +976,11 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
 
       const compatibleVariants = coloredVariants.filter(v => {
         if (selectedState.tamano && v.tamano && v.tamano !== selectedState.tamano) return false;
-        if (selectedState.hojas !== null && v.hojas !== undefined && String(v.hojas) !== String(selectedState.hojas)) return false;
-        if (selectedState.tipo_hoja && v.tipo_hoja && v.tipo_hoja !== selectedState.tipo_hoja) return false;
-        if (selectedState.manos !== null && v.manos !== undefined && String(v.manos) !== String(selectedState.manos)) return false;
+        if (!isColorFirst) {
+          if (selectedState.hojas !== null && v.hojas !== undefined && String(v.hojas) !== String(selectedState.hojas)) return false;
+          if (selectedState.tipo_hoja && v.tipo_hoja && v.tipo_hoja !== selectedState.tipo_hoja) return false;
+          if (selectedState.manos !== null && v.manos !== undefined && String(v.manos) !== String(selectedState.manos)) return false;
+        }
         return true;
       });
 
@@ -956,7 +1016,11 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         dot.className = `w-7 h-7 rounded-full border-2 border-black transition-all flex items-center justify-center relative shadow-sm ${
           isSelected ? 'ring-2 ring-offset-2 scale-110' : 'hover:scale-110 opacity-90 hover:opacity-100'
         }`;
-        dot.style.backgroundColor = variant.colorHex;
+        if (variant.colorHex && variant.colorHex.includes('gradient')) {
+          dot.style.background = variant.colorHex;
+        } else {
+          dot.style.backgroundColor = variant.colorHex;
+        }
         if (isSelected) {
           dot.style.boxShadow = `0 0 0 2px #fff, 0 0 0 4px ${brand.color}`;
         }
@@ -993,6 +1057,11 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         dot.addEventListener('click', () => {
           selectedState.colorHex = variant.colorHex;
           selectedState.colorName = variant.colorName;
+          if (isColorFirst) {
+            ensureValidSelection('color');
+            renderInteractiveSelectors();
+            return;
+          }
           if (variant.image && mainImg) {
             setSafeProductImage(mainImg, variant.image, fallbackImage);
           }
