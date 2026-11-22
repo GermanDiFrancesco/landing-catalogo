@@ -387,7 +387,7 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
         if (Array.isArray(prod.coverImages) && prod.coverImages.length > 1) {
           coverSlides = prod.coverImages.map((imgUrl, idx) => ({
             image: formatImgUrl(imgUrl || prod.familyImage || brand.logo),
-            label: (attributes.motivos && attributes.motivos[idx]) || `Motivo ${idx + 1}`
+            label: (attributes.motivos && attributes.motivos[idx]) || (attributes.colores && attributes.colores[idx]) || `Motivo ${idx + 1}`
           }));
         } else {
           const seenMotivos = new Set();
@@ -773,7 +773,8 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
             return matchTam && matchColor && v.tipo_hoja === val;
           }
           const matchHojas = selectedState.hojas === null || String(v.hojas) === String(selectedState.hojas);
-          return matchTam && matchHojas && v.tipo_hoja === val;
+          const matchManos = selectedState.manos === null || String(v.manos) === String(selectedState.manos);
+          return matchTam && matchHojas && matchManos && v.tipo_hoja === val;
         })
       );
 
@@ -875,7 +876,13 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
             const low = String(opt).toLowerCase();
             return low === 'apaisado' || low === 'alto';
           });
-          label.textContent = isMapOrDidactic ? 'Tipo / Modelo' : (isOrientation ? 'Orientación' : 'Tipo de Hoja');
+          const isIndice = optionsArray.every(opt => {
+            const low = String(opt).toLowerCase();
+            return low.includes('índice') || low.includes('indice');
+          });
+          label.textContent = isMapOrDidactic
+            ? 'Tipo / Modelo'
+            : (isOrientation ? 'Orientación' : (isIndice ? 'Índice' : 'Tipo de Hoja'));
         }
       }
 
