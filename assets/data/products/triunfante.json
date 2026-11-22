@@ -5827,27 +5827,27 @@
               "sku": "TR-RES-100",
               "tamano": "A4",
               "hojas": 100,
-              "image": "/assets/img/products/triunfante-resmas-de-papel-a4-100h.png",
+              "image": "/assets/img/products/triunfante/resmitas/triunfante-resmas-de-papel-a4-100h.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "1 un.",
                 "palet": "60 bultos",
                 "gramaje": "70 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-resmas-de-papel-a4-100h.png"
+              "imageClean": "/assets/img/products/triunfante/resmitas/triunfante-resmas-de-papel-a4-100h.png"
             },
             {
               "sku": "TR-RES-100",
               "tamano": "Oficio",
               "hojas": 100,
-              "image": "/assets/img/products/triunfante-resmas-de-papel-oficio-100h.png",
+              "image": "/assets/img/products/triunfante/resmitas/triunfante-resmas-de-papel-oficio-100h.png",
               "specs": {
                 "caja": "30 un.",
                 "paquete": "1 un.",
                 "palet": "60 bultos",
                 "gramaje": "70 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-resmas-de-papel-oficio-100h.png"
+              "imageClean": "/assets/img/products/triunfante/resmitas/triunfante-resmas-de-papel-oficio-100h.png"
             }
           ]
         },
@@ -5870,14 +5870,14 @@
               "sku": "TR-TACO-400",
               "tamano": "9 x 9 cm",
               "hojas": 400,
-              "image": "/assets/img/products/triunfante-tacos-de-papel-9-x-9-cm-400h.png",
+              "image": "/assets/img/products/triunfante/resmitas/triunfante-tacos-de-papel-9x9cm-400h.png",
               "specs": {
                 "caja": "78 un.",
                 "paquete": "1 un.",
                 "palet": "40 bultos",
                 "gramaje": "70 grs"
               },
-              "imageClean": "/assets/img/products/triunfante-tacos-de-papel-9-x-9-cm-400h.png"
+              "imageClean": "/assets/img/products/triunfante/resmitas/triunfante-tacos-de-papel-9x9cm-400h.png"
             }
           ]
         },
@@ -15578,7 +15578,7 @@
           "name": "Cuaderno de regaleria",
           "subcategory": "Índice Tapa Flexible",
           "description": "",
-          "familyImage": "/assets/img/products/img_hRdGz2nVfAKQBzDzq4o8dGO6UIZdkiRd3RWYlTGjkWgjskjrul.png",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-producto-regaleria-ejemplo-familia.jpg",
           "attributes": {
             "tamanos": [
               "16 x 21"
@@ -15596,13 +15596,13 @@
               "tamano": "16 x 21",
               "hojas": 48,
               "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/img_hRdGz2nVfAKQBzDzq4o8dGO6UIZdkiRd3RWYlTGjkWgjskjrul.png",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-producto-regaleria-ejemplo-16x21-48h-rayado.jpg",
               "specs": {
                 "caja": "120 un.",
                 "paquete": "20 un.",
                 "palet": "50 bultos"
               },
-              "imageClean": "/assets/img/products/img_hRdGz2nVfAKQBzDzq4o8dGO6UIZdkiRd3RWYlTGjkWgjskjrul.png"
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-producto-regaleria-ejemplo-16x21-48h-rayado.jpg"
             }
           ]
         }
