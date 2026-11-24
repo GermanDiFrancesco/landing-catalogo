@@ -305,7 +305,7 @@ function initSearchInput() {
     }
 
     const results = window.searchProducts(query);
-    searchCurrentFiltered = results.slice(0, 12);
+    searchCurrentFiltered = results.slice(0, 30);
     searchSelectedIndex = -1;
     renderSuggestions(suggestionList, suggestionsBox, counter, searchCurrentFiltered, query);
   });

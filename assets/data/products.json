@@ -937,6 +937,345 @@
     "brandColor": "#0062cc"
   },
   {
+    "id": "agenda-corazon",
+    "name": "Agenda Corazón",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Libreta formato 12 x 16 cm de 88 hojas (120 grs).",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-agenda-corazon-familia.webp",
+    "spec": "12 x 16 cm · 88 hojas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "agenda-cuero-violeta",
+    "name": "Agenda Cuero Violeta",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Cuaderno inteligente A5 de 80 hojas (100 grs).",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-agenda-cuero-violeta-familia.webp",
+    "spec": "A5 · 80 hojas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "clips-y-pins-triunfante-rosas",
+    "name": "Clips y Pins Rosas",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "6 chinches, 4 broches, clips, 5 binders y notas autoadhesivas.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-clips-y-pins-triunfante-rosas-familia.webp",
+    "spec": "",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "clips-y-pins-triunfante-verde",
+    "name": "Clips y Pins Verde",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Set de escritorio verde: clips, 4 pins, 3 broches, 5 binders y block autoadhesivo.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-clips-y-pins-triunfante-verde-familia.webp",
+    "spec": "",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "cuaderno-espiral-triunfante-cherry",
+    "name": "Cuaderno con Espiral Cherry",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Notebook A4 con espiral de 80 hojas (80 grs).",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-cuaderno-espiral-triunfante-cherry-familia.webp",
+    "spec": "A4 · 80 hojas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "libreta-cafe-triunfante",
+    "name": "Libreta Café",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Cuaderno A5 con elástico tapa de café de 80 hojas (70 grs).",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-libreta-cafe-triunfante-familia.webp",
+    "spec": "A5 · 80 hojas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "libreta-cuero-triunfante",
+    "name": "Libreta de Cuero verde y naranja",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Libreta de cuero A5 x 80 hojas de 100 grs con porta objeto.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-libreta-cuero-triunfante-familia.webp",
+    "spec": "A5 · 80 hojas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "libreta-te-triunfante",
+    "name": "Libreta Té",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Cuaderno A5 tapa imantada con elástico de té de 80 hojas (70 grs).",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-libreta-te-triunfante-familia.webp",
+    "spec": "A5 · 80 hojas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "notas-adhesivas",
+    "name": "Notas Adhesivas",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Set de notas autoadhesivas formato 19,5 x 10,5 cm.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-notas-adhesivas-familia.webp",
+    "spec": "19,5 x 10,5 cm",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-brillos-multicolor-triunfante",
+    "name": "Set Brillos Multicolor",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Cuaderno A5 con brillos de 80 hojas (80 grs) + 1 bolígrafo.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-brillos-multicolor-triunfante-familia.webp",
+    "spec": "A5 · 80 hojas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-brillos-rosas-triunfante",
+    "name": "Set Brillos Rosas",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Cuaderno A5 con brillo de 80 hojas (80 grs) con 2 bolígrafos.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-brillos-rosas-triunfante-familia.webp",
+    "spec": "A5 · 80 hojas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-cafe-triunfante",
+    "name": "Set Café",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Set de 3 piezas de material semillas de café: 1 tarjetero, 1 bolígrafo y 1 libreta A6.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-cafe-triunfante-familia.webp",
+    "spec": "A6",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-de-notas",
+    "name": "Set de Notas",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Set de notas autoadhesivas formato 14,3 x 21 cm.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-de-notas-familia.webp",
+    "spec": "14,3 x 21 cm",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-escritorio-triunfante-marron",
+    "name": "Set Escritorio Marrón",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Set de escritorio marrón: bolígrafo, imanes, clips, chinches, binders y block de notas.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-marron-familia.webp",
+    "spec": "",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-escritorio-triunfante-naranja",
+    "name": "Set Escritorio Naranja",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Set de escritorio naranja: bolígrafo, block de notas, clips, chinches y binders.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-naranja-familia.webp",
+    "spec": "",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-escritorio-triunfante-rosa",
+    "name": "Set Escritorio Rosa",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Set de escritorio rosa: notas autoadhesivas, clips, chinches, binders, pin y bolígrafo.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-rosa-familia.webp",
+    "spec": "",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-escritorio-triunfante-verde",
+    "name": "Set Escritorio Verde",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Block de notas, clips, 4 binders grandes, 6 binders medianos, 2 broches y chinches.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-verde-familia.webp",
+    "spec": "",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-escritorio-triunfante-violeta",
+    "name": "Set Escritorio Violeta",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Set de escritorio: 5 binders grandes, 3 binders chicos, clips, pins y notas autoadhesivas.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-violeta-familia.webp",
+    "spec": "",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-libreta-con-formas",
+    "name": "Set Libreta c/Formas",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Anotador con diferentes formas de 40 hojas (70 grs).",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-libreta-con-formas-familia.webp",
+    "spec": "40 hojas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-libreta-con-formas-animales",
+    "name": "Set Libreta c/Formas Animales",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Anotador mix de formas de animales de 60 hojas (80 grs).",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-libreta-con-formas-animales-familia.webp",
+    "spec": "60 hojas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-madera-lapicero-triunfante",
+    "name": "Set Madera Lapicero",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Cuaderno A5 con elástico tapa de madera, lapicero y bolígrafo con detalles de madera.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-madera-lapicero-triunfante-familia.webp",
+    "spec": "A5",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-madera-triunfante-taza",
+    "name": "Set Madera Taza",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Set de tres piezas: 1 cuaderno A5 tapa de madera, 1 taza con tapa y detalles en madera, y 1 bolígrafo con detalles en madera.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-madera-triunfante-taza-familia.webp",
+    "spec": "A5",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-mariposas-triunfante",
+    "name": "Set Mariposas",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "1 cuaderno con espiral A5 de 158 hojas (80 grs), 6 bolígrafos y 4 binders.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-mariposas-triunfante-familia.webp",
+    "spec": "A5 · 158 hojas",
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-metalizados",
+    "name": "Set Metalizados",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Cuaderno A5 de 96 hojas (80 grs) con tapa acolchada en 5 colores.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-familia.webp",
+    "spec": "A5 · 96 hojas",
+    "colors": [
+      "#7C63A6",
+      "#B5AEA8",
+      "#F4A6C1",
+      "#F3F4F6",
+      "#7CC4B8"
+    ],
+    "colorNames": [
+      "Violeta",
+      "Plata",
+      "Rosa",
+      "Blanco",
+      "Verde Agua"
+    ],
+    "brandColor": "#0062cc"
+  },
+  {
+    "id": "set-spring-garden",
+    "name": "Set Spring Garden",
+    "brand": "triunfante",
+    "brandName": "Triunfante",
+    "category": "Regalería",
+    "categoryId": "regaleria",
+    "subcategory": "Regalería",
+    "description": "Set de regalo que contiene 1 cuaderno A5, 2 bolígrafos y 2 notas autoadhesivas.",
+    "image": "/assets/img/products/triunfante/regaleria/triunfante-set-spring-garden-familia.webp",
+    "spec": "A5",
+    "brandColor": "#0062cc"
+  },
+  {
     "id": "cuadernos-16x21-tapa-flexible-espiral-liso",
     "name": "Cuadernos 16x21cm Tapa Flexible con Espiral - Línea Liso",
     "brand": "potosi",
@@ -967,7 +1306,7 @@
       "Verde Oscuro",
       "Violeta"
     ],
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "cuadernos-22x29-7-tapa-flexible-espiral-degrade",
@@ -980,7 +1319,7 @@
     "description": "Cuaderno tapa flexible con espiral línea Degradé en tamaño 22 x 29,7 cm de 80 hojas rayadas y cuadriculadas con 8 motivos.",
     "image": "/assets/img/products/potosi/cuaderno-con-espiral/potosi-cuadernos-22x29-7-tapa-flexible-espiral-degrade-motivo-1.webp",
     "spec": "22 x 29,7 cm · 80 hojas · Rayado, Cuadriculado",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "cuadernos-22x29-7-tapa-flexible-espiral-liso",
@@ -1013,7 +1352,7 @@
       "Verde Oscuro",
       "Violeta"
     ],
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "block-oficio-perforado",
@@ -1026,7 +1365,7 @@
     "description": "Block oficio perforado de 40 y 80 hojas rayadas, cuadriculadas y lisas.",
     "image": "/assets/img/products/potosi/blocks/potosi-block-oficio-perforado-familia.webp",
     "spec": "Oficio · 40, 80 hojas · Rayado, Cuadriculado",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "cuaderno-tapa-flexible",
@@ -1039,7 +1378,7 @@
     "description": "Cuaderno escolar tapa flexible 16 x 21 cm en presentaciones de 24, 48 y 84 hojas rayadas, cuadriculadas y lisas.",
     "image": "/assets/img/products/potosi/cuadernos/potosi-cuaderno-tapa-flexible-16x21-24h-rayado.webp",
     "spec": "16 x 21 · 24, 48, 84 hojas · Rayado, Cuadriculado, Lisas",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "cuaderno-arana",
@@ -1070,7 +1409,7 @@
       "Rosa",
       "Verde"
     ],
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "cuaderno-lunares",
@@ -1109,7 +1448,7 @@
       "Verde",
       "Verde Manzana"
     ],
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "repuestos-escolares-n3",
@@ -1122,7 +1461,7 @@
     "description": "Repuesto escolar N°3 en presentaciones de 48, 96 y 400 hojas rayadas y cuadriculadas.",
     "image": "/assets/img/products/potosi/repuestos/potosi-repuestos-escolares-n3-familia.webp",
     "spec": "N°3 · 48, 96, 400 hojas · Rayado, Cuadriculado",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "libros-comerciales-actas-clochet",
@@ -1135,7 +1474,7 @@
     "description": "Libro comercial de actas formato Clochet de 2 manos, disponible sin índice y con índice.",
     "image": "/assets/img/products/potosi/libros-comerciales/potosi-libros-comerciales-actas-clochet-familia.webp",
     "spec": "Clochet · Sin Índice, Con Índice · 2 manos",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "libros-comerciales-actas-corona",
@@ -1148,7 +1487,7 @@
     "description": "Libro comercial de actas formato Corona de 2, 3 y 4 manos, disponible sin índice y con índice.",
     "image": "/assets/img/products/potosi/libros-comerciales/potosi-libros-comerciales-actas-corona-familia.webp",
     "spec": "Corona · Sin Índice, Con Índice · 2, 3, 4 manos",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "libro-de-recibos",
@@ -1161,7 +1500,7 @@
     "description": "Libro comercial de recibos de 2 manos.",
     "image": "/assets/img/products/potosi/libros-comerciales/potosi-libro-de-recibos-familia.webp",
     "spec": "Expediente · 2 manos",
-    "brandColor": "#84cc16"
+    "brandColor": "#76a41f"
   },
   {
     "id": "adhesivo-vinilico-lavable",
@@ -1174,7 +1513,7 @@
     "description": "Adhesivo vinílico blanco lavable no tóxico para pegar papel, cartón, cartulina, tela, corcho, madera y telgopor.",
     "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-familia.webp",
     "spec": "30g, 50g, 100g, 250g, 500g, 1000g",
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "adhesivo-sintetico-lavable",
@@ -1187,7 +1526,7 @@
     "description": "Pegamento sintético transparente lavable de alta adherencia y secado rápido.",
     "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-familia.webp",
     "spec": "30g, 50g, 100g, 250g, 500g, 1000g",
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "adhesivo-vinilico-lavable-color",
@@ -1224,7 +1563,7 @@
       "Marrón",
       "Violeta"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "adhesivo-vinilico-lavable-fluo",
@@ -1249,7 +1588,7 @@
       "Naranja",
       "Amarillo"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "adhesivo-sintetico-lavable-glitter",
@@ -1288,7 +1627,7 @@
       "Negro Azabache",
       "Fucsia"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "temperas-pomo-color",
@@ -1307,7 +1646,7 @@
     "colorNames": [
       "Surtido"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "temperas-pote-color",
@@ -1348,7 +1687,7 @@
       "Rojo Fuego",
       "Rosa"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "temperas-pote-fluo",
@@ -1377,7 +1716,7 @@
       "Rosa",
       "Rojo Fuego"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "temperas-pote-metalizados",
@@ -1406,7 +1745,7 @@
       "Plata",
       "Dorado"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "plastilinas-barritas",
@@ -1427,7 +1766,7 @@
       "Colores Surtidos",
       "Pasteles Surtidos"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "plastilinas-pancitos",
@@ -1470,7 +1809,7 @@
       "Rojo Fuego",
       "Rosa"
     ],
-    "brandColor": "#009fe3"
+    "brandColor": "#00c6fd"
   },
   {
     "id": "tapa-carton-forrado-arana",
@@ -1505,7 +1844,7 @@
       "Verde",
       "Verde Manzana"
     ],
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "papercut-espiral",
@@ -1518,7 +1857,7 @@
     "description": "Cuaderno con espiral línea Papercut en formato 29,7 cm de 70 hojas rayadas y cuadriculadas con 8 diseños exclusivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-papercut-espiral-familia.webp",
     "spec": "29,7 cm · 70 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-chill",
@@ -1531,7 +1870,7 @@
     "description": "Cuaderno espiralado con tapa cartón rígido línea Chill en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-chill-familia.webp",
     "spec": "21 x 27 cm · 60, 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-plane",
@@ -1544,7 +1883,7 @@
     "description": "Cuaderno espiralado con tapa cartón rígido línea Plane en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-plane-familia.webp",
     "spec": "21 x 27 cm · 60, 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-multicolor",
@@ -1557,7 +1896,7 @@
     "description": "Cuaderno espiralado con tapa cartón rígido línea Multicolor en tamaño 21 x 27 cm de 60 y 100 hojas rayadas y cuadriculadas con 8 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-multicolor-familia.webp",
     "spec": "21 x 27 cm · 60, 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-campo",
@@ -1570,7 +1909,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Campo en formatos A4 y A5 de 80 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-campo-familia.webp",
     "spec": "A4, A5 · 80 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-pasteles",
@@ -1583,7 +1922,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Pasteles en formatos A4 y A5 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-pasteles-familia.webp",
     "spec": "A4, A5 · 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-spring",
@@ -1596,7 +1935,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Spring en formatos A4 y A5 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-spring-familia.webp",
     "spec": "A4, A5 · 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-neon",
@@ -1609,7 +1948,7 @@
     "description": "Cuaderno espiralado con tapa cartón línea Neon en formatos A4 y A5 de 120 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-neon-familia.webp",
     "spec": "A4, A5 · 120 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   },
   {
     "id": "tapa-carton-espiral-tinto",
@@ -1622,6 +1961,6 @@
     "description": "Cuaderno espiralado con tapa cartón línea Tinto en formatos A4, A5 y A6 de 100 hojas rayadas y cuadriculadas con 4 motivos.",
     "image": "/assets/img/products/mis-hojas/cuaderno-con-espiral/mis-hojas-tapa-carton-espiral-tinto-familia.webp",
     "spec": "A4, A5, A6 · 100 hojas · Rayado, Cuadriculado",
-    "brandColor": "#7477b9"
+    "brandColor": "#8174b8"
   }
 ]

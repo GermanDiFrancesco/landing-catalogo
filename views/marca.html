@@ -105,6 +105,14 @@
                 </span>
               </div>
 
+              <!-- Miniaturas horizontales (solo visible si la variante/producto tiene 2+ fotos) -->
+              <div
+                id="product-gallery-thumbs"
+                class="hidden w-full mt-3 flex items-center justify-center gap-2 overflow-x-auto py-1 px-1"
+              >
+                <!-- Miniaturas generadas dinámicamente -->
+              </div>
+
             </div>
 
             <!-- Columna derecha: Título, Atributos y Variantes -->
@@ -261,10 +269,26 @@
     <button
       type="button"
       id="product-zoom-close"
-      class="absolute top-3 right-3 w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 flex items-center justify-center transition-colors focus:outline-none"
+      class="absolute top-3 right-3 z-20 w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 flex items-center justify-center transition-colors focus:outline-none"
       aria-label="Cerrar vista ampliada"
     >
       <i class="fa-solid fa-xmark text-base"></i>
+    </button>
+    <button
+      type="button"
+      id="product-zoom-prev"
+      class="hidden absolute left-3 top-1/2 -translate-y-1/2 z-20 w-10 h-10 rounded-full bg-gray-100/95 hover:bg-gray-200 text-gray-700 shadow-sm items-center justify-center transition-colors focus:outline-none"
+      aria-label="Imagen anterior"
+    >
+      <i class="fa-solid fa-chevron-left text-sm"></i>
+    </button>
+    <button
+      type="button"
+      id="product-zoom-next"
+      class="hidden absolute right-3 top-1/2 -translate-y-1/2 z-20 w-10 h-10 rounded-full bg-gray-100/95 hover:bg-gray-200 text-gray-700 shadow-sm items-center justify-center transition-colors focus:outline-none"
+      aria-label="Imagen siguiente"
+    >
+      <i class="fa-solid fa-chevron-right text-sm"></i>
     </button>
     <img
       id="product-zoom-image"

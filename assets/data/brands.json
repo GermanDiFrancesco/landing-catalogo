@@ -20,7 +20,8 @@
       "Cuaderno Con Espiral",
       "Cuadernos Especiales",
       "Línea De Dibujo",
-      "Cuaderno Con Indice"
+      "Cuaderno Con Indice",
+      "Regalería"
     ],
     "sampleProduct": {
       "title": "Tapa Cartón. Forrado Araña 48 hojas = 16x21cm (A5)",
@@ -60,7 +61,7 @@
     "textClass": "text-[#009fe3]",
     "logo": "assets/img/marcas-logos/Tintoretto logo.webp",
     "slogan": "HAY EQUIPO. HAY IDEAS.",
-    "description": "ADHESIVOS PLASTILINAS TÉMPERAS ESCOLARES. Nuestra línea creativa diseñada para acompañar a niños y jóvenes en el desarrollo de sus habilidades plásticas y proyectos escolares.",
+    "description": "Adhesivos, plastilinas y temperas esscolares. Nuestra línea creativa diseñada para acompañar a niños y jóvenes en el desarrollo de sus habilidades plásticas y proyectos escolares.",
     "categories": [
       "Adhesivos",
       "Témperas",

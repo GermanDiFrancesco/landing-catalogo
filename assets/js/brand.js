@@ -120,6 +120,8 @@ function initProductZoomModal() {
   const modal = document.getElementById('product-zoom-modal');
   const modalContent = document.getElementById('product-zoom-content');
   const closeBtn = document.getElementById('product-zoom-close');
+  const prevBtn = document.getElementById('product-zoom-prev');
+  const nextBtn = document.getElementById('product-zoom-next');
   const zoomImg = document.getElementById('product-zoom-image');
   const zoomCaption = document.getElementById('product-zoom-caption');
 
@@ -127,21 +129,62 @@ function initProductZoomModal() {
   if (trigger.dataset.zoomBound === 'true') return;
   trigger.dataset.zoomBound = 'true';
 
-  const openModal = () => {
-    if (!mainImg.src) return;
-    zoomImg.src = mainImg.src;
+  const updateZoomView = () => {
+    const gal = window.__tgActiveGallery;
+    const hasMulti = Boolean(gal && Array.isArray(gal.images) && gal.images.length > 1);
+
+    if (hasMulti) {
+      const idx = ((gal.activeIdx || 0) % gal.images.length + gal.images.length) % gal.images.length;
+      gal.activeIdx = idx;
+      zoomImg.src = gal.images[idx];
+    } else {
+      zoomImg.src = mainImg.src;
+    }
     zoomImg.alt = mainImg.alt || 'Vista ampliada';
+
+    if (prevBtn && nextBtn) {
+      if (hasMulti) {
+        prevBtn.classList.remove('hidden');
+        prevBtn.classList.add('flex');
+        nextBtn.classList.remove('hidden');
+        nextBtn.classList.add('flex');
+      } else {
+        prevBtn.classList.add('hidden');
+        prevBtn.classList.remove('flex');
+        nextBtn.classList.add('hidden');
+        nextBtn.classList.remove('flex');
+      }
+    }
 
     if (zoomCaption) {
       const prodTitle = document.getElementById('sample-product-title');
       const variantBadge = document.getElementById('product-variant-badge');
       const titleText = prodTitle ? prodTitle.textContent.trim() : (mainImg.alt || '');
       const badgeText = variantBadge ? variantBadge.textContent.trim() : '';
-      zoomCaption.textContent = badgeText && badgeText !== 'Vista Familia'
+      let caption = badgeText && badgeText !== 'Vista Familia'
         ? `${titleText} (${badgeText})`
         : titleText;
+      if (hasMulti) {
+        caption += ` · ${(gal.activeIdx || 0) + 1} / ${gal.images.length}`;
+      }
+      zoomCaption.textContent = caption;
     }
+  };
 
+  const stepZoom = (delta) => {
+    const gal = window.__tgActiveGallery;
+    if (!gal || !Array.isArray(gal.images) || gal.images.length <= 1) return;
+    const nextIdx = ((gal.activeIdx || 0) + delta + gal.images.length) % gal.images.length;
+    gal.activeIdx = nextIdx;
+    if (typeof gal.onSelect === 'function') {
+      gal.onSelect(nextIdx);
+    }
+    updateZoomView();
+  };
+
+  const openModal = () => {
+    if (!mainImg.src) return;
+    updateZoomView();
     modal.classList.remove('hidden');
     modal.classList.add('flex');
     document.body.style.overflow = 'hidden';
@@ -154,6 +197,20 @@ function initProductZoomModal() {
   };
 
   trigger.addEventListener('click', openModal);
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      stepZoom(-1);
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      stepZoom(1);
+    });
+  }
 
   if (closeBtn) {
     closeBtn.addEventListener('click', (e) => {
@@ -169,17 +226,22 @@ function initProductZoomModal() {
     }
   });
 
-  // Cerrar también con la tecla Escape
+  // Teclado: Escape para cerrar, flechas para navegar galería en el zoom
   if (!window.__tecnograficZoomEscBound) {
     window.__tecnograficZoomEscBound = true;
     document.addEventListener('keydown', (e) => {
+      const activeModal = document.getElementById('product-zoom-modal');
+      if (!activeModal || activeModal.classList.contains('hidden')) return;
       if (e.key === 'Escape') {
-        const activeModal = document.getElementById('product-zoom-modal');
-        if (activeModal && !activeModal.classList.contains('hidden')) {
-          activeModal.classList.add('hidden');
-          activeModal.classList.remove('flex');
-          document.body.style.overflow = '';
-        }
+        activeModal.classList.add('hidden');
+        activeModal.classList.remove('flex');
+        document.body.style.overflow = '';
+      } else if (e.key === 'ArrowLeft') {
+        const p = document.getElementById('product-zoom-prev');
+        if (p && !p.classList.contains('hidden')) p.click();
+      } else if (e.key === 'ArrowRight') {
+        const n = document.getElementById('product-zoom-next');
+        if (n && !n.classList.contains('hidden')) n.click();
       }
     });
   }
@@ -1245,6 +1307,82 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
       if (variantBadge && activeVariant.sku) {
         variantBadge.textContent = activeVariant.colorName || activeVariant.motivo || activeVariant.tipo_hoja || 'Modelo';
       }
+      renderGalleryThumbs(activeVariant);
+    }
+
+    function renderGalleryThumbs(activeVariant) {
+      const thumbsContainer = document.getElementById('product-gallery-thumbs');
+      const rawList = [];
+      if (activeVariant?.image) rawList.push(activeVariant.image);
+      if (Array.isArray(activeVariant?.images)) rawList.push(...activeVariant.images);
+      if (Array.isArray(product.images)) rawList.push(...product.images);
+      if (Array.isArray(product.gallery)) rawList.push(...product.gallery);
+
+      const seen = new Set();
+      const galleryUrls = [];
+      for (const raw of rawList) {
+        const formatted = formatImgUrl(raw);
+        if (formatted && !seen.has(formatted)) {
+          seen.add(formatted);
+          galleryUrls.push(formatted);
+        }
+      }
+
+      if (galleryUrls.length <= 1) {
+        if (thumbsContainer) {
+          thumbsContainer.innerHTML = '';
+          thumbsContainer.classList.add('hidden');
+        }
+        window.__tgActiveGallery = {
+          images: galleryUrls.length === 1 ? galleryUrls : [formatImgUrl(activeVariant?.image || fallbackImage)],
+          activeIdx: 0,
+          onSelect: null
+        };
+        return;
+      }
+
+      let activeIdx = 0;
+      const selectThumb = (idx) => {
+        activeIdx = ((idx % galleryUrls.length) + galleryUrls.length) % galleryUrls.length;
+        if (window.__tgActiveGallery) window.__tgActiveGallery.activeIdx = activeIdx;
+        if (mainImg) {
+          setSafeProductImage(mainImg, galleryUrls[activeIdx], fallbackImage);
+        }
+        if (thumbsContainer) {
+          const btns = thumbsContainer.querySelectorAll('[data-gallery-idx]');
+          btns.forEach((b, bIdx) => {
+            if (bIdx === activeIdx) {
+              b.className = 'w-14 h-14 p-1 rounded-lg bg-white border-2 flex items-center justify-center shrink-0 transition-all shadow-sm scale-105';
+              b.style.borderColor = brand.color;
+            } else {
+              b.className = 'w-14 h-14 p-1 rounded-lg bg-white border border-gray-200 hover:border-gray-400 flex items-center justify-center shrink-0 transition-all opacity-75 hover:opacity-100';
+              b.style.borderColor = '';
+            }
+          });
+        }
+      };
+
+      window.__tgActiveGallery = {
+        images: galleryUrls,
+        activeIdx: 0,
+        onSelect: selectThumb
+      };
+
+      if (!thumbsContainer) return;
+      thumbsContainer.innerHTML = '';
+      thumbsContainer.classList.remove('hidden');
+
+      galleryUrls.forEach((url, idx) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.dataset.galleryIdx = String(idx);
+        btn.title = `Vista ${idx + 1}`;
+        btn.innerHTML = `<img src="${url}" alt="Vista ${idx + 1}" loading="lazy" decoding="async" class="max-h-full max-w-full object-contain pointer-events-none">`;
+        btn.addEventListener('click', () => selectThumb(idx));
+        thumbsContainer.appendChild(btn);
+      });
+
+      selectThumb(0);
     }
 
     function hideAllAttributeWrappers() {

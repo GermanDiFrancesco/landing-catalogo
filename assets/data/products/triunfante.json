@@ -15568,6 +15568,664 @@
           ]
         }
       ]
+    },
+    {
+      "id": "regaleria",
+      "name": "Regalería",
+      "products": [
+        {
+          "id": "agenda-corazon",
+          "name": "Agenda Corazón",
+          "subcategory": "Regalería",
+          "description": "Libreta formato 12 x 16 cm de 88 hojas (120 grs).",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-agenda-corazon-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "12 x 16 cm"
+            ],
+            "hojas": [
+              88
+            ]
+          },
+          "variants": [
+            {
+              "sku": "FM-25-62",
+              "tamano": "12 x 16 cm",
+              "hojas": 88,
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-agenda-corazon-12x16cm-88h.webp",
+              "specs": {
+                "caja": "12 un. (bulto)",
+                "gramaje": "120 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-agenda-corazon-12x16cm-88h.webp"
+            }
+          ]
+        },
+        {
+          "id": "agenda-cuero-violeta",
+          "name": "Agenda Cuero Violeta",
+          "subcategory": "Regalería",
+          "description": "Cuaderno inteligente A5 de 80 hojas (100 grs).",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-agenda-cuero-violeta-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A5"
+            ],
+            "hojas": [
+              80
+            ]
+          },
+          "variants": [
+            {
+              "sku": "FM-25-56",
+              "tamano": "A5",
+              "hojas": 80,
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-agenda-cuero-violeta-a5-80h.webp",
+              "specs": {
+                "caja": "12 un. (bulto)",
+                "gramaje": "100 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-agenda-cuero-violeta-a5-80h.webp"
+            }
+          ]
+        },
+        {
+          "id": "clips-y-pins-triunfante-rosas",
+          "name": "Clips y Pins Rosas",
+          "subcategory": "Regalería",
+          "description": "6 chinches, 4 broches, clips, 5 binders y notas autoadhesivas.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-clips-y-pins-triunfante-rosas-familia.webp",
+          "attributes": {},
+          "variants": [
+            {
+              "sku": "TR-REG-CLIP-RS",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-clips-y-pins-triunfante-rosas-familia.webp",
+              "specs": {
+                "caja": "8 un."
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-clips-y-pins-triunfante-rosas-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "clips-y-pins-triunfante-verde",
+          "name": "Clips y Pins Verde",
+          "subcategory": "Regalería",
+          "description": "Set de escritorio verde: clips, 4 pins, 3 broches, 5 binders y block autoadhesivo.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-clips-y-pins-triunfante-verde-familia.webp",
+          "attributes": {},
+          "variants": [
+            {
+              "sku": "TR-REG-CLIP-VE",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-clips-y-pins-triunfante-verde-familia.webp",
+              "specs": {
+                "caja": "8 un."
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-clips-y-pins-triunfante-verde-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "cuaderno-espiral-triunfante-cherry",
+          "name": "Cuaderno con Espiral Cherry",
+          "subcategory": "Regalería",
+          "description": "Notebook A4 con espiral de 80 hojas (80 grs).",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-cuaderno-espiral-triunfante-cherry-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A4"
+            ],
+            "hojas": [
+              80
+            ]
+          },
+          "variants": [
+            {
+              "sku": "FM-25-44",
+              "tamano": "A4",
+              "hojas": 80,
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-cuaderno-espiral-triunfante-cherry-familia.webp",
+              "specs": {
+                "caja": "12 un. (bulto)",
+                "gramaje": "80 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-cuaderno-espiral-triunfante-cherry-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "libreta-cafe-triunfante",
+          "name": "Libreta Café",
+          "subcategory": "Regalería",
+          "description": "Cuaderno A5 con elástico tapa de café de 80 hojas (70 grs).",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-libreta-cafe-triunfante-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A5"
+            ],
+            "hojas": [
+              80
+            ]
+          },
+          "variants": [
+            {
+              "sku": "TR-REG-LIB-CAFE",
+              "tamano": "A5",
+              "hojas": 80,
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-libreta-cafe-triunfante-familia.webp",
+              "specs": {
+                "caja": "25 un.",
+                "gramaje": "70 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-libreta-cafe-triunfante-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "libreta-cuero-triunfante",
+          "name": "Libreta de Cuero verde y naranja",
+          "subcategory": "Regalería",
+          "description": "Libreta de cuero A5 x 80 hojas de 100 grs con porta objeto.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-libreta-cuero-triunfante-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A5"
+            ],
+            "hojas": [
+              80
+            ]
+          },
+          "variants": [
+            {
+              "sku": "TR-REG-CUE-80",
+              "tamano": "A5",
+              "hojas": 80,
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-libreta-cuero-triunfante-familia.webp",
+              "specs": {
+                "caja": "20 un.",
+                "gramaje": "100 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-libreta-cuero-triunfante-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "libreta-te-triunfante",
+          "name": "Libreta Té",
+          "subcategory": "Regalería",
+          "description": "Cuaderno A5 tapa imantada con elástico de té de 80 hojas (70 grs).",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-libreta-te-triunfante-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A5"
+            ],
+            "hojas": [
+              80
+            ]
+          },
+          "variants": [
+            {
+              "sku": "TR-REG-LIB-TE",
+              "tamano": "A5",
+              "hojas": 80,
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-libreta-te-triunfante-familia.webp",
+              "specs": {
+                "caja": "25 un.",
+                "gramaje": "70 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-libreta-te-triunfante-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "notas-adhesivas",
+          "name": "Notas Adhesivas",
+          "subcategory": "Regalería",
+          "description": "Set de notas autoadhesivas formato 19,5 x 10,5 cm.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-notas-adhesivas-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "19,5 x 10,5 cm"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "FM-25-45",
+              "tamano": "19,5 x 10,5 cm",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-notas-adhesivas-familia.webp",
+              "specs": {
+                "caja": "12 un. (bulto)"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-notas-adhesivas-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-brillos-multicolor-triunfante",
+          "name": "Set Brillos Multicolor",
+          "subcategory": "Regalería",
+          "description": "Cuaderno A5 con brillos de 80 hojas (80 grs) + 1 bolígrafo.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-brillos-multicolor-triunfante-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A5"
+            ],
+            "hojas": [
+              80
+            ]
+          },
+          "variants": [
+            {
+              "sku": "TR-REG-BRI-MUL",
+              "tamano": "A5",
+              "hojas": 80,
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-brillos-multicolor-triunfante-familia.webp",
+              "specs": {
+                "caja": "12 un.",
+                "gramaje": "80 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-brillos-multicolor-triunfante-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-brillos-rosas-triunfante",
+          "name": "Set Brillos Rosas",
+          "subcategory": "Regalería",
+          "description": "Cuaderno A5 con brillo de 80 hojas (80 grs) con 2 bolígrafos.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-brillos-rosas-triunfante-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A5"
+            ],
+            "hojas": [
+              80
+            ]
+          },
+          "variants": [
+            {
+              "sku": "TR-REG-BRI-RS",
+              "tamano": "A5",
+              "hojas": 80,
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-brillos-rosas-triunfante-familia.webp",
+              "specs": {
+                "caja": "12 un.",
+                "gramaje": "80 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-brillos-rosas-triunfante-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-cafe-triunfante",
+          "name": "Set Café",
+          "subcategory": "Regalería",
+          "description": "Set de 3 piezas de material semillas de café: 1 tarjetero, 1 bolígrafo y 1 libreta A6.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-cafe-triunfante-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A6"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "TR-REG-SET-CAFE",
+              "tamano": "A6",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-cafe-triunfante-familia.webp",
+              "specs": {
+                "caja": "10 un."
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-cafe-triunfante-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-de-notas",
+          "name": "Set de Notas",
+          "subcategory": "Regalería",
+          "description": "Set de notas autoadhesivas formato 14,3 x 21 cm.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-de-notas-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "14,3 x 21 cm"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "FM-25-35",
+              "tamano": "14,3 x 21 cm",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-de-notas-familia.webp",
+              "specs": {
+                "caja": "20 un. (bulto)"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-de-notas-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-escritorio-triunfante-marron",
+          "name": "Set Escritorio Marrón",
+          "subcategory": "Regalería",
+          "description": "Set de escritorio marrón: bolígrafo, imanes, clips, chinches, binders y block de notas.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-marron-familia.webp",
+          "attributes": {},
+          "variants": [
+            {
+              "sku": "TR-REG-ESC-MA",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-marron-familia.webp",
+              "specs": {
+                "caja": "8 un."
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-marron-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-escritorio-triunfante-naranja",
+          "name": "Set Escritorio Naranja",
+          "subcategory": "Regalería",
+          "description": "Set de escritorio naranja: bolígrafo, block de notas, clips, chinches y binders.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-naranja-familia.webp",
+          "attributes": {},
+          "variants": [
+            {
+              "sku": "TR-REG-ESC-NA",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-naranja-familia.webp",
+              "specs": {
+                "caja": "8 un."
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-naranja-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-escritorio-triunfante-rosa",
+          "name": "Set Escritorio Rosa",
+          "subcategory": "Regalería",
+          "description": "Set de escritorio rosa: notas autoadhesivas, clips, chinches, binders, pin y bolígrafo.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-rosa-familia.webp",
+          "attributes": {},
+          "variants": [
+            {
+              "sku": "TR-REG-ESC-RS",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-rosa-familia.webp",
+              "specs": {
+                "caja": "8 un."
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-rosa-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-escritorio-triunfante-verde",
+          "name": "Set Escritorio Verde",
+          "subcategory": "Regalería",
+          "description": "Block de notas, clips, 4 binders grandes, 6 binders medianos, 2 broches y chinches.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-verde-familia.webp",
+          "attributes": {},
+          "variants": [
+            {
+              "sku": "TR-REG-ESC-VE",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-verde.webp",
+              "specs": {
+                "caja": "8 un."
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-verde.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-escritorio-triunfante-violeta",
+          "name": "Set Escritorio Violeta",
+          "subcategory": "Regalería",
+          "description": "Set de escritorio: 5 binders grandes, 3 binders chicos, clips, pins y notas autoadhesivas.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-violeta-familia.webp",
+          "attributes": {},
+          "variants": [
+            {
+              "sku": "TR-REG-ESC-VI",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-violeta-familia.webp",
+              "specs": {
+                "caja": "8 un."
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-escritorio-triunfante-violeta-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-libreta-con-formas",
+          "name": "Set Libreta c/Formas",
+          "subcategory": "Regalería",
+          "description": "Anotador con diferentes formas de 40 hojas (70 grs).",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-libreta-con-formas-familia.webp",
+          "attributes": {
+            "hojas": [
+              40
+            ]
+          },
+          "variants": [
+            {
+              "sku": "FM-25-8",
+              "hojas": 40,
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-libreta-con-formas-familia.webp",
+              "specs": {
+                "caja": "72 un. (bulto)",
+                "gramaje": "70 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-libreta-con-formas-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-libreta-con-formas-animales",
+          "name": "Set Libreta c/Formas Animales",
+          "subcategory": "Regalería",
+          "description": "Anotador mix de formas de animales de 60 hojas (80 grs).",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-libreta-con-formas-animales-familia.webp",
+          "attributes": {
+            "hojas": [
+              60
+            ]
+          },
+          "variants": [
+            {
+              "sku": "FM-25-9",
+              "hojas": 60,
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-libreta-con-formas-animales-familia.webp",
+              "specs": {
+                "caja": "72 un. (bulto)",
+                "gramaje": "80 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-libreta-con-formas-animales-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-madera-lapicero-triunfante",
+          "name": "Set Madera Lapicero",
+          "subcategory": "Regalería",
+          "description": "Cuaderno A5 con elástico tapa de madera, lapicero y bolígrafo con detalles de madera.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-madera-lapicero-triunfante-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A5"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "TR-REG-MAD-LAP",
+              "tamano": "A5",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-madera-lapicero-triunfante-familia.webp",
+              "specs": {
+                "caja": "10 un."
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-madera-lapicero-triunfante-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-madera-triunfante-taza",
+          "name": "Set Madera Taza",
+          "subcategory": "Regalería",
+          "description": "Set de tres piezas: 1 cuaderno A5 tapa de madera, 1 taza con tapa y detalles en madera, y 1 bolígrafo con detalles en madera.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-madera-triunfante-taza-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A5"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "TR-REG-MAD-TAZA",
+              "tamano": "A5",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-madera-triunfante-taza-a5.webp",
+              "specs": {
+                "caja": "5 un."
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-madera-triunfante-taza-a5.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-mariposas-triunfante",
+          "name": "Set Mariposas",
+          "subcategory": "Regalería",
+          "description": "1 cuaderno con espiral A5 de 158 hojas (80 grs), 6 bolígrafos y 4 binders.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-mariposas-triunfante-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A5"
+            ],
+            "hojas": [
+              158
+            ]
+          },
+          "variants": [
+            {
+              "sku": "TR-REG-MARIPOSAS",
+              "tamano": "A5",
+              "hojas": 158,
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-mariposas-triunfante-familia.webp",
+              "specs": {
+                "gramaje": "80 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-mariposas-triunfante-familia.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-metalizados",
+          "name": "Set Metalizados",
+          "subcategory": "Regalería",
+          "description": "Cuaderno A5 de 96 hojas (80 grs) con tapa acolchada en 5 colores.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A5"
+            ],
+            "hojas": [
+              96
+            ],
+            "colores": [
+              "Violeta",
+              "Plata",
+              "Rosa",
+              "Blanco",
+              "Verde Agua"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "FM-25-158-VI",
+              "tamano": "A5",
+              "hojas": 96,
+              "colorName": "Violeta",
+              "colorHex": "#7C63A6",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-a5-96h-violeta.webp",
+              "specs": {
+                "caja": "30 un. (bulto)",
+                "gramaje": "80 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-a5-96h-violeta.webp"
+            },
+            {
+              "sku": "FM-25-158-PL",
+              "tamano": "A5",
+              "hojas": 96,
+              "colorName": "Plata",
+              "colorHex": "#B5AEA8",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-a5-96h-plata.webp",
+              "specs": {
+                "caja": "30 un. (bulto)",
+                "gramaje": "80 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-a5-96h-plata.webp"
+            },
+            {
+              "sku": "FM-25-158-RS",
+              "tamano": "A5",
+              "hojas": 96,
+              "colorName": "Rosa",
+              "colorHex": "#F4A6C1",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-a5-96h-rosa.webp",
+              "specs": {
+                "caja": "30 un. (bulto)",
+                "gramaje": "80 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-a5-96h-rosa.webp"
+            },
+            {
+              "sku": "FM-25-158-BL",
+              "tamano": "A5",
+              "hojas": 96,
+              "colorName": "Blanco",
+              "colorHex": "#F3F4F6",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-a5-96h-blanco.webp",
+              "specs": {
+                "caja": "30 un. (bulto)",
+                "gramaje": "80 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-a5-96h-blanco.webp"
+            },
+            {
+              "sku": "FM-25-158-VA",
+              "tamano": "A5",
+              "hojas": 96,
+              "colorName": "Verde Agua",
+              "colorHex": "#7CC4B8",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-a5-96h-verde-agua.webp",
+              "specs": {
+                "caja": "30 un. (bulto)",
+                "gramaje": "80 grs"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-metalizados-a5-96h-verde-agua.webp"
+            }
+          ]
+        },
+        {
+          "id": "set-spring-garden",
+          "name": "Set Spring Garden",
+          "subcategory": "Regalería",
+          "description": "Set de regalo que contiene 1 cuaderno A5, 2 bolígrafos y 2 notas autoadhesivas.",
+          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-set-spring-garden-familia.webp",
+          "attributes": {
+            "tamanos": [
+              "A5"
+            ]
+          },
+          "variants": [
+            {
+              "sku": "FM-25-46",
+              "tamano": "A5",
+              "image": "/assets/img/products/triunfante/regaleria/triunfante-set-spring-garden-familia.webp",
+              "specs": {
+                "caja": "12 un. (bulto)"
+              },
+              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-set-spring-garden-familia.webp"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
