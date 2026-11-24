@@ -937,19 +937,6 @@
     "brandColor": "#0062cc"
   },
   {
-    "id": "producto-regaleria-ejemplo",
-    "name": "Cuaderno de regaleria",
-    "brand": "triunfante",
-    "brandName": "Triunfante",
-    "category": "Regalería",
-    "categoryId": "regaleria",
-    "subcategory": "Índice Tapa Flexible",
-    "description": "",
-    "image": "/assets/img/products/triunfante/regaleria/triunfante-producto-regaleria-ejemplo-familia.webp",
-    "spec": "16 x 21 · 48 hojas · Rayado",
-    "brandColor": "#0062cc"
-  },
-  {
     "id": "cuadernos-16x21-tapa-flexible-espiral-liso",
     "name": "Cuadernos 16x21cm Tapa Flexible con Espiral - Línea Liso",
     "brand": "potosi",

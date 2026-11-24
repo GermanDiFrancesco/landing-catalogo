@@ -15568,45 +15568,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "regaleria",
-      "name": "Regalería",
-      "products": [
-        {
-          "id": "producto-regaleria-ejemplo",
-          "name": "Cuaderno de regaleria",
-          "subcategory": "Índice Tapa Flexible",
-          "description": "",
-          "familyImage": "/assets/img/products/triunfante/regaleria/triunfante-producto-regaleria-ejemplo-familia.webp",
-          "attributes": {
-            "tamanos": [
-              "16 x 21"
-            ],
-            "hojas": [
-              48
-            ],
-            "tipos_hoja": [
-              "Rayado"
-            ]
-          },
-          "variants": [
-            {
-              "sku": "TR-IND-TF-48-R",
-              "tamano": "16 x 21",
-              "hojas": 48,
-              "tipo_hoja": "Rayado",
-              "image": "/assets/img/products/triunfante/regaleria/triunfante-producto-regaleria-ejemplo-16x21-48h-rayado.webp",
-              "specs": {
-                "caja": "120 un.",
-                "paquete": "20 un.",
-                "palet": "50 bultos"
-              },
-              "imageClean": "/assets/img/products/triunfante/regaleria/triunfante-producto-regaleria-ejemplo-16x21-48h-rayado.webp"
-            }
-          ]
-        }
-      ]
     }
   ]
 }
