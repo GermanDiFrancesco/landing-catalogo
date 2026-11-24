@@ -7,8 +7,8 @@
     "colorClass": "bg-[#0059e5]",
     "borderClass": "border-[#0059e5]",
     "textClass": "text-[#0059e5]",
-    "logo": "assets/img/marcas-logos/Triunfante blanco logo.png",
-    "logoAzul": "assets/img/marcas-logos/Triunfante azul logo.png",
+    "logo": "assets/img/marcas-logos/Triunfante blanco logo.webp",
+    "logoAzul": "assets/img/marcas-logos/Triunfante azul logo.webp",
     "slogan": "Diferentes etapas la misma ACTITUD.",
     "description": "Nuestra filosofía se basa en un pilar fundamental: ofrecer excelente calidad a un precio justo y accesible para todos. Creemos que cada estudiante, profesional o amante de la escritura merece contar con las herramientas perfectas para plasmar sus metas, proyectos y creatividad.",
     "categories": [
@@ -25,9 +25,9 @@
     "sampleProduct": {
       "title": "Tapa Cartón. Forrado Araña 48 hojas = 16x21cm (A5)",
       "images": [
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
+        "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible-familia.webp",
+        "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible-familia.webp",
+        "/assets/img/products/triunfante/cuadernos-escolares/triunfante-cuaderno-tapa-flexible-familia.webp"
       ],
       "colors": [
         "#FFFF00",
@@ -58,7 +58,7 @@
     "colorClass": "bg-[#009fe3]",
     "borderClass": "border-[#009fe3]",
     "textClass": "text-[#009fe3]",
-    "logo": "assets/img/marcas-logos/Tintoretto logo.png",
+    "logo": "assets/img/marcas-logos/Tintoretto logo.webp",
     "slogan": "HAY EQUIPO. HAY IDEAS.",
     "description": "ADHESIVOS PLASTILINAS TÉMPERAS ESCOLARES. Nuestra línea creativa diseñada para acompañar a niños y jóvenes en el desarrollo de sus habilidades plásticas y proyectos escolares.",
     "categories": [
@@ -69,9 +69,9 @@
     "sampleProduct": {
       "title": "Témperas Escolares en Pomo x 10 colores surtidos",
       "images": [
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
+        "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-familia.webp",
+        "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-familia.webp",
+        "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-familia.webp"
       ],
       "colors": [
         "#FF0000",
@@ -100,7 +100,7 @@
     "colorClass": "bg-[#9fba30]",
     "borderClass": "border-[#9fba30]",
     "textClass": "text-[#9fba30]",
-    "logo": "assets/img/marcas-logos/Potosi logo.png",
+    "logo": "assets/img/marcas-logos/Potosi logo.webp",
     "slogan": "CUADERNOS | REPUESTOS | BLOCK | ACTAS",
     "description": "Nuestra filosofía se basa en un pilar fundamental: ofrecer excelente calidad a un precio justo y accesible para todos. Creemos que cada estudiante, profesional o amante de la escritura merece contar con las herramientas perfectas para plasmar sus metas, proyectos y creatividad.",
     "categories": [
@@ -113,9 +113,9 @@
     "sampleProduct": {
       "title": "Tapa Cartón. Forrado Araña 48 hojas = 16x21cm (A5)",
       "images": [
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
+        "/assets/img/products/potosi/cuaderno-con-espiral/potosi-cuadernos-16x21-tapa-flexible-espiral-liso-azul.webp",
+        "/assets/img/products/potosi/cuaderno-con-espiral/potosi-cuadernos-16x21-tapa-flexible-espiral-liso-azul.webp",
+        "/assets/img/products/potosi/cuaderno-con-espiral/potosi-cuadernos-16x21-tapa-flexible-espiral-liso-azul.webp"
       ],
       "colors": [
         "#0000FF",
@@ -144,7 +144,7 @@
     "colorClass": "bg-[#7477b9]",
     "borderClass": "border-[#7477b9]",
     "textClass": "text-[#7477b9]",
-    "logo": "assets/img/marcas-logos/Mis hojas logo.png",
+    "logo": "assets/img/marcas-logos/Mis hojas logo.webp",
     "slogan": "#Estassonmishojas",
     "description": "Papelería juvenil moderna, pensada para acompañar tus apuntes, notas y momentos con diseño alegre, fresco y la mayor resistencia.",
     "categories": [
@@ -154,9 +154,9 @@
     "sampleProduct": {
       "title": "Cuaderno Espiral Universitario 84 hojas Rayado",
       "images": [
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png",
-        "/assets/img/products/img_rveo2fHjbFklhWjBy48VHeOyvAWkkzmpQiG2RgKGyS4VmWkyhw.png"
+        "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-familia.webp",
+        "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-familia.webp",
+        "/assets/img/products/mis-hojas/cuadernos-escolares/mis-hojas-tapa-carton-forrado-arana-familia.webp"
       ],
       "colors": [
         "#7477b9",

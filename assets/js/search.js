@@ -383,7 +383,7 @@ function renderSuggestions(list, box, counter, items, query) {
   } else {
     items.forEach((item, index) => {
       const highlightedName = highlightText(item.name, query);
-      const thumbUrl = item.image ? (item.image.startsWith('/') ? item.image : `/${item.image}`) : '/assets/img/marcas-logos/Tecnografic logo.png';
+      const thumbUrl = item.image ? (item.image.startsWith('/') ? item.image : `/${item.image}`) : '/assets/img/marcas-logos/Tecnografic logo.webp';
 
       const el = document.createElement('div');
       el.className = 'search-suggestion-item px-3.5 py-1 cursor-pointer flex items-center gap-3.5 hover:bg-blue-50/70 transition-colors';
@@ -391,7 +391,7 @@ function renderSuggestions(list, box, counter, items, query) {
 
       el.innerHTML = `
         <div class="w-14 h-14 rounded-xl bg-gray-50 border border-gray-200/80 p-1.5 flex items-center justify-center shrink-0 overflow-hidden shadow-xs">
-          <img src="${thumbUrl}" alt="${item.name}" loading="lazy" decoding="async" class="max-h-full max-w-full object-contain" onerror="this.src='/assets/img/marcas-logos/Tecnografic logo.png'">
+          <img src="${thumbUrl}" alt="${item.name}" loading="lazy" decoding="async" class="max-h-full max-w-full object-contain" onerror="this.src='/assets/img/marcas-logos/Tecnografic logo.webp'">
         </div>
         <div class="flex flex-col justify-center min-w-0 flex-1">
           <span class="text-sm font-semibold text-gray-800 leading-snug line-clamp-2">${highlightedName}</span>

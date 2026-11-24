@@ -11,7 +11,7 @@
           "name": "Adhesivo Vinílico Lavable",
           "subcategory": "Adhesivos Vinílicos Blancos",
           "description": "Adhesivo vinílico blanco lavable no tóxico para pegar papel, cartón, cartulina, tela, corcho, madera y telgopor.",
-          "familyImage": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-familia.png",
+          "familyImage": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-familia.webp",
           "attributes": {
             "tamanos": [
               "30g",
@@ -26,62 +26,62 @@
             {
               "sku": "TIN-ADH-VIN-30g",
               "tamano": "30g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-30g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-30g.webp",
               "specs": {
                 "caja": "576 un.",
                 "paquete": "12 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-30g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-30g.webp"
             },
             {
               "sku": "TIN-ADH-VIN-50g",
               "tamano": "50g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-50g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-50g.webp",
               "specs": {
                 "caja": "48 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-50g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-50g.webp"
             },
             {
               "sku": "TIN-ADH-VIN-100g",
               "tamano": "100g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-100g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-100g.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-100g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-100g.webp"
             },
             {
               "sku": "TIN-ADH-VIN-250g",
               "tamano": "250g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-250g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-250g.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-250g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-250g.webp"
             },
             {
               "sku": "TIN-ADH-VIN-500g",
               "tamano": "500g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-500g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-500g.webp",
               "specs": {
                 "caja": "12 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-500g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-500g.webp"
             },
             {
               "sku": "TIN-ADH-VIN-1000g",
               "tamano": "1000g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-1000g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-1000g.webp",
               "specs": {
                 "caja": "6 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-1000g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-1000g.webp"
             }
           ]
         },
@@ -90,7 +90,7 @@
           "name": "Adhesivo Sintético Lavable",
           "subcategory": "Adhesivos Sintéticos Transparentes",
           "description": "Pegamento sintético transparente lavable de alta adherencia y secado rápido.",
-          "familyImage": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-familia.png",
+          "familyImage": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-familia.webp",
           "attributes": {
             "tamanos": [
               "30g",
@@ -105,62 +105,62 @@
             {
               "sku": "TIN-ADH-SIN-30g",
               "tamano": "30g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-30g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-30g.webp",
               "specs": {
                 "caja": "576 un.",
                 "paquete": "12 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-30g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-30g.webp"
             },
             {
               "sku": "TIN-ADH-SIN-50g",
               "tamano": "50g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-50g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-50g.webp",
               "specs": {
                 "caja": "48 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-50g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-50g.webp"
             },
             {
               "sku": "TIN-ADH-SIN-100g",
               "tamano": "100g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-100g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-100g.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-100g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-100g.webp"
             },
             {
               "sku": "TIN-ADH-SIN-250g",
               "tamano": "250g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-250g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-250g.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-250g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-250g.webp"
             },
             {
               "sku": "TIN-ADH-SIN-500g",
               "tamano": "500g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-500g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-500g.webp",
               "specs": {
                 "caja": "12 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-500g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-500g.webp"
             },
             {
               "sku": "TIN-ADH-SIN-1000g",
               "tamano": "1000g",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-1000g.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-1000g.webp",
               "specs": {
                 "caja": "6 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-1000g.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-1000g.webp"
             }
           ]
         },
@@ -169,7 +169,7 @@
           "name": "Adhesivo Vinílico Lavable Color",
           "subcategory": "Adhesivos de Color",
           "description": "Adhesivo vinílico lavable de color en presentaciones de 30g y 250g en 10 colores.",
-          "familyImage": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-familia.png",
+          "familyImage": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-familia.webp",
           "attributes": {
             "tamanos": [
               "30g",
@@ -194,240 +194,240 @@
               "tamano": "30g",
               "colorName": "Amarillo",
               "colorHex": "#FFFF00",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-amarillo.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-amarillo.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-amarillo.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-amarillo.webp"
             },
             {
               "sku": "TIN-ADH-COL-30g-AZM",
               "tamano": "30g",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-azul-marino.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-azul-marino.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-azul-marino.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-azul-marino.webp"
             },
             {
               "sku": "TIN-ADH-COL-30g-AZC",
               "tamano": "30g",
               "colorName": "Azul Cielo",
               "colorHex": "#87CEEB",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-azul-cielo.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-azul-cielo.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-azul-cielo.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-azul-cielo.webp"
             },
             {
               "sku": "TIN-ADH-COL-30g-RS",
               "tamano": "30g",
               "colorName": "Rosa",
               "colorHex": "#FFC0CB",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-rosa.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-rosa.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-rosa.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-rosa.webp"
             },
             {
               "sku": "TIN-ADH-COL-30g-RO",
               "tamano": "30g",
               "colorName": "Rojo",
               "colorHex": "#f80000",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-rojo.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-rojo.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-rojo.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-rojo.webp"
             },
             {
               "sku": "TIN-ADH-COL-30g-VE",
               "tamano": "30g",
               "colorName": "Verde",
               "colorHex": "#008000",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-verde.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-verde.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-verde.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-verde.webp"
             },
             {
               "sku": "TIN-ADH-COL-30g-NA",
               "tamano": "30g",
               "colorName": "Naranja",
               "colorHex": "#f4a020",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-naranja.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-naranja.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-naranja.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-naranja.webp"
             },
             {
               "sku": "TIN-ADH-COL-30g-NE",
               "tamano": "30g",
               "colorName": "Negro",
               "colorHex": "#1F1B1C",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-negro.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-negro.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-negro.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-negro.webp"
             },
             {
               "sku": "TIN-ADH-COL-30g-MA",
               "tamano": "30g",
               "colorName": "Marrón",
               "colorHex": "#804000",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-marron.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-marron.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-marron.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-marron.webp"
             },
             {
               "sku": "TIN-ADH-COL-30g-VI",
               "tamano": "30g",
               "colorName": "Violeta",
               "colorHex": "#572364",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-violeta.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-violeta.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-violeta.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-30g-violeta.webp"
             },
             {
               "sku": "TIN-ADH-COL-250g-AM",
               "tamano": "250g",
               "colorName": "Amarillo",
               "colorHex": "#FFFF00",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-amarillo.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-amarillo.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-amarillo.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-amarillo.webp"
             },
             {
               "sku": "TIN-ADH-COL-250g-AZM",
               "tamano": "250g",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-azul-marino.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-azul-marino.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-azul-marino.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-azul-marino.webp"
             },
             {
               "sku": "TIN-ADH-COL-250g-AZC",
               "tamano": "250g",
               "colorName": "Azul Cielo",
               "colorHex": "#87CEEB",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-azul-cielo.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-azul-cielo.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-azul-cielo.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-azul-cielo.webp"
             },
             {
               "sku": "TIN-ADH-COL-250g-RS",
               "tamano": "250g",
               "colorName": "Rosa",
               "colorHex": "#FFC0CB",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-rosa.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-rosa.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-rosa.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-rosa.webp"
             },
             {
               "sku": "TIN-ADH-COL-250g-RO",
               "tamano": "250g",
               "colorName": "Rojo",
               "colorHex": "#f80000",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-rojo.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-rojo.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-rojo.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-rojo.webp"
             },
             {
               "sku": "TIN-ADH-COL-250g-VE",
               "tamano": "250g",
               "colorName": "Verde",
               "colorHex": "#008000",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-verde.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-verde.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-verde.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-verde.webp"
             },
             {
               "sku": "TIN-ADH-COL-250g-NA",
               "tamano": "250g",
               "colorName": "Naranja",
               "colorHex": "#f4a020",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-naranja.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-naranja.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-naranja.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-naranja.webp"
             },
             {
               "sku": "TIN-ADH-COL-250g-NE",
               "tamano": "250g",
               "colorName": "Negro",
               "colorHex": "#1F1B1C",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-negro.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-negro.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-negro.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-negro.webp"
             },
             {
               "sku": "TIN-ADH-COL-250g-MA",
               "tamano": "250g",
               "colorName": "Marrón",
               "colorHex": "#804000",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-marron.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-marron.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-marron.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-marron.webp"
             },
             {
               "sku": "TIN-ADH-COL-250g-VI",
               "tamano": "250g",
               "colorName": "Violeta",
               "colorHex": "#572364",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-violeta.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-violeta.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-violeta.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-color-250g-violeta.webp"
             }
           ]
         },
@@ -436,7 +436,7 @@
           "name": "Adhesivo Vinílico Lavable Flúo",
           "subcategory": "Adhesivos Flúo",
           "description": "Adhesivo vinílico lavable en colores flúo en presentaciones de 30g y 250g.",
-          "familyImage": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-familia.png",
+          "familyImage": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-familia.webp",
           "attributes": {
             "tamanos": [
               "30g",
@@ -455,100 +455,100 @@
               "tamano": "30g",
               "colorName": "Verde",
               "colorHex": "#CCFF00",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-verde.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-verde.webp",
               "specs": {
                 "caja": "144 un.",
                 "paquete": "12 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-verde.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-verde.webp"
             },
             {
               "sku": "TIN-ADH-FLUO-30g-RS",
               "tamano": "30g",
               "colorName": "Rosa",
               "colorHex": "#fc0176",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-rosa.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-rosa.webp",
               "specs": {
                 "caja": "144 un.",
                 "paquete": "12 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-rosa.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-rosa.webp"
             },
             {
               "sku": "TIN-ADH-FLUO-30g-NA",
               "tamano": "30g",
               "colorName": "Naranja",
               "colorHex": "#ffa420",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-naranja.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-naranja.webp",
               "specs": {
                 "caja": "144 un.",
                 "paquete": "12 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-naranja.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-naranja.webp"
             },
             {
               "sku": "TIN-ADH-FLUO-30g-AM",
               "tamano": "30g",
               "colorName": "Amarillo",
               "colorHex": "#FFFF00",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-amarillo.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-amarillo.webp",
               "specs": {
                 "caja": "144 un.",
                 "paquete": "12 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-amarillo.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-30g-amarillo.webp"
             },
             {
               "sku": "TIN-ADH-FLUO-250g-VE",
               "tamano": "250g",
               "colorName": "Verde",
               "colorHex": "#CCFF00",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-verde.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-verde.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-verde.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-verde.webp"
             },
             {
               "sku": "TIN-ADH-FLUO-250g-RS",
               "tamano": "250g",
               "colorName": "Rosa",
               "colorHex": "#fc0176",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-rosa.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-rosa.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-rosa.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-rosa.webp"
             },
             {
               "sku": "TIN-ADH-FLUO-250g-NA",
               "tamano": "250g",
               "colorName": "Naranja",
               "colorHex": "#ffa420",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-naranja.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-naranja.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-naranja.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-naranja.webp"
             },
             {
               "sku": "TIN-ADH-FLUO-250g-AM",
               "tamano": "250g",
               "colorName": "Amarillo",
               "colorHex": "#FFFF00",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-amarillo.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-amarillo.webp",
               "specs": {
                 "caja": "24 un.",
                 "paquete": "1 un."
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-amarillo.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-vinilico-lavable-fluo-250g-amarillo.webp"
             }
           ]
         },
@@ -557,7 +557,7 @@
           "name": "Adhesivo Sintético Lavable Glitter",
           "subcategory": "Adhesivos Glitter",
           "description": "Adhesivo sintético lavable con brillo glitter en presentación de 30g en 11 colores.",
-          "familyImage": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-familia.png",
+          "familyImage": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-familia.webp",
           "attributes": {
             "tamanos": [
               "30g"
@@ -582,132 +582,132 @@
               "tamano": "30g",
               "colorName": "Oro",
               "colorHex": "#FFD700",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-oro.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-oro.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-oro.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-oro.webp"
             },
             {
               "sku": "TIN-ADH-GLI-30g-PLA",
               "tamano": "30g",
               "colorName": "Plata",
               "colorHex": "#C0C0C0",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-plata.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-plata.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-plata.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-plata.webp"
             },
             {
               "sku": "TIN-ADH-GLI-30g-AZC",
               "tamano": "30g",
               "colorName": "Azul Cielo",
               "colorHex": "#87CEEB",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-azul-cielo.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-azul-cielo.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-azul-cielo.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-azul-cielo.webp"
             },
             {
               "sku": "TIN-ADH-GLI-30g-VEP",
               "tamano": "30g",
               "colorName": "Verde Pradera",
               "colorHex": "#3B8C40",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-verde-pradera.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-verde-pradera.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-verde-pradera.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-verde-pradera.webp"
             },
             {
               "sku": "TIN-ADH-GLI-30g-ROF",
               "tamano": "30g",
               "colorName": "Rojo Fuego",
               "colorHex": "#f80000",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-rojo-fuego.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-rojo-fuego.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-rojo-fuego.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-rojo-fuego.webp"
             },
             {
               "sku": "TIN-ADH-GLI-30g-AZM",
               "tamano": "30g",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-azul-marino.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-azul-marino.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-azul-marino.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-azul-marino.webp"
             },
             {
               "sku": "TIN-ADH-GLI-30g-IRI",
               "tamano": "30g",
               "colorName": "Iridiscente",
               "colorHex": "linear-gradient(135deg, #f9a8d4, #c4b5fd, #93c5fd, #6ee7b7, #fde68a)",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-iridiscente.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-iridiscente.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-iridiscente.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-iridiscente.webp"
             },
             {
               "sku": "TIN-ADH-GLI-30g-NA",
               "tamano": "30g",
               "colorName": "Naranja",
               "colorHex": "#f4a020",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-naranja.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-naranja.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-naranja.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-naranja.webp"
             },
             {
               "sku": "TIN-ADH-GLI-30g-VI",
               "tamano": "30g",
               "colorName": "Violeta",
               "colorHex": "#572364",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-violeta.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-violeta.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-violeta.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-violeta.webp"
             },
             {
               "sku": "TIN-ADH-GLI-30g-NE",
               "tamano": "30g",
               "colorName": "Negro Azabache",
               "colorHex": "#1F1B1C",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-negro-azabache.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-negro-azabache.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-negro-azabache.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-negro-azabache.webp"
             },
             {
               "sku": "TIN-ADH-GLI-30g-FUC",
               "tamano": "30g",
               "colorName": "Fucsia",
               "colorHex": "#e30052",
-              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-fucsia.png",
+              "image": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-fucsia.webp",
               "specs": {
                 "caja": "144 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-fucsia.png"
+              "imageClean": "/assets/img/products/tintoretto/adhesivos/tintoretto-adhesivo-sintetico-lavable-glitter-30g-fucsia.webp"
             }
           ]
         }
@@ -722,7 +722,7 @@
           "name": "Témperas en Pomo",
           "subcategory": "Témperas Pomo",
           "description": "Cajita de 10 pomos surtidos de 8cm³ en colores: Blanco Níveo, Negro Azabache, Naranja, Amarillo, Azul Marino, Celeste, Verde, Verde Manzana, Marrón Madera, Violeta, Rojo Fuego y Rosa.",
-          "familyImage": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pomo-color-familia.png",
+          "familyImage": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pomo-color-familia.webp",
           "attributes": {
             "tamanos": [
               "8cm3"
@@ -737,13 +737,13 @@
               "tamano": "8cm3",
               "colorName": "Surtido",
               "colorHex": "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pomo-color-8cm3-surtido.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pomo-color-8cm3-surtido.webp",
               "specs": {
                 "caja": "40 un.",
                 "paquete": "10 un.",
                 "palet": "126 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pomo-color-8cm3-surtido.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pomo-color-8cm3-surtido.webp"
             }
           ]
         },
@@ -752,7 +752,7 @@
           "name": "Témperas en Pote Color",
           "subcategory": "Témperas Pote",
           "description": "Témpera escolar lavable en pote de 250g disponible en 12 colores.",
-          "familyImage": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-azul-marino.png",
+          "familyImage": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-azul-marino.webp",
           "attributes": {
             "tamanos": [
               "250gr"
@@ -778,144 +778,144 @@
               "tamano": "250gr",
               "colorName": "Blanco Níveo",
               "colorHex": "#FFFFFF",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-blanco-niveo.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-blanco-niveo.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-blanco-niveo.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-blanco-niveo.webp"
             },
             {
               "sku": "TIN-TEM-POTE-250-NE",
               "tamano": "250gr",
               "colorName": "Negro Azabache",
               "colorHex": "#1F1B1C",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-negro-azabache.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-negro-azabache.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-negro-azabache.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-negro-azabache.webp"
             },
             {
               "sku": "TIN-TEM-POTE-250-NA",
               "tamano": "250gr",
               "colorName": "Naranja",
               "colorHex": "#f4a020",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-naranja.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-naranja.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-naranja.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-naranja.webp"
             },
             {
               "sku": "TIN-TEM-POTE-250-AM",
               "tamano": "250gr",
               "colorName": "Amarillo",
               "colorHex": "#FFFF00",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-amarillo.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-amarillo.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-amarillo.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-amarillo.webp"
             },
             {
               "sku": "TIN-TEM-POTE-250-AZM",
               "tamano": "250gr",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-azul-marino.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-azul-marino.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-azul-marino.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-azul-marino.webp"
             },
             {
               "sku": "TIN-TEM-POTE-250-CE",
               "tamano": "250gr",
               "colorName": "Celeste",
               "colorHex": "#92C5FC",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-celeste.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-celeste.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-celeste.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-celeste.webp"
             },
             {
               "sku": "TIN-TEM-POTE-250-VEP",
               "tamano": "250gr",
               "colorName": "Verde Pradera",
               "colorHex": "#3B8C40",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-verde-pradera.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-verde-pradera.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-verde-pradera.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-verde-pradera.webp"
             },
             {
               "sku": "TIN-TEM-POTE-250-VM",
               "tamano": "250gr",
               "colorName": "Verde Manzana",
               "colorHex": "#48e120",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-verde-manzana.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-verde-manzana.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-verde-manzana.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-verde-manzana.webp"
             },
             {
               "sku": "TIN-TEM-POTE-250-MA",
               "tamano": "250gr",
               "colorName": "Marrón Madera",
               "colorHex": "#804000",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-marron-madera.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-marron-madera.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-marron-madera.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-marron-madera.webp"
             },
             {
               "sku": "TIN-TEM-POTE-250-VI",
               "tamano": "250gr",
               "colorName": "Violeta",
               "colorHex": "#572364",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-violeta.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-violeta.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-violeta.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-violeta.webp"
             },
             {
               "sku": "TIN-TEM-POTE-250-ROF",
               "tamano": "250gr",
               "colorName": "Rojo Fuego",
               "colorHex": "#f80000",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-rojo-fuego.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-rojo-fuego.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-rojo-fuego.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-rojo-fuego.webp"
             },
             {
               "sku": "TIN-TEM-POTE-250-RS",
               "tamano": "250gr",
               "colorName": "Rosa",
               "colorHex": "#FFC0CB",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-rosa.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-rosa.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-rosa.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-color-250gr-rosa.webp"
             }
           ]
         },
@@ -924,7 +924,7 @@
           "name": "Témperas Flúo",
           "subcategory": "Témperas Pote Flúo",
           "description": "Témpera escolar flúo en pote de 250 gramos disponible en 6 colores.",
-          "familyImage": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-amarillo.png",
+          "familyImage": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-amarillo.webp",
           "attributes": {
             "tamanos": [
               "250gr"
@@ -944,72 +944,72 @@
               "tamano": "250gr",
               "colorName": "Naranja",
               "colorHex": "#f59622",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-naranja.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-naranja.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-naranja.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-naranja.webp"
             },
             {
               "sku": "TIN-TEM-FLUO-250-AM",
               "tamano": "250gr",
               "colorName": "Amarillo",
               "colorHex": "#FFFF00",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-amarillo.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-amarillo.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-amarillo.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-amarillo.webp"
             },
             {
               "sku": "TIN-TEM-FLUO-250-AZC",
               "tamano": "250gr",
               "colorName": "Azul Cielo",
               "colorHex": "#38BDF8",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-azul-cielo.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-azul-cielo.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-azul-cielo.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-azul-cielo.webp"
             },
             {
               "sku": "TIN-TEM-FLUO-250-VM",
               "tamano": "250gr",
               "colorName": "Verde Manzana",
               "colorHex": "#48e120",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-verde-manzana.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-verde-manzana.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-verde-manzana.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-verde-manzana.webp"
             },
             {
               "sku": "TIN-TEM-FLUO-250-RS",
               "tamano": "250gr",
               "colorName": "Rosa",
               "colorHex": "#fc0176",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-rosa.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-rosa.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-rosa.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-rosa.webp"
             },
             {
               "sku": "TIN-TEM-FLUO-250-ROF",
               "tamano": "250gr",
               "colorName": "Rojo Fuego",
               "colorHex": "#ff2301",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-rojo-fuego.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-rojo-fuego.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-rojo-fuego.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-fluo-250gr-rojo-fuego.webp"
             }
           ]
         },
@@ -1018,7 +1018,7 @@
           "name": "Témperas Metal",
           "subcategory": "Témperas Pote Metalizados",
           "description": "Témpera escolar metalizada en pote de 250 gramos disponible en 6 colores.",
-          "familyImage": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-plata.png",
+          "familyImage": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-plata.webp",
           "attributes": {
             "tamanos": [
               "250gr"
@@ -1038,72 +1038,72 @@
               "tamano": "250gr",
               "colorName": "Blanco Níveo",
               "colorHex": "#FFFFFF",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-blanco-niveo.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-blanco-niveo.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-blanco-niveo.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-blanco-niveo.webp"
             },
             {
               "sku": "TIN-TEM-MET-250-AZM",
               "tamano": "250gr",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-azul-marino.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-azul-marino.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-azul-marino.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-azul-marino.webp"
             },
             {
               "sku": "TIN-TEM-MET-250-VEP",
               "tamano": "250gr",
               "colorName": "Verde Pradera",
               "colorHex": "#3B8C40",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-verde-pradera.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-verde-pradera.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-verde-pradera.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-verde-pradera.webp"
             },
             {
               "sku": "TIN-TEM-MET-250-ROF",
               "tamano": "250gr",
               "colorName": "Rojo Fuego",
               "colorHex": "#f80000",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-rojo-fuego.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-rojo-fuego.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-rojo-fuego.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-rojo-fuego.webp"
             },
             {
               "sku": "TIN-TEM-MET-250-PLA",
               "tamano": "250gr",
               "colorName": "Plata",
               "colorHex": "#C0C0C0",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-plata.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-plata.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-plata.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-plata.webp"
             },
             {
               "sku": "TIN-TEM-MET-250-DOR",
               "tamano": "250gr",
               "colorName": "Dorado",
               "colorHex": "#efb810",
-              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-dorado.png",
+              "image": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-dorado.webp",
               "specs": {
                 "caja": "12 un.",
                 "palet": "192 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-dorado.png"
+              "imageClean": "/assets/img/products/tintoretto/temperas/tintoretto-temperas-pote-metalizados-250gr-dorado.webp"
             }
           ]
         }
@@ -1118,7 +1118,7 @@
           "name": "Plastilinas en Churritos x 20g",
           "subcategory": "Plastilinas Churritos",
           "description": "Cajita de 6 churritos x 20g (colores surtidos o pasteles surtidos) y cajita de 10 churritos x 20g (colores surtidos).",
-          "familyImage": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-familia.png",
+          "familyImage": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-familia.webp",
           "attributes": {
             "tamanos": [
               "6 churritos x 20g",
@@ -1135,47 +1135,47 @@
               "tamano": "6 churritos x 20g",
               "colorName": "Colores Surtidos",
               "colorHex": "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-colores-surtidos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-colores-surtidos.webp",
               "specs": {
                 "caja": "60 un.",
                 "paquete": "6 un.",
                 "palet": "1 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-colores-surtidos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-colores-surtidos.webp"
             },
             {
               "sku": "TIN-PLA-CHU-6-PAS",
               "tamano": "6 churritos x 20g",
               "colorName": "Pasteles Surtidos",
               "colorHex": "linear-gradient(135deg, #fbcfe8, #fde68a, #bbf7d0, #bae6fd, #ddd6fe, #fed7aa)",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-pasteles-surtidos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-pasteles-surtidos.webp",
               "specs": {
                 "caja": "60 un.",
                 "paquete": "6 un.",
                 "palet": "1 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-pasteles-surtidos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-pasteles-surtidos.webp"
             },
             {
               "sku": "TIN-PLA-CHU-10-SUR",
               "tamano": "10 churritos x 20g",
               "colorName": "Colores Surtidos",
               "colorHex": "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-10-churritos-x-20g-colores-surtidos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-10-churritos-x-20g-colores-surtidos.webp",
               "specs": {
                 "caja": "60 un.",
                 "paquete": "10 un.",
                 "palet": "1 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-10-churritos-x-20g-colores-surtidos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-10-churritos-x-20g-colores-surtidos.webp"
             }
           ],
           "sharedColorImages": true,
           "sharedBySize": true,
           "colorImages": {
-            "6 churritos x 20g|Colores Surtidos": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-colores-surtidos.png",
-            "6 churritos x 20g|Pasteles Surtidos": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-pasteles-surtidos.png",
-            "10 churritos x 20g|Colores Surtidos": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-10-churritos-x-20g-colores-surtidos.png"
+            "6 churritos x 20g|Colores Surtidos": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-colores-surtidos.webp",
+            "6 churritos x 20g|Pasteles Surtidos": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-6-churritos-x-20g-pasteles-surtidos.webp",
+            "10 churritos x 20g|Colores Surtidos": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-barritas-10-churritos-x-20g-colores-surtidos.webp"
           }
         },
         {
@@ -1183,7 +1183,7 @@
           "name": "Plastilinas Pancitos x 25g",
           "subcategory": "Plastilinas Pancitos",
           "description": "Cajas de 24 pancitos x 25g en colores surtidos o por color individual (12 colores para elegir).",
-          "familyImage": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos-familia.png",
+          "familyImage": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos-familia.webp",
           "attributes": {
             "tamanos": [
               "24 pancitos x 25g"
@@ -1210,169 +1210,169 @@
               "tamano": "24 pancitos x 25g",
               "colorName": "Surtido",
               "colorHex": "linear-gradient(135deg, #ef4444, #f97316, #eab308, #22c55e, #3b82f6, #a855f7)",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos-24-pancitos-x-25g-surtido.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos-24-pancitos-x-25g-surtido.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos-24-pancitos-x-25g-surtido.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos-24-pancitos-x-25g-surtido.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-BL",
               "tamano": "24 pancitos x 25g",
               "colorName": "Blanco Níveo",
               "colorHex": "#FFFFFF",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos-24-pancitos-x-25g-blanco-niveo.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos-24-pancitos-x-25g-blanco-niveo.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos-24-pancitos-x-25g-blanco-niveo.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos-24-pancitos-x-25g-blanco-niveo.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-NE",
               "tamano": "24 pancitos x 25g",
               "colorName": "Negro Azabache",
               "colorHex": "#1F1B1C",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-NA",
               "tamano": "24 pancitos x 25g",
               "colorName": "Naranja",
               "colorHex": "#FFA500",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-AM",
               "tamano": "24 pancitos x 25g",
               "colorName": "Amarillo",
               "colorHex": "#FFFF00",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-AZM",
               "tamano": "24 pancitos x 25g",
               "colorName": "Azul Marino",
               "colorHex": "#00304E",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-CE",
               "tamano": "24 pancitos x 25g",
               "colorName": "Celeste",
               "colorHex": "#92C5FC",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-VE",
               "tamano": "24 pancitos x 25g",
               "colorName": "Verde",
               "colorHex": "#008000",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-VM",
               "tamano": "24 pancitos x 25g",
               "colorName": "Verde Manzana",
               "colorHex": "#48e120",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-MA",
               "tamano": "24 pancitos x 25g",
               "colorName": "Marrón Madera",
               "colorHex": "#804000",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-VI",
               "tamano": "24 pancitos x 25g",
               "colorName": "Violeta",
               "colorHex": "#572364",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-ROF",
               "tamano": "24 pancitos x 25g",
               "colorName": "Rojo Fuego",
               "colorHex": "#f80000",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp"
             },
             {
               "sku": "TIN-PLA-PAN-25-RS",
               "tamano": "24 pancitos x 25g",
               "colorName": "Rosa",
               "colorHex": "#FFC0CB",
-              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png",
+              "image": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp",
               "specs": {
                 "caja": "16 un.",
                 "paquete": "24 un.",
                 "palet": "90 bultos"
               },
-              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.png"
+              "imageClean": "/assets/img/products/tintoretto/plastilinas/tintoretto-plastilinas-pancitos.webp"
             }
           ]
         }
