@@ -9,7 +9,8 @@
     "smtp:test": "node server.js --send-test",
     "tw:build": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --minify",
     "tw:watch": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --watch",
-    "build": "npm run tw:build"
+    "build": "npm run tw:build",
+    "cache:clear": "node scripts/clear-cache.mjs"
   },
   "keywords": [
     "tecnografic",

@@ -119,7 +119,7 @@ async function loadProductsData() {
 
   loadingPromise = (async () => {
     try {
-      const res = await fetch('/assets/data/products.json');
+      const res = await fetch('/assets/data/products.json?v=20261125122406');
       if (res.ok) {
         productsCache = await res.json();
         isLoaded = true;

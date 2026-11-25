@@ -62,7 +62,7 @@ async function initBrandPage(brandSlug, searchOverride) {
 
   try {
     if (!cachedBrandsData) {
-      const res = await fetch('/assets/data/brands.json');
+      const res = await fetch('/assets/data/brands.json?v=20261125122406');
       cachedBrandsData = await res.json();
     }
     const brand = cachedBrandsData[brandKey] || cachedBrandsData['triunfante'];
@@ -71,7 +71,7 @@ async function initBrandPage(brandSlug, searchOverride) {
     let brandProductsData = cachedBrandProducts[brandKey] || null;
     if (!brandProductsData) {
       try {
-        const prodRes = await fetch(`/assets/data/products/${brandKey}.json`);
+        const prodRes = await fetch(`/assets/data/products/${brandKey}.json?v=20261125122406`);
         if (prodRes.ok) {
           brandProductsData = await prodRes.json();
           cachedBrandProducts[brandKey] = brandProductsData;
