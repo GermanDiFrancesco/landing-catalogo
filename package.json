@@ -10,7 +10,8 @@
     "tw:build": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --minify",
     "tw:watch": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/output.css --watch",
     "build": "npm run tw:build",
-    "cache:clear": "node scripts/clear-cache.mjs"
+    "cache:clear": "node scripts/clear-cache.mjs",
+    "seo:sitemap": "node scripts/generate-sitemap.mjs"
   },
   "keywords": [
     "tecnografic",

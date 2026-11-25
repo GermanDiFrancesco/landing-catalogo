@@ -48,8 +48,179 @@ const MIME_TYPES = {
   '.woff': 'font/woff',
   '.woff2': 'font/woff2',
   '.pdf': 'application/pdf',
-  '.txt': 'text/plain; charset=utf-8'
+  '.txt': 'text/plain; charset=utf-8',
+  '.xml': 'application/xml; charset=utf-8'
 };
+
+const SITE_BASE_URL = (process.env.SITE_URL || 'https://www.tecnograficsa.com.ar').replace(/\/+$/, '');
+const DEFAULT_OG_IMAGE = `${SITE_BASE_URL}/assets/img/marcas-logos/Tecnografic%20logo.webp`;
+
+const STATIC_ROUTE_SEO = {
+  '/': {
+    title: 'Tecnografic | Cuadernos, Repuestos y Artículos Escolares',
+    description: 'Tecnografic: Fabricante líder de cuadernos, repuestos y artículos escolares con marcas como Triunfante, Tintoretto, Potosí y Mis Hojas.',
+    canonicalPath: '/',
+    ogType: 'website',
+    robots: 'index, follow'
+  },
+  '/nosotros': {
+    title: 'Nosotros | Tecnografic',
+    description: 'Conocé la historia, filosofía y trayectoria de Tecnografic S.A., fabricante de cuadernos, repuestos y artículos escolares de calidad.',
+    canonicalPath: '/nosotros',
+    ogType: 'website',
+    robots: 'index, follow'
+  },
+  '/catalogos': {
+    title: 'Catálogos Descargables | Tecnografic',
+    description: 'Descargá los catálogos en PDF y accedé al banco de imágenes de Triunfante, Tintoretto, Potosí y Mis Hojas.',
+    canonicalPath: '/catalogos',
+    ogType: 'website',
+    robots: 'index, follow'
+  },
+  '/puntos-de-venta': {
+    title: 'Puntos de Venta | Tecnografic',
+    description: 'Encontrá mayoristas y minoristas donde adquirir los productos de Tecnografic en todo el país.',
+    canonicalPath: '/puntos-de-venta',
+    ogType: 'website',
+    robots: 'index, follow'
+  },
+  '/contacto': {
+    title: 'Contacto | Tecnografic',
+    description: 'Contactate con Tecnografic S.A. para consultas comerciales, mayoristas o información sobre nuestros productos.',
+    canonicalPath: '/contacto',
+    ogType: 'website',
+    robots: 'index, follow'
+  }
+};
+
+let seoBrandsCache = null;
+const seoProductsCache = new Map();
+
+function loadSeoBrands() {
+  if (seoBrandsCache) return seoBrandsCache;
+  try {
+    const raw = fs.readFileSync(path.join(ROOT_DIR, 'assets', 'data', 'brands.json'), 'utf8');
+    seoBrandsCache = JSON.parse(raw);
+  } catch {
+    seoBrandsCache = {};
+  }
+  return seoBrandsCache;
+}
+
+function loadSeoBrandProducts(brandKey) {
+  if (seoProductsCache.has(brandKey)) return seoProductsCache.get(brandKey);
+  try {
+    const raw = fs.readFileSync(path.join(ROOT_DIR, 'assets', 'data', 'products', `${brandKey}.json`), 'utf8');
+    const parsed = JSON.parse(raw);
+    seoProductsCache.set(brandKey, parsed);
+    return parsed;
+  } catch {
+    return null;
+  }
+}
+
+function toAbsoluteUrl(assetPath) {
+  if (!assetPath) return DEFAULT_OG_IMAGE;
+  if (assetPath.startsWith('http://') || assetPath.startsWith('https://')) return assetPath;
+  const normalized = assetPath.startsWith('/') ? assetPath : `/${assetPath}`;
+  return `${SITE_BASE_URL}${encodeURI(normalized)}`;
+}
+
+function resolveRouteSeo(rawUrl) {
+  const parsedUrl = new URL(rawUrl || '/', SITE_BASE_URL);
+  let pathname = parsedUrl.pathname || '/';
+  if (pathname === '/index.html' || pathname === '') pathname = '/';
+  else if (pathname.length > 1 && pathname.endsWith('/')) pathname = pathname.slice(0, -1);
+
+  if (STATIC_ROUTE_SEO[pathname]) {
+    return { ...STATIC_ROUTE_SEO[pathname], ogImage: DEFAULT_OG_IMAGE };
+  }
+
+  if (pathname === '/marca' || pathname.startsWith('/marca/')) {
+    const match = pathname.match(/^\/marca\/([^/]+)/);
+    const rawBrandKey = (match && match[1]) || parsedUrl.searchParams.get('b') || 'triunfante';
+    const brands = loadSeoBrands();
+    const brand = brands[rawBrandKey];
+
+    if (brand) {
+      const prodId = parsedUrl.searchParams.get('prod');
+      if (prodId) {
+        const brandProducts = loadSeoBrandProducts(brand.id);
+        const categories = Array.isArray(brandProducts?.categories) ? brandProducts.categories : [];
+        for (const cat of categories) {
+          const product = (cat.products || []).find(p => p && p.id === prodId);
+          if (product) {
+            const firstVariantImg = product.variants && product.variants[0] && (product.variants[0].image || product.variants[0].imageClean);
+            return {
+              title: `${product.name} — ${brand.name} | Tecnografic`,
+              description: product.description || brand.description || STATIC_ROUTE_SEO['/'].description,
+              canonicalPath: `/marca/${encodeURIComponent(brand.id)}?prod=${encodeURIComponent(product.id)}`,
+              ogType: 'product',
+              ogImage: toAbsoluteUrl(product.familyImage || firstVariantImg || brand.logoAzul || brand.logo),
+              robots: 'index, follow'
+            };
+          }
+        }
+      }
+
+      return {
+        title: `${brand.name} | Tecnografic`,
+        description: brand.description || STATIC_ROUTE_SEO['/'].description,
+        canonicalPath: `/marca/${encodeURIComponent(brand.id)}`,
+        ogType: 'website',
+        ogImage: toAbsoluteUrl(brand.logoAzul || brand.logo),
+        robots: 'index, follow'
+      };
+    }
+  }
+
+  return {
+    ...STATIC_ROUTE_SEO['/'],
+    ogImage: DEFAULT_OG_IMAGE,
+    robots: 'noindex, follow'
+  };
+}
+
+function sendSeoIndexHtml(res, rawUrl) {
+  fs.readFile(INDEX_FILE, 'utf8', (err, html) => {
+    if (err) {
+      res.writeHead(500, { 'Content-Type': 'text/plain; charset=utf-8' });
+      res.end('500 Internal Server Error');
+      return;
+    }
+
+    const seo = resolveRouteSeo(rawUrl);
+    const canonicalUrl = `${SITE_BASE_URL}${seo.canonicalPath}`;
+    const safeTitle = escapeHtml(seo.title);
+    const safeDesc = escapeHtml(seo.description);
+    const safeCanonical = escapeHtml(canonicalUrl);
+    const safeImage = escapeHtml(seo.ogImage || DEFAULT_OG_IMAGE);
+    const safeRobots = escapeHtml(seo.robots || 'index, follow');
+    const safeOgType = escapeHtml(seo.ogType || 'website');
+
+    const rendered = html
+      .replace(/<title>[\s\S]*?<\/title>/i, `<title>${safeTitle}</title>`)
+      .replace(/<meta\s+name="description"[\s\S]*?>/i, `<meta name="description" content="${safeDesc}">`)
+      .replace(/<meta\s+name="robots"[^>]*>/i, `<meta name="robots" content="${safeRobots}">`)
+      .replace(/<link\s+rel="canonical"[^>]*>/i, `<link rel="canonical" href="${safeCanonical}">`)
+      .replace(/<meta\s+property="og:type"[^>]*>/i, `<meta property="og:type" content="${safeOgType}">`)
+      .replace(/<meta\s+property="og:title"[^>]*>/i, `<meta property="og:title" content="${safeTitle}">`)
+      .replace(/<meta\s+property="og:description"[\s\S]*?>/i, `<meta property="og:description" content="${safeDesc}">`)
+      .replace(/<meta\s+property="og:url"[^>]*>/i, `<meta property="og:url" content="${safeCanonical}">`)
+      .replace(/<meta\s+property="og:image"[^>]*>/i, `<meta property="og:image" content="${safeImage}">`)
+      .replace(/<meta\s+name="twitter:title"[^>]*>/i, `<meta name="twitter:title" content="${safeTitle}">`)
+      .replace(/<meta\s+name="twitter:description"[\s\S]*?>/i, `<meta name="twitter:description" content="${safeDesc}">`)
+      .replace(/<meta\s+name="twitter:image"[^>]*>/i, `<meta name="twitter:image" content="${safeImage}">`);
+
+    res.writeHead(200, {
+      'Content-Type': 'text/html; charset=utf-8',
+      'X-Content-Type-Options': 'nosniff',
+      'X-Frame-Options': 'SAMEORIGIN',
+      'Referrer-Policy': 'strict-origin-when-cross-origin'
+    });
+    res.end(rendered);
+  });
+}
 
 // Archivos y directorios raíz que nunca deben servirse públicamente
 const BLOCKED_TOP_LEVEL = new Set([
@@ -61,8 +232,7 @@ const BLOCKED_TOP_LEVEL = new Set([
   'package-lock.json',
   'ecosystem.config.cjs',
   'tailwind.config.js',
-  'postcss.config.js',
-  'vercel.json'
+  'postcss.config.js'
 ]);
 
 function isMailEnabled() {
@@ -531,7 +701,7 @@ function handleRequest(req, res) {
 
   // ─── Archivos estáticos y fallback SPA ────────────────────────────────────
   if (urlPath === '/' || urlPath === '/index.html') {
-    sendFile(res, INDEX_FILE);
+    sendSeoIndexHtml(res, req.url);
     return;
   }
 
@@ -565,7 +735,7 @@ function handleRequest(req, res) {
       return;
     }
 
-    sendFile(res, INDEX_FILE);
+    sendSeoIndexHtml(res, req.url);
   });
 }
 

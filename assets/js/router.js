@@ -2,7 +2,7 @@
  * router.js - Enrutador SPA Estático con URLs limpias (History API) 100% Vanilla JS
  * - En Home deja la URL limpia en "/" (elimina /index.html o #/)
  * - En secciones deja URLs limpias como "/contacto", "/nosotros", "/marca/triunfante"
- * - Funciona sin servidor Node/Express gracias a los rewrites estáticos de vercel.json y Live Server
+ * - Servido por Node.js (server.js) con fallback SPA a index.html
  */
 
 (function () {
@@ -136,12 +136,105 @@
     }
   }
 
+  const SITE_BASE_URL = 'https://www.tecnograficsa.com.ar';
+  const DEFAULT_OG_IMAGE = `${SITE_BASE_URL}/assets/img/marcas-logos/Tecnografic%20logo.webp`;
+
+  const ROUTE_SEO = {
+    '/': {
+      title: 'Tecnografic | Cuadernos, Repuestos y Artículos Escolares',
+      description: 'Tecnografic: Fabricante líder de cuadernos, repuestos y artículos escolares con marcas como Triunfante, Tintoretto, Potosí y Mis Hojas.',
+      canonicalPath: '/',
+      ogType: 'website',
+      robots: 'index, follow'
+    },
+    '/nosotros': {
+      title: 'Nosotros | Tecnografic',
+      description: 'Conocé la historia, filosofía y trayectoria de Tecnografic S.A., fabricante de cuadernos, repuestos y artículos escolares de calidad.',
+      canonicalPath: '/nosotros',
+      ogType: 'website',
+      robots: 'index, follow'
+    },
+    '/catalogos': {
+      title: 'Catálogos Descargables | Tecnografic',
+      description: 'Descargá los catálogos en PDF y accedé al banco de imágenes de Triunfante, Tintoretto, Potosí y Mis Hojas.',
+      canonicalPath: '/catalogos',
+      ogType: 'website',
+      robots: 'index, follow'
+    },
+    '/puntos-de-venta': {
+      title: 'Puntos de Venta | Tecnografic',
+      description: 'Encontrá mayoristas y minoristas donde adquirir los productos de Tecnografic en todo el país.',
+      canonicalPath: '/puntos-de-venta',
+      ogType: 'website',
+      robots: 'index, follow'
+    },
+    '/contacto': {
+      title: 'Contacto | Tecnografic',
+      description: 'Contactate con Tecnografic S.A. para consultas comerciales, mayoristas o información sobre nuestros productos.',
+      canonicalPath: '/contacto',
+      ogType: 'website',
+      robots: 'index, follow'
+    }
+  };
+
+  function toAbsoluteSeoUrl(assetPath) {
+    if (!assetPath) return DEFAULT_OG_IMAGE;
+    if (assetPath.startsWith('http://') || assetPath.startsWith('https://')) return assetPath;
+    const normalized = assetPath.startsWith('/') ? assetPath : `/${assetPath}`;
+    return `${SITE_BASE_URL}${encodeURI(normalized)}`;
+  }
+
+  function setMetaAttr(selector, attr, value) {
+    const el = document.querySelector(selector);
+    if (el && value !== undefined && value !== null) {
+      el.setAttribute(attr, value);
+    }
+  }
+
+  function updateSeoMeta({ title, description, canonicalPath, ogType = 'website', ogImage, robots = 'index, follow', jsonLd = null }) {
+    if (title) {
+      document.title = title;
+      setMetaAttr('meta[property="og:title"]', 'content', title);
+      setMetaAttr('meta[name="twitter:title"]', 'content', title);
+    }
+    if (description) {
+      setMetaAttr('meta[name="description"]', 'content', description);
+      setMetaAttr('meta[property="og:description"]', 'content', description);
+      setMetaAttr('meta[name="twitter:description"]', 'content', description);
+    }
+    const canonicalUrl = `${SITE_BASE_URL}${canonicalPath || '/'}`;
+    setMetaAttr('link[rel="canonical"]', 'href', canonicalUrl);
+    setMetaAttr('meta[property="og:url"]', 'content', canonicalUrl);
+    setMetaAttr('meta[property="og:type"]', 'content', ogType);
+    setMetaAttr('meta[name="robots"]', 'content', robots);
+
+    const absImage = toAbsoluteSeoUrl(ogImage);
+    setMetaAttr('meta[property="og:image"]', 'content', absImage);
+    setMetaAttr('meta[name="twitter:image"]', 'content', absImage);
+
+    let dynamicJsonLdEl = document.getElementById('seo-dynamic-jsonld');
+    if (jsonLd) {
+      if (!dynamicJsonLdEl) {
+        dynamicJsonLdEl = document.createElement('script');
+        dynamicJsonLdEl.type = 'application/ld+json';
+        dynamicJsonLdEl.id = 'seo-dynamic-jsonld';
+        document.head.appendChild(dynamicJsonLdEl);
+      }
+      dynamicJsonLdEl.textContent = JSON.stringify(jsonLd);
+    } else if (dynamicJsonLdEl) {
+      dynamicJsonLdEl.remove();
+    }
+  }
+
+  window.updateSeoMeta = updateSeoMeta;
+
   /**
    * Ejecuta scripts correspondientes según la ruta montada
    */
   function handleViewMounted(pathname, search) {
     // 1. Home: inicializar carrusel
     if (pathname === '/' || pathname === '') {
+      updateSeoMeta(ROUTE_SEO['/']);
       if (typeof window.initHeroCarousel === 'function') {
         window.initHeroCarousel();
       }
@@ -165,6 +258,7 @@
 
     // 3. Puntos de Venta: inicializar mapa interactivo y listado de comercios
     if (pathname === '/puntos-de-venta') {
+      updateSeoMeta(ROUTE_SEO['/puntos-de-venta']);
       if (typeof window.initPointsOfSalePage === 'function') {
         window.initPointsOfSalePage();
       }
@@ -172,9 +266,15 @@
 
     // 4. Contacto: inicializar formulario de envío de consultas
     if (pathname === '/contacto') {
+      updateSeoMeta(ROUTE_SEO['/contacto']);
       if (typeof window.initContactPage === 'function') {
         window.initContactPage();
       }
+    }
+
+    // 5. Otras secciones estáticas
+    if (pathname === '/nosotros' || pathname === '/catalogos') {
+      updateSeoMeta(ROUTE_SEO[pathname]);
     }
   }
 

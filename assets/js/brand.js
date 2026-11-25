@@ -62,7 +62,7 @@ async function initBrandPage(brandSlug, searchOverride) {
 
   try {
     if (!cachedBrandsData) {
-      const res = await fetch('/assets/data/brands.json?v=20261125122406');
+      const res = await fetch('/assets/data/brands.json?v=20261125181207');
       cachedBrandsData = await res.json();
     }
     const brand = cachedBrandsData[brandKey] || cachedBrandsData['triunfante'];
@@ -71,7 +71,7 @@ async function initBrandPage(brandSlug, searchOverride) {
     let brandProductsData = cachedBrandProducts[brandKey] || null;
     if (!brandProductsData) {
       try {
-        const prodRes = await fetch(`/assets/data/products/${brandKey}.json?v=20261125122406`);
+        const prodRes = await fetch(`/assets/data/products/${brandKey}.json?v=20261125181207`);
         if (prodRes.ok) {
           brandProductsData = await prodRes.json();
           cachedBrandProducts[brandKey] = brandProductsData;
@@ -247,8 +247,76 @@ function initProductZoomModal() {
   }
 }
 
+function updateBrandSeo(brand) {
+  if (!brand || typeof window.updateSeoMeta !== 'function') return;
+  window.updateSeoMeta({
+    title: `${brand.name} | Tecnografic`,
+    description: brand.description || `Catálogo de productos ${brand.name} de Tecnografic.`,
+    canonicalPath: `/marca/${encodeURIComponent(brand.id)}`,
+    ogType: 'website',
+    ogImage: brand.logoAzul || brand.logo,
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Inicio', item: 'https://www.tecnograficsa.com.ar/' },
+        { '@type': 'ListItem', position: 2, name: brand.name, item: `https://www.tecnograficsa.com.ar/marca/${encodeURIComponent(brand.id)}` }
+      ]
+    }
+  });
+}
+
+function updateProductSeo(brand, category, product) {
+  if (!brand || !product || typeof window.updateSeoMeta !== 'function') return;
+  const firstVariantImg = product.variants && product.variants[0] && (product.variants[0].image || product.variants[0].imageClean);
+  const productImagePath = product.familyImage || firstVariantImg || brand.logoAzul || brand.logo;
+  const productUrl = `https://www.tecnograficsa.com.ar/marca/${encodeURIComponent(brand.id)}?prod=${encodeURIComponent(product.id)}`;
+  const brandUrl = `https://www.tecnograficsa.com.ar/marca/${encodeURIComponent(brand.id)}`;
+  const absImg = productImagePath.startsWith('http')
+    ? productImagePath
+    : `https://www.tecnograficsa.com.ar${encodeURI(productImagePath.startsWith('/') ? productImagePath : `/${productImagePath}`)}`;
+
+  window.updateSeoMeta({
+    title: `${product.name} — ${brand.name} | Tecnografic`,
+    description: product.description || brand.description || `${product.name} de la línea ${brand.name}.`,
+    canonicalPath: `/marca/${encodeURIComponent(brand.id)}?prod=${encodeURIComponent(product.id)}`,
+    ogType: 'product',
+    ogImage: productImagePath,
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'Product',
+          name: product.name,
+          description: product.description || brand.description || product.name,
+          image: absImg,
+          category: category ? category.name : undefined,
+          brand: {
+            '@type': 'Brand',
+            name: brand.name
+          },
+          url: productUrl
+        },
+        {
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Inicio', item: 'https://www.tecnograficsa.com.ar/' },
+            { '@type': 'ListItem', position: 2, name: brand.name, item: brandUrl },
+            { '@type': 'ListItem', position: 3, name: product.name, item: productUrl }
+          ]
+        }
+      ]
+    }
+  });
+}
+
 function renderBrandPage(brand, brandProductsData, activeSearch) {
   initProductZoomModal();
+
+  const srTitle = document.getElementById('brand-sr-title');
+  if (srTitle) {
+    srTitle.textContent = brand.name;
+  }
 
   const heroContainer = document.getElementById('brand-hero-section');
   if (heroContainer) {
@@ -292,6 +360,7 @@ function renderBrandPage(brand, brandProductsData, activeSearch) {
   if (categories && categories.length > 0) {
     renderStructuredCatalog(brand, categories, activeSearch);
   } else {
+    updateBrandSeo(brand);
     renderLegacyCatalog(brand);
   }
 }
@@ -407,6 +476,12 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
     if (!gridView || !detailView || !gridContainer) return;
 
     cleanupGridSliders();
+    updateBrandSeo(brand);
+
+    if (window.location.search.includes('prod=')) {
+      const cleanBrandPath = `/marca/${encodeURIComponent(brand.id)}`;
+      window.history.replaceState({ path: cleanBrandPath }, '', cleanBrandPath);
+    }
 
     // Asegurar visibilidad de la Grilla y ocultar el Detalle
     gridView.classList.remove('hidden');
@@ -661,6 +736,12 @@ function renderStructuredCatalog(brand, categories, activeSearch) {
     const prods = category.products || [];
     const product = prods[prodIndex];
     if (!product) return;
+
+    updateProductSeo(brand, category, product);
+    const productRoute = `/marca/${encodeURIComponent(brand.id)}?prod=${encodeURIComponent(product.id)}`;
+    if (window.location.pathname + window.location.search !== productRoute) {
+      window.history.replaceState({ path: productRoute }, '', productRoute);
+    }
 
     // Controles de paginación / navegación entre productos
     const btnPrev = document.getElementById('btn-prev-product');
